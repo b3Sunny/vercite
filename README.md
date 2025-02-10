@@ -45,7 +45,7 @@ The results demonstrate that **RAG-based citation verification is a viable appro
 
 ### Prerequisites
 
-- Python 3.11+
+- Python 3.13+
 - OpenAI API key
 - LangChain API key (optional)
 
@@ -90,30 +90,29 @@ python main.py <testcase_name> [options]
 Use this example to create a new testcase from an arXiv paper: https://arxiv.org/pdf/2310.02368v1
 
 ```bash
-# Run workflow
-python main.py my_testcase --run 2310.02368v1
+python -m src.main my_testcase --run 2310.02368v1
 ```
 
 or each step separately:
 
 ```bash
 # Create new testcase
-python main.py my_testcase --create 2310.02368v1
+python -m src.main my_testcase --create 2310.02368v1
 
 # Extract claims and refrences
-python main.py my_testcase --extract
+python -m src.main my_testcase --extract
 
 # Download references
-python main.py my_testcase --download-papers
+python -m src.main my_testcase --download-papers
 
 # Preprocess claims
-python main.py my_testcase --preprocess
+python -m src.main my_testcase --preprocess
 
 # Run verification
-python main.py my_testcase --process
+python -m src.main my_testcase --process
 
 # Evaluate results
-python main.py my_testcase --evaluate [results_dir]
+python -m src.main my_testcase --evaluate [results_dir]
 ```
 
 ## 📁 Output Structure
