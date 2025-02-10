@@ -45,7 +45,7 @@ The results demonstrate that **RAG-based citation verification is a viable appro
 
 ### Prerequisites
 
-- Python 3.13+
+- Python 3.12
 - OpenAI API key
 - LangChain API key (optional)
 
