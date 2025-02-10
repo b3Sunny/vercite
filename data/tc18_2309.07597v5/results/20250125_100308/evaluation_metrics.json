@@ -1,0 +1,50 @@
+{
+  "processing_metrics": {
+    "population": 53,
+    "skipped_claim": 0,
+    "positive_population": 34,
+    "negative_population": 19,
+    "langchain_config": {
+      "retrieval": {
+        "top_k": 5
+      },
+      "vector_store": {
+        "chunk_size": 200,
+        "chunk_overlap": 100
+      },
+      "llm": {
+        "model_type": "openai",
+        "model_name": "gpt-4o-mini",
+        "temperature": 0.0,
+        "response_mode": "source_only"
+      }
+    }
+  },
+  "base_metrics": {
+    "confusion_matrix": {
+      "true_positive": 26,
+      "false_negative": 8,
+      "false_positive": 0,
+      "true_negative": 19
+    },
+    "accuracy": 0.8490566037735849,
+    "precision": 1.0,
+    "recall": 0.7647058823529411,
+    "f1_score": 0.8666666666666666
+  },
+  "testcase_ranking_metrics": {
+    "avg_precision_at_k": 0.6352941176470589,
+    "avg_ndcg_at_k": 0.8073729927125828,
+    "avg_mrr": 0.7941176470588235,
+    "avg_hit_rate_at_k": 0.8823529411764706,
+    "max_precision_at_k": 1.0,
+    "min_precision_at_k": 0.0,
+    "max_ndcg_at_k": 1.0,
+    "min_ndcg_at_k": 0.0,
+    "num_perfect_retrievals": 11,
+    "num_failed_retrievals": 4,
+    "total_queries": 34,
+    "overall_score": 77.64786088497391,
+    "performance_summary": "Good retrieval performance. Ranking quality is very high."
+  }
+}

@@ -1,0 +1,842 @@
+[
+  {
+    "number": "2",
+    "text": "Y . Zhang, Y . Li, L. Cui, D. Cai, L. Liu, T. Fu, X. Huang, E. Zhao, Y . Zhang, Y . Chenet al., “Siren’s song in the ai ocean: A survey on hal- lucination in large language models,” arXiv preprint arXiv:2309.01219, 2023.",
+    "arxiv_id": "2309.01219",
+    "pdf_link": "https://arxiv.org/pdf/2309.01219.pdf"
+  },
+  {
+    "number": "3",
+    "text": "D. Arora, A. Kini, S. R. Chowdhury, N. Natarajan, G. Sinha, and A. Sharma, “Gar-meets-rag paradigm for zero-shot information re- trieval,” arXiv preprint arXiv:2310.20158 , 2023.",
+    "arxiv_id": "2310.20158",
+    "pdf_link": "https://arxiv.org/pdf/2310.20158.pdf"
+  },
+  {
+    "number": "7",
+    "text": "X. Ma, Y . Gong, P. He, H. Zhao, and N. Duan, “Query rewrit- ing for retrieval-augmented large language models,” arXiv preprint arXiv:2305.14283, 2023.",
+    "arxiv_id": "2305.14283",
+    "pdf_link": "https://arxiv.org/pdf/2305.14283.pdf"
+  },
+  {
+    "number": "9",
+    "text": "W. Peng, G. Li, Y . Jiang, Z. Wang, D. Ou, X. Zeng, E. Chen et al. , “Large language model based long-tail query rewriting in taobao search,” arXiv preprint arXiv:2311.03758 , 2023.",
+    "arxiv_id": "2311.03758",
+    "pdf_link": "https://arxiv.org/pdf/2311.03758.pdf"
+  },
+  {
+    "number": "10",
+    "text": "H. S. Zheng, S. Mishra, X. Chen, H.-T. Cheng, E. H. Chi, Q. V . Le, and D. Zhou, “Take a step back: Evoking reasoning via abstraction in large language models,” arXiv preprint arXiv:2310.06117 , 2023.",
+    "arxiv_id": "2310.06117",
+    "pdf_link": "https://arxiv.org/pdf/2310.06117.pdf"
+  },
+  {
+    "number": "11",
+    "text": "L. Gao, X. Ma, J. Lin, and J. Callan, “Precise zero-shot dense retrieval without relevance labels,” arXiv preprint arXiv:2212.10496 , 2022.",
+    "arxiv_id": "2212.10496",
+    "pdf_link": "https://arxiv.org/pdf/2212.10496.pdf"
+  },
+  {
+    "number": "13",
+    "text": "W. Yu, D. Iter, S. Wang, Y . Xu, M. Ju, S. Sanyal, C. Zhu, M. Zeng, and M. Jiang, “Generate rather than retrieve: Large language models are strong context generators,” arXiv preprint arXiv:2209.10063, 2022.",
+    "arxiv_id": "2209.10063",
+    "pdf_link": "https://arxiv.org/pdf/2209.10063.pdf"
+  },
+  {
+    "number": "14",
+    "text": "Z. Shao, Y . Gong, Y . Shen, M. Huang, N. Duan, and W. Chen, “Enhancing retrieval-augmented large language models with iterative retrieval-generation synergy,” arXiv preprint arXiv:2305.15294 , 2023.",
+    "arxiv_id": "2305.15294",
+    "pdf_link": "https://arxiv.org/pdf/2305.15294.pdf"
+  },
+  {
+    "number": "15",
+    "text": "X. Wang, Q. Yang, Y . Qiu, J. Liang, Q. He, Z. Gu, Y . Xiao, and W. Wang, “Knowledgpt: Enhancing large language models with retrieval and storage access on knowledge bases,” arXiv preprint arXiv:2308.11761, 2023.",
+    "arxiv_id": "2308.11761",
+    "pdf_link": "https://arxiv.org/pdf/2308.11761.pdf"
+  },
+  {
+    "number": "17",
+    "text": "X. Cheng, D. Luo, X. Chen, L. Liu, D. Zhao, and R. Yan, “Lift yourself up: Retrieval-augmented text generation with self memory,” arXiv preprint arXiv:2305.02437 , 2023.",
+    "arxiv_id": "2305.02437",
+    "pdf_link": "https://arxiv.org/pdf/2305.02437.pdf"
+  },
+  {
+    "number": "18",
+    "text": "S. Wang, Y . Xu, Y . Fang, Y . Liu, S. Sun, R. Xu, C. Zhu, and M. Zeng, “Training data is more valuable than you think: A simple and effective method by retrieving from training data,” arXiv preprint arXiv:2203.08773, 2022.",
+    "arxiv_id": "2203.08773",
+    "pdf_link": "https://arxiv.org/pdf/2203.08773.pdf"
+  },
+  {
+    "number": "19",
+    "text": "X. Li, E. Nie, and S. Liang, “From classification to generation: Insights into crosslingual retrieval augmented icl,” arXiv preprint arXiv:2311.06595, 2023.",
+    "arxiv_id": "2311.06595",
+    "pdf_link": "https://arxiv.org/pdf/2311.06595.pdf"
+  },
+  {
+    "number": "20",
+    "text": "D. Cheng, S. Huang, J. Bi, Y . Zhan, J. Liu, Y . Wang, H. Sun, F. Wei, D. Deng, and Q. Zhang, “Uprise: Universal prompt retrieval for improving zero-shot evaluation,” arXiv preprint arXiv:2303.08518, 2023.",
+    "arxiv_id": "2303.08518",
+    "pdf_link": "https://arxiv.org/pdf/2303.08518.pdf"
+  },
+  {
+    "number": "21",
+    "text": "Z. Dai, V . Y . Zhao, J. Ma, Y . Luan, J. Ni, J. Lu, A. Bakalov, K. Guu, K. B. Hall, and M.-W. Chang, “Promptagator: Few-shot dense retrieval from 8 examples,” arXiv preprint arXiv:2209.11755 , 2022.",
+    "arxiv_id": "2209.11755",
+    "pdf_link": "https://arxiv.org/pdf/2209.11755.pdf"
+  },
+  {
+    "number": "22",
+    "text": "Z. Sun, X. Wang, Y . Tay, Y . Yang, and D. Zhou, “Recitation-augmented language models,” arXiv preprint arXiv:2210.01296 , 2022.",
+    "arxiv_id": "2210.01296",
+    "pdf_link": "https://arxiv.org/pdf/2210.01296.pdf"
+  },
+  {
+    "number": "23",
+    "text": "O. Khattab, K. Santhanam, X. L. Li, D. Hall, P. Liang, C. Potts, and M. Zaharia, “Demonstrate-search-predict: Composing retrieval and language models for knowledge-intensive nlp,” arXiv preprint arXiv:2212.14024, 2022.",
+    "arxiv_id": "2212.14024",
+    "pdf_link": "https://arxiv.org/pdf/2212.14024.pdf"
+  },
+  {
+    "number": "24",
+    "text": "Z. Jiang, F. F. Xu, L. Gao, Z. Sun, Q. Liu, J. Dwivedi-Yu, Y . Yang, J. Callan, and G. Neubig, “Active retrieval augmented generation,” arXiv preprint arXiv:2305.06983 , 2023.",
+    "arxiv_id": "2305.06983",
+    "pdf_link": "https://arxiv.org/pdf/2305.06983.pdf"
+  },
+  {
+    "number": "25",
+    "text": "A. Asai, Z. Wu, Y . Wang, A. Sil, and H. Hajishirzi, “Self-rag: Learning to retrieve, generate, and critique through self-reflection,” arXiv preprint arXiv:2310.11511 , 2023.",
+    "arxiv_id": "2310.11511",
+    "pdf_link": "https://arxiv.org/pdf/2310.11511.pdf"
+  },
+  {
+    "number": "26",
+    "text": "Z. Ke, W. Kong, C. Li, M. Zhang, Q. Mei, and M. Bendersky, “Bridging the preference gap between retrievers and llms,” arXiv preprint arXiv:2401.06954, 2024.",
+    "arxiv_id": "2401.06954",
+    "pdf_link": "https://arxiv.org/pdf/2401.06954.pdf"
+  },
+  {
+    "number": "27",
+    "text": "X. V . Lin, X. Chen, M. Chen, W. Shi, M. Lomeli, R. James, P. Ro- driguez, J. Kahn, G. Szilvasy, M. Lewis et al. , “Ra-dit: Retrieval- augmented dual instruction tuning,” arXiv preprint arXiv:2310.01352 , 2023.",
+    "arxiv_id": "2310.01352",
+    "pdf_link": "https://arxiv.org/pdf/2310.01352.pdf"
+  },
+  {
+    "number": "28",
+    "text": "O. Ovadia, M. Brief, M. Mishaeli, and O. Elisha, “Fine-tuning or retrieval? comparing knowledge injection in llms,” arXiv preprint arXiv:2312.05934, 2023.",
+    "arxiv_id": "2312.05934",
+    "pdf_link": "https://arxiv.org/pdf/2312.05934.pdf"
+  },
+  {
+    "number": "30",
+    "text": "T. Chen, H. Wang, S. Chen, W. Yu, K. Ma, X. Zhao, D. Yu, and H. Zhang, “Dense x retrieval: What retrieval granularity should we use?” arXiv preprint arXiv:2312.06648 , 2023.",
+    "arxiv_id": "2312.06648",
+    "pdf_link": "https://arxiv.org/pdf/2312.06648.pdf"
+  },
+  {
+    "number": "31",
+    "text": "F. Luo and M. Surdeanu, “Divide & conquer for entailment-aware multi-hop evidence retrieval,” arXiv preprint arXiv:2311.02616 , 2023.",
+    "arxiv_id": "2311.02616",
+    "pdf_link": "https://arxiv.org/pdf/2311.02616.pdf"
+  },
+  {
+    "number": "32",
+    "text": "Q. Gou, Z. Xia, B. Yu, H. Yu, F. Huang, Y . Li, and N. Cam-Tu, “Diversify question generation with retrieval-augmented style transfer,” arXiv preprint arXiv:2310.14503 , 2023.",
+    "arxiv_id": "2310.14503",
+    "pdf_link": "https://arxiv.org/pdf/2310.14503.pdf"
+  },
+  {
+    "number": "33",
+    "text": "Z. Guo, S. Cheng, Y . Wang, P. Li, and Y . Liu, “Prompt-guided re- trieval augmentation for non-knowledge-intensive tasks,”arXiv preprint arXiv:2305.17653, 2023.",
+    "arxiv_id": "2305.17653",
+    "pdf_link": "https://arxiv.org/pdf/2305.17653.pdf"
+  },
+  {
+    "number": "34",
+    "text": "Z. Wang, J. Araki, Z. Jiang, M. R. Parvez, and G. Neubig, “Learning to filter context for retrieval-augmented generation,” arXiv preprint arXiv:2311.08377, 2023.",
+    "arxiv_id": "2311.08377",
+    "pdf_link": "https://arxiv.org/pdf/2311.08377.pdf"
+  },
+  {
+    "number": "35",
+    "text": "M. Seo, J. Baek, J. Thorne, and S. J. Hwang, “Retrieval-augmented data augmentation for low-resource domain tasks,” arXiv preprint arXiv:2402.13482, 2024.",
+    "arxiv_id": "2402.13482",
+    "pdf_link": "https://arxiv.org/pdf/2402.13482.pdf"
+  },
+  {
+    "number": "36",
+    "text": "Y . Ma, Y . Cao, Y . Hong, and A. Sun, “Large language model is not a good few-shot information extractor, but a good reranker for hard samples!” arXiv preprint arXiv:2303.08559 , 2023.",
+    "arxiv_id": "2303.08559",
+    "pdf_link": "https://arxiv.org/pdf/2303.08559.pdf"
+  },
+  {
+    "number": "37",
+    "text": "X. Du and H. Ji, “Retrieval-augmented generative question answering for event argument extraction,” arXiv preprint arXiv:2211.07067, 2022.",
+    "arxiv_id": "2211.07067",
+    "pdf_link": "https://arxiv.org/pdf/2211.07067.pdf"
+  },
+  {
+    "number": "38",
+    "text": "L. Wang, N. Yang, and F. Wei, “Learning to retrieve in-context examples for large language models,”arXiv preprint arXiv:2307.07164, 2023.",
+    "arxiv_id": "2307.07164",
+    "pdf_link": "https://arxiv.org/pdf/2307.07164.pdf"
+  },
+  {
+    "number": "39",
+    "text": "S. Rajput, N. Mehta, A. Singh, R. H. Keshavan, T. Vu, L. Heldt, L. Hong, Y . Tay, V . Q. Tran, J. Samostet al., “Recommender systems with generative retrieval,” arXiv preprint arXiv:2305.05065 , 2023.",
+    "arxiv_id": "2305.05065",
+    "pdf_link": "https://arxiv.org/pdf/2305.05065.pdf"
+  },
+  {
+    "number": "40",
+    "text": "B. Jin, H. Zeng, G. Wang, X. Chen, T. Wei, R. Li, Z. Wang, Z. Li, Y . Li, H. Lu et al. , “Language models as semantic indexers,” arXiv preprint arXiv:2310.07815, 2023.",
+    "arxiv_id": "2310.07815",
+    "pdf_link": "https://arxiv.org/pdf/2310.07815.pdf"
+  },
+  {
+    "number": "41",
+    "text": "R. Anantha, T. Bethi, D. V odianik, and S. Chappidi, “Context tuning for retrieval augmented generation,” arXiv preprint arXiv:2312.05708 , 2023.",
+    "arxiv_id": "2312.05708",
+    "pdf_link": "https://arxiv.org/pdf/2312.05708.pdf"
+  },
+  {
+    "number": "42",
+    "text": "G. Izacard, P. Lewis, M. Lomeli, L. Hosseini, F. Petroni, T. Schick, J. Dwivedi-Yu, A. Joulin, S. Riedel, and E. Grave, “Few-shot learning with retrieval augmented language models,” arXiv preprint arXiv:2208.03299, 2022.",
+    "arxiv_id": "2208.03299",
+    "pdf_link": "https://arxiv.org/pdf/2208.03299.pdf"
+  },
+  {
+    "number": "43",
+    "text": "J. Huang, W. Ping, P. Xu, M. Shoeybi, K. C.-C. Chang, and B. Catan- zaro, “Raven: In-context learning with retrieval augmented encoder- decoder language models,” arXiv preprint arXiv:2308.07922 , 2023. 18",
+    "arxiv_id": "2308.07922",
+    "pdf_link": "https://arxiv.org/pdf/2308.07922.pdf"
+  },
+  {
+    "number": "44",
+    "text": "B. Wang, W. Ping, P. Xu, L. McAfee, Z. Liu, M. Shoeybi, Y . Dong, O. Kuchaiev, B. Li, C. Xiao et al. , “Shall we pretrain autoregressive language models with retrieval? a comprehensive study,”arXiv preprint arXiv:2304.06762, 2023.",
+    "arxiv_id": "2304.06762",
+    "pdf_link": "https://arxiv.org/pdf/2304.06762.pdf"
+  },
+  {
+    "number": "45",
+    "text": "B. Wang, W. Ping, L. McAfee, P. Xu, B. Li, M. Shoeybi, and B. Catan- zaro, “Instructretro: Instruction tuning post retrieval-augmented pre- training,” arXiv preprint arXiv:2310.07713 , 2023.",
+    "arxiv_id": "2310.07713",
+    "pdf_link": "https://arxiv.org/pdf/2310.07713.pdf"
+  },
+  {
+    "number": "47",
+    "text": "Z. Yu, C. Xiong, S. Yu, and Z. Liu, “Augmentation-adapted retriever improves generalization of language models as generic plug-in,” arXiv preprint arXiv:2305.17331, 2023.",
+    "arxiv_id": "2305.17331",
+    "pdf_link": "https://arxiv.org/pdf/2305.17331.pdf"
+  },
+  {
+    "number": "48",
+    "text": "O. Yoran, T. Wolfson, O. Ram, and J. Berant, “Making retrieval- augmented language models robust to irrelevant context,” arXiv preprint arXiv:2310.01558, 2023.",
+    "arxiv_id": "2310.01558",
+    "pdf_link": "https://arxiv.org/pdf/2310.01558.pdf"
+  },
+  {
+    "number": "49",
+    "text": "H.-T. Chen, F. Xu, S. A. Arora, and E. Choi, “Understanding re- trieval augmentation for long-form question answering,” arXiv preprint arXiv:2310.12150, 2023.",
+    "arxiv_id": "2310.12150",
+    "pdf_link": "https://arxiv.org/pdf/2310.12150.pdf"
+  },
+  {
+    "number": "50",
+    "text": "W. Yu, H. Zhang, X. Pan, K. Ma, H. Wang, and D. Yu, “Chain-of-note: Enhancing robustness in retrieval-augmented language models,” arXiv preprint arXiv:2311.09210, 2023.",
+    "arxiv_id": "2311.09210",
+    "pdf_link": "https://arxiv.org/pdf/2311.09210.pdf"
+  },
+  {
+    "number": "52",
+    "text": "M. Berchansky, P. Izsak, A. Caciularu, I. Dagan, and M. Wasserblat, “Optimizing retrieval-augmented reader models via token elimination,” arXiv preprint arXiv:2310.13682 , 2023.",
+    "arxiv_id": "2310.13682",
+    "pdf_link": "https://arxiv.org/pdf/2310.13682.pdf"
+  },
+  {
+    "number": "53",
+    "text": "J. L ´ala, O. O’Donoghue, A. Shtedritski, S. Cox, S. G. Rodriques, and A. D. White, “Paperqa: Retrieval-augmented generative agent for scientific research,” arXiv preprint arXiv:2312.07559 , 2023.",
+    "arxiv_id": "2312.07559",
+    "pdf_link": "https://arxiv.org/pdf/2312.07559.pdf"
+  },
+  {
+    "number": "54",
+    "text": "F. Cuconasu, G. Trappolini, F. Siciliano, S. Filice, C. Campagnano, Y . Maarek, N. Tonellotto, and F. Silvestri, “The power of noise: Redefining retrieval for rag systems,” arXiv preprint arXiv:2401.14887, 2024.",
+    "arxiv_id": "2401.14887",
+    "pdf_link": "https://arxiv.org/pdf/2401.14887.pdf"
+  },
+  {
+    "number": "56",
+    "text": "N. Thakur, L. Bonifacio, X. Zhang, O. Ogundepo, E. Kamalloo, D. Alfonso-Hermelo, X. Li, Q. Liu, B. Chen, M. Rezagholizadeh et al., “Nomiracl: Knowing when you don’t know for robust multilingual retrieval-augmented generation,” arXiv preprint arXiv:2312.11361 , 2023.",
+    "arxiv_id": "2312.11361",
+    "pdf_link": "https://arxiv.org/pdf/2312.11361.pdf"
+  },
+  {
+    "number": "57",
+    "text": "G. Kim, S. Kim, B. Jeon, J. Park, and J. Kang, “Tree of clarifica- tions: Answering ambiguous questions with retrieval-augmented large language models,” arXiv preprint arXiv:2310.14696 , 2023.",
+    "arxiv_id": "2310.14696",
+    "pdf_link": "https://arxiv.org/pdf/2310.14696.pdf"
+  },
+  {
+    "number": "58",
+    "text": "Y . Wang, P. Li, M. Sun, and Y . Liu, “Self-knowledge guided retrieval augmentation for large language models,” arXiv preprint arXiv:2310.05002, 2023.",
+    "arxiv_id": "2310.05002",
+    "pdf_link": "https://arxiv.org/pdf/2310.05002.pdf"
+  },
+  {
+    "number": "59",
+    "text": "Z. Feng, X. Feng, D. Zhao, M. Yang, and B. Qin, “Retrieval- generation synergy augmented large language models,” arXiv preprint arXiv:2310.05149, 2023.",
+    "arxiv_id": "2310.05149",
+    "pdf_link": "https://arxiv.org/pdf/2310.05149.pdf"
+  },
+  {
+    "number": "60",
+    "text": "P. Xu, W. Ping, X. Wu, L. McAfee, C. Zhu, Z. Liu, S. Subramanian, E. Bakhturina, M. Shoeybi, and B. Catanzaro, “Retrieval meets long context large language models,” arXiv preprint arXiv:2310.03025 , 2023.",
+    "arxiv_id": "2310.03025",
+    "pdf_link": "https://arxiv.org/pdf/2310.03025.pdf"
+  },
+  {
+    "number": "61",
+    "text": "H. Trivedi, N. Balasubramanian, T. Khot, and A. Sabharwal, “Interleav- ing retrieval with chain-of-thought reasoning for knowledge-intensive multi-step questions,” arXiv preprint arXiv:2212.10509 , 2022.",
+    "arxiv_id": "2212.10509",
+    "pdf_link": "https://arxiv.org/pdf/2212.10509.pdf"
+  },
+  {
+    "number": "62",
+    "text": "R. Ren, Y . Wang, Y . Qu, W. X. Zhao, J. Liu, H. Tian, H. Wu, J.- R. Wen, and H. Wang, “Investigating the factual knowledge boundary of large language models with retrieval augmentation,” arXiv preprint arXiv:2307.11019, 2023.",
+    "arxiv_id": "2307.11019",
+    "pdf_link": "https://arxiv.org/pdf/2307.11019.pdf"
+  },
+  {
+    "number": "63",
+    "text": "P. Sarthi, S. Abdullah, A. Tuli, S. Khanna, A. Goldie, and C. D. Manning, “Raptor: Recursive abstractive processing for tree-organized retrieval,” arXiv preprint arXiv:2401.18059 , 2024.",
+    "arxiv_id": "2401.18059",
+    "pdf_link": "https://arxiv.org/pdf/2401.18059.pdf"
+  },
+  {
+    "number": "64",
+    "text": "O. Ram, Y . Levine, I. Dalmedigos, D. Muhlgay, A. Shashua, K. Leyton- Brown, and Y . Shoham, “In-context retrieval-augmented language models,” arXiv preprint arXiv:2302.00083 , 2023.",
+    "arxiv_id": "2302.00083",
+    "pdf_link": "https://arxiv.org/pdf/2302.00083.pdf"
+  },
+  {
+    "number": "66",
+    "text": "Z. Wang, X. Pan, D. Yu, D. Yu, J. Chen, and H. Ji, “Zemi: Learning zero-shot semi-parametric language models from multiple tasks,” arXiv preprint arXiv:2210.00185, 2022.",
+    "arxiv_id": "2210.00185",
+    "pdf_link": "https://arxiv.org/pdf/2210.00185.pdf"
+  },
+  {
+    "number": "67",
+    "text": "S.-Q. Yan, J.-C. Gu, Y . Zhu, and Z.-H. Ling, “Corrective retrieval augmented generation,” arXiv preprint arXiv:2401.15884 , 2024.",
+    "arxiv_id": "2401.15884",
+    "pdf_link": "https://arxiv.org/pdf/2401.15884.pdf"
+  },
+  {
+    "number": "68",
+    "text": "P. Jain, L. B. Soares, and T. Kwiatkowski, “1-pager: One pass answer generation and evidence retrieval,” arXiv preprint arXiv:2310.16568 , 2023.",
+    "arxiv_id": "2310.16568",
+    "pdf_link": "https://arxiv.org/pdf/2310.16568.pdf"
+  },
+  {
+    "number": "69",
+    "text": "H. Yang, Z. Li, Y . Zhang, J. Wang, N. Cheng, M. Li, and J. Xiao, “Prca: Fitting black-box large language models for retrieval question answer- ing via pluggable reward-driven contextual adapter,” arXiv preprint arXiv:2310.18347, 2023.",
+    "arxiv_id": "2310.18347",
+    "pdf_link": "https://arxiv.org/pdf/2310.18347.pdf"
+  },
+  {
+    "number": "70",
+    "text": "S. Zhuang, B. Liu, B. Koopman, and G. Zuccon, “Open-source large language models are strong zero-shot query likelihood models for document ranking,” arXiv preprint arXiv:2310.13243 , 2023.",
+    "arxiv_id": "2310.13243",
+    "pdf_link": "https://arxiv.org/pdf/2310.13243.pdf"
+  },
+  {
+    "number": "71",
+    "text": "F. Xu, W. Shi, and E. Choi, “Recomp: Improving retrieval-augmented lms with compression and selective augmentation,” arXiv preprint arXiv:2310.04408, 2023.",
+    "arxiv_id": "2310.04408",
+    "pdf_link": "https://arxiv.org/pdf/2310.04408.pdf"
+  },
+  {
+    "number": "72",
+    "text": "W. Shi, S. Min, M. Yasunaga, M. Seo, R. James, M. Lewis, L. Zettle- moyer, and W.-t. Yih, “Replug: Retrieval-augmented black-box lan- guage models,” arXiv preprint arXiv:2301.12652 , 2023.",
+    "arxiv_id": "2301.12652",
+    "pdf_link": "https://arxiv.org/pdf/2301.12652.pdf"
+  },
+  {
+    "number": "73",
+    "text": "E. Melz, “Enhancing llm intelligence with arm-rag: Auxiliary ra- tionale memory for retrieval augmented generation,” arXiv preprint arXiv:2311.04177, 2023.",
+    "arxiv_id": "2311.04177",
+    "pdf_link": "https://arxiv.org/pdf/2311.04177.pdf"
+  },
+  {
+    "number": "74",
+    "text": "H. Wang, W. Huang, Y . Deng, R. Wang, Z. Wang, Y . Wang, F. Mi, J. Z. Pan, and K.-F. Wong, “Unims-rag: A unified multi-source retrieval-augmented generation for personalized dialogue systems,” arXiv preprint arXiv:2401.13256 , 2024.",
+    "arxiv_id": "2401.13256",
+    "pdf_link": "https://arxiv.org/pdf/2401.13256.pdf"
+  },
+  {
+    "number": "75",
+    "text": "Z. Luo, C. Xu, P. Zhao, X. Geng, C. Tao, J. Ma, Q. Lin, and D. Jiang, “Augmented large language models with parametric knowledge guid- ing,” arXiv preprint arXiv:2305.04757 , 2023.",
+    "arxiv_id": "2305.04757",
+    "pdf_link": "https://arxiv.org/pdf/2305.04757.pdf"
+  },
+  {
+    "number": "76",
+    "text": "X. Li, Z. Liu, C. Xiong, S. Yu, Y . Gu, Z. Liu, and G. Yu, “Structure- aware language model pretraining improves dense retrieval on struc- tured data,” arXiv preprint arXiv:2305.19912 , 2023.",
+    "arxiv_id": "2305.19912",
+    "pdf_link": "https://arxiv.org/pdf/2305.19912.pdf"
+  },
+  {
+    "number": "77",
+    "text": "M. Kang, J. M. Kwak, J. Baek, and S. J. Hwang, “Knowledge graph-augmented language models for knowledge-grounded dialogue generation,” arXiv preprint arXiv:2305.18846 , 2023.",
+    "arxiv_id": "2305.18846",
+    "pdf_link": "https://arxiv.org/pdf/2305.18846.pdf"
+  },
+  {
+    "number": "78",
+    "text": "W. Shen, Y . Gao, C. Huang, F. Wan, X. Quan, and W. Bi, “Retrieval- generation alignment for end-to-end task-oriented dialogue system,” arXiv preprint arXiv:2310.08877 , 2023.",
+    "arxiv_id": "2310.08877",
+    "pdf_link": "https://arxiv.org/pdf/2310.08877.pdf"
+  },
+  {
+    "number": "79",
+    "text": "T. Shi, L. Li, Z. Lin, T. Yang, X. Quan, and Q. Wang, “Dual-feedback knowledge retrieval for task-oriented dialogue systems,” arXiv preprint arXiv:2310.14528, 2023.",
+    "arxiv_id": "2310.14528",
+    "pdf_link": "https://arxiv.org/pdf/2310.14528.pdf"
+  },
+  {
+    "number": "80",
+    "text": "P. Ranade and A. Joshi, “Fabula: Intelligence report generation using retrieval-augmented narrative construction,” arXiv preprint arXiv:2310.13848, 2023.",
+    "arxiv_id": "2310.13848",
+    "pdf_link": "https://arxiv.org/pdf/2310.13848.pdf"
+  },
+  {
+    "number": "81",
+    "text": "X. Jiang, R. Zhang, Y . Xu, R. Qiu, Y . Fang, Z. Wang, J. Tang, H. Ding, X. Chu, J. Zhao et al. , “Think and retrieval: A hypothesis knowledge graph enhanced medical large language models,” arXiv preprint arXiv:2312.15883, 2023.",
+    "arxiv_id": "2312.15883",
+    "pdf_link": "https://arxiv.org/pdf/2312.15883.pdf"
+  },
+  {
+    "number": "82",
+    "text": "J. Baek, S. Jeong, M. Kang, J. C. Park, and S. J. Hwang, “Knowledge-augmented language model verification,” arXiv preprint arXiv:2310.12836, 2023.",
+    "arxiv_id": "2310.12836",
+    "pdf_link": "https://arxiv.org/pdf/2310.12836.pdf"
+  },
+  {
+    "number": "83",
+    "text": "L. Luo, Y .-F. Li, G. Haffari, and S. Pan, “Reasoning on graphs: Faithful and interpretable large language model reasoning,” arXiv preprint arXiv:2310.01061, 2023.",
+    "arxiv_id": "2310.01061",
+    "pdf_link": "https://arxiv.org/pdf/2310.01061.pdf"
+  },
+  {
+    "number": "84",
+    "text": "X. He, Y . Tian, Y . Sun, N. V . Chawla, T. Laurent, Y . LeCun, X. Bresson, and B. Hooi, “G-retriever: Retrieval-augmented generation for textual graph understanding and question answering,”arXiv preprint arXiv:2402.07630, 2024.",
+    "arxiv_id": "2402.07630",
+    "pdf_link": "https://arxiv.org/pdf/2402.07630.pdf"
+  },
+  {
+    "number": "85",
+    "text": "L. Zha, J. Zhou, L. Li, R. Wang, Q. Huang, S. Yang, J. Yuan, C. Su, X. Li, A. Su et al., “Tablegpt: Towards unifying tables, nature language and commands into one gpt,” arXiv preprint arXiv:2307.08674 , 2023.",
+    "arxiv_id": "2307.08674",
+    "pdf_link": "https://arxiv.org/pdf/2307.08674.pdf"
+  },
+  {
+    "number": "91",
+    "text": "Y . Wang, N. Lipka, R. A. Rossi, A. Siu, R. Zhang, and T. Derr, “Knowledge graph prompting for multi-document question answering,” arXiv preprint arXiv:2308.11730 , 2023.",
+    "arxiv_id": "2308.11730",
+    "pdf_link": "https://arxiv.org/pdf/2308.11730.pdf"
+  },
+  {
+    "number": "92",
+    "text": "D. Zhou, N. Sch ¨arli, L. Hou, J. Wei, N. Scales, X. Wang, D. Schu- urmans, C. Cui, O. Bousquet, Q. Le et al., “Least-to-most prompting enables complex reasoning in large language models,” arXiv preprint arXiv:2205.10625, 2022.",
+    "arxiv_id": "2205.10625",
+    "pdf_link": "https://arxiv.org/pdf/2205.10625.pdf"
+  },
+  {
+    "number": "93",
+    "text": "S. Dhuliawala, M. Komeili, J. Xu, R. Raileanu, X. Li, A. Celikyilmaz, and J. Weston, “Chain-of-verification reduces hallucination in large language models,” arXiv preprint arXiv:2309.11495 , 2023.",
+    "arxiv_id": "2309.11495",
+    "pdf_link": "https://arxiv.org/pdf/2309.11495.pdf"
+  },
+  {
+    "number": "94",
+    "text": "X. Li and J. Li, “Angle-optimized text embeddings,” arXiv preprint arXiv:2309.12871, 2023.",
+    "arxiv_id": "2309.12871",
+    "pdf_link": "https://arxiv.org/pdf/2309.12871.pdf"
+  },
+  {
+    "number": "97",
+    "text": "P. Zhang, S. Xiao, Z. Liu, Z. Dou, and J.-Y . Nie, “Retrieve anything to augment large language models,” arXiv preprint arXiv:2310.07554 , 2023.",
+    "arxiv_id": "2310.07554",
+    "pdf_link": "https://arxiv.org/pdf/2310.07554.pdf"
+  },
+  {
+    "number": "98",
+    "text": "N. F. Liu, K. Lin, J. Hewitt, A. Paranjape, M. Bevilacqua, F. Petroni, and P. Liang, “Lost in the middle: How language models use long contexts,” arXiv preprint arXiv:2307.03172 , 2023.",
+    "arxiv_id": "2307.03172",
+    "pdf_link": "https://arxiv.org/pdf/2307.03172.pdf"
+  },
+  {
+    "number": "99",
+    "text": "Y . Gao, T. Sheng, Y . Xiang, Y . Xiong, H. Wang, and J. Zhang, “Chat- rec: Towards interactive and explainable llms-augmented recommender system,” arXiv preprint arXiv:2303.14524 , 2023.",
+    "arxiv_id": "2303.14524",
+    "pdf_link": "https://arxiv.org/pdf/2303.14524.pdf"
+  },
+  {
+    "number": "101",
+    "text": "H. Jiang, Q. Wu, X. Luo, D. Li, C.-Y . Lin, Y . Yang, and L. Qiu, “Longllmlingua: Accelerating and enhancing llms in long context scenarios via prompt compression,” arXiv preprint arXiv:2310.06839 , 2023.",
+    "arxiv_id": "2310.06839",
+    "pdf_link": "https://arxiv.org/pdf/2310.06839.pdf"
+  },
+  {
+    "number": "102",
+    "text": "V . Karpukhin, B. O ˘guz, S. Min, P. Lewis, L. Wu, S. Edunov, D. Chen, and W.-t. Yih, “Dense passage retrieval for open-domain question answering,” arXiv preprint arXiv:2004.04906 , 2020.",
+    "arxiv_id": "2004.04906",
+    "pdf_link": "https://arxiv.org/pdf/2004.04906.pdf"
+  },
+  {
+    "number": "103",
+    "text": "Y . Ma, Y . Cao, Y . Hong, and A. Sun, “Large language model is not a good few-shot information extractor, but a good reranker for hard samples!” ArXiv, vol. abs/2303.08559, 2023. [Online]. Available: https://api.semanticscholar.org/CorpusID:257532405",
+    "arxiv_id": "2303.08559",
+    "pdf_link": "https://arxiv.org/pdf/2303.08559.pdf"
+  },
+  {
+    "number": "104",
+    "text": "J. Cui, Z. Li, Y . Yan, B. Chen, and L. Yuan, “Chatlaw: Open-source legal large language model with integrated external knowledge bases,” arXiv preprint arXiv:2306.16092 , 2023.",
+    "arxiv_id": "2306.16092",
+    "pdf_link": "https://arxiv.org/pdf/2306.16092.pdf"
+  },
+  {
+    "number": "105",
+    "text": "O. Yoran, T. Wolfson, O. Ram, and J. Berant, “Making retrieval- augmented language models robust to irrelevant context,” arXiv preprint arXiv:2310.01558, 2023.",
+    "arxiv_id": "2310.01558",
+    "pdf_link": "https://arxiv.org/pdf/2310.01558.pdf"
+  },
+  {
+    "number": "106",
+    "text": "X. Li, R. Zhao, Y . K. Chia, B. Ding, L. Bing, S. Joty, and S. Poria, “Chain of knowledge: A framework for grounding large language mod- els with structured knowledge bases,”arXiv preprint arXiv:2305.13269, 2023.",
+    "arxiv_id": "2305.13269",
+    "pdf_link": "https://arxiv.org/pdf/2305.13269.pdf"
+  },
+  {
+    "number": "107",
+    "text": "H. Yang, S. Yue, and Y . He, “Auto-gpt for online decision making: Benchmarks and additional opinions,” arXiv preprint arXiv:2306.02224, 2023.",
+    "arxiv_id": "2306.02224",
+    "pdf_link": "https://arxiv.org/pdf/2306.02224.pdf"
+  },
+  {
+    "number": "108",
+    "text": "T. Schick, J. Dwivedi-Yu, R. Dess `ı, R. Raileanu, M. Lomeli, L. Zettle- moyer, N. Cancedda, and T. Scialom, “Toolformer: Language models can teach themselves to use tools,” arXiv preprint arXiv:2302.04761 , 2023.",
+    "arxiv_id": "2302.04761",
+    "pdf_link": "https://arxiv.org/pdf/2302.04761.pdf"
+  },
+  {
+    "number": "109",
+    "text": "J. Zhang, “Graph-toolformer: To empower llms with graph rea- soning ability via prompt augmented by chatgpt,” arXiv preprint arXiv:2304.11116, 2023.",
+    "arxiv_id": "2304.11116",
+    "pdf_link": "https://arxiv.org/pdf/2304.11116.pdf"
+  },
+  {
+    "number": "110",
+    "text": "R. Nakano, J. Hilton, S. Balaji, J. Wu, L. Ouyang, C. Kim, C. Hesse, S. Jain, V . Kosaraju, W. Saunders et al., “Webgpt: Browser- assisted question-answering with human feedback,” arXiv preprint arXiv:2112.09332, 2021.",
+    "arxiv_id": "2112.09332",
+    "pdf_link": "https://arxiv.org/pdf/2112.09332.pdf"
+  },
+  {
+    "number": "112",
+    "text": "Y . Liu, S. Yavuz, R. Meng, M. Moorthy, S. Joty, C. Xiong, and Y . Zhou, “Exploring the integration strategies of retriever and large language models,” arXiv preprint arXiv:2308.12574 , 2023.",
+    "arxiv_id": "2308.12574",
+    "pdf_link": "https://arxiv.org/pdf/2308.12574.pdf"
+  },
+  {
+    "number": "113",
+    "text": "M. Joshi, E. Choi, D. S. Weld, and L. Zettlemoyer, “Triviaqa: A large scale distantly supervised challenge dataset for reading comprehen- sion,” arXiv preprint arXiv:1705.03551 , 2017.",
+    "arxiv_id": "1705.03551",
+    "pdf_link": "https://arxiv.org/pdf/1705.03551.pdf"
+  },
+  {
+    "number": "114",
+    "text": "P. Rajpurkar, J. Zhang, K. Lopyrev, and P. Liang, “Squad: 100,000+ questions for machine comprehension of text,” arXiv preprint arXiv:1606.05250, 2016.",
+    "arxiv_id": "1606.05250",
+    "pdf_link": "https://arxiv.org/pdf/1606.05250.pdf"
+  },
+  {
+    "number": "116",
+    "text": "A. Mallen, A. Asai, V . Zhong, R. Das, H. Hajishirzi, and D. Khashabi, “When not to trust language models: Investigating effectiveness and limitations of parametric and non-parametric memories,” arXiv preprint arXiv:2212.10511, 2022.",
+    "arxiv_id": "2212.10511",
+    "pdf_link": "https://arxiv.org/pdf/2212.10511.pdf"
+  },
+  {
+    "number": "118",
+    "text": "Z. Yang, P. Qi, S. Zhang, Y . Bengio, W. W. Cohen, R. Salakhutdi- nov, and C. D. Manning, “Hotpotqa: A dataset for diverse, explain- able multi-hop question answering,” arXiv preprint arXiv:1809.09600, 2018.",
+    "arxiv_id": "1809.09600",
+    "pdf_link": "https://arxiv.org/pdf/1809.09600.pdf"
+  },
+  {
+    "number": "119",
+    "text": "X. Ho, A.-K. D. Nguyen, S. Sugawara, and A. Aizawa, “Constructing a multi-hop qa dataset for comprehensive evaluation of reasoning steps,” arXiv preprint arXiv:2011.01060 , 2020.",
+    "arxiv_id": "2011.01060",
+    "pdf_link": "https://arxiv.org/pdf/2011.01060.pdf"
+  },
+  {
+    "number": "121",
+    "text": "A. Fan, Y . Jernite, E. Perez, D. Grangier, J. Weston, and M. Auli, “Eli5: Long form question answering,” arXiv preprint arXiv:1907.09190 , 2019.",
+    "arxiv_id": "1907.09190",
+    "pdf_link": "https://arxiv.org/pdf/1907.09190.pdf"
+  },
+  {
+    "number": "123",
+    "text": "K.-H. Lee, X. Chen, H. Furuta, J. Canny, and I. Fischer, “A human- inspired reading agent with gist memory of very long contexts,” arXiv preprint arXiv:2402.09727, 2024.",
+    "arxiv_id": "2402.09727",
+    "pdf_link": "https://arxiv.org/pdf/2402.09727.pdf"
+  },
+  {
+    "number": "124",
+    "text": "I. Stelmakh, Y . Luan, B. Dhingra, and M.-W. Chang, “Asqa: Factoid questions meet long-form answers,” arXiv preprint arXiv:2204.06092 , 2022.",
+    "arxiv_id": "2204.06092",
+    "pdf_link": "https://arxiv.org/pdf/2204.06092.pdf"
+  },
+  {
+    "number": "125",
+    "text": "M. Zhong, D. Yin, T. Yu, A. Zaidi, M. Mutuma, R. Jha, A. H. Awadallah, A. Celikyilmaz, Y . Liu, X. Qiu et al. , “Qmsum: A new benchmark for query-based multi-domain meeting summarization,” arXiv preprint arXiv:2104.05938 , 2021.",
+    "arxiv_id": "2104.05938",
+    "pdf_link": "https://arxiv.org/pdf/2104.05938.pdf"
+  },
+  {
+    "number": "126",
+    "text": "P. Dasigi, K. Lo, I. Beltagy, A. Cohan, N. A. Smith, and M. Gardner, “A dataset of information-seeking questions and answers anchored in research papers,” arXiv preprint arXiv:2105.03011 , 2021.",
+    "arxiv_id": "2105.03011",
+    "pdf_link": "https://arxiv.org/pdf/2105.03011.pdf"
+  },
+  {
+    "number": "128",
+    "text": "X. Wang, G. H. Chen, D. Song, Z. Zhang, Z. Chen, Q. Xiao, F. Jiang, J. Li, X. Wan, B. Wang et al. , “Cmb: A comprehensive medical benchmark in chinese,” arXiv preprint arXiv:2308.08833 , 2023.",
+    "arxiv_id": "2308.08833",
+    "pdf_link": "https://arxiv.org/pdf/2308.08833.pdf"
+  },
+  {
+    "number": "129",
+    "text": "H. Zeng, “Measuring massive multitask chinese understanding,” arXiv preprint arXiv:2304.12986, 2023.",
+    "arxiv_id": "2304.12986",
+    "pdf_link": "https://arxiv.org/pdf/2304.12986.pdf"
+  },
+  {
+    "number": "130",
+    "text": "R. Y . Pang, A. Parrish, N. Joshi, N. Nangia, J. Phang, A. Chen, V . Pad- makumar, J. Ma, J. Thompson, H. He et al. , “Quality: Question an- swering with long input texts, yes!” arXiv preprint arXiv:2112.08608 , 2021.",
+    "arxiv_id": "2112.08608",
+    "pdf_link": "https://arxiv.org/pdf/2112.08608.pdf"
+  },
+  {
+    "number": "131",
+    "text": "P. Clark, I. Cowhey, O. Etzioni, T. Khot, A. Sabharwal, C. Schoenick, and O. Tafjord, “Think you have solved question answering? try arc, the ai2 reasoning challenge,” arXiv preprint arXiv:1803.05457 , 2018.",
+    "arxiv_id": "1803.05457",
+    "pdf_link": "https://arxiv.org/pdf/1803.05457.pdf"
+  },
+  {
+    "number": "132",
+    "text": "A. Talmor, J. Herzig, N. Lourie, and J. Berant, “Commonsenseqa: A question answering challenge targeting commonsense knowledge,” arXiv preprint arXiv:1811.00937 , 2018.",
+    "arxiv_id": "1811.00937",
+    "pdf_link": "https://arxiv.org/pdf/1811.00937.pdf"
+  },
+  {
+    "number": "133",
+    "text": "E. Dinan, S. Roller, K. Shuster, A. Fan, M. Auli, and J. Weston, “Wizard of wikipedia: Knowledge-powered conversational agents,” arXiv preprint arXiv:1811.01241 , 2018.",
+    "arxiv_id": "1811.01241",
+    "pdf_link": "https://arxiv.org/pdf/1811.01241.pdf"
+  },
+  {
+    "number": "134",
+    "text": "H. Wang, M. Hu, Y . Deng, R. Wang, F. Mi, W. Wang, Y . Wang, W.- C. Kwan, I. King, and K.-F. Wong, “Large language models as source 20 planner for personalized knowledge-grounded dialogue,” arXiv preprint arXiv:2310.08840, 2023.",
+    "arxiv_id": "2310.08840",
+    "pdf_link": "https://arxiv.org/pdf/2310.08840.pdf"
+  },
+  {
+    "number": "135",
+    "text": "——, “Large language models as source planner for personal- ized knowledge-grounded dialogue,” arXiv preprint arXiv:2310.08840, 2023.",
+    "arxiv_id": "2310.08840",
+    "pdf_link": "https://arxiv.org/pdf/2310.08840.pdf"
+  },
+  {
+    "number": "136",
+    "text": "X. Xu, Z. Gou, W. Wu, Z.-Y . Niu, H. Wu, H. Wang, and S. Wang, “Long time no see! open-domain conversation with long-term persona memory,” arXiv preprint arXiv:2203.05797 , 2022.",
+    "arxiv_id": "2203.05797",
+    "pdf_link": "https://arxiv.org/pdf/2203.05797.pdf"
+  },
+  {
+    "number": "137",
+    "text": "T.-H. Wen, M. Gasic, N. Mrksic, L. M. Rojas-Barahona, P.-H. Su, S. Ultes, D. Vandyke, and S. Young, “Conditional generation and snapshot learning in neural dialogue systems,” arXiv preprint arXiv:1606.03352, 2016.",
+    "arxiv_id": "1606.03352",
+    "pdf_link": "https://arxiv.org/pdf/1606.03352.pdf"
+  },
+  {
+    "number": "139",
+    "text": "S. Li, H. Ji, and J. Han, “Document-level event argument extraction by conditional generation,” arXiv preprint arXiv:2104.05919 , 2021.",
+    "arxiv_id": "2104.05919",
+    "pdf_link": "https://arxiv.org/pdf/2104.05919.pdf"
+  },
+  {
+    "number": "140",
+    "text": "S. Ebner, P. Xia, R. Culkin, K. Rawlins, and B. Van Durme, “Multi- sentence argument linking,” arXiv preprint arXiv:1911.03766 , 2019.",
+    "arxiv_id": "1911.03766",
+    "pdf_link": "https://arxiv.org/pdf/1911.03766.pdf"
+  },
+  {
+    "number": "142",
+    "text": "O. Levy, M. Seo, E. Choi, and L. Zettlemoyer, “Zero-shot relation ex- traction via reading comprehension,” arXiv preprint arXiv:1706.04115, 2017.",
+    "arxiv_id": "1706.04115",
+    "pdf_link": "https://arxiv.org/pdf/1706.04115.pdf"
+  },
+  {
+    "number": "143",
+    "text": "R. Zellers, A. Holtzman, Y . Bisk, A. Farhadi, and Y . Choi, “Hel- laswag: Can a machine really finish your sentence?” arXiv preprint arXiv:1905.07830, 2019.",
+    "arxiv_id": "1905.07830",
+    "pdf_link": "https://arxiv.org/pdf/1905.07830.pdf"
+  },
+  {
+    "number": "144",
+    "text": "S. Kim, S. J. Joo, D. Kim, J. Jang, S. Ye, J. Shin, and M. Seo, “The cot collection: Improving zero-shot and few-shot learning of language models via chain-of-thought fine-tuning,” arXiv preprint arXiv:2305.14045, 2023.",
+    "arxiv_id": "2305.14045",
+    "pdf_link": "https://arxiv.org/pdf/2305.14045.pdf"
+  },
+  {
+    "number": "146",
+    "text": "D. Hendrycks, C. Burns, S. Basart, A. Zou, M. Mazeika, D. Song, and J. Steinhardt, “Measuring massive multitask language understanding,” arXiv preprint arXiv:2009.03300 , 2020.",
+    "arxiv_id": "2009.03300",
+    "pdf_link": "https://arxiv.org/pdf/2009.03300.pdf"
+  },
+  {
+    "number": "147",
+    "text": "S. Merity, C. Xiong, J. Bradbury, and R. Socher, “Pointer sentinel mixture models,” arXiv preprint arXiv:1609.07843 , 2016.",
+    "arxiv_id": "1609.07843",
+    "pdf_link": "https://arxiv.org/pdf/1609.07843.pdf"
+  },
+  {
+    "number": "149",
+    "text": "J. Thorne, A. Vlachos, C. Christodoulopoulos, and A. Mittal, “Fever: a large-scale dataset for fact extraction and verification,” arXiv preprint arXiv:1803.05355, 2018.",
+    "arxiv_id": "1803.05355",
+    "pdf_link": "https://arxiv.org/pdf/1803.05355.pdf"
+  },
+  {
+    "number": "150",
+    "text": "N. Kotonya and F. Toni, “Explainable automated fact-checking for public health claims,” arXiv preprint arXiv:2010.09926 , 2020.",
+    "arxiv_id": "2010.09926",
+    "pdf_link": "https://arxiv.org/pdf/2010.09926.pdf"
+  },
+  {
+    "number": "151",
+    "text": "R. Lebret, D. Grangier, and M. Auli, “Neural text generation from structured data with application to the biography domain,” arXiv preprint arXiv:1603.07771, 2016.",
+    "arxiv_id": "1603.07771",
+    "pdf_link": "https://arxiv.org/pdf/1603.07771.pdf"
+  },
+  {
+    "number": "153",
+    "text": "S. Narayan, S. B. Cohen, and M. Lapata, “Don’t give me the details, just the summary! topic-aware convolutional neural networks for ex- treme summarization,” arXiv preprint arXiv:1808.08745 , 2018.",
+    "arxiv_id": "1808.08745",
+    "pdf_link": "https://arxiv.org/pdf/1808.08745.pdf"
+  },
+  {
+    "number": "157",
+    "text": "H. Husain, H.-H. Wu, T. Gazit, M. Allamanis, and M. Brockschmidt, “Codesearchnet challenge: Evaluating the state of semantic code search,” arXiv preprint arXiv:1909.09436 , 2019.",
+    "arxiv_id": "1909.09436",
+    "pdf_link": "https://arxiv.org/pdf/1909.09436.pdf"
+  },
+  {
+    "number": "158",
+    "text": "K. Cobbe, V . Kosaraju, M. Bavarian, M. Chen, H. Jun, L. Kaiser, M. Plappert, J. Tworek, J. Hilton, R. Nakano et al., “Training verifiers to solve math word problems,” arXiv preprint arXiv:2110.14168, 2021.",
+    "arxiv_id": "2110.14168",
+    "pdf_link": "https://arxiv.org/pdf/2110.14168.pdf"
+  },
+  {
+    "number": "160",
+    "text": "Y . Hoshi, D. Miyashita, Y . Ng, K. Tatsuno, Y . Morioka, O. Torii, and J. Deguchi, “Ralle: A framework for developing and eval- uating retrieval-augmented large language models,” arXiv preprint arXiv:2308.10633, 2023.",
+    "arxiv_id": "2308.10633",
+    "pdf_link": "https://arxiv.org/pdf/2308.10633.pdf"
+  },
+  {
+    "number": "164",
+    "text": "S. Es, J. James, L. Espinosa-Anke, and S. Schockaert, “Ragas: Au- tomated evaluation of retrieval augmented generation,” arXiv preprint arXiv:2309.15217, 2023.",
+    "arxiv_id": "2309.15217",
+    "pdf_link": "https://arxiv.org/pdf/2309.15217.pdf"
+  },
+  {
+    "number": "165",
+    "text": "J. Saad-Falcon, O. Khattab, C. Potts, and M. Zaharia, “Ares: An automated evaluation framework for retrieval-augmented generation systems,” arXiv preprint arXiv:2311.09476 , 2023.",
+    "arxiv_id": "2311.09476",
+    "pdf_link": "https://arxiv.org/pdf/2311.09476.pdf"
+  },
+  {
+    "number": "167",
+    "text": "J. Chen, H. Lin, X. Han, and L. Sun, “Benchmarking large lan- guage models in retrieval-augmented generation,” arXiv preprint arXiv:2309.01431, 2023.",
+    "arxiv_id": "2309.01431",
+    "pdf_link": "https://arxiv.org/pdf/2309.01431.pdf"
+  },
+  {
+    "number": "168",
+    "text": "Y . Liu, L. Huang, S. Li, S. Chen, H. Zhou, F. Meng, J. Zhou, and X. Sun, “Recall: A benchmark for llms robustness against external counterfactual knowledge,” arXiv preprint arXiv:2311.08147 , 2023.",
+    "arxiv_id": "2311.08147",
+    "pdf_link": "https://arxiv.org/pdf/2311.08147.pdf"
+  },
+  {
+    "number": "169",
+    "text": "Y . Lyu, Z. Li, S. Niu, F. Xiong, B. Tang, W. Wang, H. Wu, H. Liu, T. Xu, and E. Chen, “Crud-rag: A comprehensive chinese benchmark for retrieval-augmented generation of large language models,” arXiv preprint arXiv:2401.17043, 2024.",
+    "arxiv_id": "2401.17043",
+    "pdf_link": "https://arxiv.org/pdf/2401.17043.pdf"
+  },
+  {
+    "number": "170",
+    "text": "P. Xu, W. Ping, X. Wu, L. McAfee, C. Zhu, Z. Liu, S. Subramanian, E. Bakhturina, M. Shoeybi, and B. Catanzaro, “Retrieval meets long context large language models,” arXiv preprint arXiv:2310.03025 , 2023.",
+    "arxiv_id": "2310.03025",
+    "pdf_link": "https://arxiv.org/pdf/2310.03025.pdf"
+  },
+  {
+    "number": "171",
+    "text": "C. Packer, V . Fang, S. G. Patil, K. Lin, S. Wooders, and J. E. Gon- zalez, “Memgpt: Towards llms as operating systems,” arXiv preprint arXiv:2310.08560, 2023.",
+    "arxiv_id": "2310.08560",
+    "pdf_link": "https://arxiv.org/pdf/2310.08560.pdf"
+  },
+  {
+    "number": "172",
+    "text": "G. Xiao, Y . Tian, B. Chen, S. Han, and M. Lewis, “Efficient streaming language models with attention sinks,” arXiv preprint arXiv:2309.17453, 2023.",
+    "arxiv_id": "2309.17453",
+    "pdf_link": "https://arxiv.org/pdf/2309.17453.pdf"
+  },
+  {
+    "number": "173",
+    "text": "T. Zhang, S. G. Patil, N. Jain, S. Shen, M. Zaharia, I. Stoica, and J. E. Gonzalez, “Raft: Adapting language model to domain specific rag,” arXiv preprint arXiv:2403.10131 , 2024.",
+    "arxiv_id": "2403.10131",
+    "pdf_link": "https://arxiv.org/pdf/2403.10131.pdf"
+  },
+  {
+    "number": "174",
+    "text": "J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child, S. Gray, A. Radford, J. Wu, and D. Amodei, “Scaling laws for neural language models,” arXiv preprint arXiv:2001.08361 , 2020.",
+    "arxiv_id": "2001.08361",
+    "pdf_link": "https://arxiv.org/pdf/2001.08361.pdf"
+  },
+  {
+    "number": "176",
+    "text": "M. Yasunaga, A. Aghajanyan, W. Shi, R. James, J. Leskovec, P. Liang, M. Lewis, L. Zettlemoyer, and W.-t. Yih, “Retrieval-augmented multi- modal language modeling,” arXiv preprint arXiv:2211.12561 , 2022.",
+    "arxiv_id": "2211.12561",
+    "pdf_link": "https://arxiv.org/pdf/2211.12561.pdf"
+  },
+  {
+    "number": "177",
+    "text": "J. Li, D. Li, S. Savarese, and S. Hoi, “Blip-2: Bootstrapping language- image pre-training with frozen image encoders and large language models,” arXiv preprint arXiv:2301.12597 , 2023.",
+    "arxiv_id": "2301.12597",
+    "pdf_link": "https://arxiv.org/pdf/2301.12597.pdf"
+  },
+  {
+    "number": "178",
+    "text": "W. Zhu, A. Yan, Y . Lu, W. Xu, X. E. Wang, M. Eckstein, and W. Y . Wang, “Visualize before you write: Imagination-guided open-ended text generation,” arXiv preprint arXiv:2210.03765 , 2022.",
+    "arxiv_id": "2210.03765",
+    "pdf_link": "https://arxiv.org/pdf/2210.03765.pdf"
+  },
+  {
+    "number": "179",
+    "text": "J. Zhao, G. Haffar, and E. Shareghi, “Generating synthetic speech from spokenvocab for speech translation,” arXiv preprint arXiv:2210.08174, 2022.",
+    "arxiv_id": "2210.08174",
+    "pdf_link": "https://arxiv.org/pdf/2210.08174.pdf"
+  },
+  {
+    "number": "180",
+    "text": "D. M. Chan, S. Ghosh, A. Rastrow, and B. Hoffmeister, “Using external off-policy speech-to-text mappings in contextual end-to-end automated speech recognition,” arXiv preprint arXiv:2301.02736 , 2023. 21",
+    "arxiv_id": "2301.02736",
+    "pdf_link": "https://arxiv.org/pdf/2301.02736.pdf"
+  }
+]

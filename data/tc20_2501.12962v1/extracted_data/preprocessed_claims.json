@@ -1,0 +1,624 @@
+[
+  {
+    "original_claim": "Some researchers have applied classical fairness metrics in classification settings to LLMs [18].",
+    "context_before": [
+      "Algorithmic fairness in relation to LLMs is thus somewhat different from algorithmic fairness in classical AI ."
+    ],
+    "context_after": [
+      "Additionally, it was shown that LLM-specific issues arise due to the use of massive data and processing at various steps of algorithmic development."
+    ],
+    "references": [
+      "18"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "18",
+        "main_query": "classical fairness metrics in classification settings to LLMs",
+        "rewritten_queries": [
+          "application of traditional fairness metrics in LLM classification",
+          "use of classical fairness metrics for LLMs in classification tasks",
+          "implementation of fairness metrics from classical AI in LLM classification"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Thus, it was argued that LLMs cannot yield fair outcomes at all [5]. 2.2 EU non-discrimination Law: A gentle introduction, too.",
+    "context_before": [
+      "Additionally, it was shown that LLM-specific issues arise due to the use of massive data and processing at various steps of algorithmic development."
+    ],
+    "context_after": [
+      "Law is different from computer science."
+    ],
+    "references": [
+      "5"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "5",
+        "main_query": "LLMs cannot yield fair outcomes at all",
+        "rewritten_queries": [
+          "Large Language Models do not produce fair results",
+          "It is argued that LLMs fail to deliver equitable outcomes",
+          "LLMs are incapable of achieving fairness in their outcomes"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "The AI Act is based on the legal approach of discrimination-related regulations [26].",
+    "context_before": [
+      "However, importantly, EU-based direct discrimination does not need — compared to US-based disparate treatment — any intentional wrongdoing ."
+    ],
+    "context_after": [
+      "Thus, when we analyze the EU AI Act regulations in this paper, we will minimize the usage of the vague CS related concept of fairness and instead focus on the legally related term of non-discrimination."
+    ],
+    "references": [
+      "26"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "26",
+        "main_query": "The AI Act is based on the legal approach of discrimination-related regulations",
+        "rewritten_queries": [
+          "The legal framework of the AI Act is founded on discrimination-related regulations",
+          "Discrimination-related regulations serve as the basis for the AI Act",
+          "The AI Act utilizes a legal approach that is rooted in discrimination-related regulations"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "This interdisciplinary challenge needs to acknowledge that computer science fairness and legal non-discrimination regulation are moving in the same direction; however, they present different concepts [27].",
+    "context_before": [
+      "While the compatibility of fairness metrics with normative legal statements has already been discussed , there is still an inherent difficulty in combining these two fields."
+    ],
+    "context_after": [
+      "Although inspired by law, the technical algorithmic fairness debate primarily focuses on detecting, preventing and mitigation unfairness in algorithms, while legal non-discrimination law focuses on normative statements."
+    ],
+    "references": [
+      "27"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "27",
+        "main_query": "computer science fairness and legal non-discrimination regulation are moving in the same direction; however, they present different concepts",
+        "rewritten_queries": [
+          "the relationship between computer science fairness and legal non-discrimination regulation shows alignment but involves distinct concepts",
+          "computer science fairness and legal non-discrimination laws are aligned in direction but differ in their underlying concepts",
+          "while both computer science fairness and legal non-discrimination regulation progress similarly, they encompass different ideas"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Although inspired by law, the technical algorithmic fairness debate primarily focuses on detecting, preventing and mitigation unfairness in algorithms[27], while legal non-discrimination law focuses on normative statements.",
+    "context_before": [
+      "This interdisciplinary challenge needs to acknowledge that computer science fairness and legal non-discrimination regulation are moving in the same direction; however, they present different concepts ."
+    ],
+    "context_after": [
+      "As shown in the previous section, the algorithmic fairness domain uses terms like bias or fairness."
+    ],
+    "references": [
+      "27"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "27",
+        "main_query": "detecting, preventing and mitigation unfairness in algorithms",
+        "rewritten_queries": [
+          "addressing unfairness in algorithmic systems",
+          "methods for identifying and reducing algorithmic bias",
+          "strategies for preventing unfair outcomes in algorithms"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In fact, the original drafts did not have any individual rights components [44].",
+    "context_before": [
+      "The AI Act is (predominantly) a product safety law ."
+    ],
+    "context_after": [
+      "The Members of the European Parliament did not prioritize non-discrimination regulation in the beginning ."
+    ],
+    "references": [
+      "44"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "44",
+        "main_query": "the original drafts did not have any individual rights components",
+        "rewritten_queries": [
+          "initial drafts lacked components for individual rights",
+          "there were no individual rights elements in the original drafts",
+          "the original versions did not include any aspects of individual rights"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Although alignment techniques have developed [53], discrimination still persists in LMMs [40].",
+    "context_before": [
+      "What constitutes a reasonably foreseeable risk in an era where large language models are still being developed and not fully understood?"
+    ],
+    "context_after": [
+      "When are these risks foreseeable?"
+    ],
+    "references": [
+      "40",
+      "53"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "40",
+        "main_query": "discrimination still persists in LMMs",
+        "rewritten_queries": [
+          "discrimination continues to exist in large language models",
+          "there is ongoing discrimination in LMMs",
+          "large language models still exhibit discrimination"
+        ]
+      },
+      {
+        "related_to_reference": "53",
+        "main_query": "alignment techniques have developed",
+        "rewritten_queries": [
+          "advancements in alignment techniques",
+          "development of alignment methods",
+          "progress in alignment strategies"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "From a technical perspective, benchmarks to judge the risk associated with LLMs have been proposed [38]; however, automated bias testing is far from trivial, and we currently lack adequate ML techniques.",
+    "context_before": [
+      "The AI Act leaves too much room for unclear speculation."
+    ],
+    "context_after": [
+      "Recital 65 AIA clarifies that the most appropriate risk-management measures should be used."
+    ],
+    "references": [
+      "38"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "38",
+        "main_query": "benchmarks to judge the risk associated with LLMs have been proposed",
+        "rewritten_queries": [
+          "proposed benchmarks for assessing the risks of LLMs",
+          "risk assessment benchmarks for large language models have been suggested",
+          "there have been suggestions for benchmarks to evaluate LLM risks"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Most importantly, the term bias is neither defined in the AI Act nor is there a common understanding of what bias means (see also Section 2.1) [84].",
+    "context_before": [
+      "The first observation we make is that the input data of an AI system should be subjected to a bias analysis."
+    ],
+    "context_after": [
+      "It seems that the regulators had a more technical definition of bias in mind, focusing on the diversity of training data in different dimensions compared to social, ethical, or structural biases ."
+    ],
+    "references": [
+      "84"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "84",
+        "main_query": "the term bias is neither defined in the AI Act nor is there a common understanding of what bias means",
+        "rewritten_queries": [
+          "bias is not defined in the AI Act and lacks a common understanding",
+          "there is no definition of bias in the AI Act and no shared meaning of the term",
+          "the AI Act does not define bias, and there is no consensus on its meaning"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "It seems that the regulators had a more technical definition of bias in mind, focusing on the diversity of training data in different dimensions compared to social, ethical, or structural biases [44].",
+    "context_before": [
+      "Most importantly, the term bias is neither defined in the AI Act nor is there a common understanding of what bias means (see also Section 2.1) ."
+    ],
+    "context_after": [
+      "This makes it very hard to determine the regulatory content."
+    ],
+    "references": [
+      "44"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "44",
+        "main_query": "the diversity of training data in different dimensions compared to social, ethical, or structural biases",
+        "rewritten_queries": [
+          "the regulators' technical definition of bias focusing on training data diversity",
+          "how bias is defined by regulators in terms of training data diversity versus social and ethical biases",
+          "the emphasis on training data diversity in the regulators' understanding of bias"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "There is tension [26] between the need for debiasing AI algorithms and data protection law, which Article 10(5) tries to solve.",
+    "context_before": [
+      "Article 9 GDPR protects special categories of personal data, such as genetic, biometric, or health data (Article 9(1) GDPR)."
+    ],
+    "context_after": [
+      "In order to effectively mitigate biases in AI systems, the processing of personal data (for example, to compute fairness metrics) is important ."
+    ],
+    "references": [
+      "26"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "26",
+        "main_query": "there is tension between the need for debiasing AI algorithms and data protection law, which Article 10(5) tries to solve",
+        "rewritten_queries": [
+          "tension exists between debiasing AI algorithms and data protection law as addressed by Article 10(5)",
+          "the conflict between the necessity of debiasing AI and compliance with data protection law is addressed in Article 10(5)",
+          "Article 10(5) attempts to resolve the tension between AI debiasing needs and data protection regulations"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In order to effectively mitigate biases in AI systems, the processing of personal data (for example, to compute fairness metrics) is important [84].",
+    "context_before": [
+      "There is tension between the need for debiasing AI algorithms and data protection law, which Article 10(5) tries to solve."
+    ],
+    "context_after": [
+      "Notable here is that this exception only applies in the high-risk regime."
+    ],
+    "references": [
+      "84"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "84",
+        "main_query": "the processing of personal data (for example, to compute fairness metrics) is important",
+        "rewritten_queries": [
+          "importance of processing personal data to compute fairness metrics",
+          "processing personal data is crucial for calculating fairness metrics",
+          "to compute fairness metrics, processing personal data is essential"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Figure 2 shows a typical algorithmic fairness vs. accuracy trade-off for an AI system used to predict the income status, data are from[70].",
+    "context_before": [
+      "For some AI systems, there exists a trade-off between fairness and other measures such as accuracy of an AI system."
+    ],
+    "context_after": [
+      "Although this trade-off can be reduced with approaches like “Levelling Up” , the trade-off is still present."
+    ],
+    "references": [
+      "70"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "70",
+        "main_query": "algorithmic fairness vs. accuracy trade-off for an AI system used to predict the income status",
+        "rewritten_queries": [
+          "trade-off between algorithmic fairness and accuracy in income prediction AI systems",
+          "relationship between fairness and accuracy in AI income prediction algorithms",
+          "balance of fairness and accuracy in predicting income status with AI systems"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Although this trade-off can be reduced with approaches like “Levelling Up” [70], the trade-off is still present.",
+    "context_before": [
+      "Figure 2 shows a typical algorithmic fairness vs. accuracy trade-off for an AI system used to predict the income status, data are from."
+    ],
+    "context_after": [
+      "Therefore, it becomes very challenging to identify how to “reduce as far as possible the risk of possibly biased outputs” in Article 15(4) AIA."
+    ],
+    "references": [
+      "70"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "70",
+        "main_query": "Levelling Up",
+        "rewritten_queries": [
+          "approaches like Levelling Up can reduce the trade-off",
+          "the trade-off can be minimized using methods such as Levelling Up",
+          "Levelling Up is an approach that helps in reducing the trade-off"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Besides the high-risk systems, GPAI systems are also heavily regulated [73].",
+    "context_before": [
+      "While most of our paper focuses on high-risk regulation in the fairness domain, we briefly discuss these important GPAI models as well."
+    ],
+    "context_after": [
+      "Introduction to GPAI models."
+    ],
+    "references": [
+      "73"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "73",
+        "main_query": "GPAI systems are also heavily regulated",
+        "rewritten_queries": [
+          "Regulation of GPAI systems is significant",
+          "GPAI systems face substantial regulatory oversight",
+          "There is a strong regulatory framework for GPAI systems"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "GPAI models are thus models with a wide variety of capabilities that are not immediately foreseeable after training and rely on model size [91].",
+    "context_before": [
+      "According to Article 3(6) AIA, a GPAI system is “an AI system which is based on a general-purpose AI model and which has the capability to serve a variety of purposes, both for direct use as well as for integration in other AI systems”."
+    ],
+    "context_after": [
+      "From a technical point of view, the definition includes Large Language Models as well as Large Multimodal Models such as OpenAI’s GPT-Model family, Anthropic’s Claude models, and Google Gemini ."
+    ],
+    "references": [
+      "91"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "91",
+        "main_query": "GPAI models are thus models with a wide variety of capabilities that are not immediately foreseeable after training and rely on model size",
+        "rewritten_queries": [
+          "GPAI systems possess diverse capabilities that may not be apparent post-training and depend on their size",
+          "The capabilities of GPAI models are varied and not easily predicted after training, influenced by the model's size",
+          "Models classified as GPAI exhibit a range of abilities that are not obvious after training and are contingent on their size"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In contrast to vague terms such as bias, Fundamental Rights, or fairness, non-discrimination is a well-established legal concept within other European legislative frameworks. (2.) The non-discrimination regulation should cover input as well as output parts of the algorithms in one single article, also along the full AI life cycle [27].",
+    "context_before": [
+      "While the AI Act is casuistic and incomplete at the same time , we believe that the AI Act would benefit from four refinements. (1.) If the legislators decide to target non-discrimination regulation, non-discrimination should be explicitly mentioned."
+    ],
+    "context_after": [
+      "Algorithmic output in terms of non-discrimination is only regulated if systems continuously learn after being placed on the market."
+    ],
+    "references": [
+      "27"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "27",
+        "main_query": "non-discrimination is a well-established legal concept within other European legislative frameworks",
+        "rewritten_queries": [
+          "the legal concept of non-discrimination is well-established in European legislation",
+          "non-discrimination is recognized as a solid legal principle in various European laws",
+          "within European legislative frameworks, non-discrimination is a clearly defined legal concept"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "While a reverse burden-of-proof approach is possible here [ 86], similar processes as the Code of Practice for GPAI models might be possible such that technical and legal experts as well as all stakeholders work together on refined non-discrimination measures. (4.) If GPAI models are regulated in the current form, a closer link between GPAI models and downstream applications needs to be established [44].",
+    "context_before": [
+      "Technical and non-technical means for bias detection, prevention, and mitigation for input and output data should be developed. (3.) Clarification is needed on appropriate measures for non-discrimination."
+    ],
+    "context_after": [
+      "Responsibilities for non-discrimination law compliance must be specified."
+    ],
+    "references": [
+      "44"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "44",
+        "main_query": "a closer link between GPAI models and downstream applications needs to be established",
+        "rewritten_queries": [
+          "establishing a stronger connection between GPAI models and their downstream applications",
+          "the necessity of linking GPAI models more closely with downstream applications",
+          "the need for a tighter relationship between GPAI models and the applications that follow them"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "These results consist with the previous study of PKA energy in R ef. that the number density of vacancy clusters with higher energy cascades is lower than with lower energy cascades.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The inverted spectra show the models of the four isotopocules simulated using the V oigt lines shape with parameters from the HITRAN2020 database for 14N2O, 15N14NO and 14N15NO, and from the GEISA database for 15N2O.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "In this context, the work we present here results from the Anomalous Diffusion (AnDi) challenge , and in particular from our participation to its second edition .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Interestingly, the equation first derived there has recently been rederived in using a molecular mechanics approach.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "MD simulations were performed using the LAMMPS code .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The predicted lines of the R -branch are too weak relative to the P -branch by up to 40%. 2024-12-10 11 The relative intensities predicted by Ames-1 line list closely follow those of the IAO line list but are weaker overall by 6%.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "RESULTS AND DISCUSSIONS To experimentally observe the joint weak values, we choose the pre and postselection in such a way that the corresponding pointer observables are enhanced, leading to greater experimental ease in observing them. \u00001 1 \u0001T state, i.e., +45 o linear polarization is chosen as the preselection and the subsequent near orthogonal elliptical postselection |ψf ⟩ = \u00001 − i(sin 2ϵ + cos 2ϵ) −1 − i(sin 2ϵ − cos 2ϵ)\u0001T enhances both the GH and IF shift simultaneously . ϵ is the postselection angle denoting the offset to the exact orthogonal pre and postselection.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "We focus on the linearized problem, while a comprehensive non linear analysis is carried out in .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "This technique has subsequently been refined for larger volume fractions .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Although no unique measure of “evenness” of a spatial distribution in three spatial dimensions exists, both iterative approaches as well as explicit constructions on the sphere are available for practical purposes, as discussed e.g. in and .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "V oluntary vaccination decisions are influenced by various factors, such as vaccine cost, peer decisions, personal experiences, and information dissemination from public health institutions , .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Also, external radiation like cosmic rays or bremsstrahlung photons from very fast runaway electrons can act as an electron source .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "In fact, most of the experiments involving weak measurements have been performed in classical optical settings for small optical signal amplifications, such as, for the estimation of small phase, quantifying small angular rotations , measuring ultrasmall time delays , capturing tiny beam deflections and so on [11–14].",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "In this section we present the µ-chemoEH model, a generalization of the microscopic model illustrated in , that relates the force generated by the motor-filament interaction to the relative sliding of the filaments.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Evolutionary game theory, as a mathematical analysis tool, is well suited to be combined with epidemiological models , to describe the vaccination dynamics.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The terms of O(u3) is included here to ensure that the Navier-Stokes equation is exactly recovered under the Chapman-Enskog approximation .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "These results align with the ones presented in .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Incidentally, the so-called “multi-direct” forcing approach , where the immersed boundary force computation (5.4-5.6) is repeatedly carried out per time step while the force fieldfn+1/2 is being summed up, can be interpreted as an iterative way of achieving essentially the same effect (in the limit of an infinite number of iterations) as through the explicit correction method of Gsell & Favier .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  }
+]

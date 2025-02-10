@@ -1,0 +1,273 @@
+[
+  {
+    "original_claim": "LLMs in understanding and generating natural language [73], especially in the medical domain [ 7, 36, 56, 74, 76, 83, 89, 95, 100].",
+    "context_before": [
+      "These achievements underscore the vast potential of ∗Xinke Jiang, Ruizhe Zhang, and Yongxin Xu contributed equally to this research. {xinkejiang, ruizezhang, xuyx} @stu.pku.edu.cn †Corresponding authors. ‡Junfeng Zhao is also at the Big Data Technology Research Center, Nanhu Laboratory, 314002, Jiaxing."
+    ],
+    "context_after": [
+      "Despite the advancements of fine-tuning, they still encounter significant challenges, including the difficulty in avoiding factual inaccuracies (i.e., hallucinations and limited explainability) , data constraints (i.e. token resource limit, high training costs, and privacy concerns)1, catastrophic forgetting , outdated knowledge , and a lack of expertise in handling specific domains or highly specialized queries ."
+    ],
+    "references": [
+      "73"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "However, the gap between unstructured user queries of inconsistent quality and structured, high-quality KGs [65] poses significant challenges on how to properly parse user intent for improving the robustness of retrieved knowledge (pre-retrieval phase) and how to handle the abundant retrieved knowledge (post-retrieval phase), which are detailed as follows: Challenge I: At the pre-retrieval phase, previous works suffer from how to parse user intent and retrieve reasonable knowledge based on varying-quality user query.",
+    "context_before": [
+      "They are considered by many research works to improve the accuracy and reliability of answers provided by LLMs ."
+    ],
+    "context_after": [
+      "Some works are based on the Retrieve-Read framework, which initially obtains knowledge through dense vector retrieval according to user queries ."
+    ],
+    "references": [
+      "65"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "This misalignment between the semantic spaces of user queries and high-quality structured knowledge leads to the retrieval of knowledge that is of insufficient quality and may contain redundant information and noise [8].",
+    "context_before": [
+      "However, they are stricken with issues such as unclear expressions and lack of semantic information in the user’s original query."
+    ],
+    "context_after": [
+      "In addition, the excessive redundant knowledge can lead to a waste of token resources, and 1https://www.youtube.com/watch?v=ahnGLM-RC1Y arXiv:2312.15883v2 [cs.CL] 19 Apr 2024 Conference’17, July 2017, Washington, DC, USA Jiang, Zhang and Xu et al. the response speed of LLMs will drop sharply, which adversely damages the performance in real-world applications ."
+    ],
+    "references": [
+      "8"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In addition, the excessive redundant knowledge can lead to a waste of token resources, and 1https://www.youtube.com/watch?v=ahnGLM-RC1Y arXiv:2312.15883v2 [cs.CL] 19 Apr 2024 Conference’17, July 2017, Washington, DC, USA Jiang, Zhang and Xu et al. the response speed of LLMs will drop sharply, which adversely damages the performance in real-world applications [17].",
+    "context_before": [
+      "This misalignment between the semantic spaces of user queries and high-quality structured knowledge leads to the retrieval of knowledge that is of insufficient quality and may contain redundant information and noise ."
+    ],
+    "context_after": [
+      "Challenge II: At the pre-retrieval phase, how to align user intent with high-quality structured knowledge while reducing interactions with LLMs remains an unresolved issue."
+    ],
+    "references": [
+      "17"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "To cope with these challenges, we put forward the Hypothesis Knowledge Graph Enhanced (HyKGE) framework, a novel method based on the hypothesis output module ( HOM) [18] to explore, locate, and prune search directions for accurate and reliable LLMs responses in pre-retrieval phase and greatly preserve the relevance and diversity of search results at in post-retrieval phase. i) Specifically, in the pre-retrieval phase, our key idea is that the zero-shot capability and rich knowledge of LLMs can compensate for the incompleteness of user queries, facilitating alignment with highquality external knowledge.",
+    "context_before": [
+      "Therefore, one of the primary challenges in the post-retrieval phase is to balance the trade-off between relevant knowledge and diverse ones ."
+    ],
+    "context_after": [
+      "For example, when facing the question “After meals, I feel a bit of stomach reflux."
+    ],
+    "references": [
+      "18"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Beyond optimizing submodels, HyDE [19] introduces an innovative method where instruction-following LLMs generate hypothesis documents based on user queries to enhance retriever performance, particularly in zero-shot scenarios.",
+    "context_before": [
+      "However, creating such datasets is also challenging due to the need for manual label correction, which in turn, may erode LLMs generalization capabilities and cause catastrophic forgetting in routine Q&A tasks."
+    ],
+    "context_after": [
+      "Other methods like CoN and CoK involve LLMs in note-making and step-wise reasoning verification through customized prompts, and greatly rely on frequent interactions with LLMs."
+    ],
+    "references": [
+      "19"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Other methods like CoN [93] and CoK [44] involve LLMs in note-making and step-wise reasoning verification through customized prompts, and greatly rely on frequent interactions with LLMs.",
+    "context_before": [
+      "Beyond optimizing submodels, HyDE introduces an innovative method where instruction-following LLMs generate hypothesis documents based on user queries to enhance retriever performance, particularly in zero-shot scenarios."
+    ],
+    "context_after": [
+      "However, such an approach is excessively inefficient for deployment in real-world Q&A scenarios."
+    ],
+    "references": [
+      "44",
+      "93"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "KGRAG [65] uses the user query as a reference for retrieval in KGs, which suffers from misalignment between high-quality structured knowledge and varying-quality queries.",
+    "context_before": [
+      "However, how to design a retriever to extract knowledge from KGs and how to design interaction strategies between LLM and KGs are still in the exploratory stage."
+    ],
+    "context_after": [
+      "Semantic parsing methods allow LLMs to convert the question into a structural query (e.g., SPARQL), which can be executed by a query engine to derive the answers on KGs ."
+    ],
+    "references": [
+      "65"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "To be specific, we utilize the GTE embedding model [45] \"gte_sentence-embedding\"4, which is currently the top-performing model for text vector embedding in the retrieval field.",
+    "context_before": [
+      "This process involves employing an encoding model, denoted as enc(·), to encode the potential entity 𝑢𝑖 and entities Ewithin KG."
+    ],
+    "context_after": [
+      "GTE Encoder follows a two-stage training process: initially using a large-scale dataset with weak supervision from text pairs, followed by fine-tuning with high-quality manually labeled data using Contrastive Learning ."
+    ],
+    "references": [
+      "45"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "For the reranker base model, we use the \"bge_reranker_large\" 5 [82], trained through large-scale text pairs with asymmetric instruction tunning, to map text to a low-dimensional dense vector to rerank 𝑡𝑜𝑝𝐾 documents.",
+    "context_before": [
+      "Challenge III in Section 1), we employ a reranker model to prune and eliminate irrelevant noise knowledge by reranking reasoning chains, leading to more efficient token resource utilization."
+    ],
+    "context_after": [
+      "Moreover, due to the varying knowledge densities between queries and reasoning chains, traditional re-ranking based solely on Qmay filter out valuable knowledge acquired through HOM, resulting in a repetitive and monotonous situation."
+    ],
+    "references": [
+      "82"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Our experiments are conducted on two open-source query sets: MMCU-Medical [ 94] and CMB-Exam [ 77] datasets, which are designed for multi-task Q&A and encompass single and multiple-choice questions in the medical field, and one open-domain Q&A dataset CMB-Clin [77] which is the inaugural multi-round question-answering dataset based on real, complex medical diagnosis and treatment records.",
+    "context_before": [
+      "What impact does each module have on the overall performance? •RQ3 (Section 5.4, 5.6): Does the retrieved knowledge we provide enhance the interpretability of LLMs answers? •RQ4 (Section 5.5): How sensitive is HyKGE to hyper-parameters retrieval hop 𝑘 and rerank threshold 𝑡𝑜𝑝𝐾? 5.1 Experimental Setup 5.1.1 Dataset."
+    ],
+    "context_after": [
+      "For MMCU-Medical, the questions are from the university medical professional examination, covering the HyKGE: A Hypothesis Knowledge Graph Enhanced Framework for Accurate and Reliable Medical LLMs Responses Conference’17, July 2017, Washington, DC, USA Table 2: Performance comparison (in percent ±standard deviation) on CMB-Exam and MMCU-Medical for medical Q&A answer."
+    ],
+    "references": [
+      "77"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "To fairly verify whether HyKGE can effectively enhance LLMs, we selected the following two types of generaldomain large models as the base model and explored the gains brought by HyKGE: GPT 3.5 and Baichuan13B-chat [87]. 5.1.4 Compared Methods.",
+    "context_before": [
+      "However, due to the lack of medical entity descriptions in its entities, we collect relevant entity knowledge from Wikipedia9, Baidu Baike10, and Medical Baike 11, and store them as entity descriptions. 5.1.3 LLM Turbo."
+    ],
+    "context_after": [
+      "In order to explore the advantages of the HyKGE, we compare the HyKGE results against eight other models: (1) Base Model (Base) servers as the model without any external knowledge, used to check the improvement effect of different RAG methods."
+    ],
+    "references": [
+      "87"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "We use GPT 3.5 and Baichuan13B-chat as base models. (2) Knowledge Graph Retrieval-Augmented Generation (KGRAG) [ 63–65] uses user query as a reference to retrieve 7https://cpubmed.openi.org.cn/graph/wiki 8https://github.com/nuolade/disease-kb 9https://www.wikipedia.org/ 10https://baike.baidu.com/ 11https://www.yixue.com/ Conference’17, July 2017, Washington, DC, USA Jiang, Zhang and Xu et al. in the KGs, which is the base model of RAG on KG and has been widely applied in [63–65]. (3) Query Expansion (QE) [ 5] reformulate the user’s initial query by adding additional terms with a similar meaning with the help of LLMs. (4) CHAIN-OF-NOTE (CoN) [93] generates sequential reading notes for retrieved knowledge, enabling a thorough evaluation of their relevance to the given question and integrating these notes to formulate the final answer. (5) Chain-of-Knowledge (CoK) [ 44] utilize the power of LLMs and consists of reasoning preparation, dynamic knowledge adapting, and answer consolidation. (6) Knowledge-Augmented Language Model Verification (KALMV) [ 6] verifies the output and the knowledge of the knowledge-augmented LLMs with a separate verifier. (7) Knowledge Graph Generative Pre-Training (KG-GPT) [ 34] comprises three steps: Sentence Segmentation, Graph Retrieval, and Inference, each aimed at partitioning sentences, retrieving relevant graph components, and deriving logical conclusions. (8) Summarizing Retrievals (SuRe) [ 33] constructs summaries of the retrieved passages for each of the multiple answer candidates and confirms the most plausible answer from the candidate set by evaluating the validity and ranking of the generated summaries.",
+    "context_before": [
+      "In order to explore the advantages of the HyKGE, we compare the HyKGE results against eight other models: (1) Base Model (Base) servers as the model without any external knowledge, used to check the improvement effect of different RAG methods."
+    ],
+    "context_after": [
+      "Note that we follow the prompts of the baselines as stated strictly."
+    ],
+    "references": [
+      "93"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Moreover, we also complement our analysis with ROUGE-Recall (ROUGE-R) [86].",
+    "context_before": [
+      "The smaller the PPL, the greater the role of retrieved knowledge in reducing LLMs’ hallucinations."
+    ],
+    "context_after": [
+      "ROUGE-R measures the extent to which the LLMs’ responses cover the retrieved knowledge, which is crucial for ensuring comprehensive information coverage."
+    ],
+    "references": [
+      "86"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "For open-domain medical Q&A tasks, we utilize ROUGE-R and Bilingual Evaluation Understudy (BLEU1 for answer precision, BLEU-4 for answer fluency) [86] to gauge the similarity of LLMs responses to the ground-truth doctor analysis.",
+    "context_before": [
+      "ROUGE-R measures the extent to which the LLMs’ responses cover the retrieved knowledge, which is crucial for ensuring comprehensive information coverage."
+    ],
+    "context_after": [
+      "Additionally, we employ PPL to assess the quality of LLMs responses. 5.1.6 Experimental Implementation."
+    ],
+    "references": [
+      "86"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Similar to previous work [65], because of the randomness of LLMs’ outputs, we repeat experiments with different random seeds five times and report the average and standard deviation results.",
+    "context_before": [
+      "Moreover, the parameters of W2NER are optimized with Adam optimizer with 𝐿2 regularization and dropout on high-quality medical dataset , the learning rate is set to 1e-3, the hidden unit is set to 1024 and weight decay is 1e-."
+    ],
+    "context_after": [
+      "Experimental results are statistically significant with 𝑝 < 0."
+    ],
+    "references": [
+      "65"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "We argue that this was primarily due to the inundation of tokens, causing LLMs to lose in the middle [47], thereby impeding their ability to discern genuinely relevant knowledge from the retrieved chains and even ignore LLMs’ tasks.",
+    "context_before": [
+      "However, employing LLMs to eliminate noisy knowledge from these chains resulted in decreased effectiveness."
+    ],
+    "context_after": [
+      "Consequently, LLMs employed for Reranker inadvertently filtered out valuable knowledge, yielding negative outcomes and exacerbating computational overhead."
+    ],
+    "references": [
+      "47"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In summary, because RAG involves a process of continuous trial and error [8], we experimented with many strategies and ultimately arrived at HyKGE. 6 CONCLUSION In this paper, we proposed HyKGE, a hypothesis knowledge graph enhanced framework for LLMs to improve accuracy and reliability.",
+    "context_before": [
+      "Excessive reliance on LLMs can only lead to wasted time costs."
+    ],
+    "context_after": [
+      "In the pre-retrieval phase, we leverage the zero-shot capability of LLMs to compensate for the incompleteness of user queries by exploring searching directions through hypothesis outputs."
+    ],
+    "references": [
+      "8"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  }
+]

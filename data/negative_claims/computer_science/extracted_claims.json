@@ -1,0 +1,1682 @@
+[
+  {
+    "original_claim": "shape.shape, 3:3 + shape.shape] = shape 16 return output_grid Human-Selected Hypothesis and its Corresponding Generated Program In the input, you should see a black grid with an 8x8 size."
+  },
+  {
+    "original_claim": "Introduction Abduction ··· consists in studying facts and devising a theory to explain them. – Charles Sanders Peirce (1839 – 1914) Abductive reasoning was coined by Charles Sanders Peirce, the founder of American pragmatism, around."
+  },
+  {
+    "original_claim": "In particular, inspired by the recent advance of causal reasoning in NLP community ( i.e., abductive text generation and counterfactual story revision ), we explore the use of natural language as the expression form to fully capture the complexity of real situations."
+  },
+  {
+    "original_claim": "Moreover, this can hasten the development of this new ﬁeld, by comparing and embracing ideas for a relevant, well-established, yet different task – dense video captioning (DVC) ."
+  },
+  {
+    "original_claim": "Concurrent to us, studiesimage-based abductive reasoning: AI systems are required to identify, ground, or compare given inferences."
+  },
+  {
+    "original_claim": "Both V AR and DVC are concerned with video-based text generation; a part of our dataset is sourced from ActivityNet Captions , a famous DVC dataset."
+  },
+  {
+    "original_claim": "Counterfactual story revision requires generating a new ending, given a story context altered by a counterfactual condition."
+  },
+  {
+    "original_claim": "Our work draws inspiration from abductive text generation , which investigates abductive reasoning via a natural language inference task: write an appropriate reason that could explain observations described by narrative text."
+  },
+  {
+    "original_claim": "Moreover, our V AR task setting is more general; it is not limited to the strict form of abductive reasoning in ,i.e., generate a hypothesis (H) of what happened between the observed past (O1) and future (O2) contexts: O1 →H→O2, but involves 2 O→H and H→Oabductive reasoning cases."
+  },
+  {
+    "original_claim": "Rather than studying the future generation at the semantic-category or color-pixel level, event-level prediction was recently addressed in and ."
+  },
+  {
+    "original_claim": "However, only requires choosing from two candidates for future event prediction, making the take less challenging. targets to describe past, present, and future events for a single image, while our V AR task requires making full use of the information from a set of premise events."
+  },
+  {
+    "original_claim": "Due to the permutation invariant nature of the attention operation, learns and encodes position embeddings into Transformer tokens."
+  },
+  {
+    "original_claim": "Subsequent language-Transformers hence explore further variations, like incorporating sinusoid prior with more parameters , simplifying position embeddings as learnable scalars , disentangling special tokens ([CLS]) , etc."
+  },
+  {
+    "original_claim": "23,457 Youtube lifestyle Vlog videos from ActivityNet Captions and VLEP datasets."
+  },
+  {
+    "original_claim": "13,799 TV show and movievideos from TVC dataset and a famous Youtube channel, Fandango MovieClips."
+  },
+  {
+    "original_claim": "It is worth mentioning that, when H= ∅, our V AR task is degraded into a classic DVC task which focuses only on describing the content of observed events {On}N−1 n=1 ."
+  },
+  {
+    "original_claim": "As the attention computation is invariant with respect to reordering of the inputs, explicit position encoding is widely adopted, in two typical ways: i) Absolute position encoding: each position nis assigned an embedding, i.e., Un=FAbs(n) ∈R1×d, and the position embeddings are directly added to the input,i.e., X ←X+U."
+  },
+  {
+    "original_claim": "FAbs(·) can be a linear projection , a sinusoidal function , etc. ii) Relative position encoding : the position embeddings are constructed considering the pairwise relationships between positions, i.e., Unm =FRel(n,m)∈R."
+  },
+  {
+    "original_claim": "The Causalityaware encoder in R EASONER is therefore achieved by stacking several Transformer encoder blocks with our contextualized directional position embedding strategy."
+  },
+  {
+    "original_claim": "During training, it is computed over the groundtruth description, i.e., ˆSEn, and masked attention is adopted to prevent the leakage of future words."
+  },
+  {
+    "original_claim": "As the teacher forcing scheme is used for training, Hn in Eq. 5 and 7 is embedded over one-hot encoded groundturth words {ˆwEn l }l."
+  },
+  {
+    "original_claim": "Training/Inference: For the ﬁrst decoder D0, we adopt scheduled sampling to make the later decoders fully trained."
+  },
+  {
+    "original_claim": "Finally, for comprehensive evaluation, we test our R EASONER on the classic, dense video captioning (DVC) task (§5.3). 5."
+  },
+  {
+    "original_claim": "Five well-known automated metrics, i.e., BLEU@4 , CIDEr , METEOR , ROUGEL , and BERTScore , are used for evaluation."
+  },
+  {
+    "original_claim": "Three volunteers are presented the outputs of a pair of systems ( i.e., REASONER vs PDVC or human) on the sampled examples, and requested to do a comparison about which one is better, or “equally good” or “equally bad”."
+  },
+  {
+    "original_claim": "Quantitative results (§5.3) on the ae-val set of ActivityNet Captions ."
+  },
+  {
+    "original_claim": "The scores are mainly borrowed from . (10,009/4,917/5,044 for train/val/test)."
+  },
+  {
+    "original_claim": "MFT MFT is an LSTM-based method that consists of a selection LSTM for relevant event ﬁltering and a captioning LSTM for coherent sentence generation."
+  },
+  {
+    "original_claim": "PDVC Similarly, PDVC employs an LSTM-based captioning decoder, while it is conditioned on a deformable soft attention aggregated visual event."
+  },
+  {
+    "original_claim": "VTrans VTrans is a fully attentional model that originates from the vanilla Transformer proposed in ."
+  },
+  {
+    "original_claim": "We follow the implementation in , which serves as a baseline that only considers a single event and independently generates a single sentence describing the given event."
+  },
+  {
+    "original_claim": "Trans-XL Transformer-XL (Trans-XL) is originally proposed for modeling unlimited longer-term dependencies with a segment-level recurrent strategy."
+  },
+  {
+    "original_claim": "Following the implementation in , gradients can ﬂow through recurrent steps instead of being stopped."
+  },
+  {
+    "original_claim": "MART MART is also built on a fully Transformerbased encoder-decoder architecture, that maintains a summarized memory module to model dependencies among events."
+  },
+  {
+    "original_claim": "We adapt VTrans, Trans-XL and MART to the V AR task with the implementation provided by ."
+  },
+  {
+    "original_claim": "Details of BERTScore Evaluation BERTScore leverages the pre-trained contextual embeddings from BERT-based models for similarity measurement."
+  },
+  {
+    "original_claim": "Asset License Videos in V AR dataset are collected from four main assets: (1) ActivityNet Captions 2, 2017 version, under CC-BY 4.0 license3; (2) VLEP 4, 2020 version, under CC-BY 4.0 license 3; (3) TVC 5, 2020 version, under CC-BY 4.0 license 3; (4) MovieClips6, copyright © 2021 Fandango."
+  },
+  {
+    "original_claim": "The importance of interactively identifying bugs and vulnerabilities in code at EditTime has been recognized by prior work ."
+  },
+  {
+    "original_claim": "We apply these learning techniques on CodeBERT and two state of the art pre-trained LLMs provided by OpenAI: code-davinci-002, text-davinci-."
+  },
+  {
+    "original_claim": "However, both zero-shot and few-shot learning on recenttext-davinci-003, which is an InstructGPT based language model, offer better recall (78% and 75%) and slightly lower precision (47% and 49%)."
+  },
+  {
+    "original_claim": "Prior work suggests that code LLMs make similar mistakes to developers , thus auto-generated code edits can have potentially severe security concerns."
+  },
+  {
+    "original_claim": "For example, in certain scenarios, up to 40% of the completions generated by code LLMs included vulnerable code patterns ."
+  },
+  {
+    "original_claim": "We evaluated our vulnerability detection model on a variant of the benchmark introduced by Pearce et al. ."
+  },
+  {
+    "original_claim": "Static analyzers search code-bases for semantic patterns of bugs or vulnerabilities."
+  },
+  {
+    "original_claim": "CodeQL is a popular scalable static analyzer for such pattern-based searches."
+  },
+  {
+    "original_claim": "We build upon this line of research by developing a vulnerability detection model that leverages state of the art deep learning approaches and therefore is capable of learning a variety of vulnerability types without involving human experts. 2.2 Deep Learning Vulnerability Detection Since natural language and programming languages both possess sequential structure, model architectures with success in NLP, such as GRU, LSTM, and Transformer, have also shown promise in vulnerability detection ."
+  },
+  {
+    "original_claim": "VulDeePecker extracts code gadgets from data dependency graphs and trains a BiLSTM classifier to detect vulnerabilities in a dataset of two different vulnerability types."
+  },
+  {
+    "original_claim": "SySeVR builds on VulDeePecker by using both syntactic and semantic information to train vulnerability classifiers on a dataset of 126 vulnerability types."
+  },
+  {
+    "original_claim": "Other works leverage graph neural networks to supplement language models: IVdetect uses GRU embeddings with a Feature-Attention Graph Convolutional Network (FA-GCN) to detect vulnerabilities in program dependence graphs."
+  },
+  {
+    "original_claim": "LineVul extends IVdetect by leveraging pretrained CodeBERT to perform line-level vulnerability localization in addition to methodlevel detection."
+  },
+  {
+    "original_claim": "Devign learns embeddings of code representation graphs and trains a gated graph recurrent network to detect vulnerabilities for graph-level predictions."
+  },
+  {
+    "original_claim": "ReVeal introduces a dataset of vulnerabilities from real-world software projects as a benchmark for vulnerability detection models."
+  },
+  {
+    "original_claim": "For example, evaluated Codex on Java LeetCode questions and found that functionally incorrect completions from Codex share similar anti-patterns to incorrect code written by humans."
+  },
+  {
+    "original_claim": "Similarly, examined Codex with regard to generating vulnerabilities and found that, in certain scenarios, Codex did indeed generate vulnerable code patterns."
+  },
+  {
+    "original_claim": "In another study, showed that during functionality tests with the HumanEval dataset, GitHub Copilot generates certain CWEs in around 2% of cases."
+  },
+  {
+    "original_claim": "For example, a recent work studying the effect of code LLM assistance did not find any conclusive evidence that code LLMs are more likely to generate vulnerabilities than humans ."
+  },
+  {
+    "original_claim": "In this work, we select a subset of detected CodeQL issues that correspond to a set of “Common Weakness Enumeration\" (CWE) in each of seven languages: JavaScript, Python, Go, Java, C++, C#, and Ruby.1 Table 1 shows the summary statistics of the curated dataset."
+  },
+  {
+    "original_claim": "text-davinci-003: Codex model based on InstructGPT , using reinforcement learning from human feedback (RLHF)."
+  },
+  {
+    "original_claim": "Its architecture follows RoBERTa-base , with 12 layers, 12 attention heads, and a hidden size of."
+  },
+  {
+    "original_claim": "text-davinci-003: Codex model based on InstructGPT , using reinforcement learning from human feedback (RLHF) 6 Table 4: Summary of common vulnerability detection datasets."
+  },
+  {
+    "original_claim": "Dataset # Programs % Vuln # Duplicates Granularity Description VulDeePecker 61,638 28.76% 33,786 Slice It was obtained by preprocessing examples from the National Vulnerability Database (NVD) and the Software Assurance Reference Dataset (SARD) and consists of CWE-119 (Improper Restriction of Operations within the Bounds of a Memory Buffer) and CWE-399 (Resource Management Errors)."
+  },
+  {
+    "original_claim": "SeVC 420,627 13.41% 188,030 Slice An improvement over the VulDeePecker dataset, covering 126 different types of vulnerabilities and divided into four categories: API Function Call, Arithmetic Expression, Array Usage, and Pointer Usage."
+  },
+  {
+    "original_claim": "ReVeal 22,734 9.85% 351 Function It tracks past vulnerabilities from the Linux Debian Kernel and Chromium projects."
+  },
+  {
+    "original_claim": "FFMPeg+Qemu 27,318 45.61% 60 Function It consists of past vulnerabilities and their fixes from two open-source projects."
+  },
+  {
+    "original_claim": "Table 6 describes the scenarios we added using the same format as in . “Rank\" reflects the CWE ranking in the MITRE list if applicable."
+  },
+  {
+    "original_claim": "The balance is important because an effective production-ready fault detector must minimize churn and false positives ."
+  },
+  {
+    "original_claim": "A unit test consists of two components:thefirstcomponentisasetoftestinputsforthe Program Under Test (PUT), while the second component is the test oracle that indicates the intended behavior (output) of thePUT and is, therefore, capable of exposing bugs by verifying the correctness of thePUT on test inputs ."
+  },
+  {
+    "original_claim": "Their findings on a limited set of 18 Java methods show that their approach is comparable to feedback-directed test generation.ATHENATESTleveragedtheBARTtransformer model after fine-tuning it on a set of real Java functions and their corresponding tests."
+  },
+  {
+    "original_claim": "They also reported achieving comparable coverage to EvoSuite after an assessment of five Java projects."
+  },
+  {
+    "original_claim": "Lemieux et al. proposed CODAMOSA which utilized test cases generated by Codex to improve search-based testing techniques, which consistsofonlytheprefix(inputs)ofatestcasewithoutany test oracles."
+  },
+  {
+    "original_claim": "Their reported results obtained on 27 Python projects show that CODAMOSA surpasses the baseline search-based technique, Pynguin and Codex in terms of code coverage."
+  },
+  {
+    "original_claim": "Mutants are not only useful for assessing the effectiveness of test cases but canalsobeusedasameansfordesigningmoreeffectivetest cases ."
+  },
+  {
+    "original_claim": "We evaluateMuTAP on both synthetic bugs of 164PUTs and1710 buggy programs collected from aPythonbugrepairingbenchmark.Ourresultsindicate that our proposed approach generates effective test cases with an average Mutation Score (MS, the ratio of killed mutants by the total number of mutants) of 93.57%, outperformingbothPynguin(astate-of-the-artfully-automated test generation tool) and the conventional LLM-based zeroshot/few-shot learning techniques."
+  },
+  {
+    "original_claim": "We make the proposed technique,MuTAP, publicly availableonlineforotherresearchers/practitioners to replicate or build upon our work."
+  },
+  {
+    "original_claim": "This result can be compared to the state-of-the-art automatic test generation tool for Python programminglanguage,Pynguin,whichgeneratesatest case for𝑃 𝑈𝑇with only a40% MS."
+  },
+  {
+    "original_claim": "This tool uses a searchbased generation technique and randomly mutates the test values within a test case to generate new test cases."
+  },
+  {
+    "original_claim": "zero-shot: The initial prompt generated byzero-shot techniquecontainsthreeunits,followingtheapproach in ."
+  },
+  {
+    "original_claim": "We follow the approach in to build the initial prompt withfew-shot strategy inMuTAP."
+  },
+  {
+    "original_claim": "Inspired by ,MuTAP uses MutPy to generate different mutantsforeach PUT andcalculate MS(Line3-7inAlgorithm 4).Executingtestcasesoneachmutantinvolvesperforming some preliminary setups."
+  },
+  {
+    "original_claim": "Comparable Tool Pynguin is a well-known fully-automated test generation tool for a dynamically typed programming language such as Python."
+  },
+  {
+    "original_claim": "Finally, it generates assertions for test cases using a MT engine ."
+  },
+  {
+    "original_claim": "with the DynaMOSA ."
+  },
+  {
+    "original_claim": "According to the evaluation of Pynguin , DynaMOSA shows the best performance comparedtotheotheralgorithmingeneratingtestcaseswiththis tool."
+  },
+  {
+    "original_claim": "Large Language Model Component (LLMC) We employ two different LLMs as the LLMC ofMuTAP.ThefirstoneisOpenAI’sCodex,designedspecifically for code generation tasks ."
+  },
+  {
+    "original_claim": "The lower temperature causes less variation in the outputs of the model while the higher temperature increases the variation of output and then the chance of generating useful test cases over different iterations.TheevaluationofCODAMOSAshowsthat0.8is a reasonable temperature to generate useful test cases with Codex."
+  },
+  {
+    "original_claim": "The second LLM is Meta’s llama-2-chat, which has been iteratively refined using Reinforcement Learning with Human Feedback (RLHF) and is appropriate for dialog use cases.SimilartoCodex,wehaveconfiguredthemodel’s temperaturetobe0.8.Furthermore,themodelprovidesthree distinct roles within the prompt:system, user,and assistant."
+  },
+  {
+    "original_claim": "Different combinations of these roles can be utilized in each prompt to tailor the interaction with the model according to the specific requirements ."
+  },
+  {
+    "original_claim": "Forthispurpose,weuse MutPyversion2.0."
+  },
+  {
+    "original_claim": "The first one isHumanEval which is a benchmarktoevaluateLLMsthatgeneratecode.Ithas164humanwritten programming problems at easy to medium levels."
+  },
+  {
+    "original_claim": "The second one, Refactory , is a benchmark for Python bug repairing ."
+  },
+  {
+    "original_claim": "arithmetic operator deletionresult.append(numbers[-1]) result.append(numbers) AOR."
+  },
+  {
+    "original_claim": "Arghavan MD et al.:Preprint submitted to Elsevier Page 11 of 16 Effective Test Generation Using Pre-trained Large Language Models and Mutation Testing Additionally,MuTAP can be integrated into the test generation component of the GitHub Copilot lab to suggest more effective test cases for developers."
+  },
+  {
+    "original_claim": "However, CIDAR has already discussed the inadequacy of exact match as a suitable metric for assessing assertions produced by LLMs."
+  },
+  {
+    "original_claim": "MS is a metric frequently used in prior studies and it serves as an effective metric for evaluating the quality of the test oracle ."
+  },
+  {
+    "original_claim": "Furthermore, the results presented in indicate that approximately 60% of the test cases generated by Codex encounter compilation issues due to syntax errors."
+  },
+  {
+    "original_claim": "To repair syntax errors in test cases through reprompting the LLMC, we have employed the approach presented in ."
+  },
+  {
+    "original_claim": "However, it has been demonstrated that while there exists a correlation between coverage and bug detection, they may not consistently align in ranking different testing strategies, as observed in the realm of fuzz testing ."
+  },
+  {
+    "original_claim": "It has been shownthatalthough thereisacorrelationbetweencoverage andbug-finding,theydonotagreeontherankingofdifferent testers, like in fuzz testing space ."
+  },
+  {
+    "original_claim": "To address this concern, we’ve employed theRefactory dataset, a bug-repairing benchmark that contains real faulty programs developed by students."
+  },
+  {
+    "original_claim": "Reliability validity.For the purpose of enabling other researchers to replicate or expand upon our study, we provide a replication package ."
+  },
+  {
+    "original_claim": "Related work Authors in studied the impact offew-shot learning acrossvariousdownstreamtasks,includingtestcaseandtest oracle generation."
+  },
+  {
+    "original_claim": "Sch\"afer et al. undertook an effort to generate test cases by prompting Codex."
+  },
+  {
+    "original_claim": "LIBRO used the issue reports (both title and body) as few-shot prompts to generate bug-reproducing test cases."
+  },
+  {
+    "original_claim": "CEDAR,ratherthanemployingfixeddemonstrative examplesin few-shotlearning,aimedtoretrievedemonstrative examples related to eachPUT and incorporate them into the prompt."
+  },
+  {
+    "original_claim": "ATHENATEST employed the BART transformer model , which they fine-tuned using a collection of Java functions and their corresponding tests."
+  },
+  {
+    "original_claim": "They reported test coverage comparable to those of EvoSuite upon evaluating generating test cases for five Java projects."
+  },
+  {
+    "original_claim": "CODAMOSA achieves higher test coverage on various Python benchmarks compared to Pynguin."
+  },
+  {
+    "original_claim": "Ellis et al. , Cropper and Dumancic , and Nye et al. leverage the intermediate states of programs and evaluate their distance to the target solution."
+  },
+  {
+    "original_claim": "For instance, Lovett and Forbus use analogical reasoning to compute ’patterns of variance’ (descriptive statements of how objects change) across subsequent scenes within each row of a Raven’s matrix. Ín contrast, we explicitly learn actionable transformation programs which are capable of generating new outputs."
+  },
+  {
+    "original_claim": "This propositional description can contain both features of objects and information on their relational positioning (i.e. neighboring objects, preceding substring): (above (object (ID o0) (color orange) (bbox [,,]) (width 3) ...) (object (ID o1) (color orange) (bbox [,,]) (width 3) ...) ) ..."
+  },
+  {
+    "original_claim": "We supply Metagol with the identity, inverse, precon, postcon, chain meta-rules as recommended for learning dyadic programs by Cropper and Muggleton ."
+  },
+  {
+    "original_claim": "Materials We use a publicly available data set of 130 real world string transformation tasks from Cropper and Dumancic ."
+  },
+  {
+    "original_claim": "The initial subset of tasks was curated by Gulwani from online Microsoft Excel forums, later expanded by Lin et al. with additional handcrafted spreadsheet manipulations and has been repeatedly used as a benchmark in program synthesis."
+  },
+  {
+    "original_claim": "Similarly, the Turing Test and its many variants (e.g."
+  },
+  {
+    "original_claim": "Total Turing Test and Loebner Prize ) are not useful as a driver of progress (and have in fact served as a red herring 1), since such tests completely opt out of objectively deﬁning and measuring intelligence, and instead outsource the task to unreliable human judges who themselves do not have clear deﬁnitions or evaluation protocols."
+  },
+  {
+    "original_claim": "Legg and Hutter noted in a 2007 survey of intelligence deﬁnitions and evaluation methods : “to the best of our knowledge, no general survey of tests and deﬁnitions has been published”."
+  },
+  {
+    "original_claim": "A decade later, in 2017, Hern ´andez-Orallo released an extensive survey of evaluation methods as well as a comprehensive book on AI evaluation ."
+  },
+  {
+    "original_claim": "Sternberg & Detterman noted in 1986 that when two dozen prominent psychologists were asked to deﬁne intelligence, they all gave somewhat divergent answers."
+  },
+  {
+    "original_claim": "In the context of AI research, Legg and Hutter summarized in 2007 no fewer than 70 deﬁnitions from the literature into a single statement: “Intelligence measures an agent’s ability to achieve goals in a wide range of environments. ” This summary points to two characterizations, which are nearly universally – but often separately – found in deﬁnitions of intelligence: one with an emphasis on task-speciﬁc skill (“achieving goals”), and one focused on generality and adaptation ( “in a wide range of environments”)."
+  },
+  {
+    "original_claim": "These two characterizations map to Catell’s 1971 theory of ﬂuid and crystallized intelligence (Gf-Gc) , which has become one of the pillars of the dominant theory of human cognitive abilities, the Cattell-Horn-Caroll theory (CHC) ."
+  },
+  {
+    "original_claim": "Even McCarthy, a rare advocate for generality in AI, believed that the key to achieving generality was better knowledge bases ."
+  },
+  {
+    "original_claim": "This deﬁnition and evaluation philosophy focused entirely on skill at narrow tasks normally handled by humans has led to a striking 2Note the lingering inﬂuence of the Turing Test. 5 paradox, as pointed out by Hern´andez-Orallo in his 2017 survey: the ﬁeld of artiﬁcial intelligence has been very successful in developing artiﬁcial systems that perform these tasks without featuring intelligence, a trend that continues to this day."
+  },
+  {
+    "original_claim": "Contrast Minsky’s task-focused deﬁnition of AI with the following one, paraphrased from McCarthy by Hern´andez-Orallo: “AI is the science and engineering of making machines do tasks they have never seen and have not been prepared for beforehand” ."
+  },
+  {
+    "original_claim": "The notion that machines could acquire new skills through a learning process similar to that of human children was initially laid out by Turing in his 1950 paper ."
+  },
+  {
+    "original_claim": "In 1958, Friedberg noted astutely: “If we are ever to make a machine that will speak, understand or translate human languages, solve mathematical problems with imagination, practice a profession or direct an organization, either we must reduce these activities to a science so exact that we can tell a machine precisely how to go about doing them or we must develop a machine that can do things without being told precisely how” ."
+  },
+  {
+    "original_claim": "This conception of the human mind can be traced back to Aristotle (De Anima, c. 350BC, perhaps the ﬁrst treatise of psychology ), was embraced and popularized by Enlightenment thinkers such as Hobbes , Locke , and Rousseau ."
+  },
+  {
+    "original_claim": "It has more recently found renewed vitality within cognitive psychology (e.g. ) and in AI via connectionism (e.g. )."
+  },
+  {
+    "original_claim": "Note that this document is not meant as an extensive survey of AI evaluation methods – for such a survey, we recommend Hern ´andez-Orallo 2017 ."
+  },
+  {
+    "original_claim": "Other notable previous surveys include Cohen and Howe 1988 and Legg and Hutter 2007 ."
+  },
+  {
+    "original_claim": "Benchmarks have often been most impactful in the context of a competition between different research teams, such as the ILSVRC challenge for large-scale image recognition (ImageNet) or the DARPA Grand Challenge for autonomous driving ."
+  },
+  {
+    "original_claim": "This has been interpreted by McCorduck as an “AI effect” where goalposts move every time progress in AI is made: “every time somebody ﬁgured out how to make a computer do somethingplay good checkers, solve simple but relatively informal problemsthere was a chorus of critics to say, ‘that’s not thinking’ ” ."
+  },
+  {
+    "original_claim": "If I beat the world’s chess champion, I’d be regarded as highly bright. ” ."
+  },
+  {
+    "original_claim": "Meanwhile, robustness and ﬂexibility are increasingly being perceived as important requirements for certain broader subﬁelds of AI, such as L5 self-driving, domestic robotics, or personal assistants; there is even increasing interest in generality itself (e.g. developmental robotics , artiﬁcial general intelligence )."
+  },
+  {
+    "original_claim": "The notion of generalization can be formally deﬁned in various contexts (in particular, statistical learning theory provides a widely-used formal deﬁnition that is relevant for machine learning, and we provide a more general formalization in II.2)."
+  },
+  {
+    "original_claim": "For instance, a L5 self-driving vehicle, or a domestic robot capable of passing Wozniak’s coffee cup test (entering a random kitchen and making a cup of coffee) could be said to display broad generalization."
+  },
+  {
+    "original_claim": "Major theories of the structure of human intelligence (CHC , g-VPR ) all organize cognitive abilities in a hierarchical fashion (ﬁgure 1), with three strata (in CHC): general intelligence (g factor) at the top, broad abilities in the middle, and specialized skills or test tasks at the bottom (this extends to 4 strata for g-VPR, which splits broad abilities into two layers), albeit the taxonomy of abilities differs between theories."
+  },
+  {
+    "original_claim": "Alfred Binet, 1916 In the early days of the 20th century, Binet and Simon, looking for a formal way to distinguish children with mental disabilities from those with behavior problems, developed the Binet-Simon scale , the ﬁrst test of intelligence, founding the ﬁeld of psychometrics."
+  },
+  {
+    "original_claim": "Classical Test Theory (CTT) and Item Response Theory (IRT) ."
+  },
+  {
+    "original_claim": "Examples include the Arcade Learning Environment for Reinforcement Learning agents , Project Malm ¨O , the Behavior Suite , or the GLUE and SuperGLUE benchmarks for natural language processing."
+  },
+  {
+    "original_claim": "In addition to these multi-task benchmarks, a number of more ambitious test suites for cognitive abilities of AI have been proposed in the past but have not been implemented in practice: the Newell test by Anderson and Lebiere (, named in reference to ), the BICA “cognitive decathlon” targeted at developmental robotics , the Turing Olympics , and the I-Athlon ."
+  },
+  {
+    "original_claim": "On the other hand, two similarly-spirited but more mature test suite have emerged recently, focused on generalization capabilities as opposed to speciﬁc tasks: the Animal-AI Olympics (animalaiolympics.com) and the GVGAI competition (gvgai.net)."
+  },
+  {
+    "original_claim": "This idea was ﬁrst proposed by Green in 1964 , and was, around the same time, explored by Evans , who wrote a LISP program 14 called ANALOGY capable of solving a geometric analogy task of the kind that may be found in a pyschometric intelligence test."
+  },
+  {
+    "original_claim": "Newell suggested the idea again in 1973 in his seminal paper You can’t play 20 questions with Nature and win."
+  },
+  {
+    "original_claim": "It was proposed again and reﬁned by Bringsjord et al. in the 2000s under the name “Psychometric AI” (PAI) ."
+  },
+  {
+    "original_claim": "Along these lines, Hern ´andezOrallo et al. have proposed extending psychometric evaluation to any intelligent system, including AI agents and animals, in “Universal Psychometrics” ."
+  },
+  {
+    "original_claim": "This is due in large part to the fact that most benchmarks do not pay much attention to formally assessing robustness and quantifying generalization, and thus can be solved via “shortcuts” that gradient descent is apt at exploiting (e.g. surface statistics such as textures in the case of computer vision )."
+  },
+  {
+    "original_claim": "Likewise, the reproducibility (reliability) of 4Because broad AI research is currently largely dominated by Reinforcement Learning (RL) approaches, many of our observations here are speciﬁc to RL. 16 research ﬁndings is often an issue , especially in Reinforcement Learning, although some progress has been made on this front."
+  },
+  {
+    "original_claim": "Hern´andez-Orallo noted in 2017 that “ability-oriented and general-purpose evaluation approaches [...] are still very incipient, and more research and discussion is needed” ."
+  },
+  {
+    "original_claim": "Attempts at assessing generalization by testing RL systems on previously unseen game levels, like CoinRun or Obstacle Tower , are still only looking at task-speciﬁc local generalization, by evaluating a candidate system on new samples from a known distribution rather than using a substantially new task (as suggested in III.3)."
+  },
+  {
+    "original_claim": "For example, although OpenAI’s DotA2-playing AI “Five” was trained on 45,000 years of play and was able to beat top human players , it has proven very brittle, as non-champion human players were able to ﬁnd strategies to reliably beat it in a matter of days after the AI was made available for the public to play against ."
+  },
+  {
+    "original_claim": "Twenty-four years later, In 1997, IBM’s DeepBlue beat Gary Kasparov, the best chess player in the world, bringing this quest to an end ."
+  },
+  {
+    "original_claim": "Newell wrote : “we know already from existing work [psychological studies on humans] that the task [chess] involves forms of reasoning and search and complex perceptual and memorial processes."
+  },
+  {
+    "original_claim": "To use a well-known cross-domain analogy : much like “intelligence”, the notion of “physical ﬁtness” (as it pertains to sports and other physical activities) is an intuitivelyunderstandable, informal, yet useful concept."
+  },
+  {
+    "original_claim": "For instance, in the TSP, human performance degrades severely when inverting the goal from “ﬁnding the shortest path” to “ﬁnding the longest path” – humans perform even worse in this case than one of the simplest possible heuristic: farthest neighbor construction. 6 A particularly marked human bias is dimensional bias: humans show excellent performance on 2D navigation tasks and 2D shape-packing puzzles, and can still handle 3D cases albeit with greatly reduced performance, but they are effectively unable to handle 4D and higher."
+  },
+  {
+    "original_claim": "This fact is perhaps unsurprising given human reliance on perceptual strategies for problem-solving – strategies which are backed by neural mechanisms speciﬁcally evolved for 2D navigation (hippocampal systems of place cells and grid cells )."
+  },
+  {
+    "original_claim": "We thus disagree with the perspective of Universal Psychometrics or Legg and Hutter’s Universal Intelligence , which reject anthropocentrism altogether and seek to measure all intelligence against a single absolute scale."
+  },
+  {
+    "original_claim": "II.1.3 Separating the innate from the acquired: insights from developmental psychology Advances in developmental psychology teach us that neither of the two opposing views of the nature of the mind described in I.2 are accurate (see e.g. ): the human mind is not merely a collection of special-purpose programs hard-coded by evolution; it is capable of a remarkable degree of generality and open-endedness, going far beyond the scope of environments and tasks that guided its evolution."
+  },
+  {
+    "original_claim": "The central message of the No Free Lunch theorem is that to learn from data, one must make assumptions about it – the nature and structure of the innate assumptions made by the human mind are precisely what confers to it its powerful learning abilities."
+  },
+  {
+    "original_claim": "This is the question that the developmental science theory of Core Knowledge seeks to answer."
+  },
+  {
+    "original_claim": "We also argue, in agreement with , that general AI systems should hard-code as fundamental priors these core knowledge principles."
+  },
+  {
+    "original_claim": "These notions are related to the concept of intrinsic task difﬁculty (regardless of generalization) deﬁned in (section 8.6) as the effort necessary to construct a solution. 36 Next, we can also use Relative Algorithmic Complexity to formally quantify the Priors PIS,T possessed by an intelligent system about a task: Priors of an intelligent system relative to a task T and a skill threshold θ, noted Pθ IS,T: Fraction of the Algorithmic Complexity of the shortest solution of T of skill threshold θ that is explained by the initial system (at the start of the training phase)."
+  },
+  {
+    "original_claim": "We are aware of three other AIT-based deﬁnitions: the C-Test , the AIXI model , and the “Universal Intelligence” model (closely related to AIXI)."
+  },
+  {
+    "original_claim": "It encourages interest in program synthesis, by suggesting that we stop thinking of “agents” as monolithic black boxes that take in sensory input and produce behavior (a vision inherited from Reinforcement Learning ): our formalism clearly separates the part of the system that possesses intelligence (“intelligent system”, a programsynthesis engine) from the part that achieves skill or implements behavior (“skill program”, the non-intelligent output artifact of the process of intelligence), and places focus to the former."
+  },
+  {
+    "original_claim": "It is somewhat similar in format to Raven’s Progressive Matrices , a classic IQ test format going back to the 1930s."
+  },
+  {
+    "original_claim": "The notions of addition and subtraction are also featured (as they are part of the Core Knowledge number system as per )."
+  },
+  {
+    "original_claim": "Albeit ARC stays deliberately close in format to traditional IQ tests (as well as related efforts such as Hern ´andezOrallo’s C-Test ), its design differs from them in fundamental ways."
+  },
+  {
+    "original_claim": "Unlike tasks from the C-Test , ARC tasks are in majority not programmatically generated."
+  },
+  {
+    "original_claim": "CoinRun or Obstacle Tower , where the evaluation environments are not alternative games, but only levels of the same game (local generalization, or generalization to known unknowns), randomly sampled from a level generator which is known in advance to the AI developers (no evaluation of developer-aware generalization)."
+  },
+  {
+    "original_claim": "This idea is similar to the “anytime intelligence test” proposed in and to the POET system proposed in ."
+  },
+  {
+    "original_claim": "GPT-4 is a Transformer-style model pre-trained to predict the next token in a document, using both publicly available data (such as internet data) and data licensed from third-party providers."
+  },
+  {
+    "original_claim": "To verify the scalability of our optimization infrastructure, we predicted GPT-4’s final loss on our internal codebase (not part of the training set) by fitting a scaling law with an irreducible loss term (as in Henighan et al. ): L(C) =aCb + c, from models trained using the same methodology but using at most 10,000x less compute than GPT-."
+  },
+  {
+    "original_claim": "One such metric is pass rate on the HumanEval dataset , which measures the ability to synthesize Python functions of varying complexity."
+  },
+  {
+    "original_claim": "Similarly to a recent result by Wei et al. , we find that GPT-4 reverses this trend, as shown on one of the tasks called Hindsight Neglect in Figure."
+  },
+  {
+    "original_claim": "Accuracy is shown on the y-axis, higher is better. ada, babbage, and curie refer to models available via the OpenAI API ."
+  },
+  {
+    "original_claim": "For each benchmark we report, we ran contamination checks for test data appearing in the training set (see Appendix D for full details on per-benchmark contamination). 5 We used few-shot prompting for all benchmarks when evaluating GPT-4.6 GPT-4 considerably outperforms existing language models, as well as previously state-of-the-art (SOTA) systems which often have benchmark-specific crafting or additional training protocols (Table 2). 5During our contamination check we discovered that portions of BIG-bench were inadvertently mixed into the training set, and we excluded it from our reported results. 6For GSM-8K, we include part of the training set in GPT-4’s pre-training mix (see Appendix E for details)."
+  },
+  {
+    "original_claim": "For GSM-8K, we included part of the training set in the GPT-4 pre-training mix (see Appendix E), and we use chain-of-thought prompting when evaluating."
+  },
+  {
+    "original_claim": "We find that GPT-4 outperforms the Englishlanguage performance of GPT 3.5 and existing language models (Chinchilla and PaLM ) for the majority of languages we tested, including low-resource languages such as Latvian, Welsh, and Swahili (Figure 5)."
+  },
+  {
+    "original_claim": "Preliminary results on a narrow set of academic vision benchmarks can be found in the GPT-4 blog post ."
+  },
+  {
+    "original_claim": "We compare GPT-4 to three earlier versions of ChatGPT based on GPT-3.5; GPT-4 improves on the latest GPT-3.5 model by 19 percentage points, with significant gains across all topics."
+  },
+  {
+    "original_claim": "GPT-4 makes progress on public benchmarks like TruthfulQA , which tests the model’s ability to separate fact from an adversarially-selected set of incorrect statements (Figure 7)."
+  },
+  {
+    "original_claim": "GPT-4 significantly outperforms both GPT-3.5 and Anthropic-LM from Bai et al. . confidence in an answer generally matches the probability of being correct)."
+  },
+  {
+    "original_claim": "See OpenAI for more details. 6 Risks & mitigations We invested significant effort towards improving the safety and alignment of GPT-."
+  },
+  {
+    "original_claim": "Here we highlight our use of domain experts for adversarial testing and red-teaming, and our model-assisted safety pipeline and the improvement in safety metrics over prior models."
+  },
+  {
+    "original_claim": "Their findings specifically enabled us to test model behavior in high-risk areas which require niche expertise to evaluate, as well as assess risks that will become relevant for very advanced AIs such as power seeking ."
+  },
+  {
+    "original_claim": "This technique is related to work by Glaese et al. and Perez et al. ."
+  },
+  {
+    "original_claim": "On the RealToxicityPrompts dataset , GPT-4 produces toxic generations only 0.73% of the time, while GPT-3.5 generates toxic content 6.48% of time. 13 Sensitive Prompts Disallowed Prompts 0% 10% 20% 30% 40% 50% Prompt type Incorrect behavior rate Incorrect behavior rate on disallowed and sensitive content text-davinci-003 gpt-3.5-turbo gpt-4 Figure."
+  },
+  {
+    "original_claim": "Index Terms—test generation, JavaScript, language models ✦ 1 I NTRODUCTION Unit tests check the correctness of individual functions or other units of source code, and play a key role in modern software development –."
+  },
+  {
+    "original_claim": "However, creating unit tests by hand is labor-intensive and tedious, causing some developers to skip writing tests altogether ."
+  },
+  {
+    "original_claim": "This fact has inspired extensive research on techniques for automated test generation including fuzzing , , feedback-directed random test generation –, dynamic symbolic execution –, and search-based and evolutionary techniques , ."
+  },
+  {
+    "original_claim": "First, the generated tests are typically less readable and understandable than manually written tests , , especially."
+  },
+  {
+    "original_claim": "Tip is with Northeastern University, USA E-mail: f.tip@northeastern.edu due to the use of unintuitive variable names ."
+  },
+  {
+    "original_claim": "Second, the generated tests often lack assertions , or only contain very generic assertions (e.g., that a dereferenced variable must not be null), or too many spurious assertions ."
+  },
+  {
+    "original_claim": "Given these disadvantages, there has recently been increasing interest in utilizing machine learning-based codegeneration techniques to produce better unit tests – ."
+  },
+  {
+    "original_claim": "Some LLMs such as BERT or GPT3 are trained purely on text extracted from books and other public sources, while others like OpenAI Codex and AlphaCode are put through additional training on publicly available source code to make them better suited arXiv:2302.06527v4 [cs.SE] 11 Dec 2023 2 for software development tasks –."
+  },
+  {
+    "original_claim": "For example, Bareiß et al. evaluate the performance of Codex for test generation."
+  },
+  {
+    "original_claim": "In a limited evaluation on 18 Java methods, they find that this approach compares favorably to feedback-directed test generation ."
+  },
+  {
+    "original_claim": "Similarly, Tufano et al.’s A THENA TEST generates tests using a BART transformer model fine-tuned on a training set of functions and their corresponding tests."
+  },
+  {
+    "original_claim": "They evaluate on five Java projects, achieving comparable coverage to EvoSuite ."
+  },
+  {
+    "original_claim": "While these are promising early results, these approaches, as well as others , , , rely on a training corpus of functions and their corresponding tests, which is expensive to curate and maintain."
+  },
+  {
+    "original_claim": "Following Reynolds and McDonell , we posit that providing the model with input-output examples or performing additional training is not necessary and that careful prompt crafting is sufficient."
+  },
+  {
+    "original_claim": "We chose JavaScript as an example of a popular language for which test generation using traditional methods is challenging due to the absence of static type information and its permissive runtime semantics ."
+  },
+  {
+    "original_claim": "To explore this factor, we further conducted experiments with two additional LLMs: the previous proprietary code-cushman-002 model developed by OpenAI and StarCoder , an LLM for which the training process is publicly documented."
+  },
+  {
+    "original_claim": "Our evaluation explores the following aspects: – Quality of the generated tests in terms of the assertions they contain, and coverage of tests that include nontrivial assertions. – Effect of excluding various prompt components. – Similarity of generated tests to existing tests. – Comparison against Nessie , a state-of-the-art feedback-directed random test generation technique for JavaScript. – Comparison of the effect of the underlying LLM on TEST PILOT ’s generated tests."
+  },
+  {
+    "original_claim": "2 A PPROACH TEST PILOT generates tests using the popular JavaScript testing framework Mocha with its BDD-style syntax in which tests are implemented as callback functions that are passed to the it function."
+  },
+  {
+    "original_claim": "Therefore, similar to other JavaScript test-generation work , , we pursue an approach based on dynamic analysis."
+  },
+  {
+    "original_claim": "Our notion of an access path takes a somewhat simplified form compared to the original concept proposed by Mezzetti et al. , and consists of a package name followed by a sequence of property names."
+  },
+  {
+    "original_claim": "RQ2 How does TEST PILOT ’s coverage compare to Nessie ?"
+  },
+  {
+    "original_claim": "To understand the generalizability of an LLM-based test generation approach and the effect of the underlying LLM T EST PILOT relies on, we compare coverage we obtain using gpt3.5-turbo with two other LLMs: (1) OpenAI’s codecushman-002 model , one of gpt3.5-turbo’s predecessors which is part of the Codex suite of LLMs and which served as the main model behind the first release of GitHub Copilot , and (2)StarCoder , a publicly available LLM for which the training process is fully documented. 3.2 Evaluation Setup To answer the above research questions, we use a benchmark of 25 npm packages."
+  },
+  {
+    "original_claim": "The first 10 packages shown in the table are the same GitHub-hosted packages used for evaluating Nessie , a recent feedback-directed test-generation technique for JavaScript."
+  },
+  {
+    "original_claim": "We use Istanbul/nyc to measure statement and branch coverage and use Mocha’s default time limit of 2s per test. 4 E VALUATION RESULTS 4.1 RQ1: T EST PILOT ’s Coverage Table 2 shows the number of tests T EST PILOT generates for each package, the number (and proportion) of passing tests, and the corresponding coverage achieved by the passing tests."
+  },
+  {
+    "original_claim": "Exploring test suite minimization techniques to reduce the size of the generated test suite is an interesting avenue for future work. 4.2 RQ2 T EST PILOT vs."
+  },
+  {
+    "original_claim": "Nessie We compare T EST PILOT ’s coverage to the state-of-the-art JavaScript test generator Nessie , which uses a tra."
+  },
+  {
+    "original_claim": "Both these differences are statistically significant (p-values 0.002 and 0.027 respectively) with a large effect size, measured by Cliff’s delta , of 0.493 for statement coverage and a medium one (0.431) for branch coverage. 10 Note that Nessie always generates 1000 tests per package, while TESTPILOT usually generates far fewer tests, except on memfs and omnitool."
+  },
+  {
+    "original_claim": "It is also worth emphasizing that Nessie (and other test-generation techniques such as LambdaTester ) report coverage of all generated tests, regardless of whether they pass or fail while our reported coverage numbers are for passing tests only."
+  },
+  {
+    "original_claim": "To identify non-trivial assertions, we first use CodeQL to compute a backwards program slice from each assertion in the generated tests."
+  },
+  {
+    "original_claim": "File-system errors include errors such as files or directories not being found, which we identify by checking for file-system related error codes in the error stack trace."
+  },
+  {
+    "original_claim": "Recently, Lemieux et al. reported that code plagiarism or clone detection techniques are not effective at identifying LLM code memorization."
+  },
+  {
+    "original_claim": "Instead, they find that measuring similarity through edit distance produces more meaningful results."
+  },
+  {
+    "original_claim": "We follow the same method for calculating maximum similarity for each generated test, using the npm Levenstein package to calculate dist."
+  },
+  {
+    "original_claim": "In contrast, while 90% of Lemieux et al. ’s generated Python tests have ≤ 0.4 similarity, 2% of their test cases are exact copies."
+  },
+  {
+    "original_claim": "Cliff’s delta shows a large and medium effect size for statement and branch coverage, respectively, between gpt3.5turbo and StarCoder and a medium and small effect size for statement and branch coverage, respectively between codecushman-002 and StarCoder."
+  },
+  {
+    "original_claim": "While this higher coverage was not statistically significant, the results show that even LLMs trained with potentially smaller datasets and/or a different training process than OpenAI’s models are on par (or even sometimes higher) than state-of-the-art traditional test-generation techniques, such as Nessie ."
+  },
+  {
+    "original_claim": "Measuring assertion/checked coverage as defined by Schuler and Zeller is a possible alternative, but this is practically difficult to implement precisely for JavaScript."
+  },
+  {
+    "original_claim": "External Validity: Despite our evaluation scale significantly exceeding evaluations of previous test generation approaches , , our results are still based on 25 npm packages and may not generalize to other JavaScript code bases."
+  },
+  {
+    "original_claim": "Finally, we note that while our technique is conceptually language-agnostic, our current implementation of T EST PILOT targets JavaScript, and thus we cannot generalize our results to other languages. 6 R ELATED WORK TEST PILOT provides an alternative to (and potentially complements) traditional techniques for automated test generation, including feedback-directed random test generation –, search-based and evolutionary techniques , , , , and dynamic symbolic execution –."
+  },
+  {
+    "original_claim": "This section reviews neural techniques for test generation, and previous test generation techniques for JavaScript. 6.1 Neural Techniques Neural techniques are rapidly being adopted for solving various Software Engineering problems, with promising results in several domains including code completion – , program repair –, and bug-finding , ."
+  },
+  {
+    "original_claim": "Pradel and Chandra survey the current state of the art in this emerging research area."
+  },
+  {
+    "original_claim": "We are aware of several recent research efforts in which LLMs are used for test generation –."
+  },
+  {
+    "original_claim": "Differing goals : T ICODER and C ODE T use Codex to generate implementations and test cases from problem descriptions expressed in natural language."
+  },
+  {
+    "original_claim": "Given the characteristics of LLMs in generating natural looking code, there have been several efforts exploring the use of LLMs to help or complement traditional test generation techniques."
+  },
+  {
+    "original_claim": "Most recently, Lemieux et al. explore using tests generated by Codex as a way to unblock the search process of test generation using search-based techniques , which often fails when the initial randomly generated test has meaningless input that cannot be mutated effectively."
+  },
+  {
+    "original_claim": "Their results show that, on most of their target 27 Python projects, their proposed technique, C ODAMOSA , outperforms the baseline search-based technique, Pynguin’s implementation of M OSA , as well as using only Codex."
+  },
+  {
+    "original_claim": "Additionally, their generated tests are in the MOSA format , which the authors acknowledge could lose readability, and do not contain assertions."
+  },
+  {
+    "original_claim": "Similarly, given that it is often difficult for traditional test generation techniques to generate (useful) assertions , , ATLAS uses LLMs to generate an assert statement for a given (assertion-less) Java test."
+  },
+  {
+    "original_claim": "They position their technique as a complement to traditional techniques , ."
+  },
+  {
+    "original_claim": "With the same goal, Mastrapaolo et al. , and Tufano et al. perform follow up work using transfer learning, while Yu et al. use information retrieval techniques to further improve the assert statements generated by Atlas."
+  },
+  {
+    "original_claim": "TOGA uses similar techniques but additionally incorporates an exceptional oracle classifier to decide if a given method requires an assertion to test exceptional behavior."
+  },
+  {
+    "original_claim": "While TOGA can be integrated with EvoSuite to create an end-to-end test-generation tool, recent work points out several shortcomings of the evaluation methods, casting doubt on the validity of the reported results."
+  },
+  {
+    "original_claim": "Differing Input/Training: Bareiß et al. evaluate the performance of Codex on three code-generation tasks, including test generation."
+  },
+  {
+    "original_claim": "For a limited list of 18 Java methods, they show that this approach yields slightly better coverage than Randoop , , a popular technique for feedback-directed random test generation."
+  },
+  {
+    "original_claim": "Tufano et al. present AthenaTest, an approach for automated test generation based on a BART transformer model ."
+  },
+  {
+    "original_claim": "In experiments on 5 projects from Defects4J , AthenaTest generated 158K test cases, achieving similar test coverage as EvoSuite , a popular search-based test generation tool, and covering 43% of all focal methods."
+  },
+  {
+    "original_claim": "In fact, in addition to the goal differences with ATLAS and Mastrapaolo et al.’s , work above, both these efforts also require a data set of test methods (with assertions) and their corresponding focal methods, whether to use in the main training or in fine tuning during transfer learning , , ."
+  },
+  {
+    "original_claim": "In fact, one of our main motivations for exploring prompt engineering for an off-the-shelf LLM is to avoid the need to collect test examples for few-shot learning or test method/focal method pairs required for training or additional fine tuning , , ."
+  },
+  {
+    "original_claim": "Other techniques : Stallenberg et al. present a test generation technique for JavaScript based on unsupervised type inference consisting of three phases."
+  },
+  {
+    "original_claim": "Finally, they show how search-based techniques can take advantage of the information contained in such models by proposing two strategies for consulting these models in the main loop of DynaMOSA ."
+  },
+  {
+    "original_claim": "Recently, El Haji presented an empirical study that explores the effectiveness of GitHub Copilot at generating tests."
+  },
+  {
+    "original_claim": "There are several significant differences between our approach and El Haji’s work: we explore a fully automated technique without any manual steps, we report on a significantly more extensive empirical evaluation, we present an adaptive technique in which prompts are refined in response to the execution behavior of previously executed tests, we target a different programming language (JavaScript instead of Python), and TestPilot interacts directly with an LLM rather than relying on Copilot, an LLM-based programming assistant. 6.2 Test Generation Techniques for JavaScript TEST PILOT ’s mechanism for refining prompts based on execution feedback was inspired by the mechanism employed by feedback-directed random test generation techniques – , where new tests are generated by extending previously generated passing tests."
+  },
+  {
+    "original_claim": "As reported in Section 4.2, TEST PILOT achieves significantly higher statement coverage and branch coverage than Nessie , which represents the state-of-the-art in feedback-directed random test generation for JavaScript."
+  },
+  {
+    "original_claim": "Several previous projects have considered test generation for JavaScript (see for a survey)."
+  },
+  {
+    "original_claim": "Saxena et al. present Kudzu, a tool that aims to find injection vulnerabilities in client-side JavaScript applications by exploring an application’s input space."
+  },
+  {
+    "original_claim": "Artemis is a framework for automated test generation that iteratively generates tests for client-side JavaScript applications consisting of sequences of events, using a heuristics-based strategy that considers the locations read and written by each event handler to focus 18 on the generation of tests involving event handlers that interact with each other."
+  },
+  {
+    "original_claim": "Li et al. extends Artemis with dynamic symbolic execution to improve its ability to explore the value space, and Tanida et al. further improve on this work by augmenting generated test inputs with usersupplied invariants."
+  },
+  {
+    "original_claim": "Fard et al. present ConFix, a tool that uses a combination of dynamic analysis and symbolic execution to automatically generate instances of the Document Object Model (DOM) that can serve as test fixtures in unit tests for client-side JavaScript code."
+  },
+  {
+    "original_claim": "Marchetto and Tonella present a search-based test generation technique that constructs tests consisting of sequences of events that relies on the automatic extraction of a finite state machine that represents that application’s state."
+  },
+  {
+    "original_claim": "JSART is a tool that generates regression tests that contain assertions reflecting likely invariants that are generated using a variation of the Daikon dynamic invariant generator ."
+  },
+  {
+    "original_claim": "Mirshokraie et al. , present an approach in which tests are generated for client-side JavaScript applications consisting of sequences of events."
+  },
+  {
+    "original_claim": "Testilizer is a test generation tool that aims to enhance an existing humanwritten test suite."
+  },
+  {
+    "original_claim": "Moreover, several of the techniques discussed above require re-execution of tests (to infer assertions using mutation testing , , or to filter out assertions that are invalid ), which adds to their cost."
+  },
+  {
+    "original_claim": "In fact, a prior study showed that out of 82,447 studied GitHub projects, only 17% of them contained test files."
+  },
+  {
+    "original_claim": "A survey of 500 US-based developers showed that 92% of them are using LLM-based coding assistants both for work and personal use ."
+  },
+  {
+    "original_claim": "Part of this fast widespread adoption is that LLMs automate repetitive tasks so that they can focus on higher-level, challenging tasks ."
+  },
+  {
+    "original_claim": "With the increasing popularity of code generation LLMs, prior works investigated the correctness of the generated code , their quality , security and whether they can be used for API learning tasks , and code complexity prediction ."
+  },
+  {
+    "original_claim": "In light of this research gap, we conducted an empirical study using three LLMs (Codex , GPT-3.5-Turbo and StarCoder ) to generate JUnit5 tests for classes in the HumanEval dataset’s Java version and 47 open-source projects from the SF110 dataset ."
+  },
+  {
+    "original_claim": "The contributions of our work are: 1 A systematic study of three LLMs for zero-shot unit test generation for 194 classes from 47 open-source projects in the SF110 dataset and 160 classes from the HumanEval dataset . 2 An investigation of the quality of the produced unit tests by studying the prevalence of test smells in the generated unit tests. 3 A comparison of how different context styles affect the performance of LLMs in generating tests. 4 A discussion about the implication of using code generation models for unit test generation in a Test Driven Development (TDD) environment."
+  },
+  {
+    "original_claim": "2 BACKGROUND 2.1 Unit Tests & Test Smells The goal of unit testing is to validate that each program unit is working as intended and meets its requirements ."
+  },
+  {
+    "original_claim": "Just like production code, unit tests need to be not only correct but also satisfy other quality attributes, such as maintainability and readability ."
+  },
+  {
+    "original_claim": "There are many test smell types, ranging from tests that are too slow/fragile to tests that are too complex or too tightly coupled to implementing the code under test ."
+  },
+  {
+    "original_claim": "Although this test is correct, there is no explanation for the expected outputs passed to the assertions, which is a case of theMagic Number Test smell ."
+  },
+  {
+    "original_claim": "It also has multiple assertions in the same test method, an example of Assertion Roulette smell . 1https://doi.org/10.5281/zenodo.10530787 LargestDivisorTest.java 1 public class LargestDivisorTest { 2 @Test 3 void testLargestDivisor() { 4 assertEquals(5, LargestDivisor.largestDivisor(15)); 5 assertEquals(1, LargestDivisor.largestDivisor(3)); 6 } 7 } Listing 1: Example of Unit Test and Unit Test Smell 2.2 Code Generation Large Language Models (LLMs) are advanced AI systems capable of understanding and generating human-like text."
+  },
+  {
+    "original_claim": "They are designed to generate source code from a given prompt , such as a text written in natural language, pseudocode, code comments etc."
+  },
+  {
+    "original_claim": "We used GPT-3.5-Turbo, StarCoder, and Codex to generate unit tests for competitive programming assignments from the Java version of the HumanEval dataset as well as 47 open-source projects from the EvoSuite SF110 benchmark dataset."
+  },
+  {
+    "original_claim": "Similarly, we use the SF110 dataset because it is a popular benchmark for unit test generation ."
+  },
+  {
+    "original_claim": "This benchmark contains 23,886 classes, over 800,000 bytecode-level branches, and 6.6 million lines of code ."
+  },
+  {
+    "original_claim": "Each class in the multilingual HumanEval has one public static method and may also contain private “helper” methods to aid the solution implementation."
+  },
+  {
+    "original_claim": "Codex is a 12 billion parameters LLM descendant of the GPT-3 model which powers GitHub Copilot."
+  },
+  {
+    "original_claim": "It allows multi-turn conversation, and it can be instructed to generate code ."
+  },
+  {
+    "original_claim": "We ran each generated unit test with JaCoCo to compute the line coverage , branch coverage and test correctness metrics."
+  },
+  {
+    "original_claim": "Test-Driven Development (TDD) inspires scenario S3, where test cases are written before the code implementation."
+  },
+  {
+    "original_claim": "Similar to RQ1, we also compared the results to Evosuite . 4 RQ1 RESULTS We analyze the generated tests according to their: (i) compilation status; (ii) correctness; (iii) coverage; and (iv) quality. 4.1 Compilation Status Table 1 reports the percentage of generated unit tests that are compilable before and after applying the heuristic-based fixes described in Section 3.1."
+  },
+  {
+    "original_claim": "To observe the most common root causes of compilation errors, we collected all the compilation errors and clustered them using K-means ."
+  },
+  {
+    "original_claim": "We used the silhouette method to find the number of clusters K (𝐾 = 48)."
+  },
+  {
+    "original_claim": "Table 4 shows that the LLMs produced the following smells3: Assertion Roulette (AR), Conditional Logic Test (CLT) , Empty Test (EM) , Exception Handling (EH) , Eager Test (EA), Lazy Test (LT), Duplicate Assert (DA), Unknown Test (UT) , , and Magic Number Test (MNT) ."
+  },
+  {
+    "original_claim": "The LLMs generated other types of smells that were not observed for the HumanEval dataset, namely Constructor Initialization (CI) , Mistery Guest (MG), Redundant Print (RP), Redundant Assertion (RA) , Sensitive Equality (SE), Ignored Test (IT), and Resource Optimism (RO) ."
+  },
+  {
+    "original_claim": "Furthermore, a recent study surveyed 2,000 developers and analyzed anonymous user data, showing that GitHub Copilot makes developers more productive because the generated code can automate repetitive tasks."
+  },
+  {
+    "original_claim": "Although further user studies would be needed to verify this hypothesis. 6.1 Threats to Validity Creating canonical solutions for the Java samples in the HumanEval dataset introduced an internal validity threat."
+  },
+  {
+    "original_claim": "Another validity threat relates to the use of the SF110 benchmark , JaCoCo for calculating coverage results and TsDetect to find test smells."
+  },
+  {
+    "original_claim": "Recurrent networks were used by Yin et al. to map text to abstract syntax trees, which were subsequently coded using attention."
+  },
+  {
+    "original_claim": "A variety of large language learning models have been made public to generate code (e.g., CodeBert [ 19], CodeGen and CodeT5 ) after being refined on enormous code datasets."
+  },
+  {
+    "original_claim": "Shamshiri et al. proposed a search-based approach that automatically generates tests that can reveal functionality changes, given two program versions."
+  },
+  {
+    "original_claim": "On the other hand, Tufano et al. proposed an approach that aims to generate unit test cases by learning from real-world focal methods and developer-written test cases."
+  },
+  {
+    "original_claim": "Pacheco et al. presented a technique that improves random test generation by incorporating feedback obtained from executing test inputs as they are created for generating unit tests."
+  },
+  {
+    "original_claim": "Lu et al. worked on testing autonomous driving systems with reinforcement learning."
+  },
+  {
+    "original_claim": "Schäfer et al. used Codex to automatically generate unit tests using an adaptive approach."
+  },
+  {
+    "original_claim": "Lemieux et al. combined the Search-based software testing (SBST) technique with the LLM approach."
+  },
+  {
+    "original_claim": "Nashid et al. aimed to devise an effective prompt to help large language models with different code-related tasks, i.e., program repair and test assertion generation."
+  },
+  {
+    "original_claim": "Li et al. used ChatGPT to find failure-inducing tests with differential prompting."
+  },
+  {
+    "original_claim": "Bareiß et al. performed a systematic study to evaluate how a pre-trained language model of code, Codex, works with code mutation, test oracle generation from natural language documentation, and test case generation using few-shot prompting like Nashid et al. ."
+  },
+  {
+    "original_claim": "Unit testing lays as the foundational basis of the testing pyramid, beneath integration and end-to-end testing ."
+  },
+  {
+    "original_claim": "Unit Test frameworks, such as JUnit , offer an environment and APIs that facilitate writing and executing repeatable test cases."
+  },
+  {
+    "original_claim": "Several other frameworks have been built on top of JUnit, such as Cactus and TestnNG ."
+  },
+  {
+    "original_claim": "Others can be integrated with JUnit to support different scenarios or testing methodologies, such as Mockito , which allows mocking of objects by replacing functionalities with dummy implementations that emulate real code, focusing the testing on the method under test."
+  },
+  {
+    "original_claim": "EvoSuite , Randoop , and Agitar are among the most popular and widely used examples of such techniques."
+  },
+  {
+    "original_claim": "A major weakness and criticism of these approaches is related to the poor readability and understandability of the generated test cases , , which clearly appear as machine-generated code."
+  },
+  {
+    "original_claim": "Deep learning techniques have shown the potential of learning from real-world examples, and have been employed in several software engineering tasks, such as code completion , automated patch generation , , comment generation , and many others ."
+  },
+  {
+    "original_claim": "Recent advancements in transformer models, such as OpenAI’s GPT-3 , have made headlines and shown impressive results in realistic text generation and question answering tasks."
+  },
+  {
+    "original_claim": "METHODS 2TEST : the largest publicly available1 parallel corpus of test cases mapped to the corresponding focal methods ."
+  },
+  {
+    "original_claim": "Parsing We parse each project under analysis with thetree-sitter parser ."
+  },
+  {
+    "original_claim": "We publicly release the dataset METHODS 2TEST . 2.2 BART Transformer ATHENA TEST is based on a BART transformer model."
+  },
+  {
+    "original_claim": "BART is a denoising autoencoder which utilizes the standard sequence-to-sequence transformer architecture from , substituting ReLUs with GeLU activation functions."
+  },
+  {
+    "original_claim": "The pretraining is performed for 40 epochs on 160GB of English text extracted from books, Wikipedia, and news articles ."
+  },
+  {
+    "original_claim": "For pretraining validation, we use the 239 test Java repositories from the CodeSearchNet , which comprise 600MB."
+  },
+  {
+    "original_claim": "We use shared vocabulary embeddings between Encoder and Decoder for optimization reasons , and because our input and output language is the same (i.e., Java source code). 3 E XPERIMENTAL DESIGN The goal of our empirical study is to determine if our approach can generate accurate and useful unit test case given a method."
+  },
+  {
+    "original_claim": "This metaphor has also been used in the literature to characterize tokens necessary to perform bugﬁxing activities , ."
+  },
+  {
+    "original_claim": "We plan to incorporate more domain-speciﬁc testing frameworks, such as Selenium or REST Assured in future work."
+  },
+  {
+    "original_claim": "Speciﬁcally, we select ﬁve popular TABLE 2: Defects4j Projects Analyzed Project Revisions Focal Methods Lang 63 2,712 Chart 26 1,328 Cli 38 645 Csv 16 373 Gson 18 220 Total 161 5,278 and commonly used projects: Apache Commons Lang , JFreeChart , Apache Common Cli , Apache Common Csv , Google Gson ."
+  },
+  {
+    "original_claim": "EvoSuite EvoSuite is a widely known tool that automatically generates unit tests for Java software."
+  },
+  {
+    "original_claim": "GPT -3 Generative Pre-trained Transformer 3 (GPT-3) is an autoregressive language model introduced by OpenAI ."
+  },
+  {
+    "original_claim": "It has been pre-trained on the Common Crawl dataset constituting nearly a trillion words, an expanded version of the WebText dataset, two internet-based books corpora (Books1 and Books2), and English-language Wikipedia."
+  },
+  {
+    "original_claim": "For this comparison we select a small but reproducible testbed using defects4j ."
+  },
+  {
+    "original_claim": "Speciﬁcally, we select Lang1-f, which represents the ﬁxed version of the ﬁrst bug in the defects4j collection belonging to the project Apache Commons Lang ."
+  },
+  {
+    "original_claim": "Subsequently, we compute test coverage using defects4j (which, in turn, relies on Cobertura ) singularly for each unit test case generated by the three approaches."
+  },
+  {
+    "original_claim": "We publicly release all 25K correct test cases generated by ATHENA TEST in this experiment ."
+  },
+  {
+    "original_claim": "The server-side module is deployed as a containerized web application to Azure Kubernetes Service listening on a HTTPS endpoint."
+  },
+  {
+    "original_claim": "In particular, there is a class of approaches that aims at generating tests cases, such as Evosuite , Randoop , and Agitar ."
+  },
+  {
+    "original_claim": "Several existing works in the literature have proposed deep learning based approaches for software engineering tasks, such as code completion , automated patch generation , , comment generation , and many others ."
+  },
+  {
+    "original_claim": "Our work is also related to a broad set of literature on transfer learning , unsupervised language model pretraining , , and denoising pretraining , , ."
+  },
+  {
+    "original_claim": "We compare this approach to the task-agnostic few-short learning approach introduced in GPT-3 ."
+  },
+  {
+    "original_claim": "We train the model using a supervised parallel corpus of 630k test cases and corresponding focal methods in Java, which we publicly release as M ETHODS 2TEST ."
+  },
+  {
+    "original_claim": "For language generation tasks, we ﬁnd that RAG models generate more speciﬁc, diverse and factual language than a state-of-the-art parametric-only seq2seq baseline. 1 Introduction Pre-trained neural language models have been shown to learn a substantial amount of in-depth knowledge from data ."
+  },
+  {
+    "original_claim": "While this development is exciting, such models do have downsides: They cannot easily expand or revise their memory, can’t straightforwardly provide insight into their predictions, and may produce “hallucinations” ."
+  },
+  {
+    "original_claim": "The retriever (Dense Passage Retriever , henceforth DPR) provides latent documents conditioned on the input, and the seq2seq model (BART ) then conditions on these latent documents together with the input to generate the output."
+  },
+  {
+    "original_claim": "Like T5 or BART, RAG can be ﬁne-tuned on any seq2seq task, whereby both the generator and retriever are jointly learned."
+  },
+  {
+    "original_claim": "There has been extensive previous work proposing architectures to enrich systems with non-parametric memory which are trained from scratch for speciﬁc tasks, e.g. memory networks [ 64, 55], stackaugmented networks and memory layers [ 30]."
+  },
+  {
+    "original_claim": "Our RAG models achieve state-of-the-art results on open Natural Questions , WebQuestions and CuratedTrec and strongly outperform recent approaches that use specialised pre-training objectives on TriviaQA ."
+  },
+  {
+    "original_claim": "For knowledge-intensive generation, we experiment with MS-MARCO and Jeopardy question generation, and we ﬁnd that our models generate responses that are more factual, speciﬁc, and diverse than a BART baseline."
+  },
+  {
+    "original_claim": "For FEVER fact veriﬁcation, we achieve results within 4.3% of state-of-the-art pipeline models which use strong retrieval supervision."
+  },
+  {
+    "original_claim": "As shown in Figure 1, our models leverage two components: (i) a retriever p η(z |x ) with parameters η that returns (top-K truncated) distributions over text passages given a query x and (ii) a generator p θ(y i |x,z,y 1:i −1) parametrized 1Code to run experiments with RAG has been open-sourced as part of the HuggingFace Transformers Library and can be found at https://github.com/huggingface/transformers/blob/master/ examples/rag/."
+  },
+  {
+    "original_claim": "Concretely, the top K documents are retrieved using the retriever, and then the generator produces a distribution for the next output token for each document, before marginalizing, and repeating the process with the following output token, Formally, we deﬁne: pRAG-Token(y|x) ≈ N∏ i ∑ z∈top-k(p(·|x)) pη(z|x)pθ(yi|x,z,y 1:i−1) Finally, we note that RAG can be used for sequence classiﬁcation tasks by considering the target class as a target sequence of length one, in which case RAG-Sequence and RAG-Token are equivalent. 2.2 Retriever: DPR The retrieval component pη(z|x) is based on DPR ."
+  },
+  {
+    "original_claim": "DPR follows a bi-encoder architecture: pη(z|x) ∝exp ( d(z)⊤q(x) ) d(z) =BERTd(z), q(x) =BERTq(x) where d(z) is a dense representation of a document produced by a BERTBASE document encoder , and q(x) a query representation produced by a query encoder, also based on BERTBASE."
+  },
+  {
+    "original_claim": "Calculating top-k(pη(·|x)), the list of kdocuments zwith highest prior probability pη(z|x), is a Maximum Inner Product Search (MIPS) problem, which can be approximately solved in sub-linear time ."
+  },
+  {
+    "original_claim": "This retriever was trained to retrieve documents which contain answers to TriviaQA questions and Natural Questions ."
+  },
+  {
+    "original_claim": "We use BART-large , a pre-trained seq2seq transformer with 400M parameters."
+  },
+  {
+    "original_claim": "It has obtained state-of-the-art results on a diverse set of generation tasks and outperforms comparably-sized T5 models ."
+  },
+  {
+    "original_claim": "Given a ﬁne-tuning training corpus of input/output pairs (xj,yj), we 3 minimize the negative marginal log-likelihood of each target, ∑ j−log p(yj|xj) using stochastic gradient descent with Adam ."
+  },
+  {
+    "original_claim": "Updating the document encoder BERTd during training is costly as it requires the document index to be periodically updated as REALM does during pre-training ."
+  },
+  {
+    "original_claim": "Following Lee et al. and Karpukhin et al. , we use the December 2018 dump."
+  },
+  {
+    "original_claim": "We use the document encoder to compute an embedding for each document, and build a single MIPS index using FAISS with a Hierarchical Navigable Small World approximation for fast retrieval ."
+  },
+  {
+    "original_claim": "We now discuss experimental details for each task. 3.1 Open-domain Question Answering Open-domain question answering (QA) is an important real-world application and common testbed for knowledge-intensive tasks ."
+  },
+  {
+    "original_claim": "We also compare to “Closed-Book QA” approaches , which, like RAG, generate answers, but which do not exploit retrieval, instead relying purely on parametric knowledge."
+  },
+  {
+    "original_claim": "We consider four popular open-domain QA datasets: Natural Questions (NQ) , TriviaQA (TQA) ."
+  },
+  {
+    "original_claim": "WebQuestions (WQ) and CuratedTrec (CT) ."
+  },
+  {
+    "original_claim": "As CT and WQ are small, we follow DPR by initializing CT and WQ models with our NQ RAG model."
+  },
+  {
+    "original_claim": "For TQA, to compare with T5 , we also evaluate on the TQA Wiki test set. 3.2 Abstractive Question Answering RAG models can go beyond simple extractive QA and answer questions with free-form, abstractive text generation."
+  },
+  {
+    "original_claim": "Following , we evaluate using the SQuAD-tuned Q-BLEU-1 metric [ 42]."
+  },
+  {
+    "original_claim": "We follow best practice and use pairwise comparative evaluation ."
+  },
+  {
+    "original_claim": "We explore two variants: the standard 3-way classiﬁcation task (supports/refutes/not enough info) and the 2-way (supports/refutes) task studied in Thorne and Vlachos ."
+  },
+  {
+    "original_claim": "Unlike REALM and T5+SSM, RAG enjoys strong results without expensive, specialized “salient span masking” pre-training ."
+  },
+  {
+    "original_claim": "RAG-T It’s the only U.S. state named for a U.S. president RAG-S It’s the state where you’ll ﬁnd Mount Rainier National Park The Divine Comedy BART *This epic poem by Dante is divided into 3 parts: the Inferno, the Purgatorio & the Purgatorio RAG-T Dante’s \"Inferno\" is the ﬁrst part of this epic poem RAG-S This 14th century work is divided into 3 sections: \"Inferno\", \"Purgatorio\" & \"Paradiso\" For 2-way classiﬁcation, we compare against Thorne and Vlachos , who train RoBERTa to classify the claim as true or false given the gold evidence sentence."
+  },
+  {
+    "original_claim": "We compare RAG’s dense retriever to a word overlap-based BM25 retriever ."
+  },
+  {
+    "original_claim": "To demonstrate, we build an index using the DrQA Wikipedia dump from December 2016 and compare outputs from RAG using this index to the newer index from our main results (December 2018)."
+  },
+  {
+    "original_claim": "GPT-2 later showed that a single, left-to-right, pre-trained language model could achieve strong performance across both discriminative and generative tasks."
+  },
+  {
+    "original_claim": "Concurrent work learns to retrieve a trained embedding for each entity in the input, rather than to retrieve raw text as in our work."
+  },
+  {
+    "original_claim": "This approach has also been used in knowledge-intensive dialog, where generators have been conditioned on retrieved text directly, albeit obtained via TF-IDF rather than end-to-end learnt retrieval ."
+  },
+  {
+    "original_claim": "These approaches have proved successful in a number of domains including Machine Translation [ 18, 22] and Semantic Parsing ."
+  },
+  {
+    "original_claim": "Since RAG can be employed as a language model, similar concerns as for GPT-2 are valid here, although arguably to a lesser extent, including that it might be used to generate abuse, faked or misleading content in the news or on social media; to impersonate others; or to automate the production of spam/phishing content ."
+  },
+  {
+    "original_claim": "Advanced language models may also lead to the automation of various jobs in the coming decades ."
+  },
+  {
+    "original_claim": "1145/nnnnnnn.nnnnnnn 1 INTRODUCTION Unit testing is a critical component of software development to assure the quality of software systems and improve developers’ productivity ."
+  },
+  {
+    "original_claim": "For example, random-based test case generation , and searchbased test case generation ."
+  },
+  {
+    "original_claim": "However, prior studies found that both may achieve good code coverage, but they do not produce human-readable test cases (e.g., generating a test method name astest0(), instead oftestAddition()) and the inability to adequately meet the software testing needs of industrial developers , ."
+  },
+  {
+    "original_claim": "Recently, Tufanoet al.proposed AthenaTest, a Transformer-based model that is learned from developer-written test cases in order to generate correct and readable tests ."
+  },
+  {
+    "original_claim": "To address this challenge, we first perform a partial replication study (RS) of Tufanoet al. usingDefects4J[ 16]asanevaluationdataset.Todoso,weimplementedtheAthenaTest approach at our own best capability using the hyperparameter settings reported in the original paper."
+  },
+  {
+    "original_claim": "On the other hand, with our modification, we can successfully implement the AthenaTest approach that achieves results (i.e., 18.08%) that is similar to the original paper (i.e., 16.21%)."
+  },
+  {
+    "original_claim": "To do so, we first build a pre-trained language model of assertions in a self-supervised manner using a PLBART architecture with a masked language model."
+  },
+  {
+    "original_claim": "Finally, we evaluate our A3Test using a Defects4J dataset , which consists of 5K test methods that span across five large-scale open-source software projects (i.e., Lang, Chart, Cli, Csv, Gson) to answer the following four research questions. (RQ1) How effective is A3Test compared to AthenaTest?"
+  },
+  {
+    "original_claim": "4 Saranya Alagarsamy, Chakkrit Tantithamthavorn, and Aldeida Aleti There are software tools and frameworks to support writing and running unit tests, such as Junit , TestNG ."
+  },
+  {
+    "original_claim": "Particularly, a class of methodologies—including Evosuite , Randoop and Agitar —aims to produce test cases."
+  },
+  {
+    "original_claim": "Randoop checks for errors by generating random sequences of method calls on objects in a Java program and then running these sequences as test cases."
+  },
+  {
+    "original_claim": "Evosuite is an SBST-based which relies on an evolutionary approach based on a genetic algorithm to generate unit test cases, targeting code coverage."
+  },
+  {
+    "original_claim": "Deep learning-based approaches have been suggested in a few existing studies in the literature for software engineering jobs like code completion , automatic patch generation , comment generation , and many others ."
+  },
+  {
+    "original_claim": "The extensive literature on transfer learning , unsupervised language model pre-training , and denoising pre-training is also relevant to our work. 2.2 DL-based Test Case Generation Both Random-based and Search-based approaches fall short of the capability to generate readable test cases."
+  },
+  {
+    "original_claim": "Recently, AthenaTest , a DL-based approach that leverages a sequenceto-sequence BART transformer model to automatically generate test cases by learning from real-world focal methods and developer-written test cases."
+  },
+  {
+    "original_claim": "(RS) The percentage of correct test cases of AthenaTest from the original paperet al., our replication, and our modification."
+  },
+  {
+    "original_claim": "The hyperparameter settings that are reported by AthenaTest and the four additional settings (under a horizontal line) that we modified in order to achieve comparable accuracy."
+  },
+  {
+    "original_claim": "AthenaTest is pre-trained on English and Java code and fine-tuned on methods2test dataset."
+  },
+  {
+    "original_claim": "However AthenaTest produce low percentage (i.e., 16%) of correct test cases and requires multiple attempts to generate test cases which emphasis the need for further improved performance of DL-based test case generation. 3 A REPLICATION OF ATHENATEST In this section, we present our partial replication study (RS) of the AthenaTest approach, proposed by Tufanoet al.."
+  },
+  {
+    "original_claim": "We employ the Methods2Test dataset to conduct the replication study."
+  },
+  {
+    "original_claim": "We use the Defects4J as an evaluation dataset and evaluate the model using the number of correct test cases, i.e., the test case that passes the execution and invokes the given focal method."
+  },
+  {
+    "original_claim": "We can successfully implement the AthenaTest approach that achieves results (i.e., 18.08%) similar to the original paper (i.e., 16.21%)."
+  },
+  {
+    "original_claim": "A3Test: Assertion-Augmented Automated Test Case Generation 7 architecture with a masked language model."
+  },
+  {
+    "original_claim": "Different from Athena2Test which uses a BART architecture, we use the PLBART architecture as a base architecture for building a pre-trained model."
+  },
+  {
+    "original_claim": "To build our pre-trained assert model, we use an Atlas dataset , which is a large corpus of 188,154 pairs of focal methods and assert statements. 4.2 Learning Meaningful Test Cases Following the domain adaptation principle, we will transfer the pre-trained assert model to fine-tune it in order to learn meaningful test cases."
+  },
+  {
+    "original_claim": "In particular, we fine-tune our A3Test model using the Methods2Test dataset ."
+  },
+  {
+    "original_claim": "To do so, we use a beam search as a decoding method."
+  },
+  {
+    "original_claim": "Similar to AthenaTest , we use Defects4J as a benchmark evaluation dataset."
+  },
+  {
+    "original_claim": "In particular, we chose the same five Defect4j projects as AthenaTest for test case generation, namely, Apache Commons Lang , JFreeChart , Apache Common CLI , Apache Common CSV , Google Gson ."
+  },
+  {
+    "original_claim": "Model Implementation.A3Test is built on top of two deep-learning Python libraries, Transformers and PyTorch ."
+  },
+  {
+    "original_claim": "Model Training.The PLBART tokenizer and model pre-trained by Ahmadet al. are obtained from the Transformers library."
+  },
+  {
+    "original_claim": "For the AthenaTest approach, we use all the best hyperparameters described in Tufanoet al. ."
+  },
+  {
+    "original_claim": "We use AdamW optimizer which is widely adopted to fine-tune our A3Test models to update the model and minimise the loss function. 6 EXPERIMENTAL RESULTS RQ1: How effective is A3Test compared to AthenaTest?"
+  },
+  {
+    "original_claim": "Tufano et al. proposed AthenaTest for test case generation."
+  },
+  {
+    "original_claim": "To answer this RQ, we evaluate the effectiveness of our A3Test approach and compare it with AthenaTest using the following two evaluation measures, similar to Tufanoet al. ."
+  },
+  {
+    "original_claim": "To do so, we execute the test cases through the JUnit framework in order to obtain a test coverage analysis report."
+  },
+  {
+    "original_claim": "To answer this RQ, we select the four existing pre-trained models of code, namely, CodeT5 , CodeBERT , CodeGPT , and PLBART as a base model for the test case generation task, without including the other components (Assert+Verification)."
+  },
+  {
+    "original_claim": "Experiments are based on five projects from Defects4J ."
+  },
+  {
+    "original_claim": "PBT was first popularized by the Quickcheck library in Haskell, and has been used to find a plethora of bugs in a variety of real-world software [2–5]."
+  },
+  {
+    "original_claim": "Using the Open Source Insights dependency dataset, we find that only 222 out of 180,000 PyPI packages list the Python PBT library Hypothesis as a dependency, despite it being a very popular project (6.7k+ stars on GitHub)."
+  },
+  {
+    "original_claim": "Harrison et al. conducted a series of interviews and detail a set of challenges faced by professional developers when attempting to use PBT in their software."
+  },
+  {
+    "original_claim": "While LLMs have shown effectiveness in synthesizing unit tests and fuzz harnesses [20–22], synthesizing property-based tests has unique challenges."
+  },
+  {
+    "original_claim": "In summary, our contributions are the following: (1) We propose an approach for using LLMs to synthesize property-based tests given API documentation. (2) We propose a methodology for evaluating LLM-synthesized property-based tests considering validity, soundness, and completeness. (3) We demonstrate alignment between our metric for soundness and human judgment through manual labeling. (4) We propose a novel metric ofproperty coverage for measuring completeness with respect to documented properties. (5) We present an empirical evaluation of the validity, soundness, and property coverage of PBTs synthesized by three state-ofthe-art commercial LLMs across two prompting strategies. 2 BACKGROUND 2.1 Property-based Testing Property-based testing aims to probabilistically test a program by generating a large number of random inputs and checking whether the corresponding outputs of the program adhere to a set of desired properties."
+  },
+  {
+    "original_claim": "We next describe how our formal definition translates to code in Hypothesis , a popular PBT library for Python."
+  },
+  {
+    "original_claim": "This extensive pre-training allows them to function as one-shot or zero-shot learners ."
+  },
+  {
+    "original_claim": "The natural-language instructions, along with any additional input data, that are passed to the LLM are called the prompt ."
+  },
+  {
+    "original_claim": "problem with using LLMs to generate code ."
+  },
+  {
+    "original_claim": "A randomly generated input of array([]produces an assertion failure when this test is run since the input shape is (1, 1)and the output shape is (1,); this is not an actual bug and the behavior of the cumsummethod conforms with the API documentation."
+  },
+  {
+    "original_claim": "One related idea ismutation testing, which measures the ability of a test to detect bugs artificially bugs in the program under test ."
+  },
+  {
+    "original_claim": "We chose three state-of-the-art language models for our evaluation: OpenAI’s GPT-4 , Anthropic’s Claude-3-Opus , and Google’s Gemini-1.5-Pro . 1 API Methods."
+  },
+  {
+    "original_claim": "Another threat to internal validity is the existence of equivalent mutants, which is a well studied problem in mutation testing ."
+  },
+  {
+    "original_claim": "Many equivalent mutants arise due to the mutation at the source code level not propagating to the output of the program ."
+  },
+  {
+    "original_claim": "TestPilot uses fully automated prompt refinement when generating unit tests."
+  },
+  {
+    "original_claim": "Randoop generates only regression assertions."
+  },
+  {
+    "original_claim": "The 𝜇Test approach uses mutation testing to reduce the number of assertions, and has been adopted in test suite generation systems such as Evosuite [ 58] and Pynguin [ 59]."
+  },
+  {
+    "original_claim": "From JavaDoc comments, TORADOCU [ 60] extracts exception oracles; MeMO extracts metamorphic relation oracles; and CallMeMaybe extracts temporal property oracles."
+  },
+  {
+    "original_claim": "ATLAS trains a Neural Machine Translation model on a dataset of (test case, oracle) pairs, and uses the trained model to generate oracles on new test cases."
+  },
+  {
+    "original_claim": "Fuzz4All applies LLMs to guide and mutate input generation in fuzzing."
+  },
+  {
+    "original_claim": "The authors of UTopia , which extracts fuzz drivers from unit tests, note that some unit tests assertions (e.g., checking null pointers) must be preserved to maintain property validity."
+  },
+  {
+    "original_claim": "LLMs also have been applied for the task of fuzz driver generation ."
+  },
+  {
+    "original_claim": "OSS-Fuzz has a workflow to prompt LLMs for automated fuzz driver generation."
+  },
+  {
+    "original_claim": "DocPrompting uses retrieval to fetch relevant documentation pieces for a given naturallanguage-to-code task."
+  },
+  {
+    "original_claim": "ARKS proposes active retrieval for code generation, which evolves a “knowledge soup” integration many different forms of knowledge to prompt the LLM."
+  },
+  {
+    "original_claim": "For instance, EvoSuite , a notable search-based tool, demonstrates effectiveness in achieving reasonable coverage."
+  },
+  {
+    "original_claim": "TestPilot , a leading LLM-based tool developed by GitHub, introduces an adaptive test generation mechanism based on Codex ."
+  },
+  {
+    "original_claim": "TestSpark , a JetBrains IDEA plugin, provides dual modes for test generation: one leverages OpenAI and JetBrains’ AI for LLM-based generation, and the other uses EvoSuite for search-based generation."
+  },
+  {
+    "original_claim": "Although recent LLMs exhibit the ability to handle longer contexts as input, it remains imperative to provide concise and precise context to LLMs for reasons of economic cost and the lost-in-the-middle effect ."
+  },
+  {
+    "original_claim": "Analysis Generation Validation Repair Prompt Construction Preparation Projects Other tools & langs hatUniTest Core hatUniTest Toolchain Preprocessing Postprocessing Generation Figure 1: overview of chatunitest-core and tools derived mechanisms, we have developed theChatUniTest Core to assist researchers and tool builders. •We have implemented the ChatUniTest Toolchain, which includes the Maven plugin [ 11] and the IntelliJ IDEA plugin ."
+  },
+  {
+    "original_claim": "Notably, TestPilot and TestSpark are typical test generation solutions based on LLMs, and they provide user-friendly services or tools for this purpose."
+  },
+  {
+    "original_claim": "TestPilot automates unit test generation for JavaScript programs."
+  },
+  {
+    "original_claim": "TestSpark introduces a novel approach to unit test generation within the IntelliJ IDEA."
+  },
+  {
+    "original_claim": "For example, we intend to conduct program slicing to extract API call sample code and perform dependency analysis to build Object Construction Graphs (OCGs ), which can provide guidance for LLM to generate driver code. 3.2 Prompt Construction ChatUniTest employs an adaptive focal context generation mechanism and a prompt template to construct the input prompt for LLM."
+  },
+  {
+    "original_claim": "ChatUniTest utilizes the FreeMarker Java Template Engine to generate the prompt based on the template and ChatUniTest: A Framework for LLM-Based Test Generation FSE Companion ’24, July 15–19, 2024, Porto de Galinhas, Brazil changing context."
+  },
+  {
+    "original_claim": "Inspired by the CAT-LM , we also build ChatUniTest Models, which provides fine-tuned models for Java test generation tasks based on Code Llama. 3.4 Syntactic, Compile and Runtime Validation The extracted test will be forwarded to the validation component for further verification of its correctness."
+  },
+  {
+    "original_claim": "As Table 1 shows, we selected four Java projects for our experiment: Commons-Cli[ 1], Commons-Csv[ 3], Ecommercemicroservice, and Binance-connector[ 7]."
+  },
+  {
+    "original_claim": "We distributed questionnaires (see for the details) to 19 individuals who either starred, forked our project, raised issues on GitHub, or reached out to us via email."
+  },
+  {
+    "original_claim": "Moreover, we intend to provide a broader range of benchmark implementations (such as SysPrompt and ChatTester ), built upon the ChatUniTest."
+  },
+  {
+    "original_claim": "For a method under test (i.e., often called as the focal method), its corresponding unit test consists of atest prefix and a test oracle ."
+  },
+  {
+    "original_claim": "Although achieving reasonable coverage, these automatically-generated tests exhibit a large gap to manual-written ones in terms of readability and meaningfulness, and thus developers are mostly unwilling to directly adopt them in practice ."
+  },
+  {
+    "original_claim": "In this work, we perform the first empirical study to evaluate the capability of ChatGPT (i.e., one of the most representative LLMs) in unit test generation."
+  },
+  {
+    "original_claim": "Most LLMs are designed on a Transformer , which contains an encoder for input representation and a decoder for output generation."
+  },
+  {
+    "original_claim": "Existing LLMs can be grouped into three categories, including encoder-only ( e.g., CodeBERT ), decoder-only (e.g., CodeGen ), and encoder-decoder models (e.g., CodeT5 )."
+  },
+  {
+    "original_claim": "For example, ChatGPT , one of the most representative LLMs developed by OpenAI based on the generative pre-trained transformer (GPT) architecture, first tunes the GPT model with instruction tuning and then updates the model with reinforcement learning from human feedback."
+  },
+  {
+    "original_claim": "In addition to commercial LLMs, there are an emerging number of open-source instructed LLMs (e.g., CodeLlama-Instruct and CodeFuse ) that also show promising performance in various tasks. 2.2 Unit Test Generation For a method under test ( i.e., often called as the focal method), unit test generation techniques automatically generate its corresponding unit test, which often consists of a test prefix and a test oracle ."
+  },
+  {
+    "original_claim": "We use the 4,685 Java projects in the popular benchmark CodeSearchNet as the initial project list."
+  },
+  {
+    "original_claim": "Following existing learning-based unit test generation work , we include the following code context into the CC part: (i) the complete focal method, including the signature and body; (ii) the name of the focal class (i.e., the class that the focal method belongs to); (iii) the field in the focal class; and (iv) the signatures of all methods defined in the focal class."
+  },
+  {
+    "original_claim": "For traditional techniques, we use Evosuite as the baseline with its default setting (e.g., “assertion_strategy” = MUTATION and “assertion_timeout = 60s”)."
+  },
+  {
+    "original_claim": "For learning-based techniques, we include AthenaTest as the baseline."
+  },
+  {
+    "original_claim": "We do not consider the recent learningbased test completion technique Teco since it mainly targets at statement-level test completion while in this work we focus on directly generating a complete test method."
+  },
+  {
+    "original_claim": "We do not include the two Codex-based test generation techniques (e.g., CODAMOSA and LIBRO ), since Proc."
+  },
+  {
+    "original_claim": "We choose CodeT5 since it has been pre-trained on both textual and code corpus, which is also the best pre-training setting shown in the AthenaTest paper ."
+  },
+  {
+    "original_claim": "To automate our experiments, we use the official ChatGPT API with the default setting."
+  },
+  {
+    "original_claim": "Here we leverage AST parser (such as JavaParser ) as a syntax checker."
+  },
+  {
+    "original_claim": "In particular, we leverage Jacoco to collect the coverage."
+  },
+  {
+    "original_claim": "To evaluate the generalization capability of ChatTester with different LLMs, we replace ChatGPT in ChatTester with two different open-source LLMs, i.e., CodeLlama-Instruct34B and CodeFuse-34B [ 15]."
+  },
+  {
+    "original_claim": "Overview of Projects in RQ7 Project Name # Line Of Code Domain zappos-json 3,552 Serialization tabula-java 5,586 File processing jInstagram 6,303 Instagram API wrapper Proc."
+  },
+  {
+    "original_claim": "In addition, to evaluate the generalization capability of ChatTester on different programming languages, we further perform an additional evaluation of ChatTester on a Python dataset, HumanEval ."
+  },
+  {
+    "original_claim": "For example, AthenaTest fine-tunes BART on a test generation dataset where the input is the focal method with the relevant code context while the output is the complete test case."
+  },
+  {
+    "original_claim": "For example, breaking down complex tasks into smaller tasks (such as chain of thought reasoning and tree of thought reasoning ) has been demonstrated as effective prompting strategies, which are also high-level ideas inspiring ChatTester."
+  },
+  {
+    "original_claim": "Nashid et al. propose a retrieval-based prompt construction strategy that queries Codex with few shots to generate test assertions."
+  },
+  {
+    "original_claim": "CODAMOSA enhances traditional search-based techniques by using tests generated by Codex to escape from the “plateaus” during the search procedure."
+  },
+  {
+    "original_claim": "LIBRO leverages Codex to generate tests for the given bug report."
+  },
+  {
+    "original_claim": "Li et al. propose differential prompts to generate failure-inducing test inputs via ChatGPT, which focuses on generating test inputs via LLMs, while our work focuses on generating a complete unit test case of both test inputs and test code (e.g., the test prefix)."
+  },
+  {
+    "original_claim": "Ring System and TestPilot also employ LLM for test generation and bug repair, respectively."
+  },
+  {
+    "original_claim": "For example, some approaches generate test oracles based on informal API documentation [ 10, 11, 22], infer API usage protocols [ 57], or suggest missing type annotations ."
+  },
+  {
+    "original_claim": "More recently, learning-based approaches have started to complement traditional program analysis-based code generation tools ."
+  },
+  {
+    "original_claim": "A recent trend in the natural language processing (NLP) community promises a form of “general intelligence” that remedies many of the problems of building task-specific techniques: few-shot learning with large-scale, pre-trained language models , henceforth abbreviated with FSLMs."
+  },
+  {
+    "original_claim": "Once trained, FSLMs are effective at various question answering and text generation tasks, e.g., reading comprehension, trivia quizzes, translation between languages, and text completion ."
+  },
+  {
+    "original_claim": "Noteworthy exceptions include GitHub’s Copilot code completion system1, which is based on the Codex FSLM , and the recently released, open-source PolyCoder model family [ 55]."
+  },
+  {
+    "original_claim": "We then systematically compare the results produced by the FSLM-based tool against an existing, state-of-theart tool built specifically for the same purpose: the Major code mutation tool, the MeMo test oracle extraction tool, and the Randoop test case generator."
+  },
+  {
+    "original_claim": "For example, for oracle generation, we measure an F1 score of 0.59 and 0.60 for MeMo and an FSLM-based tool, respectively."
+  },
+  {
+    "original_claim": "A recently proposed alternative is few-shot learning , which refers to the ability to perform a task without any fine-tuning, but given only very few (typically, between one and ten) examples as part of the query to the model."
+  },
+  {
+    "original_claim": "We use OpenAI’s Codex model, which is trained on a large set of GitHub projects."
+  },
+  {
+    "original_claim": "Alternative generative models exist, e.g., GPT-NeoX ."
+  },
+  {
+    "original_claim": "The framework relies on a large-scale language model pre-trained on code, such as Codex ."
+  },
+  {
+    "original_claim": "To measure the effectiveness of the FSLM-based tool, we use a ground truth dataset available from MeMo’s artifacts ."
+  },
+  {
+    "original_claim": "Test case generation is a labor-intensive task in software testing , and several techniques have been proposed to automate unit test case generation . 3.4.1 Baseline Tool."
+  },
+  {
+    "original_claim": "Randoop and EvoSuite are popular representatives of such tools."
+  },
+  {
+    "original_claim": "The table shows that the distribution of mutants that the FSLM and Major generate clearly differ: 6 A Study of Few-Shot, Pre-Trained Language Models on Code Conference’17, July 2017, Washington, DC, USA Table 3: Mutants generated by our FSLM-based tool and by Major ."
+  },
+  {
+    "original_claim": "We make two interesting observations: •The FSLM model generates mutants that Major cannot generate based on its built-in mutation operators ."
+  },
+  {
+    "original_claim": "This section compares the accuracy of (metamorphic) test oracle generators, namely, the state-of-the-art MeMo and its FSLMbased counterpart."
+  },
+  {
+    "original_claim": "Table 5 summarizes the results of generating test cases with our FSLM-based approach and with Randoop on 18 methods."
+  },
+  {
+    "original_claim": "We measure coverage using JaCoCo ."
+  },
+  {
+    "original_claim": "Furthermore, we find that providing suitable examples is crucial for the model to make effective predictions. 4.3 RQ3: Impact of Model Size Training larger language models on more data often results in performance improvements for downstream tasks ."
+  },
+  {
+    "original_claim": "Since larger models come with a hefty computational price , we also measure the impact of using a smaller model."
+  },
+  {
+    "original_claim": "To this end, we repeat our experiments with the “Cushman” model of Codex, which is a derivative of a small model trained by Chen et al. . 4.3.1 Code Mutation."
+  },
+  {
+    "original_claim": "Training large-scale models of code may easily cost hundreds, or even millions, of dollars ."
+  },
+  {
+    "original_claim": "Prior research shows that large-scale models perform well across many differing languages . 6 RELATED WORK Studies of neural models of code."
+  },
+  {
+    "original_claim": "This comes in multiple forms, such as evaluating a series of similar models or models with the same architecture but differing size ."
+  },
+  {
+    "original_claim": "Another approach is to apply a model of code to multiple downstream tasks and compare its performance, e.g., by fine-tuning a transformer model to perform tasks similar to the ones we explore in our research ."
+  },
+  {
+    "original_claim": "Degiovanni and Papadakis use a pre-trained language model for mutation testing by masking one token at a time and asking the model to predict an alternative, which is then considered a mutation."
+  },
+  {
+    "original_claim": "Jain et al . use generative language models for program synthesis given a natural description of the desired functionality and some code examples that are likely similar to the expected code."
+  },
+  {
+    "original_claim": "Since the introduction of Transformers , generative language modeling has seen huge progress."
+  },
+  {
+    "original_claim": "Our study is part of a larger stream of work on neural models of software ."
+  },
+  {
+    "original_claim": "Several approaches, e.g., based on AST paths , control flow graphs , ASTs , and a combination of token sequences and a graph representation of code have been proposed."
+  },
+  {
+    "original_claim": "The general-purpose generative model used here does not explicitly embed code into a vector representation, but instead relies on the ability of transformers to reason about long-range dependencies."
+  },
+  {
+    "original_claim": "By systematically comparing the recently proposed Codex model against three traditionally built tools, we find that our model-based tools complement, are on par with, or even exceed the baseline tools."
+  },
+  {
+    "original_claim": "For instance, OpenAI made a groundbreaking application of RL to the training process of large language models, specifically with ChatGPT, which received tremendous attention."
+  },
+  {
+    "original_claim": "Besides, LLama2 designed a multi-objective reward function that not only ensures the safety of model outputs but also enhances their helpfulness."
+  },
+  {
+    "original_claim": "This helps improve the alignment process and ensures better learning of the generation model. 3.4 Objective Alignment To avoid introducing bias through the reward model, we introduce the Preference Rank Optimization (PRO) , based on the Bradley Terry Model."
+  },
+  {
+    "original_claim": "CLE-QR is the previous-generation query rewriter of Taobao search that generates semantic representations and retrieve related rewrites for each query based on contrastive learning."
+  },
+  {
+    "original_claim": "BART is a powerful pre-trained generation model based on the encoder-decoder structure."
+  },
+  {
+    "original_claim": "Qwen is a large-scale language model based on the decoderonly structure that contains 7 Billion parameters."
+  },
+  {
+    "original_claim": "Furthermore, following the settings of , we introduce an RL-based LLM and utilize relevance, increment, and hitrate as rewards to encourage the RL model to align with the Taobao offline metrics, respectively."
+  },
+  {
+    "original_claim": "To address this question, new benchmarks for measuring reasoning abilities, such as MathVista , Bongard-Logo , and Raven , have been proposed."
+  },
+  {
+    "original_claim": "Among these, the Abstraction and Reasoning Corpus (ARC) emerged to be one of the representative benchmarks for assessing reasoning abilities."
+  },
+  {
+    "original_claim": "The best-performing models to date have only achieved an accuracy of 40-55% , while LLMs (GPT-4, PaLM) have shown an accuracy of around 10-20% ."
+  },
+  {
+    "original_claim": "Compared to the average human accuracy of 80% , these results suggest significant differences in reasoning and abstraction capabilities between humans and LLMs."
+  },
+  {
+    "original_claim": "According to the Language of Thought Hypothesis (LoTH) , human reasoning encompasses three essential characteristics: Reasoning Abilities of Large Language Models: In-Depth Analysis on the Abstraction and Reasoning Corpus 3 Logical Coherence , the ability to maintain consistency in reasoning; Compositionality, the capability to construct complex ideas from simpler components; and Productivity, the capacity to formulate an indefinite number of thoughts or solutions using a finite set of elements."
+  },
+  {
+    "original_claim": "These are Inferential Coherence – the ability to apply logical reasoning across related instances coherently – and Semantic Coherence — the ability to maintain logical coherence in the reasoning process and results ."
+  },
+  {
+    "original_claim": "Subsequently, we conducted an additional analysis to determine if the LLM could accurately predict the results from the given step-by-step functions and to understand the reasons for the failure. (3) Productivity: Productivity refers to the ability to infinitely create unseen expressions by combining a limited set of semantics ."
+  },
+  {
+    "original_claim": "Especially, analyses confirm that LLMs possess elements of a World Model , indicating potential in inference tasks."
+  },
+  {
+    "original_claim": "However, challenges in reasoning persist [ 58], with errors such as distortion and incomplete reasoning being frequently observed ."
+  },
+  {
+    "original_claim": "Studies indicate that complex compositionality remains a significant challenge ."
+  },
+  {
+    "original_claim": "West et al. raised concerns about evaluating LLMs’ reasoning abilities solely from this perspective."
+  },
+  {
+    "original_claim": "Logical coherence refers to the ability to construct coherent logic in problem-solving ."
+  },
+  {
+    "original_claim": "Compositionality involves understanding and combining complex expressions ."
+  },
+  {
+    "original_claim": "For instance, integrating graphrepresented object information nearly doubled the success rate . (2) High Abstraction Level of ARC: ARC’s abstraction level surpasses that of other benchmarks ."
+  },
+  {
+    "original_claim": "Chollet argues that conventional feature extraction methods are insufficient for ARC, given its demand for complex shape interpretation and transformation comprehension ."
+  },
+  {
+    "original_claim": "Despite its simple rules, ARC remains challenging, with LLMs achieving 15% accuracy , traditional program synthesis models reaching 26% , and the human average accuracy at 80% ."
+  },
+  {
+    "original_claim": "Various ARC variants have emerged to address this challenge: (1) 1D-ARC : Reduces dimensionality from 2D to 1D, simplifying complexity while retaining core knowledge."
+  },
+  {
+    "original_claim": "It effectively addresses object cohesion challenges, achieving high LLM accuracy (approximately 90%). (2) MC-LARC : Adopts a multiple-choice format, transitioning from generative tasks to selection tasks."
+  },
+  {
+    "original_claim": "GPT-4 demonstrated strong performance (approximately 75%). (3) Mini-ARC : Limits grid size to 5x5, simplifying input while retaining 2D generative characteristics."
+  },
+  {
+    "original_claim": "Performance remains challenging, similar to the original ARC (approximately 15%). (4) ConceptARC : Organizes tasks into concept groups that focus on specific spatial and semantic concepts."
+  },
+  {
+    "original_claim": "This is a fundamental aspect of LoTH, which considers coherence in two dimensions: inferential coherence and semantic coherence ."
+  },
+  {
+    "original_claim": "The perceived deficiency in LLMs’ logical reasoning has been a recurrent critique, with direct attempts to solve ARC tasks yielding success rates below 10% ."
+  },
+  {
+    "original_claim": "These strategies have been shown to effectively leverage LLMs’ reasoning capabilities and offer the advantage of providing a more transparent analysis for humans, as they involve a step-by-step reasoning process."
+  },
+  {
+    "original_claim": "These tasks shared a common characteristic of conceptual simplicity, utilizing only one of the four prior knowledge domains included in ARC: objectness, Reasoning Abilities of Large Language Models: In-Depth Analysis on the Abstraction and Reasoning Corpus 13 goal-directedness, numbers and counting, and basic geometry ."
+  },
+  {
+    "original_claim": "Another study showed that LLMs struggle with accurate self-reflection in tasks like mathematical reasoning and translation."
+  },
+  {
+    "original_claim": "Additionally, research revealed that LLMs often fail to detect errors in intermediate steps, exposing flaws in their reasoning process."
+  },
+  {
+    "original_claim": "In Section 3.2, we investigate compositionality, the second concept of LoTH.2 Compositionality refers to the ability to generate complex linguistic expressions given simpler ones ."
+  },
+  {
+    "original_claim": "Previous studies have tested a model’s compositionality by providing functions in the prompt that can be combined to solve tasks and then checking if the model can solve them ."
+  },
+  {
+    "original_claim": "To analyze the results according to each condition, four types of experiments were conducted: 1) given only DSL, 2) given correct output along with DSL, 3) given human descriptions to ARC test examples along with DSL, and 4) given both correct output grid and human descriptions along with DSL."
+  },
+  {
+    "original_claim": "We used the PnP algorithm to extract object information from ARC tasks."
+  },
+  {
+    "original_claim": "One study shows Transformers exhibit significant performance drops when tested on new function combinations, indicating challenges in systematically generalizing knowledge ."
+  },
+  {
+    "original_claim": "Another study introduced datasets like SADE to evaluate LLMs’ ability to process visual and textual information, suggesting they still struggle with tasks like understanding negations and grasping complex content ."
+  },
+  {
+    "original_claim": "These found that while LLMs improve at understanding simple tasks by learning complex ones, they struggle with complex tasks when starting from simpler ones ."
+  },
+  {
+    "original_claim": "Productivity refers to the ability to generate unseen representations based on observed data ."
+  },
+  {
+    "original_claim": "Therefore, we utilized ConceptARC , which maintains the same format as ARC but provides categories for each task, making it more suitable for our experimental design."
+  },
+  {
+    "original_claim": "Xu et al. emphasized the importance of object-based representation and proposed ARGA, which transforms example grids into graphs."
+  },
+  {
+    "original_claim": "Since only about 40% of ARC tasks involve object concepts , this approach cannot address more than half of the tasks."
+  },
+  {
+    "original_claim": "Wang et al. partially enhanced LLM abstraction with a graph-form dataset, AbsPyramid, containing 221K textual descriptions, and proposed a framework called AbsInstruct."
+  },
+  {
+    "original_claim": "Subsequently, Wang et al. reported improved results by having LLMs generate DSLs based on hypotheses they set themselves."
+  },
+  {
+    "original_claim": "Zhou et al. demonstrated enhanced inference performance in LLMs by applying in-context learning."
+  },
+  {
+    "original_claim": "For example, CoT-SC is a study that selects results through voting from multiple instances of CoT, GoT secures flexibility by enabling the generation of graph-like thought nodes, and XoT uses the thought tree while Monte Carlo tree search and refines the tree with reinforcement learning."
+  },
+  {
+    "original_claim": "SQA3D , for instance, addresses inference tasks in a 3D domain by extending them into question-answering tasks using simulators like ScanNet ."
+  },
+  {
+    "original_claim": "Additionally, benchmarks such as TGIF-QA , MovieQA , TVQA , and STAR , which append question-answering to videos, have been proposed."
+  },
+  {
+    "original_claim": "The initial paper by Johnson et al. analyzed human ARC solutions."
+  },
+  {
+    "original_claim": "Kim et al. , for instance, have analyzed how tasks are solved through O2ARC."
+  },
+  {
+    "original_claim": "Beyond ARC, datasets such as DROP , CommonsenseQA , BoolQ , and GSM8K provide invaluable resources to enhance the diverse reasoning capabilities of LLMs."
+  },
+  {
+    "original_claim": "Similarly, Gendron et al. revealed poor performance on tasks 24 Lee, Sim, and Shin et al. requiring the identification and application of general patterns from limited examples."
+  },
+  {
+    "original_claim": "These include reinforcement learning with human feedback , CoT prompting , reasoning-centric fine-tuning , incorporating knowledge graphs during pre-training [ 36], and explainable AI techniques ."
+  },
+  {
+    "original_claim": "These include multimodal learning techniques , adaptive learning strategies with human feedback [ 45], and integration of programming languages with LLMs [ 19]."
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "original_claim": "We train a Reward Model (RM) to score test cases based on these quality metrics, then employ it to provide feedback for the Proximal Policy Optimization (PPO) [39] algorithm to enhance LLMs to generate test cases maximizing the expected reward (i.e., higher quality tests).",
+    "context_before": [
+      "However, instead of relying on expensive, unpredictable, and often biased human feedback, we instill well-known quality properties into an LLM by scoring programs using static analysis, amenable to automated computation for the generated test cases."
+    ],
+    "context_after": [
+      "We begin by generating test cases using foundational LLMs and investigating their alignment with established best practices and their susceptibility to test smells."
+    ],
+    "references": [
+      "39"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "39",
+        "main_query": "Proximal Policy Optimization (PPO) algorithm to enhance LLMs to generate test cases maximizing the expected reward (i.e., higher quality tests)",
+        "rewritten_queries": [
+          "PPO algorithm for improving LLMs to create test cases that maximize expected rewards",
+          "Enhancing LLMs with the Proximal Policy Optimization method to generate higher quality test cases",
+          "Using Proximal Policy Optimization to optimize LLM-generated test cases for better expected rewards"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "This version of Codex is a GPT-style model, pretrained on 54 million public repositories using the causal language modeling objective, and has a maximum context length of 2,048 tokens [14].",
+    "context_before": [
+      "We generate tests using the OpenAI Codex Cushman model, version code-cushman-."
+    ],
+    "context_after": [
+      "We focused on a specific prompt design, the“simulated” prompt, to harness optimal test generation capabilities from the base Codex model."
+    ],
+    "references": [
+      "14"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "14",
+        "main_query": "This version of Codex is a GPT-style model, pretrained on 54 million public repositories using the causal language modeling objective, and has a maximum context length of 2,048 tokens",
+        "rewritten_queries": [
+          "Codex is a GPT-style model trained on 54 million public repositories with a maximum context length of 2,048 tokens",
+          "The Codex model is pretrained on 54 million repositories and utilizes a causal language modeling objective with a context length of 2,048 tokens",
+          "This Codex version, a GPT-style model, has been pretrained on 54 million public repositories and supports a maximum context length of 2,048 tokens"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "We employ adaptive focal context truncation to ensure the inputs fit within the model’s context length, similar to the representation introduced in [48].",
+    "context_before": [
+      "As shown in Figure 1, we construct the prompt as follows (top to bottom): ● path/to/FocalClass.cs: The path to the file containing the focal method in the actual project structure. ● 〈ContextAndFocalMethod〉: The source code of the focal method and its context. ● path/to/TestFocalClass.cs:⤦ public void Test〈FocalMethod〉: A prompt hint which specifies a hypothetical filepath for the test class and the beginning of the test method signature."
+    ],
+    "context_after": [
+      "In detail, we adopt a sequential approach to extract focal contexts, where each next option is a more concise representation than its predecessor: (1) Entire text of the focal file, which can include imports, namespaces, and other classes. (2) Focal class code, converting methods other than the focal method into their respective signatures. (3) Focal class code, converting non-focal methods to signatures and eliminating fields/comments. (4) A stripped-down version comprising only the focal class definition and focal method, while discarding all supplementary code. (5) Prompts persistently exceeding the permitted length were removed."
+    ],
+    "references": [
+      "48"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "48",
+        "main_query": "adaptive focal context truncation to ensure the inputs fit within the model’s context length",
+        "rewritten_queries": [
+          "using adaptive focal context truncation to make inputs compatible with the model's context length",
+          "applying adaptive focal context truncation for fitting inputs within the model's context limits",
+          "utilizing adaptive focal context truncation to align inputs with the model's context capacity"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "RLSQM utilizes the Proximal Policy Optimization (PPO) [39] algorithm to train the policy model (PM).",
+    "context_before": [
+      "Once the reward model is trained, it is used to predict the rewards during PPO fine-tuning. 2.5.2 PPO Fine-tuning."
+    ],
+    "context_after": [
+      "PPO operates as an actor-critic algorithm, combining two components using networks with separate weights: the actor, determining the policy 𝜋, and the critic, valuing a given state-action pair to improve the actor’s choices."
+    ],
+    "references": [
+      "39"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "39",
+        "main_query": "Proximal Policy Optimization (PPO) algorithm to train the policy model (PM)",
+        "rewritten_queries": [
+          "PPO algorithm used for training the policy model",
+          "Training the policy model with Proximal Policy Optimization",
+          "Utilization of Proximal Policy Optimization in policy model training"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Additionally, PPO utilizes a clipped surrogate objective, which constrains updates to the actor network weights in order to avoid excessively large policy updates [39].",
+    "context_before": [
+      "We initialized the policy using the SFT model and initialized the value function using the weights of the reward model (this done following Ouyang et al. )."
+    ],
+    "context_after": [
+      "Following Ouyang et al. , we use a variant of PPO which utilizes the Kullback-Leibler (KL) divergence to penalize the model from generating tokens which are dramatically different from the base model, modulated by a coefficient 𝛽."
+    ],
+    "references": [
+      "39"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "39",
+        "main_query": "PPO utilizes a clipped surrogate objective, which constrains updates to the actor network weights in order to avoid excessively large policy updates",
+        "rewritten_queries": [
+          "PPO employs a clipped surrogate objective to limit the size of updates to the actor network weights",
+          "The clipped surrogate objective in PPO restricts large updates to the actor network weights",
+          "To prevent excessively large policy updates, PPO uses a clipped surrogate objective that constrains actor network weight updates"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "It is worth noting that our approach is not tied to the PPO algorithm and implementations may employ a variety of other reinforcement learning algorithms, such as A2C [30] or NLPO [35]. 3 EMPIRICAL STUDY DESIGN We have designed an empirical study with the primary objective of enhancing the quality of test cases generated by Language Model-based approaches through Reinforcement Learning from Static Quality Metrics (RLSQM).",
+    "context_before": [
+      "Figure 2 3 provides the details on the RLSQM’s PPO finetuning stage."
+    ],
+    "context_after": [
+      "The study aims to address the following research questions: ● RQ1: What is the quality of the test cases generated by LLMs? ● RQ2: Can RLSQM be used to improve individual quality metrics? ● RQ3: Can RLSQM improve the LLM to generate high-quality tests following best practices? 3.1 RQ 1: Assessing Test Case Quality To address RQ1, we generated test cases for a diverse set of public methods under tests (focal methods)."
+    ],
+    "references": [
+      "30",
+      "35"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "30",
+        "main_query": "A2C",
+        "rewritten_queries": [
+          "A2C reinforcement learning algorithm",
+          "Advantage Actor-Critic method",
+          "A2C as an alternative to PPO"
+        ]
+      },
+      {
+        "related_to_reference": "35",
+        "main_query": "NLPO",
+        "rewritten_queries": [
+          "Nonlinear Policy Optimization (NLPO)",
+          "Reinforcement learning algorithm NLPO",
+          "Alternative reinforcement learning methods like NLPO"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Policy models tended to diverge substantially from the base model in order to maximize reward from the reward model, resulting in errant behavior such as (1) mode collapse [11] where the model learned to generate a narrow band of tests (such as empty tests like TestFocalMethod(){}), and (2) catastrophic forgetting, where tests disregarding all properties save for the one being optimized.",
+    "context_before": [
+      "For policy model training, we selected the checkpoint with the best overall quality of the generated tests on the validation dataset, measured by summing all positive properties and subtracting all negative properties."
+    ],
+    "context_after": [
+      "Thus, validation was crucial in order to select a model which retained the abilities of the initial weights and avoided mode collapse."
+    ],
+    "references": [
+      "11"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "11",
+        "main_query": "mode collapse where the model learned to generate a narrow band of tests (such as empty tests like TestFocalMethod(){})",
+        "rewritten_queries": [
+          "mode collapse resulting in the generation of a limited range of tests, including empty tests like TestFocalMethod(){}",
+          "the phenomenon of mode collapse leading to the model producing a narrow set of outputs, such as empty tests TestFocalMethod(){}",
+          "the occurrence of mode collapse, characterized by the model's tendency to create a restricted variety of tests, including empty ones like TestFocalMethod(){}"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Since GPT-4 is trained to understand and generate human-like code [33], it’s not surprising that it produced documentation and avoid consecutive duplicated assertions.",
+    "context_before": [
+      "GPT-4 produced tests with more Descriptive Names (23%), more Comments (78%), and fewer Duplicate Assertions (0.55%) than the Codex-based models (Base)."
+    ],
+    "context_after": [
+      "The SFT model improved upon the Base model in all properties except Descriptive Names and Comments, but it could not be optimized beyond a certain point."
+    ],
+    "references": [
+      "33"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "33",
+        "main_query": "GPT-4 is trained to understand and generate human-like code",
+        "rewritten_queries": [
+          "GPT-4's training enables it to comprehend and produce code that resembles human writing",
+          "The ability of GPT-4 to generate human-like code stems from its training",
+          "GPT-4 has been designed to understand and create code in a manner similar to humans"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "The aim of these efforts is to enhance compilation rates, produce passing tests from the current code, generate failing tests to expose bugs, or boost code coverage. [41] demonstrated that ChatGPT and Codex are prone to produce test smells on Python and Java code, but do not suggest how to improve the models.",
+    "context_before": [
+      "RL from Sequential and Combined Rewards (optimizing ✓ Focal →✗ Conditional/Exception) improved upon the Base model further than Individual Rewards by increasing best practices: up to ↑23.1% Assertions and ↑20.5% Focal calls, and reducing test smells: up to ↓1.8% Duplicate Assertions and ↓2.4% Conditionals/Exceptions. 5 RELATED WORK Test Generation: Previous research on unit test generation has employed evolutionary algorithms, leading to tools such as EvoSuite and machine learning models ."
+    ],
+    "context_after": [
+      "In this study, we introduce RLSQM as a method to enhance language models based on static quality metrics."
+    ],
+    "references": [
+      "41"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "This alignment is primarily achieved through a methodology termed Reinforcement Learning from Human Feedback (RLHF) [16].",
+    "context_before": [
+      "18 Benjamin Steenhoek, Michele Tufano, Neel Sundaresan, and Alexey Svyatkovskiy RL for LLMs: Reinforcement Learning has emerged as a promising tool to better align LLMs with human intentions and preferences."
+    ],
+    "context_after": [
+      "Foundational works in this direction, such as InstructGPT , RLAIF , LLAMA2, and Code LLama , have proven the effectiveness of RLHF in refining LLM performance."
+    ],
+    "references": [
+      "16"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "16",
+        "main_query": "Reinforcement Learning from Human Feedback (RLHF)",
+        "rewritten_queries": [
+          "Methodology of Reinforcement Learning from Human Feedback",
+          "RLHF as a method for aligning LLMs with human preferences",
+          "Using Reinforcement Learning from Human Feedback for alignment"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Hou et al. using object kinetic Monte Carlo simulations, demonstrated that cluster size distributions in cascade debris and the spatial extent of vacancy and SIA clusters in displacement cascades play major role in the evolution of cluster size distributions after long enough time (at 0.1 dpa).",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "A groundbreaking demonstration in the early 2000s showed that the electron spin of NV centers could be optically manipulated and read out at room temperature , marking the beginning of their implementation in quantum sensing [2–4], communications and computing [6–8].",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Notably, the sum of the transition rates is uniform as in but they are not symmetric, in the sense of , so that the µ-chemoEH can effectively symmetrize the system composed of the two filaments and the motors.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Lipid rafts and membrane heterogeneity: Interactions of particles with lipid rafts in cell membranes have been shown to lead to complex diffusive behaviors ;.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Therefore, only O 2 – is vulnerable to laser induced photodetachment in our setup, because of the higher electron binding energies of O– and O3 – (above photon energy) .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "This convergence result also applies to the force acting on the submerged body, as has been demonstrated by Zhou & Balachandar .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "In our model, the infection is restricted to three individuals, i.e., the order of the s-SIR contagion model is up to D = 2, as detailed in the supplementary materials-A .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Subsequently, we present three nonlinear chemical models: the µ-chemoEH, the cubic model (a simplified version of the former), and the chemoEH model .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The start values of the parameters were taken from GEISA for 15N2O and from HITRAN2020 for the remaining isotopocules.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The time-dependent S chrödinger equation (here and below, atomic units are used) ( ) Ψ+Ψ      +=∂ Ψ ∂ rVc t Apti /arrowrightnosp /arrowrightnosp /arrowrightnosp 2 ) ( 2 1 (1) was solved by direct numerical integration using th e split-operator method with the fast Fourier transform .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  }
+]

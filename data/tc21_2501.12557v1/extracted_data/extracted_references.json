@@ -1,0 +1,110 @@
+[
+  {
+    "number": "17",
+    "text": "Nicholas Carlini, Daphne Ippolito, Matthew Jagielski, Katherine Lee, Florian Tramer, and Chiyuan Zhang. 2023. Quantifying Memorization Across Neural Language Models. arXiv:2202.07646 [cs.LG] https://arxiv.org/abs/2202.07646",
+    "arxiv_id": "2202.07646",
+    "pdf_link": "https://arxiv.org/pdf/2202.07646.pdf"
+  },
+  {
+    "number": "44",
+    "text": "Yunfan Gao, Yun Xiong, Xinyu Gao, Kangxiang Jia, Jinliu Pan, Yuxi Bi, Yi Dai, Jiawei Sun, and Haofen Wang. 2023. Retrieval-augmented generation for large language models: A survey. arXiv preprint arXiv:2312.10997 (2023).",
+    "arxiv_id": "2312.10997",
+    "pdf_link": "https://arxiv.org/pdf/2312.10997.pdf"
+  },
+  {
+    "number": "51",
+    "text": "Taicheng Guo, Xiuying Chen, Yaqi Wang, Ruidi Chang, Shichao Pei, Nitesh V Chawla, Olaf Wiest, and Xiangliang Zhang. 2024. Large language model based multi-agents: A survey of progress and challenges. arXiv preprint arXiv:2402.01680 (2024).",
+    "arxiv_id": "2402.01680",
+    "pdf_link": "https://arxiv.org/pdf/2402.01680.pdf"
+  },
+  {
+    "number": "55",
+    "text": "Zeyu Han, Chao Gao, Jinyang Liu, Jeff Zhang, and Sai Qian Zhang. 2024. Parameter-efficient fine-tuning for large models: A comprehensive survey.arXiv preprint arXiv:2403.14608 (2024).",
+    "arxiv_id": "2403.14608",
+    "pdf_link": "https://arxiv.org/pdf/2403.14608.pdf"
+  },
+  {
+    "number": "59",
+    "text": "Brent Hecht, Lauren Wilcox, Jeffrey P. Bigham, Johannes Schöning, Ehsan Hoque, Jason Ernst, Yonatan Bisk, Luigi De Russis, Lana Yarosh, Bushra Anjum, Danish Contractor, and Cathy Wu. 2021. It’s Time to Do Something: Mitigating the Negative Impacts of Computing Through a Change to the Peer Review Process. arXiv:2112.09544 [cs.CY] https://arxiv.org/abs/2112.09544",
+    "arxiv_id": "2112.09544",
+    "pdf_link": "https://arxiv.org/pdf/2112.09544.pdf"
+  },
+  {
+    "number": "64",
+    "text": "Edward J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, and Weizhu Chen. 2021. Lora: Low-rank adaptation of large language models. arXiv preprint arXiv:2106.09685 (2021).",
+    "arxiv_id": "2106.09685",
+    "pdf_link": "https://arxiv.org/pdf/2106.09685.pdf"
+  },
+  {
+    "number": "76",
+    "text": "Shivani Kapania, Ruiyi Wang, Toby Jia-Jun Li, Tianshi Li, and Hong Shen. 2024. \"I’m categorizing LLM as a productivity tool\": Examining ethics of LLM use in HCI research practices. arXiv:2403.19876 [cs.HC] https://arxiv.org/abs/2403. 19876",
+    "arxiv_id": "2403.19876",
+    "pdf_link": "https://arxiv.org/pdf/2403.19876.pdf"
+  },
+  {
+    "number": "91",
+    "text": "Mina Lee, Megha Srivastava, Amelia Hardy, John Thickstun, Esin Durmus, Ashwin Paranjape, Ines Gerard-Ursin, Xiang Lisa Li, Faisal Ladhak, Frieda Rong, et al. 2022. Evaluating human-language model interaction. arXiv preprint arXiv:2212.09746 (2022).",
+    "arxiv_id": "2212.09746",
+    "pdf_link": "https://arxiv.org/pdf/2212.09746.pdf"
+  },
+  {
+    "number": "97",
+    "text": "Weixin Liang, Yaohui Zhang, Zhengxuan Wu, Haley Lepp, Wenlong Ji, Xuan- dong Zhao, Hancheng Cao, Sheng Liu, Siyu He, Zhi Huang, Diyi Yang, Christo- pher Potts, Christopher D Manning, and James Y. Zou. 2024. Mapping the Increasing Use of LLMs in Scientific Papers. arXiv:2404.01268 [cs.CL] https: //arxiv.org/abs/2404.01268",
+    "arxiv_id": "2404.01268",
+    "pdf_link": "https://arxiv.org/pdf/2404.01268.pdf"
+  },
+  {
+    "number": "99",
+    "text": "Q. Vera Liao and Ziang Xiao. 2023. Rethinking Model Evaluation as Narrowing the Socio-Technical Gap. arXiv:2306.03100 [cs.HC] https://arxiv.org/abs/2306. 03100",
+    "arxiv_id": "2306.03100",
+    "pdf_link": "https://arxiv.org/pdf/2306.03100.pdf"
+  },
+  {
+    "number": "108",
+    "text": "Chris Lu, Cong Lu, Robert Tjarko Lange, Jakob Foerster, Jeff Clune, and David Ha. 2024. The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery. arXiv:2408.06292 [cs.AI] https://arxiv.org/abs/2408.06292 CHI ’25, April 26–May 1, 2025, Yokohama, Japan Pang et al.",
+    "arxiv_id": "2408.06292",
+    "pdf_link": "https://arxiv.org/pdf/2408.06292.pdf"
+  },
+  {
+    "number": "122",
+    "text": "Shuyin Ouyang, Jie M Zhang, Mark Harman, and Meng Wang. 2023. LLM is Like a Box of Chocolates: the Non-determinism of ChatGPT in Code Generation. arXiv preprint arXiv:2308.02828 (2023).",
+    "arxiv_id": "2308.02828",
+    "pdf_link": "https://arxiv.org/pdf/2308.02828.pdf"
+  },
+  {
+    "number": "128",
+    "text": "Alina Petukhova, Joao P Matos-Carvalho, and Nuno Fachada. 2024. Text clus- tering with LLM embeddings. arXiv preprint arXiv:2403.15112 (2024).",
+    "arxiv_id": "2403.15112",
+    "pdf_link": "https://arxiv.org/pdf/2403.15112.pdf"
+  },
+  {
+    "number": "138",
+    "text": "Melanie Sclar, Yejin Choi, Yulia Tsvetkov, and Alane Suhr. 2023. Quantify- ing Language Models’ Sensitivity to Spurious Features in Prompt Design or: How I learned to start worrying about prompt formatting. arXiv preprint arXiv:2310.11324 (2023).",
+    "arxiv_id": "2310.11324",
+    "pdf_link": "https://arxiv.org/pdf/2310.11324.pdf"
+  },
+  {
+    "number": "157",
+    "text": "Angelina Wang, Jamie Morgenstern, and John P Dickerson. 2024. Large language models cannot replace human participants because they cannot portray identity groups. arXiv preprint arXiv:2402.01908 (2024).",
+    "arxiv_id": "2402.01908",
+    "pdf_link": "https://arxiv.org/pdf/2402.01908.pdf"
+  },
+  {
+    "number": "163",
+    "text": "Jason Wei, Maarten Bosma, Vincent Y Zhao, Kelvin Guu, Adams Wei Yu, Brian Lester, Nan Du, Andrew M Dai, and Quoc V Le. 2021. Finetuned language models are zero-shot learners. arXiv preprint arXiv:2109.01652 (2021).",
+    "arxiv_id": "2109.01652",
+    "pdf_link": "https://arxiv.org/pdf/2109.01652.pdf"
+  },
+  {
+    "number": "181",
+    "text": "Shengyu Zhang, Linfeng Dong, Xiaoya Li, Sen Zhang, Xiaofei Sun, Shuhe Wang, Jiwei Li, Runyi Hu, Tianwei Zhang, Fei Wu, et al. 2023. Instruction tuning for large language models: A survey. arXiv preprint arXiv:2308.10792 (2023).",
+    "arxiv_id": "2308.10792",
+    "pdf_link": "https://arxiv.org/pdf/2308.10792.pdf"
+  },
+  {
+    "number": "183",
+    "text": "Wayne Xin Zhao, Kun Zhou, Junyi Li, Tianyi Tang, Xiaolei Wang, Yupeng Hou, Yingqian Min, Beichen Zhang, Junjie Zhang, Zican Dong, et al. 2023. A survey of large language models. arXiv preprint arXiv:2303.18223 (2023).",
+    "arxiv_id": "2303.18223",
+    "pdf_link": "https://arxiv.org/pdf/2303.18223.pdf"
+  }
+]

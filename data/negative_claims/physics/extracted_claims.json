@@ -1,0 +1,1007 @@
+[
+  {
+    "original_claim": "Anomalous diffusion is an ubiquitous phenomenon in complex stochastic processes, and is in particular central to the cell machinery, as classically witnessed by microrheology ."
+  },
+  {
+    "original_claim": "Deep-learning methods for advanced microscopy have thus emerged as a promising change of paradigm ."
+  },
+  {
+    "original_claim": "In this context, the work we present here results from the Anomalous Diffusion (AnDi) challenge , and in particular from our participation to its second edition ."
+  },
+  {
+    "original_claim": "Moderate concentrations of obstacles can cause anomalous diffusion over short arXiv:2412.07299v1 [cond-mat.soft] 10 Dec 2024 2 distances, and the effect becomes more pronounced as the obstacle concentration approaches the percolation threshold ;."
+  },
+  {
+    "original_claim": "Binding and trapping: Temporary binding of particles to fixed sites leads to a sub-diffusive behavior;."
+  },
+  {
+    "original_claim": "Lipid rafts and membrane heterogeneity: Interactions of particles with lipid rafts in cell membranes have been shown to lead to complex diffusive behaviors ;."
+  },
+  {
+    "original_claim": "Chaos: Deterministic chaos and intermittency can also lead to anomalous diffusion, as shown in ."
+  },
+  {
+    "original_claim": "The first AnDi Challenge took place in 2020 and aimed at assessing the performances of various methods in quantifying anomalous diffusion ."
+  },
+  {
+    "original_claim": "The second AnDi challenge took place in 2024 and aimed at evaluating the performances of various methods for detecting and quantifying changes in single-particle motion ."
+  },
+  {
+    "original_claim": "Transient confinement: particles undergoing transient diffusion changes when entering or leaving given areas, as observed in the confinement induced by clathrin-coated pits on cell membranes ;."
+  },
+  {
+    "original_claim": "As a consequence, the Mamba model , a state-space model, has been recently developed to overcome the long-term loss of information while being fast to train."
+  },
+  {
+    "original_claim": "By drawing inspiration from Bi-Mamba+ , we constructed a deep-learning model based on the Mamba architecture with a bidirectional scan mechanism."
+  },
+  {
+    "original_claim": "Moreover, we expect improvements on the segmentation task by using Mamba-based Unet methods ."
+  },
+  {
+    "original_claim": "Finally, they thank the RRI Frontiers of Life, which received financial support from the French government in the framework of the University of Bordeaux’s France 2030 program, as well as the Soft Matter Collaborative Research Unit, Frontier Research Center for Advanced Material and Life Science, Faculty of Advanced Life Science, Hokkaido University, Sapporo, Japan, and the CNRS International Research Network between France and India on “Hydrodynamics at small scales: from soft matter to bioengineering”. R."
+  },
+  {
+    "original_claim": "Between these doublets are molecular motor proteins (dyneins), which anchor their tails to the Atubule while their heads are free to bind and release the B-tubule of the subsequent doublet ."
+  },
+  {
+    "original_claim": "A seminal study in this field was conducted by Machin , who demonstrated the importance of internal activation within a flagellum as a mechanism to sustain oscillations."
+  },
+  {
+    "original_claim": "Interestingly, the equation first derived there has recently been rederived in using a molecular mechanics approach."
+  },
+  {
+    "original_claim": "In particular, while linear curvature feedback was initially considered ideal for fitting Chlamydomonas data , the non-linear sliding feedback model proposed by , which incorporates the attachment and detachment of antagonistic molecular motors, provides a better fit."
+  },
+  {
+    "original_claim": "Respecting the symmetric structure of the axoneme, this model aims to elucidate the tug-of-war scenario of antagonistic motors between filaments at the microscopic scale ."
+  },
+  {
+    "original_claim": "Subsequently, we present three nonlinear chemical models: the µ-chemoEH, the cubic model (a simplified version of the former), and the chemoEH model ."
+  },
+  {
+    "original_claim": "Notice that by differentiating (3) we obtain u′ = aφ′ = aκ. (4) 1micro-chemo-Elasto-Hydrodynamic. 4 Figure 1: From the axoneme to the two rows of molecular motors. (A) Cross section of the axoneme when viewed from the base to tip, with numbering taken from . (B) projection of the axoneme onto its bending plane. (C) Flagellum composed by two filaments fixed at the base. 2.2 Force and torque balance equations The center filament is subject to internal forces R(s) and torque M(s) that act at position s."
+  },
+  {
+    "original_claim": "Since we are dealing with a slender body at low Reynolds number, we use the resistive force theory (RFT,) limit and express the external drag as a function of the centerline velocityffl = −ξn ˙rnn− ξt ˙rtt, where ξn and ξt are the normal and tangential friction coefficients, while ˙ rn and ˙rt are the normal and tangential components of the centerline velocity."
+  },
+  {
+    "original_claim": "In this section we present the µ-chemoEH model, a generalization of the microscopic model illustrated in , that relates the force generated by the motor-filament interaction to the relative sliding of the filaments."
+  },
+  {
+    "original_claim": "A description of this model is provided in , where the microscopic system was not coupled with the equations of motion for the filaments."
+  },
+  {
+    "original_claim": "These segment, defined as tug-of-war units , are described by the spatial coordinate ξ ∈ [0, ℓ]."
+  },
+  {
+    "original_claim": "Note that ρN is the number density of molecular motors along the flagellum, denoted in asρ."
+  },
+  {
+    "original_claim": "We follow the force-sign convention of ."
+  },
+  {
+    "original_claim": "We chose this framework to describe the axoneme, rather than the simpler one-row model where the motors are attached only to the upper filament as in , to capture the intuitive mechanics at play."
+  },
+  {
+    "original_claim": "To restore symmetry, ∆ W and P0 can be chosen such that the net force at equilibrium is zero, as it was done in ."
+  },
+  {
+    "original_claim": "Notably, the sum of the transition rates is uniform as in but they are not symmetric, in the sense of , so that the µ-chemoEH can effectively symmetrize the system composed of the two filaments and the motors."
+  },
+  {
+    "original_claim": "The derivation partially follows and the result is similar to the ODEs used in ."
+  },
+  {
+    "original_claim": "The coefficient γ is determined by the system’s chemical properties, rather than selected a posteriori, as in ."
+  },
+  {
+    "original_claim": "Notice that, in the frequency domain, equation (20) becomes the same as the non linear relation used in . 3.3 The chemoEH model We present the third and last model, the chemoEH model , based on the qualitative description made in ."
+  },
+  {
+    "original_claim": "Indeed, the derivation of the chemoEH model follows from , where the main assumptions are that the unbind rate is load dependent and therefore velocity dependent, and that the motors have a detachment rate which is higher than the attachment one."
+  },
+  {
+    "original_claim": "These hypotheses are not compatible with the hypothesis of uniform sum of transition rates formulated in , which holds when the two rates are almost uniform."
+  },
+  {
+    "original_claim": "A comparison between the order of magnitude of the parameters appearing in the two models is discussed in , based on a specific choice for ∆ W."
+  },
+  {
+    "original_claim": "As noted in , in the chemoEH there are two characteristic times τ0 = ( π0 + ε0)−1 and n0/π0 = (π0 + ε0e ¯f )−."
+  },
+  {
+    "original_claim": "Notice that the linear response coefficient (26) is twice the one defined in ."
+  },
+  {
+    "original_claim": "One can introduce an important non-dimensional quantity, the Machin number , defined as Ma = L ℓMa , ℓ Ma = \u0012 B θξn \u00131/4 , (28) with ℓMa being the characteristic length of the system."
+  },
+  {
+    "original_claim": "A typical small Machin number flagellum is the Chlamydomonas (L ≈ 10 µm), where experimental data in reveal a critical frequency of θc = 2π · 40 s−1 and therefore an estimated Machin number Ma ≈ 2, which the authors considered sufficiently small, in comparison with the bull sperm case (L ≈ 50 µm), where the ratio is instead Ma ≈."
+  },
+  {
+    "original_claim": "In , the sliding feedback model did not match well the experimental data for Chlamydomonas flagella."
+  },
+  {
+    "original_claim": "However a recent study , which developed an alternative non-linear sliding feedback model, showed a better fit with the experimental data."
+  },
+  {
+    "original_claim": "To facilitate the comparison with the literature we simulate the µ-chemoEH model by halving the motor force f(t) defined in (16); in this way we obtain that the linear analysis matches the one in ."
+  },
+  {
+    "original_claim": "L Flagellum length µm 58.3 B Bending rigidity pN · µm2 1700 a Inter-filament distance µm 0.185 ξn Normal RFT coefficient pN · s/µm2 0.0034 K Internal elasticity pN/µm2 228 λ Internal viscosity pN · s/µm2 7 α Dynein rate constant 1/s 250 ℓ Length of a tug-of-war cell µm 1 ρ Density of tug-of-war cells 1/µm 1 N Motors in a tug-of-war cell 1 103 kcb Motor domain’s stiffness pN/µm 103 Table 1: Bull sperm parameters The objective of the following section is twofold."
+  },
+  {
+    "original_claim": "To reproduce a beating frequency close to 20 · 2π rad/s – which is the one shown in – we adjust the internal friction λ to 7 pN · s/µm2 (which is comparable to the one from )."
+  },
+  {
+    "original_claim": "These results align with the ones presented in ."
+  },
+  {
+    "original_claim": "We observe a typical known behavior in flagella : by 15 increasing the parameter Sp, the traveling wave velocity increases."
+  },
+  {
+    "original_claim": "Our model generalizes the two-state model introduced in and we have called this framework the µ-chemoEH model."
+  },
+  {
+    "original_claim": "To obtain this reduction in the number of unknowns, we define both the transition rates and the potentials as cosine and/or sine functions, following ."
+  },
+  {
+    "original_claim": "In this way, we arrive at a system which is easily comparable with the chemoEH model , from both theoretical and numerical perspectives."
+  },
+  {
+    "original_claim": "We also discuss a third feedback mechanism derived as an approximation of the µ-chemoEH one, termed cubic model, which aligns with the model proposed in in the frequency domain."
+  },
+  {
+    "original_claim": "Simulations confirmed that the µ-chemoEH effectively captures oscillatory behavior near the bifurcation point, which is to be expected since the linear response coefficient (26) is proportional to the one used in ."
+  },
+  {
+    "original_claim": "Interestingly, when considering the isolated axoneme f = 0, the cubic model can be interpreted as a form of van der Pol oscillator for the velocity variable ."
+  },
+  {
+    "original_claim": "This propagation is typical of curvature control model, at least in the linear regime ."
+  },
+  {
+    "original_claim": "Also, we have based our µ-chemoEH model on the classical simplified model for the bending elasticity of the axoneme proposed in ."
+  },
+  {
+    "original_claim": "Alternative and more detailed/realistic models for the axoneme will be considered in future work, starting from the one proposed in ."
+  },
+  {
+    "original_claim": "We focus on the linearized problem, while a comprehensive non linear analysis is carried out in ."
+  },
+  {
+    "original_claim": "Natural sources include mainly biological nitrous oxide production in soils and oceans, whereas anthropogenic sources are dominated by agricultural and industrial contributions, with recent studies indicating a 40% increase in the total annual anthropogenic N 2O emissions in the past four decades (1980 –2020) ."
+  },
+  {
+    "original_claim": "Moreover, with the new directions towards zerocarbon fuels , such as ammonia, increased emissions of reactive nitrogen oxides as well as N 2O is expected to impact human health and climate ."
+  },
+  {
+    "original_claim": "This makes their ratios, or site preferences highly informative for determining global N 2O fluxes , where the site preference relates to 15N being in the central ( α isotopomer) or the terminal (β isotopomer) position and is calculated as SP = ([14N15NO]/[15N14NO] – 1) × 1000 ‰."
+  },
+  {
+    "original_claim": "Characteristic site preference values have been reported for many biological sources, e.g., for denitrifying bacteria ( SP ≈ –5‰) and nitrifying bacteria ( SP ≈+30‰) ."
+  },
+  {
+    "original_claim": "Furthermore, correlations between total 15N content (so-called 15N bulk) and agricultural or natural soil sources have been reported along with site preference to elucidate formation mechanisms of N2O production ."
+  },
+  {
+    "original_claim": "This technique, however, provides discrete measurements for individual species and its measurement accuracy is limited by the isotope ‘scrambling’ fragmentation, i.e. the NO+ fragment ions containing the terminal N atom, rather than the central N attached to the O atom as in the original molecule ."
+  },
+  {
+    "original_claim": "For example, Esler et al. utilized conventional low."
+  },
+  {
+    "original_claim": "Additionally, Griffith et al. used an FTIR spectrometer with an improved resolution of 0.011 cm–1 to validate the tropospheric site preference value of Yoshida and Toyoda ."
+  },
+  {
+    "original_claim": "The HITRAN2020 database contains line parameters f or the first five most abundant isotopocules of nitrous oxide – namely 14N216O, 14N15N16O, 15N14N16O, 14N218O, and 14N217O."
+  },
+  {
+    "original_claim": "Most of these line parameters are based on the molecular constants from the work of Toth , which contains line lists for eight isotopocules of N2O, in the range of 500 – 7500 cm–."
+  },
+  {
+    "original_claim": "This might explain why nitrous oxide was deemed as the forgotten (atmospheric) gas ."
+  },
+  {
+    "original_claim": "The GEISA spectroscopic database also contains the 15N2O, 14N15N18O and 15N14N18O isotopocules in addition to those found in HITRAN, and the parameters are again mostly based on the work of Toth ."
+  },
+  {
+    "original_claim": "Very recently, empirical line lists have been introduced based on: (i) rovibrational energ y levels using the Measured Active Rotational-Vibrational Energy Levels (Marvel) algorithms for the major 14N2O isotopocule, (ii) the Nitrous Oxide Spectroscopic Line list (NOSL-296) using the effective operator approach , also for the major isotopocule, and (iii) r ovibrational energy levels calculated from an accurate potential energy surface and the ‘Ames-1’ dipole moment surface at 296 K for the twelve N2O isotopocules ."
+  },
+  {
+    "original_claim": "substituted minor isotopocules (14N217O, 14N218O, 14N15N16O, and 15N14N16O), have recently been included in the ExoMol database ."
+  },
+  {
+    "original_claim": "Except for the data available in the GEISA database and the Ames-1 line list , there exists a global modelling study of the measured line lists of 15N2O within the framework of a polyad model of the effective Hamiltonian 2024-12-10 3 by Tashkun et al. ."
+  },
+  {
+    "original_claim": "In that model, the positions of 423 lines and intensities of 392 lines in the 1227 – 3414 cm–1 range were taken from the Toth line list."
+  },
+  {
+    "original_claim": "Note that line positions of Toth are not purely experimental; they we re calculated from fitted spectroscopic constants of the measured bands with uncertainties of the calculated line positions ranging between 0.001 – 0.01 cm−1 (or 30 – 300 MHz) and of the line intensities ranging from 5% up to 100% (depending on the band)."
+  },
+  {
+    "original_claim": "In this work, we used mid-infrared frequency comb Fourier transform spectroscopy to measure high-resolution spectra of nitrous oxide obtained from a chemical synthesis involving 15N isotopically enriched and normal 14N precursors."
+  },
+  {
+    "original_claim": "Details of the chemical kinetic investigations of the isotopic effect are described in a separate study ."
+  },
+  {
+    "original_claim": "doped mode-locked fiber laser (Menlo Systems AB, O range High Power) with a repetition rate frep = 125 MHz, and a Raman-shifted soliton (signal) generated from the same source in a highly non-linear fiber, centered at 1.680 μm ."
+  },
+  {
+    "original_claim": "The temporal overlap between the pump and signal pulses in the crystal was maintained by stabilizing the delay line of the pump beam as described in ."
+  },
+  {
+    "original_claim": "Two improvements of the comb source were implemented compared to ."
+  },
+  {
+    "original_claim": "Second, the RF-locking of the frep was improved and simplified by (i) detecting its fourth harmonic at 500 MHz instead of the fundamental frequency and ( ii) mixing it with a 500 MHz signal from a single tunable direct digital synthesizer (DDS) , instead of two mixing stages as done previously ."
+  },
+  {
+    "original_claim": "balanced configuration ."
+  },
+  {
+    "original_claim": "We Fourier transformed the interferograms and matched the sampling points to the comb mode frequencies as described in ."
+  },
+  {
+    "original_claim": "As explained in , the sub-nominal resolution method relies on matching the sampling points to the comb mode frequencies when taking the Fourier transform, which requires determining the effective wavelength of the CW reference laser used for OPD calibration."
+  },
+  {
+    "original_claim": "This is done by minimizing instrumental line shape distortions in the interleaved spectra, and here we used the methodology described in , which also allows for correcting the nonlinear mapping of the comb frequencies into the FTS spectrum."
+  },
+  {
+    "original_claim": "The uncertainty contributions to line center frequencies stemming from optimizing the reference laser wavelength were estimated as in and were between 1.3 MHz and 2.7 MHz depending on the measurement."
+  },
+  {
+    "original_claim": "This is due to the Doppler width of N2O being comparable to frep, which results in relatively small instrumental line shape distortions , limiting the precision with which the OPD can be calibrated ."
+  },
+  {
+    "original_claim": "The inverted spectra show the models of the four isotopocules simulated using the V oigt lines shape with parameters from the HITRAN2020 database for 14N2O, 15N14NO and 14N15NO, and from the GEISA database for 15N2O."
+  },
+  {
+    "original_claim": "The start values of the parameters were taken from GEISA for 15N2O and from HITRAN2020 for the remaining isotopocules."
+  },
+  {
+    "original_claim": "For 15N2O, 22 of the lines belonging to the v1+v3 band reported here are not included in GEISA ."
+  },
+  {
+    "original_claim": "The inset shows the line center discrepancies for 15N2O with respect to the Ames-1 line list , which are larger by one order of magnitude ."
+  },
+  {
+    "original_claim": "The relatively large discrepancies for 15N14NO (red, around 3450 cm–1) appear to be due to possible perturbation by the 6ν2 state, based on vibrational state energies listed in for the 14N2O isotopocule and assuming similar relative state energies for the 15N14NO."
+  },
+  {
+    "original_claim": "Using the fitted center frequencies of 80 transitions from the P and R branches spanning the entire band, we created a spectral model for the ν 1+ν3 band of 15N2O in PGOPHER ."
+  },
+  {
+    "original_claim": "The lower state parameters were fixed to the experimental values determined from rotational spectroscopy by Bauer et al. ."
+  },
+  {
+    "original_claim": "We also show the fit parameters obtained from the work of Toth for comparison."
+  },
+  {
+    "original_claim": "Parameters of the ν1 + ν 3 bands of 15N2O obtained from this study together with those obtained by Toth ."
+  },
+  {
+    "original_claim": "T he lower state constants were fixed to values from rotation spectroscopy in our simulations ."
+  },
+  {
+    "original_claim": "This higher abundance of the heavier isotopocules compared to the lighter major isotopocule is attributed to the kinetic isotope effect of the HNO dimerization reactions involved in the formation of N2O ."
+  },
+  {
+    "original_claim": "While th ese deviations refer to the relative intensities within a given isotopocule, such low relative uncertainties of the intensities of the α and β isotopomers suggest that site -preference measurements for source characterization applications can be performed with a few per mil precision ."
+  },
+  {
+    "original_claim": "The predicted lines of the R -branch are too weak relative to the P -branch by up to 40%. 2024-12-10 11 The relative intensities predicted by Ames-1 line list closely follow those of the IAO line list but are weaker overall by 6%."
+  },
+  {
+    "original_claim": "We compared the line center positions and relative intensities to those available in the HITRAN2020 and GEISA databases, as well as the line list of Tashkun et al. , retrieved via the IAO database, and the Ames -1 line list ."
+  },
+  {
+    "original_claim": "I NTRODUCTION The global outbreak of COVID-19 has disrupted the order in all countries and communities, posing a significant threat to human life and property –."
+  },
+  {
+    "original_claim": "Scholars found that voluntary vaccination is the primary public health measure to intervene and control infectious diseases , ."
+  },
+  {
+    "original_claim": "V oluntary vaccination decisions are influenced by various factors, such as vaccine cost, peer decisions, personal experiences, and information dissemination from public health institutions , ."
+  },
+  {
+    "original_claim": "Age, in particular, is an important factor affecting vaccination behavior ."
+  },
+  {
+    "original_claim": "The Ref. , for example, indicated that increasing adult pertussis booster vaccinations every ten years helps reduce the incidence rate in adults, but only leads to a slight decrease in the rates for infants and toddlers."
+  },
+  {
+    "original_claim": "Additionally, in countries such as Austria, France, and Portugal, the interval for booster shots for individuals aged 65 and above is shortened, as antibody levels decline more rapidly with age ."
+  },
+  {
+    "original_claim": "Herd immunity is achieved when the vaccination coverage is sufficiently high, thereby eradicating the infectious diseases –."
+  },
+  {
+    "original_claim": "However, the high transmissibility of the pathogen poses challenges to achieving herd immunity through voluntary vaccination , ."
+  },
+  {
+    "original_claim": "Besides, economic costs, logistical constraints, religious beliefs, and other sociocultural factors often lead to difficulties in vaccination implementation ."
+  },
+  {
+    "original_claim": "Developing personalized vaccination strategies based on different age groups, such as mass vaccination with transmission-blocking vaccines for adults or prioritizing vaccine distribution to the elderly, can improve vaccine effectiveness and suppress infection to some extent ."
+  },
+  {
+    "original_claim": "Healthcare workers, frontline personnel, and other essential workers were identified as the priority groups, followed by the elderly aged 70 and above ."
+  },
+  {
+    "original_claim": "Bubar et al. found that prioritizing efficient transmission-blocking vaccination for adults aged 20-49 can maximally reduce cumulative incidence rates."
+  },
+  {
+    "original_claim": "In situations where vaccine resources are scarce, allocating vaccines to the population aged 20 to 59 is superior to the traditional “seasonal” vaccination strategy targeting high-risk groups such as the elderly and children ."
+  },
+  {
+    "original_claim": "The dynamics of infectious diseases spread in a population fundamentally depend on the patterns of interaction – , further influencing vaccination behavior –."
+  },
+  {
+    "original_claim": "For instance, the interaction patterns occurring in schools, conferences, and workplaces differ in frequency and distance, which yields different vaccination outcomes , ."
+  },
+  {
+    "original_claim": "The occurarXiv:2412.07339v1 [physics.soc-ph] 10 Dec 2024 2 rence of contacts between three or more nodes is described as higher-order interactions , , which can happen in various real-life scenarios."
+  },
+  {
+    "original_claim": "Furthermore, previous research has shown that the presence of higher-order interactions profoundly affects the dynamics of the infectious process and can give rise to phenomena such as bistability, hysteresis, and explosive transitions ."
+  },
+  {
+    "original_claim": "In particular, the implementation of non-pharmaceutical interventions , , such as travel restrictions and mandatory stay-at-home orders, has greatly facilitated higher-order interactions among family members, leading to a significant portion of infections occurring within households ."
+  },
+  {
+    "original_claim": "In order to capture higher-order interactions, relying solely on simple graphs to characterize them can lead to drawbacks such as information loss ."
+  },
+  {
+    "original_claim": "A hypergraph is defined by a node set V and a set of hyperedges H, where these hyperedges H specify which nodes participate and how in interactions –."
+  },
+  {
+    "original_claim": "Network motifs are the most common higherorder structures, defined as specific patterns of edges between vertices that appear statistically significant in the network ."
+  },
+  {
+    "original_claim": "The higher-order organizational structures manifested in networks based on specific social, age, or occupational relationships can be effectively captured using the motifs ."
+  },
+  {
+    "original_claim": "In particular, simplicial complexes, as suitable tools capable of capturing both pairwise interactions and higher-order interactions simultaneously, satisfy the additional constraint that any subset of a simplex is also a simplex , ."
+  },
+  {
+    "original_claim": "In recent years, simplicial complexes have been extensively studied and applied in various research fields, such as collaborative networks, semantic networks, cellular networks, and brain networks , , ."
+  },
+  {
+    "original_claim": "To characterize a complex contagion process on simplicial complexes, a simplicial contagion model was recently developed ."
+  },
+  {
+    "original_claim": "Based on the susceptibleinfected-susceptible (SIS) model , Li et al. captured coexistence of interactions with different orders and found that higher-order simplices drive the dynamics of infection."
+  },
+  {
+    "original_claim": "Focusing on the spreading dynamics on the simplicial susceptibleinfected-recovered (s-SIR) model, Palafox-Castillo et al. defined a stochastic model to study variations beyond contagion processes on simplicial networks."
+  },
+  {
+    "original_claim": "Based on the above analysis, as emphasized by Rosas et al. , the study of higher-order phenomena should focus on both the higher-order interdependencies inferred from observed data and the use of topological data analysis to examine the structure of the system."
+  },
+  {
+    "original_claim": "Evolutionary game theory, as a mathematical analysis tool, is well suited to be combined with epidemiological models , to describe the vaccination dynamics."
+  },
+  {
+    "original_claim": "Zuo et al. , for example, established a cost-benefit analysis function that represents vaccine decisionmaking, and found that vaccination information provides a favorable reference in individuals’ decision-making regarding vaccine uptake."
+  },
+  {
+    "original_claim": "Wang et al. constructed a two-layer network regarding vaccine decision-making and imitation behavior and they found that imitation behavior inhibits the improvement of herd immunity."
+  },
+  {
+    "original_claim": "Bauch et al. proposed an evolutionary game theory model to reveal how imitation by peers influences vaccination decisions."
+  },
+  {
+    "original_claim": "The experimental results demonstrate that committed vaccine uptake by individuals can effectively stimulate vaccination behavior among peers ."
+  },
+  {
+    "original_claim": "Considering that awareness is an important factor influencing vaccination, Kabir et al. proposed a framework for vaccine uptake with the unaware-aware (UA) information propagation."
+  },
+  {
+    "original_claim": "However, due to variations in internal factors such as age and interaction patterns, notable differences exist in individual immunity, vaccine efficacy, and vaccine information acquisition , leading to heterogeneity in vaccination."
+  },
+  {
+    "original_claim": "In reality, vaccination strategies tend not to be specific to each age, but are differentiated according to, for example, the age groups of the population: children, adults, and the elderly ."
+  },
+  {
+    "original_claim": "Dual-scenario infection Influenza outbreaks are particularly associated with interactions that occur in a variety of society scenarios, such as households, schools, workplaces, and general communities ."
+  },
+  {
+    "original_claim": "The household, is typically the scenario with the most frequent collective interactions and highest infection rates across all ages ."
+  },
+  {
+    "original_claim": "Here, we consider a simplicial susceptible-infected-removal (s-SIR) model, which is similar to the s-SIS model proposed in Ref. ."
+  },
+  {
+    "original_claim": "Hijlβ∆ represents the probability of infection within the household scenario under the quenched mean-field assumption , , ."
+  },
+  {
+    "original_claim": "In our model, the infection is restricted to three individuals, i.e., the order of the s-SIR contagion model is up to D = 2, as detailed in the supplementary materials-A ."
+  },
+  {
+    "original_claim": "The Cg value for modeling specific diseases can be estimated through surveys on health attitudes, behaviors, and outcomes, as indicated in Ref. ."
+  },
+  {
+    "original_claim": "However, in general, the cost of vaccination is expected to be relatively low compared to the cost of infection ."
+  },
+  {
+    "original_claim": "In our work, imitation dynamics is utilized to study the evolution of individual strategies."
+  },
+  {
+    "original_claim": "This assumption is based on the fact that, under the effect of homophily , individuals tend to imitate the behavior of their peers."
+  },
+  {
+    "original_claim": "Under the wellmixed assumption, we introduce a mean-field (MF) method , which assumes that individuals of the same age are equivalent."
+  },
+  {
+    "original_claim": "This is because the number of interactions that occur between any two individuals in a social scenario is often greater than the number of interactions they have in the household scenario ."
+  },
+  {
+    "original_claim": "Dynamic equilibrium analysis In this section, by considering different selection intensities, we analyze the dynamic equilibrium , based on imitation dynamics."
+  },
+  {
+    "original_claim": "The initial infected population is randomly distributed across the entire population , and I0 = 1e − 5 is set to represent the proportion of initially infected individuals."
+  },
+  {
+    "original_claim": "To verify the universality of age-based vaccination characteristics across different populations, we attempt to replicate the experiments in Sec IV-1 using agestratified data from another country ."
+  },
+  {
+    "original_claim": "The mobility and the imitation dynamics between different cities could significantly impact vaccination decisions and epidemic dynamics , ."
+  },
+  {
+    "original_claim": "Epilepsy significantly affects the quality and expectancy of patient’s life ."
+  },
+  {
+    "original_claim": "It involves the use of electrical or magnetic currents in the brain to change and stop the pathological neuronal activity ."
+  },
+  {
+    "original_claim": "This makes neurostimulation a possible effective method for interrupting pathological hypersynchronous activity in the interconnected neuronal network of the brain ."
+  },
+  {
+    "original_claim": "This significantly increases negative effects and reduces the effectiveness of stimulation ."
+  },
+  {
+    "original_claim": "They are capable of gradually changing their conductivity and, as a result, demonstrate a number of functions inherent in biological neurons [17–21], such as short-term or long-term potentiation/depression, corresponding to an increase/decrease in the efficiency of information transfer between two nerve cells as a result of external influence ."
+  },
+  {
+    "original_claim": "Hippocampal mice slice preparation was carried out in accordance with the method described in ."
+  },
+  {
+    "original_claim": "Memristive crossbar preparation The studies were performed using a memristive device in a 32 × 8 crossbar-array integrated within the framework of the BEOL (back-end-of-line) process with 0.35 μm complementary metaloxide-semiconductor (CMOS) devices (see explanation about integration of memristors with CMOS in )."
+  },
+  {
+    "original_claim": "Detailed information about the fabrication technology of the investigated device can be found in ."
+  },
+  {
+    "original_claim": "Schematic representation of one cycle of the input control signal with epileptiform neuronal activity The response of the memristive crossbar to the input control signal was processed in the same way as was done earlier in the experiments to determine the influence of normal, i.e. without pathologies, in vitro neuronal activity of the hippocampus slices of laboratory mice on the response of the same memristive crossbar ."
+  },
+  {
+    "original_claim": "I1|) / I1)∙100% , where In is the value of the current flowing through the memristive crossbar at the reading after applying the nth NAP, I1 is the value of the current flowing through the memristive crossbar at the reading after applying the first NAP."
+  },
+  {
+    "original_claim": "However, with the |A| used in this study, the standard deviation of noise varies from 0.026 to 0.041 V, which in terms of noise intensity corresponds to 3.4∙10-8 and 8.4∙10-8 V2∙s.The obtained values are significantly greater than those considered in the study ."
+  },
+  {
+    "original_claim": "The results obtained in all three experiments (epileptiform NAP with and without noise, as well as normal NAP ) are in qualitative agreement."
+  },
+  {
+    "original_claim": "Data obtained using normal , epileptiform, and noisy epileptiform NAP with A > 0 (a, b, c) and A < 0 (d, e, f) First, let us consider the case of A >."
+  },
+  {
+    "original_claim": "It is well know n that the efficiency of HHG rapidly decreases with increasing ellipticity of the driver laser rad iation , and the ellipticity of high harmonics, as a rule, does not exceed the laser ellipticity [1 4]."
+  },
+  {
+    "original_claim": "The time-dependent S chrödinger equation (here and below, atomic units are used) ( ) Ψ+Ψ      +=∂ Ψ ∂ rVc t Apti /arrowrightnosp /arrowrightnosp /arrowrightnosp 2 ) ( 2 1 (1) was solved by direct numerical integration using th e split-operator method with the fast Fourier transform ."
+  },
+  {
+    "original_claim": "The authors are grateful to the Joint Supercomputer Cen ter of RAS for the provided supercomputer sources. T."
+  },
+  {
+    "original_claim": "A groundbreaking demonstration in the early 2000s showed that the electron spin of NV centers could be optically manipulated and read out at room temperature , marking the beginning of their implementation in quantum sensing [2–4], communications and computing [6–8]."
+  },
+  {
+    "original_claim": "Chemical vapor deposition (CVD) is commonly preferred for creating NV-rich diamonds for sensing and imaging applications ."
+  },
+  {
+    "original_claim": "The implantation process, however, causes significant damage of the diamond lattice, deteriorating the relaxation times of the NV centers ."
+  },
+  {
+    "original_claim": "Contrastingly in CVD NV-diamonds, the NV centers have better coherence properties, in the expense of a lower control over their localization and concentration ."
+  },
+  {
+    "original_claim": "Another important point for applications in quantum technology is the incorporation of NV centers in photonic structures for enhancement of improving photon collection efficiency , which is one of the requirements for a high-fidelity NV state readout ."
+  },
+  {
+    "original_claim": "Finally, annealing also plays a crucial role for the NV centers creation and their properties [20–22] not only by improving the conversion efficiency of P1 centers to NVs, but also changing the local charge distribution and the diamond lattice strain around the NVs by enabling diffusion of charged defects and relieving the lattice strain."
+  },
+  {
+    "original_claim": "Annealing of the samples can improve the properties of NV centers, as demonstrated by Meng et al. ."
+  },
+  {
+    "original_claim": "This resulted in a laser spot diameter of roughly 660 nm ."
+  },
+  {
+    "original_claim": "Finally, Qudi software was used for hardware control and data acquisition."
+  },
+  {
+    "original_claim": "On the other hand, the δ-doped sample presents a strong Raman emission from the diamond host below 550 nm , which saturates the counts at higher wavelengths, 4 0 7 14 NV− SiV (a) δ-doped 600 650 700 750 800 Wavelength (nm) 0 7 14 NV0 (b) (111)-implanted Intensity (kCounts/s) FIG."
+  },
+  {
+    "original_claim": "The δ-doped and (100)-implanted samples exhibit comparable fluorescence in the bulk, whereas the (111)-implanted one has fluorescence about four times smaller, which could be related to a less efficient NV yield by the implantation at this crystallographic orientation .By the δ-doped sample the saturation curves were measured before and after each annealing step."
+  },
+  {
+    "original_claim": "Siyushev et al. F(P) = F∞ P P + Psat + C. where P is the laser power, F∞ the fluorescence at saturation, Psat the saturation power and C a constant offset from the background."
+  },
+  {
+    "original_claim": "III A) or by the area of the laser spot (with an estimated diameter of 660 nm) in the case of the bulk region ."
+  },
+  {
+    "original_claim": "Electron Spin Coherence To measure the coherence times, a Hahn-echo sequence was applied to the electronic spin of the NVs, using the lowest ODMR resonant frequency from 2.77 GHz to 2.78 GHz."
+  },
+  {
+    "original_claim": "Rabi measurements were performed prior to the Hahn-echo to obtain the exact π-pulse duration."
+  },
+  {
+    "original_claim": "Further studies can concentrate on the very high fluorescence enhancements in the smallest pillars or the determination of the exact concentration of NV and P1 centers in differently prepared samples by double electronelectron resonance (DEER) techniques ."
+  },
+  {
+    "original_claim": "We would also like to thank Helen Diller Quantum Center, Technion for supporting financially this work. F."
+  },
+  {
+    "original_claim": "Pressure values measured at several annealing points are also given. 0 2 4 6 8 Time [h] 0 200 400 600 800 1000 1200 1400 T emperature [°C] Pressure -implanted Pressure -implanted Pressure -doped 10 7 10 6 Pressure [mbar] FIG."
+  },
+  {
+    "original_claim": "Thanks to the electron cooling effect [20–30] and tiny volume of a nanoabsorber, CEBs are suitable for space applications, since they can be operated in 3He sorption fridges and have record cosmic rays immunity ."
+  },
+  {
+    "original_claim": "While initially detectors with electron cooling were suggested for X-ray frequency range , recently it has been predicted that CEBs can be used as single photon detectors with photon wavelengths up to 1 cm ."
+  },
+  {
+    "original_claim": "The deposition of materials was performed by electron beam evaporator using selfaligned shadow evaporation technique ."
+  },
+  {
+    "original_claim": "In addition, a few samples have been manufactured using typical technology for fabrication of superconducting qubits ."
+  },
+  {
+    "original_claim": "In addition to the heat balance equations, the electronic temperature can be calculated from the equation for the quasiparticle current , which gives correct results, since in our designs the Andreev current and, respectively, the zero bias current peak, are suppressed due to the use of hybrid Al/Fe absorber ."
+  },
+  {
+    "original_claim": "This is only twice higher than the internal NEP of a single bolometers of a similar design ."
+  },
+  {
+    "original_claim": "These reactors operate under extremely harsh conditions, characterized by high temperatures and intense radiation fields, necessitating structural materials with greater radiation tolerance than those used in current fission reactors to resist radiation-induced degradation ."
+  },
+  {
+    "original_claim": "Ion irradiation is thus widely employed for comparative studies to investigate the effect of irradiation conditions, such as damage rate and temperature ."
+  },
+  {
+    "original_claim": "However, a key difference between the two irradiation conditions is the density and size of the defects, leading to a difference in macroscopic void swelling and hardening ."
+  },
+  {
+    "original_claim": "Their findings highlight the complicated synergies between He, H and radiation damage of structural materials ."
+  },
+  {
+    "original_claim": "Structural materials experience severe property degradation under neutron irradiation, including radiation induced volume swelling, hardening, embrittlement, creep, phase instability ."
+  },
+  {
+    "original_claim": "V oid swelling is a critical phenomenon of material degradation and is often considered as one of the most important criteria for the evaluation of materials radiation resistance property ."
+  },
+  {
+    "original_claim": "Ferritic/martensitic steels are considered promising candidates structure materials of the breeding blanket, reactor pressure vessel (RPV), as well as the fuel cladding in the future fusion and fission reactors ."
+  },
+  {
+    "original_claim": "Zinkle et al. found that at temperatures where interstitials are mobile, the surviving defect fraction of displacements is similar over a wide range of PKA energies for various ion and fast neutron irradiation conditions considering correlated recombination."
+  },
+  {
+    "original_claim": "Hou et al. using object kinetic Monte Carlo simulations, demonstrated that cluster size distributions in cascade debris and the spatial extent of vacancy and SIA clusters in displacement cascades play major role in the evolution of cluster size distributions after long enough time (at 0.1 dpa)."
+  },
+  {
+    "original_claim": "Methods We used the open source software, MMonCa for the object kinetic Monte Carlo simulation."
+  },
+  {
+    "original_claim": "Similar to previous simulation for Fe -Cr alloy , the dislocation line density is 3.04 × 1014 m-2, and the effect of dislocation density is also studied below."
+  },
+  {
+    "original_claim": "Periodic boundary conditions (PBC) are applied in all three directions of the simulation box, and the grain boundaries are not considered in the current simulation ."
+  },
+  {
+    "original_claim": "The capture radius for point defects is set to be 0.287 nm , and the capture volumes of clusters are the union of the capture distances of their constituent defects, depending on the shape of clusters, which is the basic settings in the MMonCa code."
+  },
+  {
+    "original_claim": "Bias absorption at the dislocation line is considered, and the bias factor for SIAs at dislocation lines is set as 1.05, for the capture efficiencies of SIAs are larger than vacancies . 2.2 The energetics of objects OKMC method requires formation energy and migration energy of the objects contained in the simualtion to be the inputs, in order to simulate dissociation, migration and emission reactions."
+  },
+  {
+    "original_claim": "In this work, single and small vacancy clusters migrate in 3D mode and vacancy clusters containing more than 5 vacancies are considered immobile, which is a common assumption in OKMC and cluster dynamics simulations ."
+  },
+  {
+    "original_claim": "Instead, we consider its effect to reduce the mobility of SIA clusters, using a simplified approximation named “grey alloy” approach, as described in details in Ref. ."
+  },
+  {
+    "original_claim": "A connection between these two methods was first applied several decades ago by Jaraiz et al. and was used to simulate high -energy collision cascades in solids under irradiation by Ortiz ."
+  },
+  {
+    "original_claim": "When coupled with OKMC models, this method could offer great efficiency with a considerable level of calculation accuracy ."
+  },
+  {
+    "original_claim": "However, for the Fe self-ion implantation at MeV or higher energy levels, the relevant length scale is about several hundred or thousand nanometers, which goes beyond the practical reach of MD simulations ."
+  },
+  {
+    "original_claim": "BCA simulations were performed by the Stopping and Range of Ions in Matter (SRIM) code with the K-P model to obtain the spatial distribution of the primary knock -on atoms with varied energies of the 5 MeV ion implantation."
+  },
+  {
+    "original_claim": "The PKA spectrum of neutron irradiation was generated from typical neutron spectrum of HFIR reactor using the SPECTRA -PKA code , while the one for 5 MeV Fe ion irradiation was calculated by the SRIM code mentioned above at the region of 800-911.5 nm."
+  },
+  {
+    "original_claim": "MD simulations were performed using the LAMMPS code ."
+  },
+  {
+    "original_claim": "These results consist with the previous study of PKA energy in R ef. that the number density of vacancy clusters with higher energy cascades is lower than with lower energy cascades."
+  },
+  {
+    "original_claim": "Fig. 11 The number of events that (a) mono-vacancies and vacancy clusters and (b) mono-interstitials and SIA clusters interact with vacancy clusters under different irradiation conditions at 1.0 dpa, respectively. S.J."
+  },
+  {
+    "original_claim": "Pan & Banerjee tracked up to 160 moving particles in turbulent channel flow), it is nowadays feasible to describe O(106) particles with resources available at many HPC centers ."
+  },
+  {
+    "original_claim": "A detailed account of the boundary-conforming approach can be found in the recent review by Wachs ."
+  },
+  {
+    "original_claim": "For the discrete counterpart Peskin devised regularized delta functions which ensure smooth interpolation and spreading for arbitrarily located force points (cf. also )."
+  },
+  {
+    "original_claim": "As a consequence, feed-back forcing is typically avoided in PR-DNS applications. 5.2.1 Direct forcing immersed boundary method Mohd-Yusof (cf. also ) realized that the feed-back procedure can be circumvented by constructing the forcing term such that the “desired” velocity is directly obtained after each time step."
+  },
+  {
+    "original_claim": "The basic idea can be demonstrated by writing the Navier-Stokes momentum equation (1.3) in the following simple semi-discrete form un+1 f −un f ∆t = RHSn+1/2 + fn+1/2 , (5.1) where the superscript indicates a discrete time level,RHS regroups the advective, viscous and pressure terms (which are evaluated at some intermediate time with index n + 1/2), and ∆t is the discrete time step."
+  },
+  {
+    "original_claim": "Supposing that a desired velocity value u(d) f is known at a grid point coinciding with the fluid-solid interface, an explicit expression for the forcing term fn+1/2 can be obtained from (5.1) by requiring that un+1 f = u(d) f , viz. fn+1/2 = u(d) f −un f ∆t −RHSn+1/2 . (5.2) Since, however, the particle surface does in general not coincide with the Eulerian grid nodes, interpolation of some kind is necessary in order to define the desired velocity."
+  },
+  {
+    "original_claim": "In a slightly different approach is taken: a preliminary velocity field is first interpolated to Lagrangian marker locations on the fluid-solid interface (as in Peskin’s original method), then the force term is computed in the spirit of (5.2), and finally the force is transferred back to the Eulerian grid, again using Peskin’s original spreading operator."
+  },
+  {
+    "original_claim": "Since the method presented in serves as a foundation for many subsequent refinements, we will specify it here in more detail."
+  },
+  {
+    "original_claim": "The first step is to determine a preliminary velocity field ˜uf , solution of the momentum equation (5.1) in the absence of any immersed-boundary forcing, viz. ˜uf −un f ∆t = RHSn+1/2 . (5.3) 3 Modelling approaches and computational methods for particle-laden turbulent flows (a) (b) (c) δ(1) h ∆x -2 -1 0 1 2 0 0.2 0.4 0.6 0.8 r/∆x Figure 5.1: (a) Discrete delta function kernel δ(1) h (r) used in the interpolation (5.4) and spreading (5.6) of variables between Eulerian and Lagrangian locations: 3-point function of ; 4point function of ."
+  },
+  {
+    "original_claim": "The red squares indicate the support of the discrete delta function kernel (in this case the 3-point function of ) associated to each Lagrangian marker point. (c) Distribution of 515 Lagrangian points on the surface of a sphere (as e.g. used in an IBM when dp/∆x = 13), obtained via a repulsion force algorithm ."
+  },
+  {
+    "original_claim": "Here the regularized delta function as constructed by Peskin guarantees that the net force and torque acting on a body are preserved by the spreading step."
+  },
+  {
+    "original_claim": "Although no unique measure of “evenness” of a spatial distribution in three spatial dimensions exists, both iterative approaches as well as explicit constructions on the sphere are available for practical purposes, as discussed e.g. in and ."
+  },
+  {
+    "original_claim": "Since the early work of Fadlun et al. many researchers have chosen to apply an immersed boundary force only at the fluid-solid interface, while allowing the flow field in the interior of the solid domain to evolve freely."
+  },
+  {
+    "original_claim": "Moriche et al. report a case of non-physical path oscillations due to surface forcing in their simulations of mildly oblate spheroids with relatively small excess density settling under gravity."
+  },
+  {
+    "original_claim": "Uhlmann observed that applying the direct forcing immersed-boundary procedure throughout the volume occupied by the solid particle tends to reduce the slip error at the interface for low Reynolds number flows."
+  },
+  {
+    "original_claim": "It is common practice to use a marker density comparable to the density of the Eulerian grid points ."
+  },
+  {
+    "original_claim": "Zhou & Balachandar have considered the volume∆Vl in (5.6) as an ajustable weight factor, and their analysis then somewhat surprisingly shows that the optimal choice (from the point of view of e fficiency) corresponds to the minimum marker density."
+  },
+  {
+    "original_claim": "This is due to the fact that the amplitude of the velocity error (under the above mentioned condition on overlapping delta functions, and for su fficiently small time steps) does not significantly a ffect the value of the immersed-boundary force ."
+  },
+  {
+    "original_claim": "The inset shows the relative error of the scalar boundary flux, Ds s,x(x2), as a function of time, where T∆ = ∆ x/uw is the interval during which the immersed boundary traverses one grid cell (the black curve is for the three-point delta function of , the blue curve for the four-point function of ). (b) Convergence of the solution under spatial refinement."
+  },
+  {
+    "original_claim": "This convergence result also applies to the force acting on the submerged body, as has been demonstrated by Zhou & Balachandar ."
+  },
+  {
+    "original_claim": "Other authors have proposed immersed boundary schemes which avoid to spread the forcing term into the volume occupied by the fluid phase , thereby maintaining the momentum balance untainted."
+  },
+  {
+    "original_claim": "A number of kernel functions for the interpolation (5.4) and spreading (5.6) of quantities between Eulerian and Lagrangian positions have been proposed in the literature, and the reader is referred to for a thorough discussion of the invariance properties and moment conditions which can be achieved."
+  },
+  {
+    "original_claim": "Due to its support of only three grid points in each linear dimension the variant stated in has been widely used for PR-DNS."
+  },
+  {
+    "original_claim": "Gsell & Favier have shown that the discrepancy (i.e. the di fference between the updated and the desired velocities at the Lagrangian marker points) depends essentially on the reciprocity of the interpolation and spreading operators (5.4,5.6)."
+  },
+  {
+    "original_claim": "In order to reduce the Lagrangian velocity error, Gsell & Favier propose to multiply the Lagrangian force relation (5.5) by a constant correction factor which only depends on the choice of the kernel function."
+  },
+  {
+    "original_claim": "In fact, the error shown in figure 5.2( b) remains practically identically when the correction proposed in is applied, and the same is true for the interface flux (not shown)."
+  },
+  {
+    "original_claim": "This is consistent with the analysis of Zhou & Balachandar which we have already discussed above."
+  },
+  {
+    "original_claim": "Incidentally, the so-called “multi-direct” forcing approach , where the immersed boundary force computation (5.4-5.6) is repeatedly carried out per time step while the force fieldfn+1/2 is being summed up, can be interpreted as an iterative way of achieving essentially the same effect (in the limit of an infinite number of iterations) as through the explicit correction method of Gsell & Favier ."
+  },
+  {
+    "original_claim": "Bao et al. have proposed such an ansatz, which, however, requires the solution of additional global Poisson problems at each time step."
+  },
+  {
+    "original_claim": "Alternatively, Taira & Colonius have shown how to absorb an immersed-boundary-like procedure into the projection step of a fractional step method with the aid of an algebraic procedure that is somewhat related to the Lagrange multiplier method (cf. § 5.3)."
+  },
+  {
+    "original_claim": "More specifically, it can be shown that under the assumption of rigid body motion (u = Vp + Ωp ×r, where r is the distance from the center of mass) throughout the volume occupied by the particle we have: d dt I ∂V(i) s u dV = Vp dV(i) p dt , (5.9) and analogously for the moment of moments ."
+  },
+  {
+    "original_claim": "In this case a number of conditions for stable integration arise which depend on the solid-fluid density ratio, on the details of the temporal discretization, on the distribution of the Lagrangian markers, and on the choice of the regularized delta function ."
+  },
+  {
+    "original_claim": "In practice, the standard weakly-coupled approach is limited to particles with an excess density (Uhlmann reports stable integration forρp/ρf >1.2, while Zhou & Balachandar have shown how this limit can be somewhat lowered by adapting the value of the volume associated with the Lagrangian points)."
+  },
+  {
+    "original_claim": "Patankar has proposed a method which allows to treat the density-matched case ( ρp = ρf ) by computing the rigid particle velocity through integration of the (computational) velocity field over the particle volume, thereby circumventing the above-mentioned singularity (cf. also ) and at the same time obviating the need to explicitly solve the Newton-Euler equations (1.5)-(1.6)."
+  },
+  {
+    "original_claim": "Another interesting route has been taken by Kim & Choi who propose to integrate the particle momentum equation with a Crank-Nicolson method (i.e. with implicit coupling), and then show how the evaluation of the hydrodynamic force at the new (unknown) time level can be avoided through use of Lagrangian quantities."
+  },
+  {
+    "original_claim": "A somewhat di fferent approach is taken by Schwarz et al. who introduce a stabilizing term on both sides of the Newton-Euler equations for rigid particle motion (which is termed ‘virtual mass force’), allowing for small density ratios to be tackled."
+  },
+  {
+    "original_claim": "This technique has subsequently been refined for larger volume fractions ."
+  },
+  {
+    "original_claim": "Yet another approach is due to Tschisgale et al. (cf. also ), who define an interface layer (with finite thickness) to which the rigid-body assumption is restricted."
+  },
+  {
+    "original_claim": "The factor (1 −ρf /ρp) is the result of extending the fluid momentum equation from Ω\\P to Ω ."
+  },
+  {
+    "original_claim": "In the context of DLM /FD methods, the implementation in is gradient discontinuity capturing and can be viewed as an implicit ghost node method with additional volume forcing."
+  },
+  {
+    "original_claim": "The value of specific heat ratio can be adjusted by introducing additional internal degrees of freedom , and the value of Prandtl number can be adjusted in several ways, e.g., by altering the equilibrium distribution or by adding a properly designed source term ."
+  },
+  {
+    "original_claim": "The terms of O(u3) is included here to ensure that the Navier-Stokes equation is exactly recovered under the Chapman-Enskog approximation ."
+  },
+  {
+    "original_claim": "The incompressibility constraint is therefore a much stronger constraint than the CFL stability condition |u|∆t/∆ < 1 that usually applies to explicit schemes."
+  },
+  {
+    "original_claim": "In practical terms one designs simulations such that the Mach number stays below 0.1 . 16 5 Particle-resolved DNS methods 5.4.3 The generalized off-grid DUGKS method In DUGKS, we instead apply a finite-volume treatment to Eq. (5.28)."
+  },
+  {
+    "original_claim": "The distributions at tn+1 can then be obtained from Eq. (5.55). 18 5 Particle-resolved DNS methods In the numerical implementation, the equilibrium distribution should be expanded to fourth order for thermal flows, or third order for the isothermal flows ."
+  },
+  {
+    "original_claim": "A mathematical analysis of the numerical dissipation in DUGKS shows that the former depends on both the mesh size and the time step size (or equivalently the CFL number), but is smaller than a version which uses a direct interpolation without considering the collision term. 5.4.4 Treating the moving solid-fluid interfaces Both LBM and DUGKS have been applied to simulate suspension flows, turbulent flows, and turbulent flows laden with finite-size particles."
+  },
+  {
+    "original_claim": "Reference deals with a number of practicalities when applying the approach to multiple spherical particles suspended in fluid. 19 Modelling approaches and computational methods for particle-laden turbulent flows Figure 5.3: Left panel: Half-way bounce-back representation of a circular no-slip boundary on a square lattice."
+  },
+  {
+    "original_claim": "The bounce-back conditions representing no-slip are imposed halfway the links between those two nodes that intersect with the circle (square dots) ."
+  },
+  {
+    "original_claim": "In order to ensure the second-order spatial accuracy in a bounce-back process, a number of interpolated bounce-back (IBB) schemes have been introduced over the years, with the conditional IBB scheme proposed by Bouzidi et al. and the unified IBB scheme by Yu et al. being the most representative."
+  },
+  {
+    "original_claim": "Initial attempts to apply the immersed boundary method in the context of lattice-Boltzmann simulations were based on the feedback approach due to and alluded to in the present § 5."
+  },
+  {
+    "original_claim": "An early – 1999 – application of this method is the representation of an impeller in a mixing tank in single-phase large-eddy simulations ."
+  },
+  {
+    "original_claim": "The stability and accuracy of the method hinges on the free parameterα."
+  },
+  {
+    "original_claim": "Extending it to solid particles moving through fluid is straightforward ."
+  },
+  {
+    "original_claim": "Alternative force-based immersed boundary methods in an LB context have been proposed by e.g. ."
+  },
+  {
+    "original_claim": "They stay close to the original ideas of Peskin (see also Section 5.2) of an “elastic restoration force” that counteracts deformations of the immersed solid object as a result of fluid flow."
+  },
+  {
+    "original_claim": "They are distributed over neighbouring lattice nodes through a regularized delta function ."
+  },
+  {
+    "original_claim": "Several authors have proposed alternatives in the context of LBM methods ."
+  },
+  {
+    "original_claim": "The method to implement the boundary condition for a fixed solid wall in DUGKS is very similar to that in LBM, except that it is done at the cell interface nodes ."
+  },
+  {
+    "original_claim": "For moving solid-fluid interface, the immersed boundary method described above is typically used, see, for example, the study of Tao et al. for particle-laden flows. 5.4.5 Remarks Table 5.1: Comparison of LBM and DUGKS."
+  },
+  {
+    "original_claim": "Nevertheless, Peng et al. show that, when a sufficient grid resolution is used, the two methods are able to provide accurate results for most of turbulent statistics in both the carrier and dispersed phases in turbulent particle-laden flow simulations."
+  },
+  {
+    "original_claim": "Here we focus on a single parameter point which has been proposed as one of the benchmarks in : an isolated sphere of density ratio ρp/ρf = 1.5 is settling at a Galileo numberGa = 178.46, which corresponds to the steady oblique regime of motion, induced by a double-threaded, off-center wake (cf. visualization in figure 5.4)."
+  },
+  {
+    "original_claim": "It can also be seen that the amplitude of the recirculation region is reasonably well reproduced with dp/∆x = 24 when using a standard immersed boundary method ."
+  },
+  {
+    "original_claim": "In the figure we have included the Lattice-Boltzmann-based results of Rettinger & R ¨ude , which are of similar quality as the IBM results at comparable spatial and temporal resolutions."
+  },
+  {
+    "original_claim": "IBM method of , CFL = 0.3; □ IBM method of , CFL = 0.15; △ LBM computation of , using central linear interpolation."
+  },
+  {
+    "original_claim": "Note that the IBM data is not identical to that presented in ; it has been recomputed here with the procedure described in such that the Galileo number matches the nominal value Ga = 178.46 exactly. 24 5 Particle-resolved DNS methods and the angular velocity, which are not shown), which can be attributed to the different lateral boundary conditions (periodic vs. zero-stress) and to the shape of the computational domain (cuboid vs. cylindrical)."
+  },
+  {
+    "original_claim": "Let us mention that analogous reference data for a settling oblate spheroid is available , where the authors also discuss the convergence properties of an immersed boundary method. % % % % % % % % 5.6 Comparing PR-DNS methods: a difficult exercise There exists a broad spectrum of PRS methods in the literature and readers may wonder which method to select for their own research."
+  },
+  {
+    "original_claim": "In the preceeding sections, we elaborated on IBM, DLM and Boltzmann-based approaches, but we did not discuss many other methods such as ghost node , cut-cell and overset grid methods for the sake of conciseness."
+  },
+  {
+    "original_claim": "Other authors have developed approaches for treating conjugate heat transfer problems throughout the fluid and solid domains ."
+  },
+  {
+    "original_claim": "Additional forces acting on the particles, beyond those which arise due to direct solid-solid contact or due to a failure to resolve lubrication (cf. chapter 11), can be integrated into the PR-DNS framework in a relatively straightforward manner, e.g. short-range cohesive forces and electrical charges ."
+  },
+  {
+    "original_claim": "Particle deformability can be realized in the framework of deformable shell models (applicable to the simulation of capsules) with an immersed-boundary technique as shown e.g. in ."
+  },
+  {
+    "original_claim": "Other authors have resorted to a description of the interface properties based on a (Cahn-Hilliard) phase-field model, coupled to immersed-boundary-type discretizations ."
+  },
+  {
+    "original_claim": "For example, Thomson scattering, which is the scattering of laser light on free electrons, is used to determine electron density and electron temperature ."
+  },
+  {
+    "original_claim": "It determines the production of energetic particles, energy losses, gas temperature and chemical activity ."
+  },
+  {
+    "original_claim": "However, direct electric field measurements on transient discharges are often invasive or limited by photon emission and assumptions ."
+  },
+  {
+    "original_claim": "However, the electric field of the discharge is influenced by the presence of the target ."
+  },
+  {
+    "original_claim": "So far, laser diagnostics, including E-FISH, are generally considered non-invasive when applied to plasma ."
+  },
+  {
+    "original_claim": "In a recent paper of Nakamura on E-FISH, the occurrence of laser induced streamers is described, but these discharges do not affect the E-FISH signal."
+  },
+  {
+    "original_claim": "Another advantage of shorter laser pulses is that the pulse energy, which is constrained by laser-induced breakdown , is lower, while the beam intensity is higher."
+  },
+  {
+    "original_claim": "Characteristics of the used plasma source can be found in ."
+  },
+  {
+    "original_claim": "A gamma correction factor γc is applied to increase the visibility of the plasma ."
+  },
+  {
+    "original_claim": "According to , the ’effective’ intensity of a Gaussian beam is given by IGB = P/aeff, (1) where P is the laser power and aeff the effective area, defined as aeff = πw2 0 4 , (2) with w0 the beam waist."
+  },
+  {
+    "original_claim": "Given the average speed of the bullets, 10 5 m/s , the bullet will move approximately 600 µm during a nanosecond laser pulse and 15 µm during a picosecond laser pulse."
+  },
+  {
+    "original_claim": "According to previous research, in gas mixtures with little photo-ionization a streamer discharge tends to travel into the direction of higher electron density ."
+  },
+  {
+    "original_claim": "The electron density in a regular streamer path is around 10 14 cm−3 ."
+  },
+  {
+    "original_claim": "From research on the memory effect, it is determined that electron densities of 108 − 109 cm−3, which are far below the breakdown threshold, are already sufficient to guide the plasma in a direction nearly perpendicular to the background electric field direction ."
+  },
+  {
+    "original_claim": "This photon in turn can ionize an oxygen molecule somewhere else, creating an additional electron : N∗ 2 → N2 + hν O2 + hν → O+ 2 + e, (3) where hν represents the photon energy."
+  },
+  {
+    "original_claim": "Also, external radiation like cosmic rays or bremsstrahlung photons from very fast runaway electrons can act as an electron source ."
+  },
+  {
+    "original_claim": "Therefore, only O 2 – is vulnerable to laser induced photodetachment in our setup, because of the higher electron binding energies of O– and O3 – (above photon energy) ."
+  },
+  {
+    "original_claim": "For the laser power used in this research, O− 2 is almost 100% detached within the laser beam, taking into account the photodetachment cross-section ."
+  },
+  {
+    "original_claim": "The needed laser intensity to cause breakdown due to photoionization using an IR laser is 1011 W/cm2 ."
+  },
+  {
+    "original_claim": "This exceeds the optical bullet diameter of 280 ±20 µm , but corresponds to the width of the top hat profile."
+  },
+  {
+    "original_claim": "Fortunately, the 500 mm focal length lens results look more similar to the expected profiles and the 750 mm results are almost in agreement with literature ."
+  },
+  {
+    "original_claim": "There are two main differences: The first difference is the asymmetry in the measured E-FISH signal corresponding to the radial field component that is induced by interference effects, as explained in ."
+  },
+  {
+    "original_claim": "However, recent work has shown that low laser power E-FISH measurements are possible ."
+  },
+  {
+    "original_claim": "In fact, most of the experiments involving weak measurements have been performed in classical optical settings for small optical signal amplifications, such as, for the estimation of small phase, quantifying small angular rotations , measuring ultrasmall time delays , capturing tiny beam deflections and so on [11–14]."
+  },
+  {
+    "original_claim": "In 2004, Resch and Steinberg incorporated the idea of weak measurement in a more general scenario, a joint quantum measurement ."
+  },
+  {
+    "original_claim": "∗ niladri.modak@tuni.fi † nghosh@iiserkol.ac.in dependent modifications in the joint canonical position and/or momentum variable (second moment) of the pointer, unlike just a shift (first moment) in the pointer variable in case of single weak measurement ."
+  },
+  {
+    "original_claim": "A Gaussian beam when total internally reflecting from a dielectric interface experiences polarization-dependent Goos-H¨ anchen (GH) and Imbert-Fedorov (IF) beam deflection ."
+  },
+  {
+    "original_claim": "Importantly, the simultaneous appearance of the GH and IF shifts enables such a system to arXiv:2412.07440v1 [physics.optics] 10 Dec 2024 2 act as a natural classical optical platform that mimics a quantum joint weak measurement."
+  },
+  {
+    "original_claim": "Both these shifts are very small in magnitude when compared to input beam dimension and thus mimic an ideal weak measurement scenario ."
+  },
+  {
+    "original_claim": "Interestingly, GH and IF shifts always appear simultaneously in case of the reflection or transmission of a realistic light beam owing to their non-separability ."
+  },
+  {
+    "original_claim": "Additionally, for a TIR, both the Artmann operators ˆA and ˆB for GH and IF shifts are Hermitian and non-commuting , mimicking a joint weak measurement scenario proposed by Resch and Steinberg (see Fig. 1(a)) ."
+  },
+  {
+    "original_claim": "Therefore, we can use the expressions (given in ) to extract complex joint weak value (a) Pre-selection Total internal reflection Longitudinal (GH) and transverse (IF) shift with different orthogonal eigen polarization Post-selection = 45˚θ -axis (mm) -axis (mm) -axis (mm) -axis (mm) P1 Q1 Q2 P2 L1 Prism Laser Camera Z f1 (I) (II) (b) f 2 Q2P2L3 L2CL f 4 f 3Camera FIG."
+  },
+  {
+    "original_claim": "The eigenpolarizations of GH shift are horizontal and vertical linear polarization, whereas IF shift possesses opposite handed circular (elliptical) polarizations ."
+  },
+  {
+    "original_claim": "Note that, the real and imaginary parts of the single weak value, are associated with spatial and angular shift of the reflected beam respectively ."
+  },
+  {
+    "original_claim": "The total shift can be expressed as a combination of imaginary (momentum-domain/angular) shift and real (position-domain/spatial) shift both of which show weak value amplification beavior (∼ cot ϵ) ."
+  },
+  {
+    "original_claim": "The 4 − f system images the point of interaction on the camera placed at the front focal plane of L3 as shown in Fig. 1 ."
+  },
+  {
+    "original_claim": "CL is oriented in such a way that it gives the Fourier transform of only y-direction, without any effect on the x-direction . 4 IV."
+  },
+  {
+    "original_claim": "RESULTS AND DISCUSSIONS To experimentally observe the joint weak values, we choose the pre and postselection in such a way that the corresponding pointer observables are enhanced, leading to greater experimental ease in observing them. \u00001 1 \u0001T state, i.e., +45 o linear polarization is chosen as the preselection and the subsequent near orthogonal elliptical postselection |ψf ⟩ = \u00001 − i(sin 2ϵ + cos 2ϵ) −1 − i(sin 2ϵ − cos 2ϵ)\u0001T enhances both the GH and IF shift simultaneously . ϵ is the postselection angle denoting the offset to the exact orthogonal pre and postselection."
+  },
+  {
+    "original_claim": "This pre and postselection combination enhances both the real and imaginary parts of ⟨A⟩W and ⟨B⟩W (see Appendix D) which are necessary for the computation of JWV as mentioned in Eq. (2), (3) ."
+  },
+  {
+    "original_claim": "The region where the centroid of the beam is undetectable is marked by green dashed lines. variations of ∆x and ∆y with changing postselection angle ϵ are shown in Fig. 3(a),(b) for two detection positions Z1 = 12 cm and Z2 = 20 cm. ∆ x and ∆y show the expected weak value amplification behavior and agrees with the simulation."
+  },
+  {
+    "original_claim": "Note that the centroid of the beam cannot be detected around the zero offset angle, i.e., postselection angle ϵ = 0 as the Gaussian nature of the beam profile cannot be maintained and the intensity of the beam is almost comparable to the external noise level that results in error-prone centroid detection."
+  },
+  {
+    "original_claim": "Additionally, these shift measurements are very prone to errors in the beam parameters and the detection geometry ."
+  },
+  {
+    "original_claim": "In contrast, for example, in partial reflection, the beam shift operators are generally non-Hermitian in nature ."
+  },
+  {
+    "original_claim": "A Gaussian beam undergoing TIR from a dielectric interface experiences polarization-dependent GH and IF shifts in longitudinal and transverse spatial directions respectively, mimicking an ideal join weak measurement scenario as originally proposed by Resch and Steinberg ."
+  },
+  {
+    "original_claim": "Appendix D: CHOICE OF PRE AND POST-SELECTED POLARIZATION STATE Unlike plane waves, real Gaussian beams carry a finite Gaussian distribution of wave vectors around the central wave vector which leads to the shifts in the centroid of its 7 transverse profile when reflected or refracted from any interface ."
+  },
+  {
+    "original_claim": "The in-plane (Longitudinal) Goos-H¨ anchen (GH) shift originates due to angular gradient of the Fresnel coefficients associated with the change of angle of incidence for the non-central wave vectors and the out of the plane (Transverse) Imbert-Fedorov (IF) shifts originates from the spin orbit interaction of light ."
+  },
+  {
+    "original_claim": "The eigenvalues of the shift matrices ( A and B) provide the maximal centroid shift of the beam when the incident polarization coincides with the corresponding eigenvectors ."
+  },
+  {
+    "original_claim": "The method to estimate ⟨X⟩, ⟨Y ⟩, ⟨XY ⟩, ⟨XPy⟩ from an experimentally obtained image of the light beam is covered in the following ."
+  },
+  {
+    "original_claim": "Experimentally retrieved real and imaginary parts of weak values for both the GH (top panel) and IF (bottom panel) shifts. (a),(b) show the comparison between experimentally determined values and the simulation of the imaginary and real parts of ⟨A⟩W respectively; (c),(d) demonstrate the contrast between values obtained by experimentation and the simulated imaginary and real components of ⟨B⟩W respectively.The purpose of this figure is to demonstrate how a small deviation in imaginary weak value leads to a huge error in the estimation of real weak value contradicting to the fact that the actual real weak value has a lower order of magnitude. Y."
+  }
+]

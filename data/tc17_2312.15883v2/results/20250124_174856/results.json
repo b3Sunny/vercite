@@ -1,0 +1,1273 @@
+[
+  {
+    "original_claim": "LLMs in understanding and generating natural language [73], especially in the medical domain [ 7, 36, 56, 74, 76, 83, 89, 95, 100].",
+    "context_before": [
+      "These achievements underscore the vast potential of ∗Xinke Jiang, Ruizhe Zhang, and Yongxin Xu contributed equally to this research. {xinkejiang, ruizezhang, xuyx} @stu.pku.edu.cn †Corresponding authors. ‡Junfeng Zhao is also at the Big Data Technology Research Center, Nanhu Laboratory, 314002, Jiaxing."
+    ],
+    "context_after": [
+      "Despite the advancements of fine-tuning, they still encounter significant challenges, including the difficulty in avoiding factual inaccuracies (i.e., hallucinations and limited explainability) , data constraints (i.e. token resource limit, high training costs, and privacy concerns)1, catastrophic forgetting , outdated knowledge , and a lack of expertise in handling specific domains or highly specialized queries ."
+    ],
+    "references": [
+      "73"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "73",
+        "main_query": "LLMs in understanding and generating natural language",
+        "rewritten_queries": [
+          "Large Language Models in natural language comprehension and generation",
+          "The role of LLMs in processing and producing natural language",
+          "Understanding and generating natural language with LLMs"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "73",
+        "query_used_for_retrieval": "LLMs in understanding and generating natural language",
+        "retrieved_docs_from_sources": [
+          65,
+          65,
+          44,
+          44,
+          87
+        ],
+        "predicted_reference": "[44]_2305.13269",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.0,
+          "ndcg_at_k": 0.0,
+          "mrr": 0.0,
+          "hit_rate_at_k": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "However, the gap between unstructured user queries of inconsistent quality and structured, high-quality KGs [65] poses significant challenges on how to properly parse user intent for improving the robustness of retrieved knowledge (pre-retrieval phase) and how to handle the abundant retrieved knowledge (post-retrieval phase), which are detailed as follows: Challenge I: At the pre-retrieval phase, previous works suffer from how to parse user intent and retrieve reasonable knowledge based on varying-quality user query.",
+    "context_before": [
+      "They are considered by many research works to improve the accuracy and reliability of answers provided by LLMs ."
+    ],
+    "context_after": [
+      "Some works are based on the Retrieve-Read framework, which initially obtains knowledge through dense vector retrieval according to user queries ."
+    ],
+    "references": [
+      "65"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "65",
+        "main_query": "the gap between unstructured user queries of inconsistent quality and structured, high-quality KGs",
+        "rewritten_queries": [
+          "challenges posed by unstructured user queries and high-quality knowledge graphs",
+          "issues arising from the disparity between inconsistent user queries and structured knowledge bases",
+          "the difficulties in parsing user intent due to the quality differences in user queries and knowledge graphs"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "65",
+        "query_used_for_retrieval": "the gap between unstructured user queries of inconsistent quality and structured, high-quality KGs",
+        "retrieved_docs_from_sources": [
+          65,
+          65,
+          65,
+          65,
+          65
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "This misalignment between the semantic spaces of user queries and high-quality structured knowledge leads to the retrieval of knowledge that is of insufficient quality and may contain redundant information and noise [8].",
+    "context_before": [
+      "However, they are stricken with issues such as unclear expressions and lack of semantic information in the user’s original query."
+    ],
+    "context_after": [
+      "In addition, the excessive redundant knowledge can lead to a waste of token resources, and 1https://www.youtube.com/watch?v=ahnGLM-RC1Y arXiv:2312.15883v2 [cs.CL] 19 Apr 2024 Conference’17, July 2017, Washington, DC, USA Jiang, Zhang and Xu et al. the response speed of LLMs will drop sharply, which adversely damages the performance in real-world applications ."
+    ],
+    "references": [
+      "8"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "8",
+        "main_query": "the retrieval of knowledge that is of insufficient quality and may contain redundant information and noise",
+        "rewritten_queries": [
+          "the acquisition of low-quality knowledge that could include redundant data and noise",
+          "the gathering of knowledge that lacks quality and might have unnecessary information and noise",
+          "the collection of knowledge that is inadequate in quality and may feature redundant and noisy information"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "8",
+        "query_used_for_retrieval": "the retrieval of knowledge that is of insufficient quality and may contain redundant information and noise",
+        "retrieved_docs_from_sources": [
+          17,
+          8,
+          93,
+          44,
+          44
+        ],
+        "predicted_reference": "[93]_2311.09210",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.2,
+          "ndcg_at_k": 0.6309297535714575,
+          "mrr": 0.5,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "In addition, the excessive redundant knowledge can lead to a waste of token resources, and 1https://www.youtube.com/watch?v=ahnGLM-RC1Y arXiv:2312.15883v2 [cs.CL] 19 Apr 2024 Conference’17, July 2017, Washington, DC, USA Jiang, Zhang and Xu et al. the response speed of LLMs will drop sharply, which adversely damages the performance in real-world applications [17].",
+    "context_before": [
+      "This misalignment between the semantic spaces of user queries and high-quality structured knowledge leads to the retrieval of knowledge that is of insufficient quality and may contain redundant information and noise ."
+    ],
+    "context_after": [
+      "Challenge II: At the pre-retrieval phase, how to align user intent with high-quality structured knowledge while reducing interactions with LLMs remains an unresolved issue."
+    ],
+    "references": [
+      "17"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "17",
+        "main_query": "the response speed of LLMs will drop sharply, which adversely damages the performance in real-world applications",
+        "rewritten_queries": [
+          "LLMs will experience a significant decrease in response speed, negatively impacting their performance in practical scenarios",
+          "A sharp decline in the response speed of LLMs can harm their effectiveness in real-world applications",
+          "The performance of LLMs in real-world settings will suffer due to a drastic reduction in their response speed"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "17",
+        "query_used_for_retrieval": "the response speed of LLMs will drop sharply, which adversely damages the performance in real-world applications",
+        "retrieved_docs_from_sources": [
+          65,
+          65,
+          65,
+          65,
+          65
+        ],
+        "predicted_reference": "[65]_2311.17330",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.0,
+          "ndcg_at_k": 0.0,
+          "mrr": 0.0,
+          "hit_rate_at_k": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "To cope with these challenges, we put forward the Hypothesis Knowledge Graph Enhanced (HyKGE) framework, a novel method based on the hypothesis output module ( HOM) [18] to explore, locate, and prune search directions for accurate and reliable LLMs responses in pre-retrieval phase and greatly preserve the relevance and diversity of search results at in post-retrieval phase. i) Specifically, in the pre-retrieval phase, our key idea is that the zero-shot capability and rich knowledge of LLMs can compensate for the incompleteness of user queries, facilitating alignment with highquality external knowledge.",
+    "context_before": [
+      "Therefore, one of the primary challenges in the post-retrieval phase is to balance the trade-off between relevant knowledge and diverse ones ."
+    ],
+    "context_after": [
+      "For example, when facing the question “After meals, I feel a bit of stomach reflux."
+    ],
+    "references": [
+      "18"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "18",
+        "main_query": "hypothesis output module (HOM)",
+        "rewritten_queries": [
+          "HOM (hypothesis output module) in the HyKGE framework",
+          "the role of the hypothesis output module in HyKGE",
+          "how the hypothesis output module enhances the HyKGE framework"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "18",
+        "query_used_for_retrieval": "hypothesis output module (HOM)",
+        "retrieved_docs_from_sources": [
+          17,
+          86,
+          18,
+          19,
+          93
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.2,
+          "ndcg_at_k": 0.5,
+          "mrr": 0.3333333333333333,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "Beyond optimizing submodels, HyDE [19] introduces an innovative method where instruction-following LLMs generate hypothesis documents based on user queries to enhance retriever performance, particularly in zero-shot scenarios.",
+    "context_before": [
+      "However, creating such datasets is also challenging due to the need for manual label correction, which in turn, may erode LLMs generalization capabilities and cause catastrophic forgetting in routine Q&A tasks."
+    ],
+    "context_after": [
+      "Other methods like CoN and CoK involve LLMs in note-making and step-wise reasoning verification through customized prompts, and greatly rely on frequent interactions with LLMs."
+    ],
+    "references": [
+      "19"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "19",
+        "main_query": "HyDE introduces an innovative method where instruction-following LLMs generate hypothesis documents based on user queries to enhance retriever performance, particularly in zero-shot scenarios.",
+        "rewritten_queries": [
+          "HyDE presents a novel approach using instruction-following LLMs to create hypothesis documents from user queries to improve retriever effectiveness in zero-shot situations.",
+          "The innovative method of HyDE allows instruction-following LLMs to produce hypothesis documents based on user queries, boosting retriever performance in zero-shot contexts.",
+          "HyDE's unique technique involves instruction-following LLMs generating hypothesis documents from user queries to enhance the performance of retrievers, especially in zero-shot scenarios."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "19",
+        "query_used_for_retrieval": "HyDE introduces an innovative method where instruction-following LLMs generate hypothesis documents based on user queries to enhance retriever performance, particularly in zero-shot scenarios.",
+        "retrieved_docs_from_sources": [
+          18,
+          19,
+          19,
+          18,
+          18
+        ],
+        "predicted_reference": "[19]_2212.10496",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.4,
+          "ndcg_at_k": 0.6934264036172708,
+          "mrr": 0.5,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "Other methods like CoN [93] and CoK [44] involve LLMs in note-making and step-wise reasoning verification through customized prompts, and greatly rely on frequent interactions with LLMs.",
+    "context_before": [
+      "Beyond optimizing submodels, HyDE introduces an innovative method where instruction-following LLMs generate hypothesis documents based on user queries to enhance retriever performance, particularly in zero-shot scenarios."
+    ],
+    "context_after": [
+      "However, such an approach is excessively inefficient for deployment in real-world Q&A scenarios."
+    ],
+    "references": [
+      "44",
+      "93"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "44",
+        "main_query": "CoK involves LLMs in note-making and step-wise reasoning verification through customized prompts",
+        "rewritten_queries": [
+          "CoK utilizes LLMs for creating notes and verifying reasoning steps with tailored prompts",
+          "The CoK method engages LLMs in the process of note-taking and validating reasoning through specific prompts",
+          "CoK relies on LLMs for both note-making and the verification of reasoning steps using customized prompts"
+        ]
+      },
+      {
+        "related_to_reference": "93",
+        "main_query": "CoN and CoK involve LLMs in note-making and step-wise reasoning verification through customized prompts",
+        "rewritten_queries": [
+          "CoN and CoK utilize LLMs for creating notes and verifying reasoning steps with tailored prompts",
+          "The methods CoN and CoK engage LLMs in the process of note-taking and verifying reasoning through specific prompts",
+          "CoN and CoK rely on LLMs for note-making and stepwise verification of reasoning using customized prompts"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "44",
+        "query_used_for_retrieval": "CoK involves LLMs in note-making and step-wise reasoning verification through customized prompts",
+        "retrieved_docs_from_sources": [
+          44,
+          44,
+          44,
+          44,
+          65
+        ],
+        "predicted_reference": "[44]_2305.13269",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.8,
+          "ndcg_at_k": 1.0,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        }
+      },
+      {
+        "original_reference": "93",
+        "query_used_for_retrieval": "CoN and CoK involve LLMs in note-making and step-wise reasoning verification through customized prompts",
+        "retrieved_docs_from_sources": [
+          44,
+          44,
+          44,
+          44,
+          65
+        ],
+        "predicted_reference": "[44]_2305.13269",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.0,
+          "ndcg_at_k": 0.0,
+          "mrr": 0.0,
+          "hit_rate_at_k": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "KGRAG [65] uses the user query as a reference for retrieval in KGs, which suffers from misalignment between high-quality structured knowledge and varying-quality queries.",
+    "context_before": [
+      "However, how to design a retriever to extract knowledge from KGs and how to design interaction strategies between LLM and KGs are still in the exploratory stage."
+    ],
+    "context_after": [
+      "Semantic parsing methods allow LLMs to convert the question into a structural query (e.g., SPARQL), which can be executed by a query engine to derive the answers on KGs ."
+    ],
+    "references": [
+      "65"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "65",
+        "main_query": "KGRAG uses the user query as a reference for retrieval in KGs, which suffers from misalignment between high-quality structured knowledge and varying-quality queries.",
+        "rewritten_queries": [
+          "KGRAG relies on user queries for knowledge retrieval in KGs, facing issues with the alignment of structured knowledge and the quality of queries.",
+          "The use of user queries in KGRAG for KG retrieval leads to misalignment between high-quality structured knowledge and the varying quality of those queries.",
+          "KGRAG's approach to using user queries as references for KG retrieval results in a misalignment issue between structured knowledge quality and the quality of the queries."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "65",
+        "query_used_for_retrieval": "KGRAG uses the user query as a reference for retrieval in KGs, which suffers from misalignment between high-quality structured knowledge and varying-quality queries.",
+        "retrieved_docs_from_sources": [
+          65,
+          65,
+          65,
+          65,
+          65
+        ],
+        "predicted_reference": "[65]_2311.17330",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "To be specific, we utilize the GTE embedding model [45] \"gte_sentence-embedding\"4, which is currently the top-performing model for text vector embedding in the retrieval field.",
+    "context_before": [
+      "This process involves employing an encoding model, denoted as enc(·), to encode the potential entity 𝑢𝑖 and entities Ewithin KG."
+    ],
+    "context_after": [
+      "GTE Encoder follows a two-stage training process: initially using a large-scale dataset with weak supervision from text pairs, followed by fine-tuning with high-quality manually labeled data using Contrastive Learning ."
+    ],
+    "references": [
+      "45"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "45",
+        "main_query": "GTE embedding model \"gte_sentence-embedding\" which is currently the top-performing model for text vector embedding in the retrieval field.",
+        "rewritten_queries": [
+          "The GTE model known as \"gte_sentence-embedding\" is the leading model for text vector embedding in retrieval.",
+          "Currently, the top-performing text vector embedding model in retrieval is the GTE embedding model \"gte_sentence-embedding\".",
+          "We use the GTE embedding model \"gte_sentence-embedding\", recognized as the best in the field of text vector embedding for retrieval."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "45",
+        "query_used_for_retrieval": "GTE embedding model \"gte_sentence-embedding\" which is currently the top-performing model for text vector embedding in the retrieval field.",
+        "retrieved_docs_from_sources": [
+          45,
+          45,
+          45,
+          82,
+          45
+        ],
+        "predicted_reference": "[45]_2308.03281",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.8,
+          "ndcg_at_k": 0.9828920819566879,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "For the reranker base model, we use the \"bge_reranker_large\" 5 [82], trained through large-scale text pairs with asymmetric instruction tunning, to map text to a low-dimensional dense vector to rerank 𝑡𝑜𝑝𝐾 documents.",
+    "context_before": [
+      "Challenge III in Section 1), we employ a reranker model to prune and eliminate irrelevant noise knowledge by reranking reasoning chains, leading to more efficient token resource utilization."
+    ],
+    "context_after": [
+      "Moreover, due to the varying knowledge densities between queries and reasoning chains, traditional re-ranking based solely on Qmay filter out valuable knowledge acquired through HOM, resulting in a repetitive and monotonous situation."
+    ],
+    "references": [
+      "82"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "82",
+        "main_query": "bge_reranker_large, trained through large-scale text pairs with asymmetric instruction tuning, to map text to a low-dimensional dense vector to rerank top K documents",
+        "rewritten_queries": [
+          "bge_reranker_large model trained on large-scale text pairs using asymmetric instruction tuning for mapping text to low-dimensional dense vectors",
+          "the reranker base model 'bge_reranker_large' utilizes asymmetric instruction tuning to convert text into low-dimensional dense vectors for reranking documents",
+          "using the 'bge_reranker_large' model, we apply asymmetric instruction tuning on large-scale text pairs to create low-dimensional dense vectors for document reranking"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "82",
+        "query_used_for_retrieval": "bge_reranker_large, trained through large-scale text pairs with asymmetric instruction tuning, to map text to a low-dimensional dense vector to rerank top K documents",
+        "retrieved_docs_from_sources": [
+          17,
+          17,
+          17,
+          45,
+          17
+        ],
+        "predicted_reference": "[17]_2401.07883",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.0,
+          "ndcg_at_k": 0.0,
+          "mrr": 0.0,
+          "hit_rate_at_k": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "Our experiments are conducted on two open-source query sets: MMCU-Medical [ 94] and CMB-Exam [ 77] datasets, which are designed for multi-task Q&A and encompass single and multiple-choice questions in the medical field, and one open-domain Q&A dataset CMB-Clin [77] which is the inaugural multi-round question-answering dataset based on real, complex medical diagnosis and treatment records.",
+    "context_before": [
+      "What impact does each module have on the overall performance? •RQ3 (Section 5.4, 5.6): Does the retrieved knowledge we provide enhance the interpretability of LLMs answers? •RQ4 (Section 5.5): How sensitive is HyKGE to hyper-parameters retrieval hop 𝑘 and rerank threshold 𝑡𝑜𝑝𝐾? 5.1 Experimental Setup 5.1.1 Dataset."
+    ],
+    "context_after": [
+      "For MMCU-Medical, the questions are from the university medical professional examination, covering the HyKGE: A Hypothesis Knowledge Graph Enhanced Framework for Accurate and Reliable Medical LLMs Responses Conference’17, July 2017, Washington, DC, USA Table 2: Performance comparison (in percent ±standard deviation) on CMB-Exam and MMCU-Medical for medical Q&A answer."
+    ],
+    "references": [
+      "77"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "77",
+        "main_query": "CMB-Clin which is the inaugural multi-round question-answering dataset based on real, complex medical diagnosis and treatment records",
+        "rewritten_queries": [
+          "CMB-Clin, the first multi-round Q&A dataset derived from actual medical diagnosis and treatment records",
+          "The inaugural multi-round question-answering dataset CMB-Clin based on real medical diagnosis and treatment records",
+          "CMB-Clin, a pioneering dataset for multi-round Q&A in the context of complex medical diagnoses and treatments"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "77",
+        "query_used_for_retrieval": "CMB-Clin which is the inaugural multi-round question-answering dataset based on real, complex medical diagnosis and treatment records",
+        "retrieved_docs_from_sources": [
+          77,
+          77,
+          77,
+          77,
+          77
+        ],
+        "predicted_reference": "[77]_2308.08833",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "To fairly verify whether HyKGE can effectively enhance LLMs, we selected the following two types of generaldomain large models as the base model and explored the gains brought by HyKGE: GPT 3.5 and Baichuan13B-chat [87]. 5.1.4 Compared Methods.",
+    "context_before": [
+      "However, due to the lack of medical entity descriptions in its entities, we collect relevant entity knowledge from Wikipedia9, Baidu Baike10, and Medical Baike 11, and store them as entity descriptions. 5.1.3 LLM Turbo."
+    ],
+    "context_after": [
+      "In order to explore the advantages of the HyKGE, we compare the HyKGE results against eight other models: (1) Base Model (Base) servers as the model without any external knowledge, used to check the improvement effect of different RAG methods."
+    ],
+    "references": [
+      "87"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "87",
+        "main_query": "GPT 3.5 and Baichuan13B-chat",
+        "rewritten_queries": [
+          "GPT 3.5 and Baichuan13B-chat as base models",
+          "The selected models are GPT 3.5 and Baichuan13B-chat",
+          "Using GPT 3.5 and Baichuan13B-chat for comparison"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "87",
+        "query_used_for_retrieval": "GPT 3.5 and Baichuan13B-chat",
+        "retrieved_docs_from_sources": [
+          87,
+          87,
+          87,
+          87,
+          87
+        ],
+        "predicted_reference": "[87]_2309.10305",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "We use GPT 3.5 and Baichuan13B-chat as base models. (2) Knowledge Graph Retrieval-Augmented Generation (KGRAG) [ 63–65] uses user query as a reference to retrieve 7https://cpubmed.openi.org.cn/graph/wiki 8https://github.com/nuolade/disease-kb 9https://www.wikipedia.org/ 10https://baike.baidu.com/ 11https://www.yixue.com/ Conference’17, July 2017, Washington, DC, USA Jiang, Zhang and Xu et al. in the KGs, which is the base model of RAG on KG and has been widely applied in [63–65]. (3) Query Expansion (QE) [ 5] reformulate the user’s initial query by adding additional terms with a similar meaning with the help of LLMs. (4) CHAIN-OF-NOTE (CoN) [93] generates sequential reading notes for retrieved knowledge, enabling a thorough evaluation of their relevance to the given question and integrating these notes to formulate the final answer. (5) Chain-of-Knowledge (CoK) [ 44] utilize the power of LLMs and consists of reasoning preparation, dynamic knowledge adapting, and answer consolidation. (6) Knowledge-Augmented Language Model Verification (KALMV) [ 6] verifies the output and the knowledge of the knowledge-augmented LLMs with a separate verifier. (7) Knowledge Graph Generative Pre-Training (KG-GPT) [ 34] comprises three steps: Sentence Segmentation, Graph Retrieval, and Inference, each aimed at partitioning sentences, retrieving relevant graph components, and deriving logical conclusions. (8) Summarizing Retrievals (SuRe) [ 33] constructs summaries of the retrieved passages for each of the multiple answer candidates and confirms the most plausible answer from the candidate set by evaluating the validity and ranking of the generated summaries.",
+    "context_before": [
+      "In order to explore the advantages of the HyKGE, we compare the HyKGE results against eight other models: (1) Base Model (Base) servers as the model without any external knowledge, used to check the improvement effect of different RAG methods."
+    ],
+    "context_after": [
+      "Note that we follow the prompts of the baselines as stated strictly."
+    ],
+    "references": [
+      "93"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "93",
+        "main_query": "CHAIN-OF-NOTE (CoN) generates sequential reading notes for retrieved knowledge, enabling a thorough evaluation of their relevance to the given question and integrating these notes to formulate the final answer.",
+        "rewritten_queries": [
+          "CoN (CHAIN-OF-NOTE) creates sequential notes from retrieved knowledge to assess their relevance to the question and combines these notes for the final answer.",
+          "The CHAIN-OF-NOTE (CoN) method produces sequential notes for the retrieved information, allowing for a detailed evaluation of relevance and integration into the final response.",
+          "Sequential reading notes are generated by CHAIN-OF-NOTE (CoN) from retrieved knowledge, facilitating a comprehensive evaluation of their relevance and integration into the final answer."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "93",
+        "query_used_for_retrieval": "CHAIN-OF-NOTE (CoN) generates sequential reading notes for retrieved knowledge, enabling a thorough evaluation of their relevance to the given question and integrating these notes to formulate the final answer.",
+        "retrieved_docs_from_sources": [
+          93,
+          93,
+          93,
+          93,
+          44
+        ],
+        "predicted_reference": "[93]_2311.09210",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.8,
+          "ndcg_at_k": 1.0,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "Moreover, we also complement our analysis with ROUGE-Recall (ROUGE-R) [86].",
+    "context_before": [
+      "The smaller the PPL, the greater the role of retrieved knowledge in reducing LLMs’ hallucinations."
+    ],
+    "context_after": [
+      "ROUGE-R measures the extent to which the LLMs’ responses cover the retrieved knowledge, which is crucial for ensuring comprehensive information coverage."
+    ],
+    "references": [
+      "86"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "86",
+        "main_query": "ROUGE-Recall (ROUGE-R)",
+        "rewritten_queries": [
+          "ROUGE-R metric for evaluating response coverage",
+          "ROUGE-Recall analysis in relation to LLMs’ responses",
+          "Using ROUGE-R to assess the integration of retrieved knowledge"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "86",
+        "query_used_for_retrieval": "ROUGE-Recall (ROUGE-R)",
+        "retrieved_docs_from_sources": [
+          93,
+          44,
+          17,
+          17,
+          17
+        ],
+        "predicted_reference": "[17]_2401.07883",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.0,
+          "ndcg_at_k": 0.0,
+          "mrr": 0.0,
+          "hit_rate_at_k": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "For open-domain medical Q&A tasks, we utilize ROUGE-R and Bilingual Evaluation Understudy (BLEU1 for answer precision, BLEU-4 for answer fluency) [86] to gauge the similarity of LLMs responses to the ground-truth doctor analysis.",
+    "context_before": [
+      "ROUGE-R measures the extent to which the LLMs’ responses cover the retrieved knowledge, which is crucial for ensuring comprehensive information coverage."
+    ],
+    "context_after": [
+      "Additionally, we employ PPL to assess the quality of LLMs responses. 5.1.6 Experimental Implementation."
+    ],
+    "references": [
+      "86"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "86",
+        "main_query": "Bilingual Evaluation Understudy (BLEU1 for answer precision, BLEU-4 for answer fluency)",
+        "rewritten_queries": [
+          "BLEU1 and BLEU-4 metrics for evaluating answer precision and fluency",
+          "Using BLEU1 for precision and BLEU-4 for fluency in answer evaluation",
+          "Assessment of answer quality using BLEU1 and BLEU-4 in medical Q&A"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "86",
+        "query_used_for_retrieval": "Bilingual Evaluation Understudy (BLEU1 for answer precision, BLEU-4 for answer fluency)",
+        "retrieved_docs_from_sources": [
+          77,
+          77,
+          77,
+          47,
+          47
+        ],
+        "predicted_reference": "[77]_2308.08833",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.0,
+          "ndcg_at_k": 0.0,
+          "mrr": 0.0,
+          "hit_rate_at_k": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "Similar to previous work [65], because of the randomness of LLMs’ outputs, we repeat experiments with different random seeds five times and report the average and standard deviation results.",
+    "context_before": [
+      "Moreover, the parameters of W2NER are optimized with Adam optimizer with 𝐿2 regularization and dropout on high-quality medical dataset , the learning rate is set to 1e-3, the hidden unit is set to 1024 and weight decay is 1e-."
+    ],
+    "context_after": [
+      "Experimental results are statistically significant with 𝑝 < 0."
+    ],
+    "references": [
+      "65"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "65",
+        "main_query": "because of the randomness of LLMs’ outputs, we repeat experiments with different random seeds five times and report the average and standard deviation results.",
+        "rewritten_queries": [
+          "we conduct experiments multiple times with varying random seeds due to the randomness in LLM outputs and present the average and standard deviation.",
+          "to account for the randomness in LLM outputs, we perform our experiments five times with different random seeds and report the average and standard deviation.",
+          "given the randomness of outputs from LLMs, we repeat our experiments five times using different random seeds and provide average and standard deviation results."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "65",
+        "query_used_for_retrieval": "because of the randomness of LLMs’ outputs, we repeat experiments with different random seeds five times and report the average and standard deviation results.",
+        "retrieved_docs_from_sources": [
+          65,
+          47,
+          65,
+          93,
+          93
+        ],
+        "predicted_reference": "[65]_2311.17330",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.4,
+          "ndcg_at_k": 0.9197207891481876,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "We argue that this was primarily due to the inundation of tokens, causing LLMs to lose in the middle [47], thereby impeding their ability to discern genuinely relevant knowledge from the retrieved chains and even ignore LLMs’ tasks.",
+    "context_before": [
+      "However, employing LLMs to eliminate noisy knowledge from these chains resulted in decreased effectiveness."
+    ],
+    "context_after": [
+      "Consequently, LLMs employed for Reranker inadvertently filtered out valuable knowledge, yielding negative outcomes and exacerbating computational overhead."
+    ],
+    "references": [
+      "47"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "47",
+        "main_query": "inundation of tokens, causing LLMs to lose in the middle",
+        "rewritten_queries": [
+          "overwhelming tokens leading to LLMs losing focus",
+          "flood of tokens resulting in LLMs losing track",
+          "excessive tokens causing LLMs to become disoriented"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "47",
+        "query_used_for_retrieval": "inundation of tokens, causing LLMs to lose in the middle",
+        "retrieved_docs_from_sources": [
+          65,
+          65,
+          65,
+          65,
+          44
+        ],
+        "predicted_reference": "[65]_2311.17330",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.0,
+          "ndcg_at_k": 0.0,
+          "mrr": 0.0,
+          "hit_rate_at_k": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "In summary, because RAG involves a process of continuous trial and error [8], we experimented with many strategies and ultimately arrived at HyKGE. 6 CONCLUSION In this paper, we proposed HyKGE, a hypothesis knowledge graph enhanced framework for LLMs to improve accuracy and reliability.",
+    "context_before": [
+      "Excessive reliance on LLMs can only lead to wasted time costs."
+    ],
+    "context_after": [
+      "In the pre-retrieval phase, we leverage the zero-shot capability of LLMs to compensate for the incompleteness of user queries by exploring searching directions through hypothesis outputs."
+    ],
+    "references": [
+      "8"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "8",
+        "main_query": "because RAG involves a process of continuous trial and error",
+        "rewritten_queries": [
+          "RAG includes a continuous trial and error process",
+          "the process of continuous trial and error is involved in RAG",
+          "RAG is characterized by a continuous trial and error methodology"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "8",
+        "query_used_for_retrieval": "because RAG involves a process of continuous trial and error",
+        "retrieved_docs_from_sources": [
+          8,
+          8,
+          17,
+          8,
+          8
+        ],
+        "predicted_reference": "[8]_2401.05856",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.8,
+          "ndcg_at_k": 0.9558295932317544,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "The method to estimate ⟨X⟩, ⟨Y ⟩, ⟨XY ⟩, ⟨XPy⟩ from an experimentally obtained image of the light beam is covered in the following .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "The method to estimate ⟨X⟩, ⟨Y ⟩, ⟨XY ⟩, ⟨XPy⟩ from an experimentally obtained image of the light beam is covered in the following .",
+        "retrieved_docs_from_sources": [
+          18,
+          19,
+          19,
+          18,
+          18
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "In particular, while linear curvature feedback was initially considered ideal for fitting Chlamydomonas data , the non-linear sliding feedback model proposed by , which incorporates the attachment and detachment of antagonistic molecular motors, provides a better fit.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "In particular, while linear curvature feedback was initially considered ideal for fitting Chlamydomonas data , the non-linear sliding feedback model proposed by , which incorporates the attachment and detachment of antagonistic molecular motors, provides a better fit.",
+        "retrieved_docs_from_sources": [
+          17,
+          65,
+          93,
+          87,
+          93
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "Since the method presented in serves as a foundation for many subsequent refinements, we will specify it here in more detail.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "Since the method presented in serves as a foundation for many subsequent refinements, we will specify it here in more detail.",
+        "retrieved_docs_from_sources": [
+          17,
+          93,
+          93,
+          44,
+          17
+        ],
+        "predicted_reference": "[17]_2401.07883.pdf",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "This is because the number of interactions that occur between any two individuals in a social scenario is often greater than the number of interactions they have in the household scenario .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "This is because the number of interactions that occur between any two individuals in a social scenario is often greater than the number of interactions they have in the household scenario .",
+        "retrieved_docs_from_sources": [
+          65,
+          44,
+          44,
+          47,
+          44
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "Other authors have resorted to a description of the interface properties based on a (Cahn-Hilliard) phase-field model, coupled to immersed-boundary-type discretizations .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "Other authors have resorted to a description of the interface properties based on a (Cahn-Hilliard) phase-field model, coupled to immersed-boundary-type discretizations .",
+        "retrieved_docs_from_sources": [
+          87,
+          86,
+          44,
+          47,
+          87
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "It is common practice to use a marker density comparable to the density of the Eulerian grid points .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "It is common practice to use a marker density comparable to the density of the Eulerian grid points .",
+        "retrieved_docs_from_sources": [
+          45,
+          17,
+          17,
+          17,
+          86
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "Using the fitted center frequencies of 80 transitions from the P and R branches spanning the entire band, we created a spectral model for the ν 1+ν3 band of 15N2O in PGOPHER .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "Using the fitted center frequencies of 80 transitions from the P and R branches spanning the entire band, we created a spectral model for the ν 1+ν3 band of 15N2O in PGOPHER .",
+        "retrieved_docs_from_sources": [
+          17,
+          45,
+          17,
+          65,
+          65
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "Also, external radiation like cosmic rays or bremsstrahlung photons from very fast runaway electrons can act as an electron source .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "Also, external radiation like cosmic rays or bremsstrahlung photons from very fast runaway electrons can act as an electron source .",
+        "retrieved_docs_from_sources": [
+          87,
+          86,
+          86,
+          87,
+          44
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "Alternative force-based immersed boundary methods in an LB context have been proposed by e.g. .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "Alternative force-based immersed boundary methods in an LB context have been proposed by e.g. .",
+        "retrieved_docs_from_sources": [
+          87,
+          65,
+          87,
+          77,
+          87
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "To reproduce a beating frequency close to 20 · 2π rad/s – which is the one shown in – we adjust the internal friction λ to 7 pN · s/µm2 (which is comparable to the one from ).",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "To reproduce a beating frequency close to 20 · 2π rad/s – which is the one shown in – we adjust the internal friction λ to 7 pN · s/µm2 (which is comparable to the one from ).",
+        "retrieved_docs_from_sources": [
+          45,
+          77,
+          87,
+          87,
+          87
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "Under the wellmixed assumption, we introduce a mean-field (MF) method , which assumes that individuals of the same age are equivalent.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "Under the wellmixed assumption, we introduce a mean-field (MF) method , which assumes that individuals of the same age are equivalent.",
+        "retrieved_docs_from_sources": [
+          93,
+          87,
+          65,
+          44,
+          45
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "These hypotheses are not compatible with the hypothesis of uniform sum of transition rates formulated in , which holds when the two rates are almost uniform.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "These hypotheses are not compatible with the hypothesis of uniform sum of transition rates formulated in , which holds when the two rates are almost uniform.",
+        "retrieved_docs_from_sources": [
+          44,
+          47,
+          93,
+          77,
+          47
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "The time-dependent S chrödinger equation (here and below, atomic units are used) ( ) Ψ+Ψ      +=∂ Ψ ∂ rVc t Apti /arrowrightnosp /arrowrightnosp /arrowrightnosp 2 ) ( 2 1 (1) was solved by direct numerical integration using th e split-operator method with the fast Fourier transform .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "The time-dependent S chrödinger equation (here and below, atomic units are used) ( ) Ψ+Ψ      +=∂ Ψ ∂ rVc t Apti /arrowrightnosp /arrowrightnosp /arrowrightnosp 2 ) ( 2 1 (1) was solved by direct numerical integration using th e split-operator method with the fast Fourier transform .",
+        "retrieved_docs_from_sources": [
+          87,
+          87,
+          73,
+          65,
+          93
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "The total shift can be expressed as a combination of imaginary (momentum-domain/angular) shift and real (position-domain/spatial) shift both of which show weak value amplification beavior (∼ cot ϵ) .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "The total shift can be expressed as a combination of imaginary (momentum-domain/angular) shift and real (position-domain/spatial) shift both of which show weak value amplification beavior (∼ cot ϵ) .",
+        "retrieved_docs_from_sources": [
+          86,
+          47,
+          47,
+          47,
+          45
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "The authors are grateful to the Joint Supercomputer Cen ter of RAS for the provided supercomputer sources. T.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "The authors are grateful to the Joint Supercomputer Cen ter of RAS for the provided supercomputer sources. T.",
+        "retrieved_docs_from_sources": [
+          87,
+          87,
+          93,
+          86,
+          8
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "The second AnDi challenge took place in 2024 and aimed at evaluating the performances of various methods for detecting and quantifying changes in single-particle motion .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "The second AnDi challenge took place in 2024 and aimed at evaluating the performances of various methods for detecting and quantifying changes in single-particle motion .",
+        "retrieved_docs_from_sources": [
+          44,
+          45,
+          77,
+          45,
+          82
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "This assumption is based on the fact that, under the effect of homophily , individuals tend to imitate the behavior of their peers.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "This assumption is based on the fact that, under the effect of homophily , individuals tend to imitate the behavior of their peers.",
+        "retrieved_docs_from_sources": [
+          47,
+          65,
+          44,
+          65,
+          44
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "The terms of O(u3) is included here to ensure that the Navier-Stokes equation is exactly recovered under the Chapman-Enskog approximation .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "The terms of O(u3) is included here to ensure that the Navier-Stokes equation is exactly recovered under the Chapman-Enskog approximation .",
+        "retrieved_docs_from_sources": [
+          87,
+          87,
+          86,
+          44,
+          87
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  }
+]

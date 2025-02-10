@@ -1,0 +1,314 @@
+[
+  {
+    "number": "3",
+    "text": "Akari Asai, Zeqiu Wu, Yizhong Wang, Avirup Sil, and Hannaneh Hajishirzi. 2023. Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection. arXiv preprint arXiv:2310.11511 (2023).",
+    "arxiv_id": "2310.11511",
+    "pdf_link": "https://arxiv.org/pdf/2310.11511.pdf"
+  },
+  {
+    "number": "7",
+    "text": "Zhijie Bao, Wei Chen, Shengze Xiao, Kuang Ren, Jiaao Wu, Cheng Zhong, Jiajie Peng, Xuanjing Huang, and Zhongyu Wei. 2023. DISC-MedLLM: Bridg- ing General Large Language Models and Real-World Medical Consultation. arXiv:2308.14346 [cs.CL]",
+    "arxiv_id": "2308.14346",
+    "pdf_link": "https://arxiv.org/pdf/2308.14346.pdf"
+  },
+  {
+    "number": "8",
+    "text": "Scott Barnett, Stefanus Kurniawan, Srikanth Thudumu, Zach Brannelly, and Mohamed Abdelrazek. 2024. Seven Failure Points When Engineering a Retrieval Augmented Generation System. arXiv:2401.05856 [cs.SE]",
+    "arxiv_id": "2401.05856",
+    "pdf_link": "https://arxiv.org/pdf/2401.05856.pdf"
+  },
+  {
+    "number": "14",
+    "text": "Hao Cheng, Yelong Shen, Xiaodong Liu, Pengcheng He, Weizhu Chen, and Jianfeng Gao. 2021. UnitedQA: A Hybrid Approach for Open Domain Question Answering. arXiv:2101.00178 [cs.CL]",
+    "arxiv_id": "2101.00178",
+    "pdf_link": "https://arxiv.org/pdf/2101.00178.pdf"
+  },
+  {
+    "number": "15",
+    "text": "Florin Cuconasu, Giovanni Trappolini, Federico Siciliano, Simone Filice, Cesare Campagnano, Yoelle Maarek, Nicola Tonellotto, and Fabrizio Silvestri. 2024. The Power of Noise: Redefining Retrieval for RAG Systems. arXiv:2401.14887 [cs.IR]",
+    "arxiv_id": "2401.14887",
+    "pdf_link": "https://arxiv.org/pdf/2401.14887.pdf"
+  },
+  {
+    "number": "17",
+    "text": "Paulo Finardi, Leonardo Avila, Rodrigo Castaldoni, Pedro Gengo, Celio Larcher, Marcos Piau, Pablo Costa, and Vinicius Caridá. 2024. The Chronicles of RAG: The Retriever, the Chunk and the Generator. arXiv:2401.07883 [cs.LG]",
+    "arxiv_id": "2401.07883",
+    "pdf_link": "https://arxiv.org/pdf/2401.07883.pdf"
+  },
+  {
+    "number": "18",
+    "text": "Luyu Gao, Xueguang Ma, Jimmy Lin, and Jamie Callan. 2022. Precise Zero-Shot Dense Retrieval without Relevance Labels. arXiv:2212.10496 [cs.IR]",
+    "arxiv_id": "2212.10496",
+    "pdf_link": "https://arxiv.org/pdf/2212.10496.pdf"
+  },
+  {
+    "number": "19",
+    "text": "Luyu Gao, Xueguang Ma, Jimmy Lin, and Jamie Callan. 2022. Precise Zero-Shot Dense Retrieval without Relevance Labels. arXiv:2212.10496 [cs.IR]",
+    "arxiv_id": "2212.10496",
+    "pdf_link": "https://arxiv.org/pdf/2212.10496.pdf"
+  },
+  {
+    "number": "21",
+    "text": "Hangfeng He, Hongming Zhang, and Dan Roth. 2022. Rethinking with Retrieval: Faithful Large Language Model Inference. arXiv:2301.00303 [cs.CL]",
+    "arxiv_id": "2301.00303",
+    "pdf_link": "https://arxiv.org/pdf/2301.00303.pdf"
+  },
+  {
+    "number": "23",
+    "text": "Gautier Izacard, Mathilde Caron, Lucas Hosseini, Sebastian Riedel, Piotr Bo- janowski, Armand Joulin, and Edouard Grave. 2022. Unsupervised Dense Infor- mation Retrieval with Contrastive Learning. arXiv:2112.09118 [cs.IR]",
+    "arxiv_id": "2112.09118",
+    "pdf_link": "https://arxiv.org/pdf/2112.09118.pdf"
+  },
+  {
+    "number": "24",
+    "text": "Gautier Izacard, Patrick Lewis, Maria Lomeli, Lucas Hosseini, Fabio Petroni, Timo Schick, Jane Dwivedi-Yu, Armand Joulin, Sebastian Riedel, and Edouard Grave. 2022. Atlas: Few-shot Learning with Retrieval Augmented Language Models. arXiv:2208.03299 [cs.CL]",
+    "arxiv_id": "2208.03299",
+    "pdf_link": "https://arxiv.org/pdf/2208.03299.pdf"
+  },
+  {
+    "number": "28",
+    "text": "Jinhao Jiang, Kun Zhou, Wayne Xin Zhao, Yaliang Li, and Ji-Rong Wen. 2023. ReasoningLM: Enabling Structural Subgraph Reasoning in Pre- trained Language Models for Question Answering over Knowledge Graph. arXiv:2401.00158 [cs.CL]",
+    "arxiv_id": "2401.00158",
+    "pdf_link": "https://arxiv.org/pdf/2401.00158.pdf"
+  },
+  {
+    "number": "30",
+    "text": "Minki Kang, Jin Myung Kwak, Jinheon Baek, and Sung Ju Hwang. 2023. Knowl- edge Graph-Augmented Language Models for Knowledge-Grounded Dialogue Generation. arXiv:2305.18846 [cs.CL]",
+    "arxiv_id": "2305.18846",
+    "pdf_link": "https://arxiv.org/pdf/2305.18846.pdf"
+  },
+  {
+    "number": "31",
+    "text": "Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. 2020. Scaling Laws for Neural Language Models. arXiv:2001.08361 [cs.LG]",
+    "arxiv_id": "2001.08361",
+    "pdf_link": "https://arxiv.org/pdf/2001.08361.pdf"
+  },
+  {
+    "number": "32",
+    "text": "Vladimir Karpukhin, Barlas Oğuz, Sewon Min, Patrick Lewis, Ledell Wu, Sergey Edunov, Danqi Chen, and Wen tau Yih. 2020. Dense Passage Retrieval for Open-Domain Question Answering. arXiv:2004.04906 [cs.CL]",
+    "arxiv_id": "2004.04906",
+    "pdf_link": "https://arxiv.org/pdf/2004.04906.pdf"
+  },
+  {
+    "number": "39",
+    "text": "Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen tau Yih, Tim Rocktäschel, Sebastian Riedel, and Douwe Kiela. 2021. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. arXiv:2005.11401 [cs.CL]",
+    "arxiv_id": "2005.11401",
+    "pdf_link": "https://arxiv.org/pdf/2005.11401.pdf"
+  },
+  {
+    "number": "40",
+    "text": "Jingye Li, Hao Fei, Jiang Liu, Shengqiong Wu, Meishan Zhang, Chong Teng, Donghong Ji, and Fei Li. 2021. Unified Named Entity Recognition as Word-Word Relation Classification. arXiv:2112.10070 [cs.CL]",
+    "arxiv_id": "2112.10070",
+    "pdf_link": "https://arxiv.org/pdf/2112.10070.pdf"
+  },
+  {
+    "number": "42",
+    "text": "Tianle Li, Xueguang Ma, Alex Zhuang, Yu Gu, Yu Su, and Wenhu Chen. 2023. Few-shot In-context Learning for Knowledge Base Question Answering. arXiv:2305.01750 [cs.CL]",
+    "arxiv_id": "2305.01750",
+    "pdf_link": "https://arxiv.org/pdf/2305.01750.pdf"
+  },
+  {
+    "number": "43",
+    "text": "Xingxuan Li, Ruochen Zhao, Yew Ken Chia, Bosheng Ding, Shafiq Joty, Sou- janya Poria, and Lidong Bing. 2023. Chain-of-Knowledge: Grounding Large Lan- guage Models via Dynamic Knowledge Adapting over Heterogeneous Sources. arXiv:2305.13269 [cs.CL]",
+    "arxiv_id": "2305.13269",
+    "pdf_link": "https://arxiv.org/pdf/2305.13269.pdf"
+  },
+  {
+    "number": "44",
+    "text": "Xingxuan Li, Ruochen Zhao, Yew Ken Chia, Bosheng Ding, Shafiq Joty, Sou- janya Poria, and Lidong Bing. 2023. Chain-of-Knowledge: Grounding Large Lan- guage Models via Dynamic Knowledge Adapting over Heterogeneous Sources. arXiv:2305.13269 [cs.CL]",
+    "arxiv_id": "2305.13269",
+    "pdf_link": "https://arxiv.org/pdf/2305.13269.pdf"
+  },
+  {
+    "number": "45",
+    "text": "Zehan Li, Xin Zhang, Yanzhao Zhang, Dingkun Long, Pengjun Xie, and Meishan Zhang. 2023. Towards General Text Embeddings with Multi-stage Contrastive Learning. arXiv:2308.03281 [cs.CL]",
+    "arxiv_id": "2308.03281",
+    "pdf_link": "https://arxiv.org/pdf/2308.03281.pdf"
+  },
+  {
+    "number": "47",
+    "text": "Nelson F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni, and Percy Liang. 2023. Lost in the Middle: How Language Models Use Long Contexts. arXiv:2307.03172 [cs.CL]",
+    "arxiv_id": "2307.03172",
+    "pdf_link": "https://arxiv.org/pdf/2307.03172.pdf"
+  },
+  {
+    "number": "48",
+    "text": "Ye Liu, Yao Wan, Lifang He, Hao Peng, and Philip S. Yu. 2021. KG-BART: Knowledge Graph-Augmented BART for Generative Commonsense Reasoning. arXiv:2009.12677 [cs.CL]",
+    "arxiv_id": "2009.12677",
+    "pdf_link": "https://arxiv.org/pdf/2009.12677.pdf"
+  },
+  {
+    "number": "49",
+    "text": "Hongyin Luo, Yung-Sung Chuang, Yuan Gong, Tianhua Zhang, Yoon Kim, Xixin Wu, Danny Fox, Helen Meng, and James Glass. 2023. SAIL: Search-Augmented HyKGE: A Hypothesis Knowledge Graph Enhanced Framework for Accurate and Reliable Medical LLMs Responses Conference’17, July 2017, Washington, DC, USA Instruction Learning. arXiv:2305.15225 [cs.CL]",
+    "arxiv_id": "2305.15225",
+    "pdf_link": "https://arxiv.org/pdf/2305.15225.pdf"
+  },
+  {
+    "number": "50",
+    "text": "Linhao Luo, Yuan-Fang Li, Gholamreza Haffari, and Shirui Pan. 2023. Reason- ing on Graphs: Faithful and Interpretable Large Language Model Reasoning. arXiv:2310.01061 [cs.CL]",
+    "arxiv_id": "2310.01061",
+    "pdf_link": "https://arxiv.org/pdf/2310.01061.pdf"
+  },
+  {
+    "number": "51",
+    "text": "Kaixin Ma, Hao Cheng, Yu Zhang, Xiaodong Liu, Eric Nyberg, and Jianfeng Gao. 2023. Chain-of-Skills: A Configurable Model for Open-domain Question Answering. arXiv:2305.03130 [cs.CL]",
+    "arxiv_id": "2305.03130",
+    "pdf_link": "https://arxiv.org/pdf/2305.03130.pdf"
+  },
+  {
+    "number": "59",
+    "text": "Thomas Pouplin, Hao Sun, Samuel Holt, and Mihaela van der Schaar. 2024. Retrieval-Augmented Thought Process as Sequential Decision Making. arXiv:2402.07812 [cs.CL]",
+    "arxiv_id": "2402.07812",
+    "pdf_link": "https://arxiv.org/pdf/2402.07812.pdf"
+  },
+  {
+    "number": "60",
+    "text": "Yingqi Qu, Yuchen Ding, Jing Liu, Kai Liu, Ruiyang Ren, Wayne Xin Zhao, Daxiang Dong, Hua Wu, and Haifeng Wang. 2021. RocketQA: An Optimized Training Approach to Dense Passage Retrieval for Open-Domain Question Answering. arXiv:2010.08191 [cs.CL]",
+    "arxiv_id": "2010.08191",
+    "pdf_link": "https://arxiv.org/pdf/2010.08191.pdf"
+  },
+  {
+    "number": "64",
+    "text": "Karthik Soman, Peter W Rose, John H Morris, Rabia E Akbas, Brett Smith, Braian Peetoom, Catalina Villouta-Reyes, Gabriel Cerono, Yongmei Shi, Angela Rizk- Jackson, et al. 2023. Biomedical knowledge graph-enhanced prompt generation for large language models. arXiv preprint arXiv:2311.17330 (2023).",
+    "arxiv_id": "2311.17330",
+    "pdf_link": "https://arxiv.org/pdf/2311.17330.pdf"
+  },
+  {
+    "number": "65",
+    "text": "Karthik Soman, Peter W Rose, John H Morris, Rabia E Akbas, Brett Smith, Braian Peetoom, Catalina Villouta-Reyes, Gabriel Cerono, Yongmei Shi, Angela Rizk- Jackson, Sharat Israni, Charlotte A Nelson, Sui Huang, and Sergio E Baranzini. 2023. Biomedical knowledge graph-enhanced prompt generation for large language models. arXiv:2311.17330 [cs.CL]",
+    "arxiv_id": "2311.17330",
+    "pdf_link": "https://arxiv.org/pdf/2311.17330.pdf"
+  },
+  {
+    "number": "66",
+    "text": "Inhwa Song, Sachin R. Pendse, Neha Kumar, and Munmun De Choudhury. 2024. The Typing Cure: Experiences with Large Language Model Chatbots for Mental Health Support. arXiv:2401.14362 [cs.HC]",
+    "arxiv_id": "2401.14362",
+    "pdf_link": "https://arxiv.org/pdf/2401.14362.pdf"
+  },
+  {
+    "number": "68",
+    "text": "Jiashuo Sun, Chengjin Xu, Lumingyuan Tang, Saizhuo Wang, Chen Lin, Yeyun Gong, Lionel M. Ni, Heung-Yeung Shum, and Jian Guo. 2023. Think-on-Graph: Deep and Responsible Reasoning of Large Language Model on Knowledge Graph. arXiv:2307.07697 [cs.CL]",
+    "arxiv_id": "2307.07697",
+    "pdf_link": "https://arxiv.org/pdf/2307.07697.pdf"
+  },
+  {
+    "number": "69",
+    "text": "Yawei Sun, Lingling Zhang, Gong Cheng, and Yuzhong Qu. 2020. SPARQA: Skeleton-based Semantic Parsing for Complex Questions over Knowledge Bases. arXiv:2003.13956 [cs.CL]",
+    "arxiv_id": "2003.13956",
+    "pdf_link": "https://arxiv.org/pdf/2003.13956.pdf"
+  },
+  {
+    "number": "70",
+    "text": "Sabrina Toro, Anna V Anagnostopoulos, Sue Bello, Kai Blumberg, Rhiannon Cameron, Leigh Carmody, Alexander D Diehl, Damion Dooley, William Duncan, Petra Fey, Pascale Gaudet, Nomi L Harris, Marcin Joachimiak, Leila Kiani, Tiago Lubiana, Monica C Munoz-Torres, Shawn O’Neil, David Osumi-Sutherland, Aleix Puig, Justin P Reese, Leonore Reiser, Sofia Robb, Troy Ruemping, James Sea- ger, Eric Sid, Ray Stefancsik, Magalie Weber, Valerie Wood, Melissa A Haendel, and Christopher J Mungall. 2023. Dynamic Retrieval Augmented Generation of Ontologies using Artificial Intelligence (DRAGON-AI). arXiv:2312.10904 [cs.AI]",
+    "arxiv_id": "2312.10904",
+    "pdf_link": "https://arxiv.org/pdf/2312.10904.pdf"
+  },
+  {
+    "number": "71",
+    "text": "Harsh Trivedi, Niranjan Balasubramanian, Tushar Khot, and Ashish Sabharwal. 2023. Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge- Intensive Multi-Step Questions. arXiv:2212.10509 [cs.CL]",
+    "arxiv_id": "2212.10509",
+    "pdf_link": "https://arxiv.org/pdf/2212.10509.pdf"
+  },
+  {
+    "number": "73",
+    "text": "Minh Duc Vu, Han Wang, Zhuang Li, Jieshan Chen, Shengdong Zhao, Zhen- chang Xing, and Chunyang Chen. 2024. GPTVoiceTasker: LLM-Powered Virtual Assistant for Smartphone. arXiv:2401.14268 [cs.HC]",
+    "arxiv_id": "2401.14268",
+    "pdf_link": "https://arxiv.org/pdf/2401.14268.pdf"
+  },
+  {
+    "number": "75",
+    "text": "Keheng Wang, Feiyu Duan, Sirui Wang, Peiguang Li, Yunsen Xian, Chuantao Yin, Wenge Rong, and Zhang Xiong. 2023. Knowledge-Driven CoT: Exploring Faithful Reasoning in LLMs for Knowledge-intensive Question Answering. arXiv:2308.13259 [cs.CL]",
+    "arxiv_id": "2308.13259",
+    "pdf_link": "https://arxiv.org/pdf/2308.13259.pdf"
+  },
+  {
+    "number": "77",
+    "text": "Xidong Wang, Guiming Hardy Chen, Dingjie Song, Zhiyi Zhang, Zhihong Chen, Qingying Xiao, Feng Jiang, Jianquan Li, Xiang Wan, Benyou Wang, and Haizhou Li. 2023. CMB: A Comprehensive Medical Benchmark in Chinese. arXiv:2308.08833 [cs.CL]",
+    "arxiv_id": "2308.08833",
+    "pdf_link": "https://arxiv.org/pdf/2308.08833.pdf"
+  },
+  {
+    "number": "78",
+    "text": "Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, and Hannaneh Hajishirzi. 2023. Self-Instruct: Aligning Lan- guage Models with Self-Generated Instructions. arXiv:2212.10560 [cs.CL]",
+    "arxiv_id": "2212.10560",
+    "pdf_link": "https://arxiv.org/pdf/2212.10560.pdf"
+  },
+  {
+    "number": "80",
+    "text": "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, and Denny Zhou. 2023. Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. arXiv:2201.11903 [cs.CL]",
+    "arxiv_id": "2201.11903",
+    "pdf_link": "https://arxiv.org/pdf/2201.11903.pdf"
+  },
+  {
+    "number": "81",
+    "text": "Yilin Wen, Zifeng Wang, and Jimeng Sun. 2023. MindMap: Knowledge Graph Prompting Sparks Graph of Thoughts in Large Language Models. arXiv:2308.09729 [cs.AI]",
+    "arxiv_id": "2308.09729",
+    "pdf_link": "https://arxiv.org/pdf/2308.09729.pdf"
+  },
+  {
+    "number": "82",
+    "text": "Shitao Xiao, Zheng Liu, Peitian Zhang, and Niklas Muennighoff. 2023. C-Pack: Packaged Resources To Advance General Chinese Embedding. arXiv:2309.07597 [cs.CL]",
+    "arxiv_id": "2309.07597",
+    "pdf_link": "https://arxiv.org/pdf/2309.07597.pdf"
+  },
+  {
+    "number": "86",
+    "text": "Zhichao Xu. 2023. Context-aware Decoding Reduces Hallucination in Query- focused Summarization. arXiv:2312.14335 [cs.CL]",
+    "arxiv_id": "2312.14335",
+    "pdf_link": "https://arxiv.org/pdf/2312.14335.pdf"
+  },
+  {
+    "number": "87",
+    "text": "Aiyuan Yang, Bin Xiao, Bingning Wang, Borong Zhang, Ce Bian, Chao Yin, Chenxu Lv, Da Pan, Dian Wang, Dong Yan, Fan Yang, Fei Deng, Feng Wang, Feng Liu, Guangwei Ai, Guosheng Dong, Haizhou Zhao, Hang Xu, Haoze Sun, Hongda Zhang, Hui Liu, Jiaming Ji, Jian Xie, JunTao Dai, Kun Fang, Lei Su, Liang Song, Lifeng Liu, Liyun Ru, Luyao Ma, Mang Wang, Mickel Liu, MingAn Lin, Nuolan Nie, Peidong Guo, Ruiyang Sun, Tao Zhang, Tianpeng Li, Tianyu Li, Wei Cheng, Weipeng Chen, Xiangrong Zeng, Xiaochuan Wang, Xiaoxi Chen, Xin Men, Xin Yu, Xuehai Pan, Yanjun Shen, Yiding Wang, Yiyu Li, Youxin Jiang, Yuchen Gao, Yupeng Zhang, Zenan Zhou, and Zhiying Wu. 2023. Baichuan 2: Open Large-scale Language Models. arXiv:2309.10305 [cs.CL]",
+    "arxiv_id": "2309.10305",
+    "pdf_link": "https://arxiv.org/pdf/2309.10305.pdf"
+  },
+  {
+    "number": "91",
+    "text": "Donghan Yu, Chenguang Zhu, Yuwei Fang, Wenhao Yu, Shuohang Wang, Yi- chong Xu, Xiang Ren, Yiming Yang, and Michael Zeng. 2022. KG-FiD: Infusing Knowledge Graph in Fusion-in-Decoder for Open-Domain Question Answering. arXiv:2110.04330 [cs.CL]",
+    "arxiv_id": "2110.04330",
+    "pdf_link": "https://arxiv.org/pdf/2110.04330.pdf"
+  },
+  {
+    "number": "92",
+    "text": "Wenhao Yu, Hongming Zhang, Xiaoman Pan, Kaixin Ma, Hongwei Wang, and Dong Yu. 2023. Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Language Models. arXiv:2311.09210 [cs.CL]",
+    "arxiv_id": "2311.09210",
+    "pdf_link": "https://arxiv.org/pdf/2311.09210.pdf"
+  },
+  {
+    "number": "93",
+    "text": "Wenhao Yu, Hongming Zhang, Xiaoman Pan, Kaixin Ma, Hongwei Wang, and Dong Yu. 2023. Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Language Models. arXiv:2311.09210 [cs.CL]",
+    "arxiv_id": "2311.09210",
+    "pdf_link": "https://arxiv.org/pdf/2311.09210.pdf"
+  },
+  {
+    "number": "94",
+    "text": "Hui Zeng. 2023. Measuring Massive Multitask Chinese Understanding. arXiv:2304.12986 [cs.CL]",
+    "arxiv_id": "2304.12986",
+    "pdf_link": "https://arxiv.org/pdf/2304.12986.pdf"
+  },
+  {
+    "number": "97",
+    "text": "Yichi Zhang, Zhuo Chen, Yin Fang, Lei Cheng, Yanxi Lu, Fangming Li, Wen Zhang, and Huajun Chen. 2023. Knowledgeable Preference Alignment for LLMs in Domain-specific Question Answering. arXiv:2311.06503 [cs.CL]",
+    "arxiv_id": "2311.06503",
+    "pdf_link": "https://arxiv.org/pdf/2311.06503.pdf"
+  },
+  {
+    "number": "98",
+    "text": "Lingfeng Zhong, Jia Wu, Qian Li, Hao Peng, and Xindong Wu. 2023. A Comprehensive Survey on Automatic Knowledge Graph Construction. arXiv:2302.05019 [cs.IR]",
+    "arxiv_id": "2302.05019",
+    "pdf_link": "https://arxiv.org/pdf/2302.05019.pdf"
+  },
+  {
+    "number": "99",
+    "text": "Fengbin Zhu, Wenqiang Lei, Chao Wang, Jianming Zheng, Soujanya Poria, and Tat-Seng Chua. 2021. Retrieving and Reading: A Comprehensive Survey on Open-domain Question Answering. arXiv:2101.00774 [cs.AI]",
+    "arxiv_id": "2101.00774",
+    "pdf_link": "https://arxiv.org/pdf/2101.00774.pdf"
+  },
+  {
+    "number": "101",
+    "text": "Daniel M. Ziegler, Nisan Stiennon, Jeffrey Wu, Tom B. Brown, Alec Radford, Dario Amodei, Paul Christiano, and Geoffrey Irving. 2020. Fine-Tuning Language Models from Human Preferences. arXiv:1909.08593 [cs.CL]",
+    "arxiv_id": "1909.08593",
+    "pdf_link": "https://arxiv.org/pdf/1909.08593.pdf"
+  }
+]

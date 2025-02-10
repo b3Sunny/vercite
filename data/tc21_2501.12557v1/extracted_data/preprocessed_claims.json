@@ -1,0 +1,440 @@
+[
+  {
+    "original_claim": "Already, researchers have been using LLMs across the HCI research pipeline, from ideation and system development to data analysis and paperwriting [76].",
+    "context_before": [
+      "ACM, New York, NY, USA, 20 pages. https://doi.org/XXXXXXX.XXXXXXX 1 Introduction Large language models (LLMs) are poised to transform the landscape of Human-Computer Interaction (HCI) research."
+    ],
+    "context_after": [
+      "Past work has shown rapid growth in the raw count of LLM-focused paper preprints, especially in HCI topics ."
+    ],
+    "references": [
+      "76"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "76",
+        "main_query": "Researchers have been using LLMs across the HCI research pipeline, from ideation and system development to data analysis and paperwriting",
+        "rewritten_queries": [
+          "The application of LLMs in various stages of the HCI research process, including ideation, system development, data analysis, and writing papers",
+          "Utilization of large language models throughout the Human-Computer Interaction research pipeline, covering ideation, system development, data analysis, and paper writing",
+          "Incorporation of LLMs in the entire HCI research workflow, from initial ideas and system creation to analyzing data and drafting papers"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Many of these reviews survey technical advancements, e.g., Zhao et al. [183] survey methods for training and evaluating core models, Gao et al. [44] review the state-of-theart in retrieval-augmented generation, and Guo et al. [51] review multi-agent approaches.",
+    "context_before": [
+      "We chose a qualitative approach to provide a deep formative understanding of this rapidly evolving landscape and its impact, not only for HCI researchers, reviewers, and students, but also for researchers in different communities (e.g., AI/NLP) who may be interested in the current state of LLM-ification in HCI, as well as practitioners looking for research-grade guidance on this rapidly evolving space. 2.2 Literature Reviews of LLM Papers Outside of HCI, many fields across computing and social science have used literature reviews to study LLMs’ impact on their areas, including reviews of the models, the technical foci, and the societal implications of LLMs."
+    ],
+    "context_after": [
+      "Other efforts have studied the risks posed by LLMs: Weidinger et al. taxonomized the harms possible, including discrimination, information hazards, malicious uses, and environmental and economic harms."
+    ],
+    "references": [
+      "44",
+      "51",
+      "183"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "44",
+        "main_query": "Gao et al. review the state-of-the-art in retrieval-augmented generation",
+        "rewritten_queries": [
+          "Gao et al. provide an overview of the latest advancements in retrieval-augmented generation",
+          "The state-of-the-art in retrieval-augmented generation is reviewed by Gao et al.",
+          "Gao et al. analyze current methods and developments in retrieval-augmented generation"
+        ]
+      },
+      {
+        "related_to_reference": "51",
+        "main_query": "Guo et al. review multi-agent approaches",
+        "rewritten_queries": [
+          "Review of multi-agent approaches by Guo et al.",
+          "Guo et al. discuss multi-agent strategies",
+          "Analysis of multi-agent methods by Guo et al."
+        ]
+      },
+      {
+        "related_to_reference": "183",
+        "main_query": "Zhao et al. survey methods for training and evaluating core models",
+        "rewritten_queries": [
+          "Zhao et al. review techniques for training and assessing core models",
+          "Methods for training and evaluating core models are surveyed by Zhao et al.",
+          "Zhao et al. provide a survey on core model training and evaluation methods"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "A survey of 950,965 papers found a significant increase in the use of LLMs in writing scientific papers, especially in Computer Science [97].",
+    "context_before": [
+      "Researchers have also considered whether LLMs can or should influence academic writing ."
+    ],
+    "context_after": [
+      "However, many argue that researchers should “avoid overreliance on LLMs and to foster practices of responsible science . ” Our work extends the discussion on how LLMs are changing and should change research by focusing on the CHI community."
+    ],
+    "references": [
+      "97"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "97",
+        "main_query": "a significant increase in the use of LLMs in writing scientific papers, especially in Computer Science",
+        "rewritten_queries": [
+          "the growing prevalence of LLMs in scientific writing, particularly in the field of Computer Science",
+          "an increase in the application of LLMs for writing academic papers, notably in Computer Science",
+          "the rising trend of utilizing LLMs in the creation of scientific literature, especially within Computer Science"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Rather than justifying the usage, Cuadra et al. [29] studied this very topic with a more critical lens and demonstrated the validity concerns inherent to LLM use in chatbots as humans, which Wang et al. [157] and Agnew et al. [1] address from an ethical perspective as well.",
+    "context_before": [
+      "Experiments similarly spanned user studies, as well as human and computational analysis."
+    ],
+    "context_after": [
+      "LLMs as objects of study (9.80%, N=15): This category contains papers that explore LLMs’ underlying mechanisms and properties, including training datasets, response outputs, and issues (e.g., hallucination)."
+    ],
+    "references": [
+      "157"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "157",
+        "main_query": "Cuadra et al. studied this very topic with a more critical lens and demonstrated the validity concerns inherent to LLM use in chatbots as humans",
+        "rewritten_queries": [
+          "Cuadra et al. critically examined the validity concerns of using LLMs in chatbots that interact like humans",
+          "The study by Cuadra et al. highlights the validity issues associated with LLMs in chatbot applications",
+          "Cuadra et al. provided a critical analysis of the validity concerns related to LLM usage in human-like chatbots"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Chen et al. [20] attributed the inconsistency of generated data to the “inherent randomness embedded in the output of LLMs . ” This, however, can be alleviated by changing the sampling temperature to zero [122] or using guided generation [96].",
+    "context_before": [
+      "Gu et al . recognized that their LLM’s explanations were not fully controlled, because they used real-time responses from commercial models."
+    ],
+    "context_after": [
+      "Hallucination (8.50%, N=13): LLMs can produce inaccurate or entirely fabricated information."
+    ],
+    "references": [
+      "122"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "122",
+        "main_query": "changing the sampling temperature to zero",
+        "rewritten_queries": [
+          "setting the sampling temperature to zero",
+          "adjusting the sampling temperature to zero",
+          "modifying the sampling temperature to zero"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Traditional NLP benchmarks are often criticized for their lack of context realism: the model performance measures are often divorced from downstream use cases [99].",
+    "context_before": [
+      "We observed an opportunity for the community to further pursue dataset contributions —and approaches to data collection that center real user needs and downstream harms."
+    ],
+    "context_after": [
+      "Adopting community-driven and participatory approaches to benchmarking could provide data that represents real and diverse user requirements, while still enabling developers to test LLMs’ capabilities ."
+    ],
+    "references": [
+      "99"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "99",
+        "main_query": "Traditional NLP benchmarks are often criticized for their lack of context realism: the model performance measures are often divorced from downstream use cases",
+        "rewritten_queries": [
+          "NLP benchmarks are frequently criticized for not reflecting real-world contexts, leading to performance measures that do not align with practical applications",
+          "The lack of context realism in traditional NLP benchmarks is a common criticism, as performance metrics often do not relate to actual use cases",
+          "Critiques of traditional NLP benchmarks highlight their failure to incorporate realistic contexts, resulting in performance evaluations that are disconnected from downstream applications"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In fields such as ML/AI and computer security, recent initiatives have asked authors to provideethics statements [59], broader impact statements [118], and other structured ways of reflecting on the consequences of their work.",
+    "context_before": [
+      "Consequences pertain to long-term social impact, including insights that could help guide real-world deployments."
+    ],
+    "context_after": [
+      "While authors considered questions of validity and reproducibility— limitations of their work—only 35 papers discussed potential consequences of their findings and results, often in an ethics statement (N=22)."
+    ],
+    "references": [
+      "59"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "59",
+        "main_query": "ethics statements",
+        "rewritten_queries": [
+          "statements regarding ethics in research",
+          "ethical considerations in ML/AI and computer security",
+          "requirements for authors to include ethics statements"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Ethics statements were discussed among HCI researchers in 2018 [59], but to-date have not been formally standardized in CHI’s submission process; however, they have been used in ML and AI conferences including NeurIPS and FAccT [118].",
+    "context_before": [
+      "While authors considered questions of validity and reproducibility— limitations of their work—only 35 papers discussed potential consequences of their findings and results, often in an ethics statement (N=22)."
+    ],
+    "context_after": [
+      "As our study showed that LLMs have been used in diverse applications and are changing research practices, we believe that the CHI community should place greater emphasis on discussions around consequences."
+    ],
+    "references": [
+      "59"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "59",
+        "main_query": "Ethics statements were discussed among HCI researchers in 2018",
+        "rewritten_queries": [
+          "Discussion of ethics statements among HCI researchers in 2018",
+          "HCI researchers talked about ethics statements in 2018",
+          "In 2018, ethics statements were a topic of discussion for HCI researchers"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "LLMs also run the risk of misrepresenting people and are unlikely to faithfully portray identity groups due to the nature of their training data [157].",
+    "context_before": [
+      "Using LLMs to simulate users deprives them of the opportunity to consent to such research ."
+    ],
+    "context_after": [
+      "Given these known constraints, consider how to adjust your study design to enable people from your target population to evaluate the LLM’s outputs, and determine how they are used (cf. )."
+    ],
+    "references": [
+      "157"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "157",
+        "main_query": "LLMs also run the risk of misrepresenting people and are unlikely to faithfully portray identity groups due to the nature of their training data",
+        "rewritten_queries": [
+          "The training data of LLMs may lead to misrepresentation of individuals and identity groups",
+          "Due to their training data, LLMs are prone to inaccurately representing people and identity groups",
+          "LLMs are unlikely to accurately reflect identity groups because of the way they are trained"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Having participants interact with LLMs may also impact privacy [17], especially when using closed models; thus authors may consider how to obtain consent for an LLM to use a participant’s data, how to sanitize LLM inputs, and measures to protect participants’ agency over their data.",
+    "context_before": [
+      "LLMs have known environmental costs authors should consider in the study design (cf. )."
+    ],
+    "context_after": [
+      "HCI researchers studying LLMs—especially when they augment or replace human effort—should consider the systems’ economic impacts."
+    ],
+    "references": [
+      "17"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "17",
+        "main_query": "Having participants interact with LLMs may also impact privacy, especially when using closed models.",
+        "rewritten_queries": [
+          "Interacting with LLMs can affect privacy, particularly with closed models.",
+          "The use of closed models in LLM interactions may raise privacy concerns for participants.",
+          "Privacy implications arise when participants engage with LLMs, especially in the context of closed models."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Other works may have even used LLMs in their methods without mentioning them at all, which would align with the increasing interest in using LLMs to automate academic research [108].",
+    "context_before": [
+      "For instance, we found one paper in our robustness check that mentioned GPT-4 just once, in their methods, without mentioning any other keywords in our list."
+    ],
+    "context_after": [
+      "Our work primarily focused on prompting as the main interface, but future study may extend our samples to study and identify best practice for other techniques (e.g., fine-tuning [ 55], LLM-based embeddings , and multi-agents )."
+    ],
+    "references": [
+      "108"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "108",
+        "main_query": "using LLMs to automate academic research",
+        "rewritten_queries": [
+          "the application of LLMs in automating academic research",
+          "the role of LLMs in enhancing automation in academic research",
+          "the increasing utilization of LLMs for automating research in academia"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Our work primarily focused on prompting as the main interface, but future study may extend our samples to study and identify best practice for other techniques (e.g., fine-tuning [ 55], LLM-based embeddings [128], and multi-agents [51]).",
+    "context_before": [
+      "Other works may have even used LLMs in their methods without mentioning them at all, which would align with the increasing interest in using LLMs to automate academic research ."
+    ],
+    "context_after": [
+      "While insights from this paper (e.g., computational cost) remain relevant, additional research validity concerns may emerge, e.g., challenges in sharing datasets to replicate fine-tuning results or agent configurations to reproduce multi-agent system outcomes."
+    ],
+    "references": [
+      "51",
+      "128"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "51",
+        "main_query": "multi-agents",
+        "rewritten_queries": [
+          "multi-agent systems",
+          "techniques involving multiple agents",
+          "approaches using multi-agents"
+        ]
+      },
+      {
+        "related_to_reference": "128",
+        "main_query": "LLM-based embeddings",
+        "rewritten_queries": [
+          "embeddings based on large language models",
+          "large language model embeddings",
+          "embeddings utilizing LLM technology"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Considering that awareness is an important factor influencing vaccination, Kabir et al. proposed a framework for vaccine uptake with the unaware-aware (UA) information propagation.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Characteristic site preference values have been reported for many biological sources, e.g., for denitrifying bacteria ( SP ≈ –5‰) and nitrifying bacteria ( SP ≈+30‰) .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "substituted minor isotopocules (14N217O, 14N218O, 14N15N16O, and 15N14N16O), have recently been included in the ExoMol database .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "In a slightly different approach is taken: a preliminary velocity field is first interpolated to Lagrangian marker locations on the fluid-solid interface (as in Peskin’s original method), then the force term is computed in the spirit of (5.2), and finally the force is transferred back to the Eulerian grid, again using Peskin’s original spreading operator.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "In reality, vaccination strategies tend not to be specific to each age, but are differentiated according to, for example, the age groups of the population: children, adults, and the elderly .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The stability and accuracy of the method hinges on the free parameterα.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Note that the centroid of the beam cannot be detected around the zero offset angle, i.e., postselection angle ϵ = 0 as the Gaussian nature of the beam profile cannot be maintained and the intensity of the beam is almost comparable to the external noise level that results in error-prone centroid detection.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "I1|) / I1)∙100% , where In is the value of the current flowing through the memristive crossbar at the reading after applying the nth NAP, I1 is the value of the current flowing through the memristive crossbar at the reading after applying the first NAP.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "We compared the line center positions and relative intensities to those available in the HITRAN2020 and GEISA databases, as well as the line list of Tashkun et al. , retrieved via the IAO database, and the Ames -1 line list .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "However, for the Fe self-ion implantation at MeV or higher energy levels, the relevant length scale is about several hundred or thousand nanometers, which goes beyond the practical reach of MD simulations .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "We follow the force-sign convention of .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "For moving solid-fluid interface, the immersed boundary method described above is typically used, see, for example, the study of Tao et al. for particle-laden flows. 5.4.5 Remarks Table 5.1: Comparison of LBM and DUGKS.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  }
+]

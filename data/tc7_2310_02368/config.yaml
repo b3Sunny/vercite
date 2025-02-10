@@ -1,0 +1,10 @@
+llm:
+  model_name: gpt-4o-mini
+  model_type: openai
+  response_mode: source_only
+  temperature: 0.0
+retrieval:
+  top_k: 5
+vector_store:
+  chunk_overlap: 50
+  chunk_size: 100

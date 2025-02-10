@@ -1,0 +1,38 @@
+config:
+  langchain_config: "source_only_langchain_config" # or "default"
+  other_config: "placeholder" # for future use
+
+# detailed config for testing
+detailed_langchain_config:
+  retrieval:
+    top_k: 10 # number of chunks to retrieve
+  vector_store:
+    chunk_size: 200 # number of tokens per chunk
+    chunk_overlap: 100 # overlap between chunks
+  llm:
+    response_mode: "detailed" # model response mode, see rag_prompts.py
+    model_type: "openai"
+    model_name: "gpt-4o-mini"
+    temperature: 0.0
+
+# source only config
+source_only_langchain_config:
+  retrieval:
+    top_k: 5
+  vector_store:
+    chunk_size: 200
+    chunk_overlap: 100
+  llm:
+    response_mode: "source_only"
+    model_type: "openai"
+    model_name: "gpt-4o-mini"
+    temperature: 0.0
+
+# if langchain_config == "default" then this config will be used:
+# top_k: 5
+# chunk_size: 200
+# chunk_overlap: 100
+# model_type: "openai"
+# model_name: "gpt-4o-mini"
+# temperature: 0.0
+# response_mode: "source_only"

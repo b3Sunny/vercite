@@ -1,0 +1,3307 @@
+[
+  {
+    "original_claim": "I NTRODUCTION L ARGE language models (LLMs) have achieved remarkable success, though they still face significant limitations, especially in domain-specific or knowledge-intensive tasks [1], notably producing “hallucinations” [2] when handling queries beyond their training data or requiring current information.",
+    "context_before": [
+      "Index Terms—Large language model, retrieval-augmented generation, natural language processing, information retrieval I."
+    ],
+    "context_after": [
+      "To overcome challenges, Retrieval-Augmented Generation (RAG) enhances LLMs by retrieving relevant document chunks from external knowledge base through semantic similarity calculation."
+    ],
+    "references": [
+      "2"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "2",
+        "main_query": "notably producing “hallucinations” when handling queries beyond their training data or requiring current information",
+        "rewritten_queries": [
+          "producing hallucinations when faced with queries outside their training data",
+          "experiencing hallucinations in response to current information requests",
+          "encountering hallucinations for domain-specific tasks beyond training data"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "This early stage was characterized by foundational work aimed at refining pre-training techniques [3]–[5].The subsequent arrival of ChatGPT [6] marked a pivotal moment, with LLM demonstrating powerful in context learning (ICL) capabilities.",
+    "context_before": [
+      "Initially, RAG’s inception coincided with the rise of the Transformer architecture, focusing on enhancing language models by incorporating additional knowledge through PreTraining Models (PTM)."
+    ],
+    "context_after": [
+      "RAG research shifted towards providing better information for LLMs to answer more complex and knowledge-intensive tasks during the inference stage, leading to rapid development in RAG studies."
+    ],
+    "references": [
+      "3"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "3",
+        "main_query": "foundational work aimed at refining pre-training techniques",
+        "rewritten_queries": [
+          "initial efforts focused on improving pre-training methods",
+          "early developments in enhancing pre-training techniques",
+          "pioneering work dedicated to optimizing pre-training strategies"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "The Naive RAG follows a traditional process that includes indexing, retrieval, and generation, which is also characterized as a “Retrieve-Read” framework [7].",
+    "context_before": [
+      "Input the original question and the retrieved chunks together into LLM to generate the final answer. widespread adoption of ChatGPT."
+    ],
+    "context_after": [
+      "Indexing starts with the cleaning and extraction of raw data in diverse formats like PDF, HTML, Word, and Markdown, which is then converted into a uniform plain text format."
+    ],
+    "references": [
+      "7"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "7",
+        "main_query": "Retrieve-Read framework",
+        "rewritten_queries": [
+          "traditional process of indexing, retrieval, and generation",
+          "Naive RAG process including retrieval and generation",
+          "framework characterized as Retrieve-Read in Naive RAG"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Common methods include query rewriting query transformation, query expansion and other techniques [7], [9]–[11].",
+    "context_before": [
+      "While the goal of query optimization is to make the user’s original question clearer and more suitable for the retrieval task."
+    ],
+    "context_after": [
+      "Post-Retrieval Process."
+    ],
+    "references": [
+      "9",
+      "7",
+      "11"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "9",
+        "main_query": "query rewriting query transformation, query expansion and other techniques",
+        "rewritten_queries": [
+          "techniques such as query rewriting, query transformation, and query expansion",
+          "methods like query expansion, query transformation, and rewriting queries",
+          "common techniques include rewriting queries, transforming queries, and expanding queries"
+        ]
+      },
+      {
+        "related_to_reference": "7",
+        "main_query": "query rewriting query transformation, query expansion and other techniques",
+        "rewritten_queries": [
+          "techniques such as query rewriting, query transformation, and query expansion",
+          "methods like query expansion, query transformation, and rewriting queries",
+          "common techniques include rewriting queries, transforming queries, and expanding queries"
+        ]
+      },
+      {
+        "related_to_reference": "11",
+        "main_query": "query rewriting query transformation, query expansion and other techniques",
+        "rewritten_queries": [
+          "techniques such as query rewriting, query transformation, and query expansion",
+          "methods like query expansion, query transformation, and rewriting queries",
+          "common techniques include rewriting queries, transforming queries, and expanding queries"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Innovations like restructured RAG modules [13] and rearranged RAG pipelines [14] have been introduced to tackle specific challenges.",
+    "context_before": [
+      "It incorporates diverse strategies for improving its components, such as adding a search module for similarity searches and refining the retriever through fine-tuning."
+    ],
+    "context_after": [
+      "The shift towards a modular RAG approach is becoming prevalent, supporting both sequential processing and integrated end-to-end training across its components."
+    ],
+    "references": [
+      "13",
+      "14"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "13",
+        "main_query": "restructured RAG modules",
+        "rewritten_queries": [
+          "innovative RAG modules that have been restructured",
+          "RAG modules that have undergone restructuring",
+          "newly designed RAG modules with a restructured approach"
+        ]
+      },
+      {
+        "related_to_reference": "14",
+        "main_query": "rearranged RAG pipelines",
+        "rewritten_queries": [
+          "modified RAG pipelines",
+          "restructured RAG workflows",
+          "reorganized RAG processing pipelines"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "The Search module adapts to specific scenarios, enabling direct searches across various data sources like search engines, databases, and knowledge graphs, using LLM-generated code and query languages [15].",
+    "context_before": [
+      "Despite its distinctiveness, Modular RAG builds upon the foundational principles of Advanced and Naive RAG, illustrating a progression and refinement within the RAG family. 1) New Modules: The Modular RAG framework introduces additional specialized components to enhance retrieval and processing capabilities."
+    ],
+    "context_after": [
+      "RAGFusion addresses traditional search limitations by employing a multi-query strategy that expands user queries into diverse perspectives, utilizing parallel vector searches and intelligent re-ranking to uncover both explicit and transformative knowledge ."
+    ],
+    "references": [
+      "15"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "15",
+        "main_query": "The Search module adapts to specific scenarios, enabling direct searches across various data sources like search engines, databases, and knowledge graphs, using LLM-generated code and query languages",
+        "rewritten_queries": [
+          "The Search module customizes itself for different scenarios, allowing direct searches across multiple data sources such as search engines, databases, and knowledge graphs with LLM-generated code and query languages",
+          "The Search module is designed to adapt to various scenarios, facilitating direct searches through different data sources including search engines, databases, and knowledge graphs, utilizing LLM-generated code and query languages",
+          "By adapting to specific scenarios, the Search module enables direct searches across a range of data sources like search engines, databases, and knowledge graphs, employing LLM-generated code and query languages"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "The Memory module leverages the LLM’s memory to guide retrieval, creating an unbounded memory pool that 5 aligns the text more closely with data distribution through iterative self-enhancement [17], [18].",
+    "context_before": [
+      "RAGFusion addresses traditional search limitations by employing a multi-query strategy that expands user queries into diverse perspectives, utilizing parallel vector searches and intelligent re-ranking to uncover both explicit and transformative knowledge ."
+    ],
+    "context_after": [
+      "Routing in the RAG system navigates through diverse data sources, selecting the optimal pathway for a query, whether it involves summarization, specific database searches, or merging different information streams ."
+    ],
+    "references": [
+      "18",
+      "17"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "18",
+        "main_query": "The Memory module leverages the LLM’s memory to guide retrieval, creating an unbounded memory pool that aligns the text more closely with data distribution through iterative self-enhancement",
+        "rewritten_queries": [
+          "The Memory module utilizes the LLM's memory for retrieval, forming an unlimited memory pool that enhances text alignment with data distribution via iterative self-improvement",
+          "By using the LLM's memory, the Memory module facilitates retrieval and establishes an unbounded memory pool that improves text alignment with data distribution through continuous self-enhancement",
+          "The Memory module employs the memory of the LLM to assist in retrieval, resulting in an infinite memory pool that better aligns text with data distribution through repeated self-enhancement"
+        ]
+      },
+      {
+        "related_to_reference": "17",
+        "main_query": "The Memory module leverages the LLM’s memory to guide retrieval, creating an unbounded memory pool that aligns the text more closely with data distribution through iterative self-enhancement",
+        "rewritten_queries": [
+          "The Memory module utilizes the LLM's memory for retrieval, forming an unlimited memory pool that enhances text alignment with data distribution iteratively",
+          "By using the LLM's memory, the Memory module guides retrieval and establishes an unbounded memory pool that improves text alignment with data distribution through self-enhancement",
+          "The Memory module enhances retrieval by leveraging the LLM's memory, resulting in an infinite memory pool that aligns text with data distribution through iterative improvements"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Routing in the RAG system navigates through diverse data sources, selecting the optimal pathway for a query, whether it involves summarization, specific database searches, or merging different information streams [19].",
+    "context_before": [
+      "The Memory module leverages the LLM’s memory to guide retrieval, creating an unbounded memory pool that 5 aligns the text more closely with data distribution through iterative self-enhancement , ."
+    ],
+    "context_after": [
+      "The Predict module aims to reduce redundancy and noise by generating context directly through the LLM, ensuring relevance and accuracy ."
+    ],
+    "references": [
+      "19"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "19",
+        "main_query": "Routing in the RAG system navigates through diverse data sources, selecting the optimal pathway for a query, whether it involves summarization, specific database searches, or merging different information streams",
+        "rewritten_queries": [
+          "The RAG system routes through various data sources to find the best path for queries, including summarization and database searches",
+          "In the RAG system, routing involves navigating multiple data sources to choose the best approach for a query, such as summarization or merging information",
+          "Routing within the RAG system selects the most effective route through different data sources for queries, whether for summarization or specific searches"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "The Predict module aims to reduce redundancy and noise by generating context directly through the LLM, ensuring relevance and accuracy [13].",
+    "context_before": [
+      "Routing in the RAG system navigates through diverse data sources, selecting the optimal pathway for a query, whether it involves summarization, specific database searches, or merging different information streams ."
+    ],
+    "context_after": [
+      "Lastly, the Task Adapter module tailors RAG to various downstream tasks, automating prompt retrieval for zero-shot inputs and creating task-specific retrievers through few-shot query generation , .This comprehensive approach not only streamlines the retrieval process but also significantly improves the quality and relevance of the information retrieved, catering to a wide array of tasks and queries with enhanced precision and flexibility. 2) New Patterns: Modular RAG offers remarkable adaptability by allowing module substitution or reconfiguration to address specific challenges."
+    ],
+    "references": [
+      "13"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "13",
+        "main_query": "The Predict module aims to reduce redundancy and noise by generating context directly through the LLM, ensuring relevance and accuracy",
+        "rewritten_queries": [
+          "The Predict module is designed to minimize redundancy and noise by directly generating context with the LLM for improved relevance and accuracy",
+          "By generating context through the LLM, the Predict module seeks to eliminate redundancy and noise, thereby ensuring accuracy and relevance",
+          "The goal of the Predict module is to enhance relevance and accuracy by reducing redundancy and noise through direct context generation using the LLM"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Lastly, the Task Adapter module tailors RAG to various downstream tasks, automating prompt retrieval for zero-shot inputs and creating task-specific retrievers through few-shot query generation [20], [21] .This comprehensive approach not only streamlines the retrieval process but also significantly improves the quality and relevance of the information retrieved, catering to a wide array of tasks and queries with enhanced precision and flexibility. 2) New Patterns: Modular RAG offers remarkable adaptability by allowing module substitution or reconfiguration to address specific challenges.",
+    "context_before": [
+      "The Predict module aims to reduce redundancy and noise by generating context directly through the LLM, ensuring relevance and accuracy ."
+    ],
+    "context_after": [
+      "This goes beyond the fixed structures of Naive and Advanced RAG, characterized by a simple “Retrieve” and “Read” mechanism."
+    ],
+    "references": [
+      "21",
+      "20"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "21",
+        "main_query": "the Task Adapter module tailors RAG to various downstream tasks, automating prompt retrieval for zero-shot inputs and creating task-specific retrievers through few-shot query generation",
+        "rewritten_queries": [
+          "Task Adapter module customizes RAG for different downstream tasks by automating prompt retrieval for zero-shot inputs and generating task-specific retrievers with few-shot queries",
+          "The Task Adapter component adjusts RAG to suit various downstream tasks, facilitating automated prompt retrieval for zero-shot scenarios and developing task-specific retrievers via few-shot query generation",
+          "By utilizing the Task Adapter module, RAG is adapted for multiple downstream tasks, enabling automated retrieval of prompts for zero-shot inputs and the creation of task-specific retrievers through few-shot generation"
+        ]
+      },
+      {
+        "related_to_reference": "20",
+        "main_query": "the Task Adapter module tailors RAG to various downstream tasks, automating prompt retrieval for zero-shot inputs and creating task-specific retrievers through few-shot query generation",
+        "rewritten_queries": [
+          "Task Adapter module customizes RAG for different downstream tasks by automating prompt retrieval for zero-shot inputs and generating task-specific retrievers with few-shot queries",
+          "The Task Adapter component adjusts RAG to suit various downstream tasks, facilitating automated prompt retrieval for zero-shot scenarios and developing task-specific retrievers via few-shot query generation",
+          "By utilizing the Task Adapter module, RAG is adapted for multiple downstream tasks, enabling automated retrieval of prompts for zero-shot inputs and the creation of task-specific retrievers through few-shot generation"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Innovations such as the Rewrite-Retrieve-Read [7]model leverage the LLM’s capabilities to refine retrieval queries through a rewriting module and a LM-feedback mechanism to update rewriting model., improving task performance.",
+    "context_before": [
+      "Moreover, Modular RAG expands this flexibility by integrating new modules or adjusting interaction flow among existing ones, enhancing its applicability across different tasks."
+    ],
+    "context_after": [
+      "Similarly, approaches like Generate-Read replace traditional retrieval with LLM-generated content, while ReciteRead emphasizes retrieval from model weights, enhancing the model’s ability to handle knowledge-intensive tasks."
+    ],
+    "references": [
+      "7"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "7",
+        "main_query": "Rewrite-Retrieve-Read model leverage the LLM’s capabilities to refine retrieval queries through a rewriting module and a LM-feedback mechanism to update rewriting model.",
+        "rewritten_queries": [
+          "The Rewrite-Retrieve-Read model utilizes LLM capabilities to enhance retrieval queries via a rewriting module and feedback mechanism.",
+          "Innovations like the Rewrite-Retrieve-Read model improve task performance by refining retrieval queries with LLM's rewriting module and feedback.",
+          "The LLM's capabilities are harnessed in the Rewrite-Retrieve-Read model to optimize retrieval queries through a rewriting module and LM feedback."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Similarly, approaches like Generate-Read [13] replace traditional retrieval with LLM-generated content, while ReciteRead [22] emphasizes retrieval from model weights, enhancing the model’s ability to handle knowledge-intensive tasks.",
+    "context_before": [
+      "Innovations such as the Rewrite-Retrieve-Read model leverage the LLM’s capabilities to refine retrieval queries through a rewriting module and a LM-feedback mechanism to update rewriting model., improving task performance."
+    ],
+    "context_after": [
+      "Hybrid retrieval strategies integrate keyword, semantic, and vector searches to cater to diverse queries."
+    ],
+    "references": [
+      "13",
+      "22"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "13",
+        "main_query": "Generate-Read replace traditional retrieval with LLM-generated content",
+        "rewritten_queries": [
+          "Generate-Read substitutes conventional retrieval methods with content generated by LLMs",
+          "The Generate-Read approach uses LLM-generated content instead of traditional retrieval techniques",
+          "In the Generate-Read method, traditional retrieval is replaced by content produced by LLMs"
+        ]
+      },
+      {
+        "related_to_reference": "22",
+        "main_query": "ReciteRead emphasizes retrieval from model weights, enhancing the model’s ability to handle knowledge-intensive tasks.",
+        "rewritten_queries": [
+          "ReciteRead focuses on retrieving information from model weights to improve performance on knowledge-intensive tasks.",
+          "The ReciteRead method enhances knowledge-intensive task handling by retrieving data from model weights.",
+          "By emphasizing retrieval from model weights, ReciteRead boosts the model's capability in knowledge-intensive tasks."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Additionally, employing sub-queries and hypothetical document embeddings (HyDE) [11] seeks to improve retrieval relevance by focusing on embedding similarities between generated answers and real documents.",
+    "context_before": [
+      "Hybrid retrieval strategies integrate keyword, semantic, and vector searches to cater to diverse queries."
+    ],
+    "context_after": [
+      "Adjustments in module arrangement and interaction, such as the Demonstrate-Search-Predict (DSP) framework and the iterative Retrieve-Read-Retrieve-Read flow of ITERRETGEN , showcase the dynamic use of module outputs to bolster another module’s functionality, illustrating a sophisticated understanding of enhancing module synergy."
+    ],
+    "references": [
+      "11"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "11",
+        "main_query": "hypothetical document embeddings (HyDE)",
+        "rewritten_queries": [
+          "sub-queries and HyDE for improved retrieval relevance",
+          "using HyDE to enhance embedding similarities in retrieval",
+          "improving retrieval relevance with hypothetical document embeddings"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Adjustments in module arrangement and interaction, such as the Demonstrate-Search-Predict (DSP) [23] framework and the iterative Retrieve-Read-Retrieve-Read flow of ITERRETGEN [14], showcase the dynamic use of module outputs to bolster another module’s functionality, illustrating a sophisticated understanding of enhancing module synergy.",
+    "context_before": [
+      "Additionally, employing sub-queries and hypothetical document embeddings (HyDE) seeks to improve retrieval relevance by focusing on embedding similarities between generated answers and real documents."
+    ],
+    "context_after": [
+      "The flexible orchestration of Modular RAG Flow showcases the benefits of adaptive retrieval through techniques such as FLARE and Self-RAG ."
+    ],
+    "references": [
+      "14",
+      "23"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "14",
+        "main_query": "the iterative Retrieve-Read-Retrieve-Read flow of ITERRETGEN",
+        "rewritten_queries": [
+          "ITERRETGEN's iterative Retrieve-Read-Retrieve-Read process",
+          "the Retrieve-Read-Retrieve-Read method used in ITERRETGEN",
+          "ITERRETGEN framework's approach of iterative retrieval and reading"
+        ]
+      },
+      {
+        "related_to_reference": "23",
+        "main_query": "Demonstrate-Search-Predict (DSP) framework",
+        "rewritten_queries": [
+          "DSP framework for module arrangement and interaction",
+          "Demonstrate-Search-Predict method in enhancing module synergy",
+          "Dynamic use of the DSP framework to improve module functionality"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "The flexible orchestration of Modular RAG Flow showcases the benefits of adaptive retrieval through techniques such as FLARE [24] and Self-RAG [25].",
+    "context_before": [
+      "Adjustments in module arrangement and interaction, such as the Demonstrate-Search-Predict (DSP) framework and the iterative Retrieve-Read-Retrieve-Read flow of ITERRETGEN , showcase the dynamic use of module outputs to bolster another module’s functionality, illustrating a sophisticated understanding of enhancing module synergy."
+    ],
+    "context_after": [
+      "This approach transcends the fixed RAG retrieval process by evaluating the necessity of retrieval based on different scenarios."
+    ],
+    "references": [
+      "24",
+      "25"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "24",
+        "main_query": "FLARE",
+        "rewritten_queries": [
+          "Benefits of FLARE in adaptive retrieval",
+          "FLARE technique in Modular RAG Flow",
+          "How FLARE enhances retrieval in Modular RAG"
+        ]
+      },
+      {
+        "related_to_reference": "25",
+        "main_query": "Self-RAG",
+        "rewritten_queries": [
+          "Self-RAG technique in adaptive retrieval",
+          "Benefits of Self-RAG in Modular RAG Flow",
+          "Adaptive retrieval method Self-RAG"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Another benefit of a flexible architecture is that the RAG system can more easily integrate with other technologies (such as fine-tuning or reinforcement learning) [26].",
+    "context_before": [
+      "This approach transcends the fixed RAG retrieval process by evaluating the necessity of retrieval based on different scenarios."
+    ],
+    "context_after": [
+      "For example, this can involve fine-tuning the retriever for better retrieval results, fine-tuning the generator for more personalized outputs, or engaging in collaborative fine-tuning ."
+    ],
+    "references": [
+      "26"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "26",
+        "main_query": "the RAG system can more easily integrate with other technologies (such as fine-tuning or reinforcement learning)",
+        "rewritten_queries": [
+          "flexible architecture allows RAG systems to integrate with technologies like fine-tuning and reinforcement learning",
+          "RAG systems benefit from flexible architecture by facilitating integration with fine-tuning and reinforcement learning",
+          "the ability of RAG systems to incorporate other technologies, including fine-tuning and reinforcement learning, is enhanced by flexible architecture"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "For example, this can involve fine-tuning the retriever for better retrieval results, fine-tuning the generator for more personalized outputs, or engaging in collaborative fine-tuning [27].",
+    "context_before": [
+      "Another benefit of a flexible architecture is that the RAG system can more easily integrate with other technologies (such as fine-tuning or reinforcement learning) ."
+    ],
+    "context_after": [
+      "D."
+    ],
+    "references": [
+      "27"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "27",
+        "main_query": "engaging in collaborative fine-tuning",
+        "rewritten_queries": [
+          "collaborative fine-tuning methods",
+          "methods for collaborative fine-tuning",
+          "approaches to collaborative fine-tuning"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In multiple evaluations of their performance on various knowledge-intensive tasks across different topics, [28] revealed that while unsupervised fine-tuning shows some improvement, RAG consistently outperforms it, for both existing knowledge encountered during training and entirely new knowledge.",
+    "context_before": [
+      "It demands significant computational resources for dataset preparation and training, and while it can reduce hallucinations, it may face challenges with unfamiliar data."
+    ],
+    "context_after": [
+      "Additionally, it was found that LLMs struggle to learn new factual information through unsupervised finetuning."
+    ],
+    "references": [
+      "28"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "28",
+        "main_query": "RAG consistently outperforms unsupervised fine-tuning in knowledge-intensive tasks",
+        "rewritten_queries": [
+          "Unsupervised fine-tuning shows some improvement, but RAG is more effective",
+          "In knowledge-intensive tasks, RAG outperforms unsupervised fine-tuning",
+          "RAG demonstrates superior performance over unsupervised fine-tuning for both familiar and new knowledge"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In addition to encyclopedic data, common unstructured data includes cross-lingual text [19] and domainspecific data (such as medical [67]and legal domains [29]).",
+    "context_before": [
+      "For open-domain question-answering (ODQA) tasks, the primary retrieval sources are Wikipedia Dump with the current major versions including HotpotQA 4 (1st October , 2017), DPR5 (20 December, 2018)."
+    ],
+    "context_after": [
+      "Semi-structured data. typically refers to data that contains a combination of text and table information, such as PDF."
+    ],
+    "references": [
+      "67",
+      "19"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "67",
+        "main_query": "cross-lingual text",
+        "rewritten_queries": [
+          "text data in multiple languages",
+          "multilingual text information",
+          "text that spans different languages"
+        ]
+      },
+      {
+        "related_to_reference": "19",
+        "main_query": "cross-lingual text",
+        "rewritten_queries": [
+          "text that spans multiple languages",
+          "text data in different languages",
+          "multilingual text content"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "When dealing with semi-structured data, one approach involves leveraging the code capabilities of LLMs to execute Text-2-SQL queries on tables within databases, such as TableGPT [85].",
+    "context_before": [
+      "Secondly, incorporating tables into the data can complicate semantic similarity searches."
+    ],
+    "context_after": [
+      "Alternatively, tables can be transformed into text format for further analysis using text-based methods ."
+    ],
+    "references": [
+      "85"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "85",
+        "main_query": "TableGPT",
+        "rewritten_queries": [
+          "Using LLMs for Text-2-SQL queries on databases",
+          "Executing SQL queries on tables with LLM capabilities",
+          "Leveraging LLMs to interact with semi-structured data through SQL"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Alternatively, tables can be transformed into text format for further analysis using text-based methods [75].",
+    "context_before": [
+      "When dealing with semi-structured data, one approach involves leveraging the code capabilities of LLMs to execute Text-2-SQL queries on tables within databases, such as TableGPT ."
+    ],
+    "context_after": [
+      "However, both of these methods are not optimal solutions, indicating substantial research opportunities in this area."
+    ],
+    "references": [
+      "75"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "75",
+        "main_query": "tables can be transformed into text format for further analysis using text-based methods",
+        "rewritten_queries": [
+          "transforming tables into text format for analysis with text-based techniques",
+          "using text-based methods to convert tables into a text format for further analysis",
+          "analyzing tables by converting them into text format through text-based approaches"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "KnowledGPT [15] generates KB search queries and stores knowledge in a personalized base, enhancing the RAG model’s knowledge richness.",
+    "context_before": [
+      "Structured data , such as knowledge graphs (KGs) , which are typically verified and can provide more precise information."
+    ],
+    "context_after": [
+      "In response to the limitations of LLMs in understanding and answering questions about textual graphs, G-Retriever integrates Graph Neural Networks 4https://hotpotqa.github.io/wiki-readme.html 5https://github.com/facebookresearch/DPR (GNNs), LLMs and RAG, enhancing graph comprehension and question-answering capabilities through soft prompting of the LLM, and employs the Prize-Collecting Steiner Tree (PCST) optimization problem for targeted graph retrieval."
+    ],
+    "references": [
+      "15"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "15",
+        "main_query": "KnowledGPT generates KB search queries and stores knowledge in a personalized base, enhancing the RAG model’s knowledge richness.",
+        "rewritten_queries": [
+          "KnowledGPT creates knowledge base search queries and maintains a personalized knowledge repository to improve the richness of the RAG model.",
+          "The RAG model's knowledge richness is enhanced by KnowledGPT, which generates queries for knowledge bases and stores information in a personalized database.",
+          "By generating KB search queries and maintaining a personalized knowledge base, KnowledGPT enhances the knowledge richness of the RAG model."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In response to the limitations of LLMs in understanding and answering questions about textual graphs, G-Retriever [84] integrates Graph Neural Networks 4https://hotpotqa.github.io/wiki-readme.html 5https://github.com/facebookresearch/DPR (GNNs), LLMs and RAG, enhancing graph comprehension and question-answering capabilities through soft prompting of the LLM, and employs the Prize-Collecting Steiner Tree (PCST) optimization problem for targeted graph retrieval.",
+    "context_before": [
+      "KnowledGPT generates KB search queries and stores knowledge in a personalized base, enhancing the RAG model’s knowledge richness."
+    ],
+    "context_after": [
+      "On the contrary, it requires additional effort to build, validate, and maintain structured databases."
+    ],
+    "references": [
+      "84"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "84",
+        "main_query": "G-Retriever integrates Graph Neural Networks (GNNs), LLMs and RAG, enhancing graph comprehension and question-answering capabilities through soft prompting of the LLM.",
+        "rewritten_queries": [
+          "G-Retriever combines Graph Neural Networks with LLMs and RAG to improve understanding of graphs and answering questions via soft prompting.",
+          "The integration of Graph Neural Networks, LLMs, and RAG in G-Retriever enhances its ability to comprehend graphs and answer related questions through soft prompting.",
+          "By utilizing Graph Neural Networks alongside LLMs and RAG, G-Retriever boosts its graph comprehension and question-answering skills through soft prompting."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "SKR [58] classifies questions as known or unknown, applying retrieval enhancement selectively.",
+    "context_before": [
+      "Addressing the limitations of external auxiliary information in RAG, some research has focused on exploiting LLMs’ internal knowledge."
+    ],
+    "context_after": [
+      "GenRead replaces the retriever with an LLM generator, finding that LLM-generated contexts often contain more accurate answers due to better alignment with the pre-training objectives of causal language modeling."
+    ],
+    "references": [
+      "58"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "58",
+        "main_query": "SKR classifies questions as known or unknown, applying retrieval enhancement selectively.",
+        "rewritten_queries": [
+          "SKR categorizes questions into known and unknown types while selectively enhancing retrieval.",
+          "The SKR method distinguishes between known and unknown questions and applies selective retrieval enhancement.",
+          "SKR's approach involves classifying questions as either known or unknown and using selective retrieval enhancement."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "GenRead [13] replaces the retriever with an LLM generator, finding that LLM-generated contexts often contain more accurate answers due to better alignment with the pre-training objectives of causal language modeling.",
+    "context_before": [
+      "SKR classifies questions as known or unknown, applying retrieval enhancement selectively."
+    ],
+    "context_after": [
+      "Selfmem iteratively creates an unbounded memory pool with a retrieval-enhanced generator, using a memory selector to choose outputs that serve as dual problems to the original question, thus self-enhancing the generative model."
+    ],
+    "references": [
+      "13"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "13",
+        "main_query": "GenRead replaces the retriever with an LLM generator, finding that LLM-generated contexts often contain more accurate answers due to better alignment with the pre-training objectives of causal language modeling.",
+        "rewritten_queries": [
+          "GenRead utilizes an LLM generator instead of a retriever, resulting in LLM-generated contexts that provide more accurate answers aligned with causal language modeling pre-training objectives.",
+          "The replacement of the retriever by an LLM generator in GenRead leads to more accurate answers from LLM-generated contexts, thanks to improved alignment with pre-training objectives of causal language modeling.",
+          "By substituting the retriever with an LLM generator, GenRead discovers that contexts generated by LLMs frequently yield more precise answers due to their alignment with causal language modeling's pre-training goals."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Selfmem [17] iteratively creates an unbounded memory pool with a retrieval-enhanced generator, using a memory selector to choose outputs that serve as dual problems to the original question, thus self-enhancing the generative model.",
+    "context_before": [
+      "GenRead replaces the retriever with an LLM generator, finding that LLM-generated contexts often contain more accurate answers due to better alignment with the pre-training objectives of causal language modeling."
+    ],
+    "context_after": [
+      "These methodologies underscore the breadth of innovative data source utilization in RAG, striving to improve model performance and task effectiveness. 2) Retrieval Granularity: Another important factor besides the data format of the retrieval source is the granularity of the retrieved data."
+    ],
+    "references": [
+      "17"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "17",
+        "main_query": "Selfmem iteratively creates an unbounded memory pool with a retrieval-enhanced generator, using a memory selector to choose outputs that serve as dual problems to the original question, thus self-enhancing the generative model.",
+        "rewritten_queries": [
+          "Selfmem builds an unlimited memory pool through a retrieval-enhanced generator, selecting outputs that act as dual problems to enhance the generative model.",
+          "The Selfmem approach utilizes a retrieval-enhanced generator to iteratively form an unbounded memory pool, choosing outputs that serve as dual problems to the original query.",
+          "By employing a memory selector, Selfmem creates an unbounded memory pool with a retrieval-enhanced generator, enhancing the generative model through dual problem outputs."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Coarse-grained retrieval units theoretically can provide more relevant information for the problem, but they may also contain redundant content, which could distract the retriever and language models in downstream tasks [50], [87].",
+    "context_before": [
+      "These methodologies underscore the breadth of innovative data source utilization in RAG, striving to improve model performance and task effectiveness. 2) Retrieval Granularity: Another important factor besides the data format of the retrieval source is the granularity of the retrieved data."
+    ],
+    "context_after": [
+      "On the other hand, fine-grained retrieval unit granularity increases the burden of retrieval and does not guarantee semantic integrity and meeting the required knowledge."
+    ],
+    "references": [
+      "50"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "50",
+        "main_query": "Coarse-grained retrieval units theoretically can provide more relevant information for the problem, but they may also contain redundant content, which could distract the retriever and language models in downstream tasks",
+        "rewritten_queries": [
+          "Theoretically, coarse-grained retrieval units can offer more relevant information, but they might also include redundant content that distracts retrievers and language models.",
+          "While coarse-grained retrieval units can enhance relevance for the problem, they risk introducing redundancy that may distract downstream tasks.",
+          "Coarse-grained retrieval units may yield more relevant information theoretically, yet they can also have redundant content that distracts language models and retrievers."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Among them, DenseX [30]proposed the concept of using propositions as retrieval units.",
+    "context_before": [
+      "In text, retrieval granularity ranges from fine to coarse, including Token, Phrase, Sentence, Proposition, Chunks, Document."
+    ],
+    "context_after": [
+      "Propositions are defined as atomic expressions in the text, each encapsulating a unique factual segment and presented in a concise, self-contained natural language format."
+    ],
+    "references": [
+      "30"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "30",
+        "main_query": "DenseX proposed the concept of using propositions as retrieval units.",
+        "rewritten_queries": [
+          "The concept of using propositions as retrieval units was introduced by DenseX.",
+          "DenseX introduced the idea of utilizing propositions for retrieval purposes.",
+          "Using propositions as units for retrieval was proposed by DenseX."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "The granularity of retrieval can also be adapted to downstream tasks, such as retrieving Item IDs [40]in recommendation tasks and Sentence pairs [38].",
+    "context_before": [
+      "On the Knowledge Graph (KG), retrieval granularity includes Entity, Triplet, and sub-Graph."
+    ],
+    "context_after": [
+      "Detailed information is illustrated in Table I."
+    ],
+    "references": [
+      "38",
+      "40"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "38",
+        "main_query": "Sentence pairs",
+        "rewritten_queries": [
+          "Pairs of sentences",
+          "Sentence pair retrieval",
+          "Retrieving pairs of sentences"
+        ]
+      },
+      {
+        "related_to_reference": "40",
+        "main_query": "retrieving Item IDs",
+        "rewritten_queries": [
+          "retrieval of Item IDs in recommendation tasks",
+          "Item ID retrieval for recommendation systems",
+          "how to retrieve Item IDs in recommendation tasks"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "To capture the logical relationship between document content and structure, KGP [91] proposed a method of building an index between multiple documents using KG.",
+    "context_before": [
+      "Another advantage is the transformation of the information retrieval process into instructions that LLM can comprehend, thereby enhancing the accuracy of knowledge retrieval and enabling LLM to generate contextually coherent responses, thus improving the overall efficiency of the RAG system."
+    ],
+    "context_after": [
+      "This KG consists of nodes (representing paragraphs or structures in the documents, such as pages and tables) and edges (indicating semantic/lexical similarity between paragraphs or relationships within the document structure), effectively addressing knowledge retrieval and reasoning problems in a multi-document environment."
+    ],
+    "references": [
+      "91"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "91",
+        "main_query": "KGP proposed a method of building an index between multiple documents using KG",
+        "rewritten_queries": [
+          "KGP introduced a technique for indexing multiple documents through the use of KG",
+          "The method developed by KGP involves creating an index for several documents utilizing KG",
+          "KGP's approach focuses on constructing an index that links multiple documents with KG"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Specifically, a complex question can be decomposed into a series of simpler sub-questions using the least-to-most prompting method [92].",
+    "context_before": [
+      "This process of adding relevant context is, in principle, similar to query expansion."
+    ],
+    "context_after": [
+      "Chain-of-Verification(CoVe)."
+    ],
+    "references": [
+      "92"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "92",
+        "main_query": "the least-to-most prompting method",
+        "rewritten_queries": [
+          "using the least-to-most prompting technique",
+          "the method of least-to-most prompting",
+          "applying the least-to-most prompting approach"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Validated expanded queries typically exhibit higher reliability [93]. 9 2) Query Transformation: The core concept is to retrieve chunks based on a transformed query instead of the user’s original query.",
+    "context_before": [
+      "The expanded queries undergo validation by LLM to achieve the effect of reducing hallucinations."
+    ],
+    "context_after": [
+      "Query Rewrite.The original queries are not always optimal for LLM retrieval, especially in real-world scenarios."
+    ],
+    "references": [
+      "93"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "93",
+        "main_query": "Validated expanded queries typically exhibit higher reliability",
+        "rewritten_queries": [
+          "Expanded queries that have been validated show greater reliability",
+          "Typically, validated expanded queries demonstrate increased reliability",
+          "Reliability is generally higher in validated expanded queries"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In addition to using LLM for query rewriting, specialized smaller language models, such as RRR (Rewrite-retrieve-read) [7].",
+    "context_before": [
+      "Therefore, we can prompt LLM to rewrite the queries."
+    ],
+    "context_after": [
+      "The implementation of the query rewrite method in the Taobao, known as BEQUE has notably enhanced recall effectiveness for long-tail queries, resulting in a rise in GMV ."
+    ],
+    "references": [
+      "7"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "7",
+        "main_query": "specialized smaller language models, such as RRR (Rewrite-retrieve-read)",
+        "rewritten_queries": [
+          "smaller language models like RRR (Rewrite-retrieve-read)",
+          "the use of specialized models such as RRR for rewriting queries",
+          "RRR (Rewrite-retrieve-read) as a specialized smaller language model"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "The implementation of the query rewrite method in the Taobao, known as BEQUE [9] has notably enhanced recall effectiveness for long-tail queries, resulting in a rise in GMV .",
+    "context_before": [
+      "In addition to using LLM for query rewriting, specialized smaller language models, such as RRR (Rewrite-retrieve-read) ."
+    ],
+    "context_after": [
+      "Another query transformation method is to use prompt engineering to let LLM generate a query based on the original query for subsequent retrieval."
+    ],
+    "references": [
+      "9"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "9",
+        "main_query": "BEQUE has notably enhanced recall effectiveness for long-tail queries, resulting in a rise in GMV",
+        "rewritten_queries": [
+          "The BEQUE method significantly improves recall for long-tail queries and increases GMV",
+          "Recall effectiveness for long-tail queries has been enhanced by the implementation of BEQUE, leading to higher GMV",
+          "The use of BEQUE in Taobao has resulted in improved recall for long-tail queries and a rise in GMV"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "HyDE [11] construct hypothetical documents (assumed answers to the original query).",
+    "context_before": [
+      "Another query transformation method is to use prompt engineering to let LLM generate a query based on the original query for subsequent retrieval."
+    ],
+    "context_after": [
+      "It focuses on embedding similarity from answer to answer rather than seeking embedding similarity for the problem or query."
+    ],
+    "references": [
+      "11"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "11",
+        "main_query": "HyDE construct hypothetical documents (assumed answers to the original query)",
+        "rewritten_queries": [
+          "HyDE creates hypothetical documents that serve as assumed answers to the original query",
+          "The HyDE method generates hypothetical documents which are considered as answers to the original query",
+          "HyDE is designed to construct assumed answers in the form of hypothetical documents for the original query"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Using the Step-back Prompting method [10], the original query is abstracted to generate a high-level concept question (step-back question).",
+    "context_before": [
+      "It focuses on embedding similarity from answer to answer rather than seeking embedding similarity for the problem or query."
+    ],
+    "context_after": [
+      "In the RAG system, both the step-back question and the original query are used for retrieval, and both the results are utilized as the basis for language model answer generation. 3) Query Routing: Based on varying queries, routing to distinct RAG pipeline,which is suitable for a versatile RAG system designed to accommodate diverse scenarios."
+    ],
+    "references": [
+      "10"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "10",
+        "main_query": "Using the Step-back Prompting method, the original query is abstracted to generate a high-level concept question (step-back question).",
+        "rewritten_queries": [
+          "The Step-back Prompting method abstracts the original query into a high-level concept question.",
+          "By employing the Step-back Prompting technique, the original query is transformed into a step-back question that captures a broader concept.",
+          "The original query is rephrased into a high-level concept question through the use of the Step-back Prompting method."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Recent research has introduced prominent embedding models such as AngIE, V oyage, BGE,etc [94]–[96], which are benefit from multi-task instruct tuning.",
+    "context_before": [
+      "This mainly includes a sparse encoder (BM25) and a dense retriever (BERT architecture Pre-training language models)."
+    ],
+    "context_after": [
+      "Hugging Face’s MTEB leaderboard 7 evaluates embedding models across 8 tasks, covering 58 datasests."
+    ],
+    "references": [
+      "94"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "94",
+        "main_query": "AngIE, V oyage, BGE, etc, which are benefit from multi-task instruct tuning",
+        "rewritten_queries": [
+          "embedding models like AngIE, V oyage, and BGE that benefit from multi-task instruct tuning",
+          "prominent embedding models such as AngIE, V oyage, and BGE that utilize multi-task instruct tuning",
+          "multi-task instruct tuning advantages in embedding models like AngIE, V oyage, and BGE"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "PROMPTAGATOR [21] utilizes the LLM as a few-shot query generator to create task-specific retrievers, addressing challenges in supervised fine-tuning, particularly in data-scarce domains.",
+    "context_before": [
+      "In addition to supplementing domain knowledge, another purpose of fine-tuning is to align the retriever and generator, for example, using the results of LLM as the supervision signal for fine-tuning, known as LSR (LM-supervised Retriever)."
+    ],
+    "context_after": [
+      "Another approach, LLM-Embedder , exploits LLMs to generate reward signals across multiple downstream tasks."
+    ],
+    "references": [
+      "21"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "21",
+        "main_query": "PROMPTAGATOR utilizes the LLM as a few-shot query generator to create task-specific retrievers, addressing challenges in supervised fine-tuning, particularly in data-scarce domains.",
+        "rewritten_queries": [
+          "PROMPTAGATOR employs LLMs to generate few-shot queries for developing task-specific retrievers, tackling issues in supervised fine-tuning in data-scarce environments.",
+          "The LLM in PROMPTAGATOR serves as a few-shot query generator to build retrievers tailored for specific tasks, overcoming difficulties in supervised fine-tuning, especially in scenarios with limited data.",
+          "By using LLMs as few-shot query generators, PROMPTAGATOR creates specialized retrievers that address the challenges of supervised fine-tuning in domains with scarce data."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Another approach, LLM-Embedder [97], exploits LLMs to generate reward signals across multiple downstream tasks.",
+    "context_before": [
+      "PROMPTAGATOR utilizes the LLM as a few-shot query generator to create task-specific retrievers, addressing challenges in supervised fine-tuning, particularly in data-scarce domains."
+    ],
+    "context_after": [
+      "The retriever is fine-tuned with two types of supervised signals: hard labels for the dataset and soft rewards from the LLMs."
+    ],
+    "references": [
+      "97"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "97",
+        "main_query": "LLM-Embedder exploits LLMs to generate reward signals across multiple downstream tasks.",
+        "rewritten_queries": [
+          "LLM-Embedder uses LLMs to produce reward signals for various downstream tasks.",
+          "The LLM-Embedder approach leverages LLMs to create reward signals applicable to multiple downstream tasks.",
+          "Using LLMs, LLM-Embedder generates reward signals that can be utilized across different downstream tasks."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "REPLUG [72] utilizes a retriever and an LLM to calculate the probability distributions of the retrieved documents and then performs supervised training by computing the KL divergence.",
+    "context_before": [
+      "This dual-signal approach fosters a more effective fine-tuning process, tailoring the embedding model to diverse downstream applications."
+    ],
+    "context_after": [
+      "This straightforward and effective training method enhances the performance of the retrieval model by using an LM as the supervisory signal, eliminating the need for specific cross-attention mechanisms."
+    ],
+    "references": [
+      "72"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "72",
+        "main_query": "REPLUG utilizes a retriever and an LLM to calculate the probability distributions of the retrieved documents and then performs supervised training by computing the KL divergence.",
+        "rewritten_queries": [
+          "REPLUG employs a retriever alongside an LLM to determine the probability distributions of retrieved documents and conducts supervised training using KL divergence.",
+          "The REPLUG method uses a retriever and an LLM to assess the probability distributions of documents and performs supervised training through KL divergence calculation.",
+          "In REPLUG, a retriever and an LLM are used to compute the probability distributions of retrieved documents, followed by supervised training that involves KL divergence."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "To optimize the multi-task capabilities of LLM, UPRISE [20] trained a lightweight prompt retriever that can automatically retrieve prompts from a pre-built prompt pool that are suitable for a given zero-shot task input.",
+    "context_before": [
+      "Consequently, some approaches opt to incorporate an external adapter to aid in alignment."
+    ],
+    "context_after": [
+      "AAR (Augmentation-Adapted Retriver) introduces a universal adapter designed to accommodate multiple downstream tasks."
+    ],
+    "references": [
+      "20"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "20",
+        "main_query": "UPRISE trained a lightweight prompt retriever that can automatically retrieve prompts from a pre-built prompt pool that are suitable for a given zero-shot task input.",
+        "rewritten_queries": [
+          "UPRISE developed a prompt retriever that efficiently selects prompts from a pre-existing pool for zero-shot tasks.",
+          "The lightweight prompt retriever created by UPRISE automatically identifies suitable prompts from a prompt pool for zero-shot task inputs.",
+          "To enhance multi-task performance, UPRISE implemented a retriever that pulls appropriate prompts from a pre-built pool for zero-shot tasks."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "AAR (Augmentation-Adapted Retriver) [47] introduces a universal adapter designed to accommodate multiple downstream tasks.",
+    "context_before": [
+      "To optimize the multi-task capabilities of LLM, UPRISE trained a lightweight prompt retriever that can automatically retrieve prompts from a pre-built prompt pool that are suitable for a given zero-shot task input."
+    ],
+    "context_after": [
+      "While PRCA add a pluggable reward-driven contextual adapter to enhance performance on specific tasks."
+    ],
+    "references": [
+      "47"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "47",
+        "main_query": "AAR (Augmentation-Adapted Retriver) introduces a universal adapter designed to accommodate multiple downstream tasks.",
+        "rewritten_queries": [
+          "AAR (Augmentation-Adapted Retriever) provides a universal adapter for various downstream tasks.",
+          "The AAR (Augmentation-Adapted Retriever) features a universal adapter that supports multiple downstream tasks.",
+          "AAR (Augmentation-Adapted Retriever) presents a universal adapter intended for different downstream tasks."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "While PRCA [69] add a pluggable reward-driven contextual adapter to enhance performance on specific tasks.",
+    "context_before": [
+      "AAR (Augmentation-Adapted Retriver) introduces a universal adapter designed to accommodate multiple downstream tasks."
+    ],
+    "context_after": [
+      "BGM keeps the retriever and LLM fixed,and trains a bridge Seq2Seq model in between."
+    ],
+    "references": [
+      "69"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "69",
+        "main_query": "PRCA add a pluggable reward-driven contextual adapter to enhance performance on specific tasks.",
+        "rewritten_queries": [
+          "PRCA incorporates a reward-driven contextual adapter to improve task-specific performance.",
+          "The PRCA method enhances performance on certain tasks by adding a pluggable reward-driven contextual adapter.",
+          "To boost performance on specific tasks, PRCA integrates a reward-driven contextual adapter."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "BGM [26] keeps the retriever and LLM fixed,and trains a bridge Seq2Seq model in between.",
+    "context_before": [
+      "While PRCA add a pluggable reward-driven contextual adapter to enhance performance on specific tasks."
+    ],
+    "context_after": [
+      "The bridge model aims to transform the retrieved information into a format that LLMs can work with effectively, allowing it to not only rerank but also dynamically select passages for each query, and potentially employ more advanced strategies like repetition."
+    ],
+    "references": [
+      "26"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "26",
+        "main_query": "BGM keeps the retriever and LLM fixed, and trains a bridge Seq2Seq model in between.",
+        "rewritten_queries": [
+          "BGM maintains the retriever and LLM in a fixed state while training a bridge Seq2Seq model.",
+          "The bridge Seq2Seq model in BGM is trained with the retriever and LLM held constant.",
+          "In BGM, the retriever and LLM are kept unchanged as a bridge Seq2Seq model is trained."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Furthermore, PKG 10 introduces an innovative method for integrating knowledge into white-box models via directive fine-tuning [75].",
+    "context_before": [
+      "The bridge model aims to transform the retrieved information into a format that LLMs can work with effectively, allowing it to not only rerank but also dynamically select passages for each query, and potentially employ more advanced strategies like repetition."
+    ],
+    "context_after": [
+      "In this approach, the retriever module is directly substituted to generate relevant documents according to a query."
+    ],
+    "references": [
+      "75"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "75",
+        "main_query": "directive fine-tuning",
+        "rewritten_queries": [
+          "innovative method for knowledge integration in white-box models",
+          "technique for incorporating knowledge into models through fine-tuning",
+          "approach for enhancing white-box models with directive fine-tuning"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Context Curation Redundant information can interfere with the final generation of LLM, and overly long contexts can also lead LLM to the “Lost in the middle” problem [98].",
+    "context_before": [
+      "A."
+    ],
+    "context_after": [
+      "Like humans, LLM tends to only focus on the beginning and end of long texts, while forgetting the middle portion."
+    ],
+    "references": [
+      "98"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "98",
+        "main_query": "overly long contexts can also lead LLM to the 'Lost in the middle' problem",
+        "rewritten_queries": [
+          "long contexts can cause LLM to lose track of information in the middle",
+          "the 'Lost in the middle' issue arises from excessively lengthy contexts in LLM",
+          "redundant information and long contexts can disrupt LLM's generation process"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Therefore, in the RAG system, we typically need to further process the retrieved content. 1) Reranking: Reranking fundamentally reorders document chunks to highlight the most pertinent results first, effectively reducing the overall document pool, severing a dual purpose in information retrieval, acting as both an enhancer and a filter, delivering refined inputs for more precise language model processing [70].",
+    "context_before": [
+      "Like humans, LLM tends to only focus on the beginning and end of long texts, while forgetting the middle portion."
+    ],
+    "context_after": [
+      "Reranking can be performed using rule-based methods that depend on predefined metrics like Diversity, Relevance, and MRR, or model-based approaches like Encoder-Decoder models from the BERT series (e.g., SpanBERT), specialized reranking models such as Cohere rerank or bge-raranker-large, and general large language models like GPT , . 2) Context Selection/Compression: A common misconception in the RAG process is the belief that retrieving as many relevant documents as possible and concatenating them to form a lengthy retrieval prompt is beneficial."
+    ],
+    "references": [
+      "70"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "70",
+        "main_query": "Reranking fundamentally reorders document chunks to highlight the most pertinent results first, effectively reducing the overall document pool, severing a dual purpose in information retrieval, acting as both an enhancer and a filter, delivering refined inputs for more precise language model processing",
+        "rewritten_queries": [
+          "Reranking rearranges document chunks to prioritize the most relevant results, thereby decreasing the document pool and serving as both an enhancer and a filter for improved language model input.",
+          "The process of reranking involves reorganizing document segments to emphasize the most significant results, which helps to minimize the document pool and functions as both a filter and an enhancer in information retrieval.",
+          "In information retrieval, reranking is essential as it reorders document chunks to bring the most relevant results to the forefront, effectively narrowing down the document pool while enhancing the quality of inputs for language models."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Reranking can be performed using rule-based methods that depend on predefined metrics like Diversity, Relevance, and MRR, or model-based approaches like Encoder-Decoder models from the BERT series (e.g., SpanBERT), specialized reranking models such as Cohere rerank or bge-raranker-large, and general large language models like GPT [12], [99]. 2) Context Selection/Compression: A common misconception in the RAG process is the belief that retrieving as many relevant documents as possible and concatenating them to form a lengthy retrieval prompt is beneficial.",
+    "context_before": [
+      "Therefore, in the RAG system, we typically need to further process the retrieved content. 1) Reranking: Reranking fundamentally reorders document chunks to highlight the most pertinent results first, effectively reducing the overall document pool, severing a dual purpose in information retrieval, acting as both an enhancer and a filter, delivering refined inputs for more precise language model processing ."
+    ],
+    "context_after": [
+      "However, excessive context can introduce more noise, diminishing the LLM’s perception of key information . (Long) LLMLingua , utilize small language models (SLMs) such as GPT-2 Small or LLaMA-7B, to detect and remove unimportant tokens, transforming it into a form that is challenging for humans to comprehend but well understood by LLMs."
+    ],
+    "references": [
+      "99"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "99",
+        "main_query": "model-based approaches like Encoder-Decoder models from the BERT series (e.g., SpanBERT), specialized reranking models such as Cohere rerank or bge-raranker-large, and general large language models like GPT",
+        "rewritten_queries": [
+          "Encoder-Decoder models from the BERT series, including SpanBERT, and specialized reranking models like Cohere rerank and bge-raranker-large",
+          "Reranking methods that utilize Encoder-Decoder models from BERT, such as SpanBERT, along with models like Cohere rerank and bge-raranker-large",
+          "Approaches for reranking that involve BERT series Encoder-Decoder models, specialized models like Cohere rerank, and general models like GPT"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "However, excessive context can introduce more noise, diminishing the LLM’s perception of key information . (Long) LLMLingua [100], [101] utilize small language models (SLMs) such as GPT-2 Small or LLaMA-7B, to detect and remove unimportant tokens, transforming it into a form that is challenging for humans to comprehend but well understood by LLMs.",
+    "context_before": [
+      "Reranking can be performed using rule-based methods that depend on predefined metrics like Diversity, Relevance, and MRR, or model-based approaches like Encoder-Decoder models from the BERT series (e.g., SpanBERT), specialized reranking models such as Cohere rerank or bge-raranker-large, and general large language models like GPT , . 2) Context Selection/Compression: A common misconception in the RAG process is the belief that retrieving as many relevant documents as possible and concatenating them to form a lengthy retrieval prompt is beneficial."
+    ],
+    "context_after": [
+      "This approach presents a direct and practical method for prompt compression, eliminating the need for additional training of LLMs while balancing language integrity and compression ratio."
+    ],
+    "references": [
+      "101"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "101",
+        "main_query": "excessive context can introduce more noise, diminishing the LLM’s perception of key information",
+        "rewritten_queries": [
+          "too much context can create noise, reducing the LLM's ability to identify important information",
+          "an overload of context may lead to increased noise, impairing the LLM's recognition of crucial details",
+          "having excessive context can result in noise that lessens the LLM's understanding of key information"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "PRCA tackled this issue by training an information extractor [69].",
+    "context_before": [
+      "This approach presents a direct and practical method for prompt compression, eliminating the need for additional training of LLMs while balancing language integrity and compression ratio."
+    ],
+    "context_after": [
+      "Similarly, RECOMP adopts a comparable approach by training an information condenser using contrastive learning ."
+    ],
+    "references": [
+      "69"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "69",
+        "main_query": "training an information extractor",
+        "rewritten_queries": [
+          "developing an information extraction model",
+          "creating a system for information extraction",
+          "implementing an information extractor through training"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Similarly, RECOMP adopts a comparable approach by training an information condenser using contrastive learning [71].",
+    "context_before": [
+      "PRCA tackled this issue by training an information extractor ."
+    ],
+    "context_after": [
+      "Each training data point consists of one positive sample and five negative samples, and the encoder undergoes training using contrastive loss throughout this process ."
+    ],
+    "references": [
+      "71"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "71",
+        "main_query": "RECOMP adopts a comparable approach by training an information condenser using contrastive learning",
+        "rewritten_queries": [
+          "RECOMP uses a similar method to train an information condenser through contrastive learning",
+          "The approach of RECOMP involves training an information condenser with contrastive learning techniques",
+          "RECOMP employs contrastive learning to train an information condenser in a similar manner"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Each training data point consists of one positive sample and five negative samples, and the encoder undergoes training using contrastive loss throughout this process [102] .",
+    "context_before": [
+      "Similarly, RECOMP adopts a comparable approach by training an information condenser using contrastive learning ."
+    ],
+    "context_after": [
+      "In addition to compressing the context, reducing the number of documents aslo helps improve the accuracy of the model’s answers."
+    ],
+    "references": [
+      "102"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "102",
+        "main_query": "the encoder undergoes training using contrastive loss throughout this process",
+        "rewritten_queries": [
+          "the encoder is trained with contrastive loss during this process",
+          "contrastive loss is used for training the encoder in this process",
+          "training of the encoder involves the use of contrastive loss"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Ma et al. [103] propose the “Filter-Reranker” paradigm, which combines the strengths of LLMs and SLMs.",
+    "context_before": [
+      "In addition to compressing the context, reducing the number of documents aslo helps improve the accuracy of the model’s answers."
+    ],
+    "context_after": [
+      "In this paradigm, SLMs serve as filters, while LLMs function as reordering agents."
+    ],
+    "references": [
+      "103"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "103",
+        "main_query": "Filter-Reranker paradigm, which combines the strengths of LLMs and SLMs",
+        "rewritten_queries": [
+          "paradigm that integrates LLMs and SLMs strengths in the Filter-Reranker approach",
+          "Filter-Reranker approach that utilizes both LLMs and SLMs effectively",
+          "combination of LLMs and SLMs in the Filter-Reranker framework"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "For instance, in Chatlaw [104], the LLM is prompted to self-suggestion on the referenced legal provisions to assess their relevance.",
+    "context_before": [
+      "This allows the LLM to filter out documents with poor relevance through LLM critique."
+    ],
+    "context_after": [
+      "B."
+    ],
+    "references": [
+      "104"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "104",
+        "main_query": "in Chatlaw, the LLM is prompted to self-suggestion on the referenced legal provisions to assess their relevance",
+        "rewritten_queries": [
+          "the LLM in Chatlaw uses self-suggestion to evaluate the relevance of legal provisions",
+          "Chatlaw prompts the LLM to assess the relevance of referenced legal provisions through self-suggestion",
+          "the LLM assesses the relevance of legal provisions in Chatlaw by using self-suggestion"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "For example, it can enable LLM to adapt to specific data formats and generate responses in a particular style as instructed [37].",
+    "context_before": [
+      "Another benefit of fine-tuning is the ability to adjust the model’s input and output."
+    ],
+    "context_after": [
+      "For retrieval tasks that engage with structured data, the SANTA framework implements a tripartite training regimen to effectively encapsulate both structural and semantic nuances."
+    ],
+    "references": [
+      "37"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "37",
+        "main_query": "enable LLM to adapt to specific data formats and generate responses in a particular style as instructed",
+        "rewritten_queries": [
+          "allow LLM to adjust to specific data formats and produce responses in a desired style",
+          "facilitate LLM's adaptation to particular data formats and style-specific responses",
+          "empower LLM to conform to specific data formats and generate stylistically tailored responses"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "For retrieval tasks that engage with structured data, the SANTA framework [76] implements a tripartite training regimen to effectively encapsulate both structural and semantic nuances.",
+    "context_before": [
+      "For example, it can enable LLM to adapt to specific data formats and generate responses in a particular style as instructed ."
+    ],
+    "context_after": [
+      "The initial phase focuses on the retriever, where contrastive learning is harnessed to refine the query and document embeddings."
+    ],
+    "references": [
+      "76"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "76",
+        "main_query": "the SANTA framework implements a tripartite training regimen to effectively encapsulate both structural and semantic nuances",
+        "rewritten_queries": [
+          "the SANTA framework uses a three-part training approach to capture structural and semantic details",
+          "a tripartite training regimen in the SANTA framework effectively captures both structural and semantic aspects",
+          "the SANTA framework's three-phase training method encapsulates structural and semantic nuances for retrieval tasks"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In addition to aligning with human preferences, it is also possible to align with the preferences of fine-tuned models and retrievers [79].",
+    "context_before": [
+      "For instance, manually annotating the final generated answers and then providing feedback through reinforcement learning."
+    ],
+    "context_after": [
+      "When circumstances prevent access to powerful proprietary models or larger parameter open-source models, a simple and effective method is to distill the more powerful models(e.g."
+    ],
+    "references": [
+      "79"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "79",
+        "main_query": "align with the preferences of fine-tuned models and retrievers",
+        "rewritten_queries": [
+          "aligning with fine-tuned model preferences",
+          "preferences of retrievers and fine-tuned models alignment",
+          "achieving alignment with fine-tuned models and retrievers"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "A typical approach, such as RA-DIT [27], aligns the scoring functions between Retriever and Generator using KL divergence.",
+    "context_before": [
+      "Fine-tuning of LLM can also be coordinated with fine-tuning of the retriever to align preferences."
+    ],
+    "context_after": [
+      "V."
+    ],
+    "references": [
+      "27"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "27",
+        "main_query": "RA-DIT aligns the scoring functions between Retriever and Generator using KL divergence",
+        "rewritten_queries": [
+          "The RA-DIT method aligns scoring functions of the Retriever and Generator through KL divergence",
+          "Using KL divergence, RA-DIT aligns the scoring functions of both the Retriever and Generator",
+          "A common method, RA-DIT, utilizes KL divergence to align the scoring functions between the Retriever and Generator"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "A UGMENTATION PROCESS IN RAG In the domain of RAG, the standard practice often involves a singular (once) retrieval step followed by generation, which can lead to inefficiencies and sometimes is typically insufficient for complex problems demanding multi-step reasoning, as it provides a limited scope of information [105].",
+    "context_before": [
+      "V."
+    ],
+    "context_after": [
+      "Many studies have optimized the retrieval process in response to this issue, and we have summarised them in Figure."
+    ],
+    "references": [
+      "105"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "105",
+        "main_query": "a singular (once) retrieval step followed by generation can lead to inefficiencies and sometimes is typically insufficient for complex problems demanding multi-step reasoning",
+        "rewritten_queries": [
+          "the standard practice of a single retrieval step followed by generation is often inefficient for complex multi-step reasoning problems",
+          "using only one retrieval step before generation can result in inefficiencies and inadequate information for complex reasoning tasks",
+          "the common approach of performing a single retrieval before generating responses may not suffice for complex problems requiring multiple reasoning steps"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "ITERRETGEN [14] employs a synergistic approach that leverages “retrieval-enhanced generation” alongside “generationenhanced retrieval” for tasks that necessitate the reproduction of specific information.",
+    "context_before": [
+      "However, it may be affected by semantic discontinuity and the accumulation of irrelevant information."
+    ],
+    "context_after": [
+      "The model harnesses the content required to address the input task as a contextual basis for retrieving pertinent knowledge, which in turn facilitates the generation of improved responses in subsequent iterations."
+    ],
+    "references": [
+      "14"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "14",
+        "main_query": "ITERRETGEN employs a synergistic approach that leverages retrieval-enhanced generation alongside generation-enhanced retrieval for tasks that necessitate the reproduction of specific information.",
+        "rewritten_queries": [
+          "ITERRETGEN uses a combined method of retrieval-enhanced generation and generation-enhanced retrieval for tasks requiring specific information reproduction.",
+          "The approach of ITERRETGEN integrates retrieval-enhanced generation with generation-enhanced retrieval to effectively reproduce specific information.",
+          "For tasks that require the reproduction of specific information, ITERRETGEN utilizes a synergistic method involving both retrieval-enhanced generation and generation-enhanced retrieval."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "IRCoT [61] uses chain-of-thought to guide the retrieval process and refines the CoT with the obtained retrieval results.",
+    "context_before": [
+      "Recursive Retrieval aims to enhance the search experience by gradually converging on the most pertinent information through a feedback loop."
+    ],
+    "context_after": [
+      "ToC creates a clarification tree that systematically optimizes the ambiguous parts in the Query."
+    ],
+    "references": [
+      "61"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "61",
+        "main_query": "IRCoT uses chain-of-thought to guide the retrieval process and refines the CoT with the obtained retrieval results.",
+        "rewritten_queries": [
+          "IRCoT employs a chain-of-thought approach to direct the retrieval process and improves the CoT based on the retrieved results.",
+          "The retrieval process in IRCoT is guided by chain-of-thought, which is then refined using the results obtained from retrieval.",
+          "Using chain-of-thought, IRCoT enhances the retrieval process and adjusts the CoT with the results it retrieves."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "ToC [57] creates a clarification tree that systematically optimizes the ambiguous parts in the Query.",
+    "context_before": [
+      "IRCoT uses chain-of-thought to guide the retrieval process and refines the CoT with the obtained retrieval results."
+    ],
+    "context_after": [
+      "It can be particularly useful in complex search scenarios where the user’s needs are not entirely clear from the outset or where the information sought is highly specialized or nuanced."
+    ],
+    "references": [
+      "57"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "57",
+        "main_query": "ToC creates a clarification tree that systematically optimizes the ambiguous parts in the Query.",
+        "rewritten_queries": [
+          "ToC develops a clarification tree to enhance the unclear aspects of the Query.",
+          "The clarification tree created by ToC systematically improves the ambiguous elements in the Query.",
+          "ToC constructs a clarification tree that effectively addresses the ambiguous sections of the Query."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In contrast, multi-hop retrieval is designed to delve deeper into graph-structured data sources, extracting interconnected information [106].",
+    "context_before": [
+      "Subsequently, a secondary retrieval within the document refines the search, embodying the recursive nature of the process."
+    ],
+    "context_after": [
+      "C."
+    ],
+    "references": [
+      "106"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "106",
+        "main_query": "multi-hop retrieval is designed to delve deeper into graph-structured data sources, extracting interconnected information",
+        "rewritten_queries": [
+          "multi-hop retrieval focuses on exploring graph-structured data to gather interconnected information",
+          "the purpose of multi-hop retrieval is to investigate graph-structured data sources for interconnected insights",
+          "multi-hop retrieval aims to extract related information from graph-structured data sources"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Adaptive Retrieval Adaptive retrieval methods, exemplified by Flare [24] and Self-RAG [25], refine the RAG framework by enabling LLMs to actively determine the optimal moments and content for retrieval, thus enhancing the efficiency and relevance of the information sourced.",
+    "context_before": [
+      "C."
+    ],
+    "context_after": [
+      "These methods are part of a broader trend wherein LLMs employ active judgment in their operations, as seen in model agents like AutoGPT, Toolformer, and GraphToolformer –."
+    ],
+    "references": [
+      "24",
+      "25"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "24",
+        "main_query": "Flare",
+        "rewritten_queries": [
+          "Adaptive retrieval method Flare",
+          "Flare as an example of adaptive retrieval",
+          "Flare's role in refining the RAG framework"
+        ]
+      },
+      {
+        "related_to_reference": "25",
+        "main_query": "Self-RAG",
+        "rewritten_queries": [
+          "Self-RAG method in adaptive retrieval",
+          "Adaptive retrieval technique known as Self-RAG",
+          "Self-RAG's role in enhancing RAG framework"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "These methods are part of a broader trend wherein LLMs employ active judgment in their operations, as seen in model agents like AutoGPT, Toolformer, and GraphToolformer [107]–[109].",
+    "context_before": [
+      "Adaptive Retrieval Adaptive retrieval methods, exemplified by Flare and Self-RAG , refine the RAG framework by enabling LLMs to actively determine the optimal moments and content for retrieval, thus enhancing the efficiency and relevance of the information sourced."
+    ],
+    "context_after": [
+      "Graph-Toolformer, for instance, divides its retrieval process into distinct steps where LLMs proactively use retrievers, apply Self-Ask techniques, and employ few-shot prompts to initiate search queries."
+    ],
+    "references": [
+      "107",
+      "109"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "107",
+        "main_query": "model agents like AutoGPT, Toolformer, and GraphToolformer",
+        "rewritten_queries": [
+          "AutoGPT, Toolformer, and GraphToolformer as examples of model agents",
+          "examples of model agents include AutoGPT, Toolformer, and GraphToolformer",
+          "the role of model agents such as AutoGPT, Toolformer, and GraphToolformer"
+        ]
+      },
+      {
+        "related_to_reference": "109",
+        "main_query": "model agents like AutoGPT, Toolformer, and GraphToolformer",
+        "rewritten_queries": [
+          "AutoGPT, Toolformer, and GraphToolformer as examples of model agents",
+          "examples of model agents include AutoGPT, Toolformer, and GraphToolformer",
+          "the role of model agents such as AutoGPT, Toolformer, and GraphToolformer"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "WebGPT [110] integrates a reinforcement learning framework to train the GPT-3 model in autonomously using a search engine during text generation.",
+    "context_before": [
+      "This proactive stance allows LLMs to decide when to search for necessary information, akin to how an agent utilizes tools."
+    ],
+    "context_after": [
+      "It navigates this process using special tokens that facilitate actions such as search engine queries, browsing results, and citing references, thereby expanding GPT-3’s capabilities through the use of external search engines."
+    ],
+    "references": [
+      "110"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "110",
+        "main_query": "WebGPT integrates a reinforcement learning framework to train the GPT-3 model in autonomously using a search engine during text generation.",
+        "rewritten_queries": [
+          "WebGPT employs a reinforcement learning approach to enable the GPT-3 model to autonomously utilize a search engine for text generation.",
+          "The GPT-3 model is trained by WebGPT using a reinforcement learning framework that allows it to autonomously search the web during text generation.",
+          "Through a reinforcement learning framework, WebGPT trains the GPT-3 model to independently use a search engine while generating text."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Flare automates timing retrieval by monitoring the confidence of the generation process, as indicated by the 12 probability of generated terms [24].",
+    "context_before": [
+      "It navigates this process using special tokens that facilitate actions such as search engine queries, browsing results, and citing references, thereby expanding GPT-3’s capabilities through the use of external search engines."
+    ],
+    "context_after": [
+      "When the probability falls below a certain threshold would activates the retrieval system to collect relevant information, thus optimizing the retrieval cycle."
+    ],
+    "references": [
+      "24"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "24",
+        "main_query": "the 12 probability of generated terms",
+        "rewritten_queries": [
+          "the probability of generated terms at 12",
+          "12 probability associated with generated terms",
+          "confidence level of generated terms at 12"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Self-RAG [25] introduces “reflection tokens” that allow the model to introspect its outputs.",
+    "context_before": [
+      "When the probability falls below a certain threshold would activates the retrieval system to collect relevant information, thus optimizing the retrieval cycle."
+    ],
+    "context_after": [
+      "These tokens come in two varieties: “retrieve” and “critic”."
+    ],
+    "references": [
+      "25"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "25",
+        "main_query": "Self-RAG introduces reflection tokens that allow the model to introspect its outputs.",
+        "rewritten_queries": [
+          "Self-RAG implements reflection tokens for model introspection of outputs.",
+          "The introduction of reflection tokens in Self-RAG enables the model to analyze its own outputs.",
+          "Reflection tokens in Self-RAG facilitate the model's ability to reflect on its generated outputs."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "For instance, question answering evaluations might rely on EM and F1 scores [7], [45], [59], [72], whereas fact-checking tasks often hinge on Accuracy as the primary metric [4], [14], [42].",
+    "context_before": [
+      "These evaluations employ established metrics suitable to the tasks at hand."
+    ],
+    "context_after": [
+      "BLEU and ROUGE metrics are also commonly used to evaluate answer quality , , , ."
+    ],
+    "references": [
+      "72",
+      "59",
+      "14",
+      "45",
+      "42",
+      "7"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "72",
+        "main_query": "Accuracy as the primary metric",
+        "rewritten_queries": [
+          "Accuracy is the main evaluation metric",
+          "The primary metric for evaluation is Accuracy",
+          "Fact-checking tasks primarily use Accuracy as a metric"
+        ]
+      },
+      {
+        "related_to_reference": "59",
+        "main_query": "question answering evaluations might rely on EM and F1 scores",
+        "rewritten_queries": [
+          "EM and F1 scores are often used in question answering evaluations",
+          "Evaluations for question answering typically depend on EM and F1 metrics",
+          "In question answering tasks, EM and F1 scores are commonly utilized"
+        ]
+      },
+      {
+        "related_to_reference": "14",
+        "main_query": "fact-checking tasks often hinge on Accuracy as the primary metric",
+        "rewritten_queries": [
+          "Accuracy is the main metric for fact-checking tasks",
+          "Fact-checking evaluations primarily depend on Accuracy",
+          "The primary metric for fact-checking tasks is Accuracy"
+        ]
+      },
+      {
+        "related_to_reference": "45",
+        "main_query": "fact-checking tasks often hinge on Accuracy as the primary metric",
+        "rewritten_queries": [
+          "Accuracy is the main metric used in fact-checking tasks",
+          "In fact-checking, the primary evaluation metric is Accuracy",
+          "Fact-checking evaluations typically focus on Accuracy as the key metric"
+        ]
+      },
+      {
+        "related_to_reference": "42",
+        "main_query": "Accuracy as the primary metric",
+        "rewritten_queries": [
+          "Accuracy is the main evaluation metric",
+          "The primary metric for evaluation is Accuracy",
+          "Fact-checking tasks primarily use Accuracy as a metric"
+        ]
+      },
+      {
+        "related_to_reference": "7",
+        "main_query": "EM and F1 scores",
+        "rewritten_queries": [
+          "Exact Match (EM) and F1 scoring metrics",
+          "Evaluation metrics including EM and F1 scores",
+          "Metrics used for question answering evaluations such as EM and F1"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "BLEU and ROUGE metrics are also commonly used to evaluate answer quality [26], [32], [52], [78].",
+    "context_before": [
+      "For instance, question answering evaluations might rely on EM and F1 scores , , , , whereas fact-checking tasks often hinge on Accuracy as the primary metric , , ."
+    ],
+    "context_after": [
+      "Tools like RALLE, designed for the automatic evaluation of RAG applications, similarly base their assessments on these taskspecific metrics ."
+    ],
+    "references": [
+      "32",
+      "26",
+      "52",
+      "78"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "32",
+        "main_query": "BLEU and ROUGE metrics are also commonly used to evaluate answer quality",
+        "rewritten_queries": [
+          "Common metrics for evaluating answer quality include BLEU and ROUGE",
+          "BLEU and ROUGE are frequently utilized to assess the quality of answers",
+          "The evaluation of answer quality often involves the use of BLEU and ROUGE metrics"
+        ]
+      },
+      {
+        "related_to_reference": "26",
+        "main_query": "BLEU and ROUGE metrics are also commonly used to evaluate answer quality",
+        "rewritten_queries": [
+          "Common metrics for evaluating answer quality include BLEU and ROUGE",
+          "BLEU and ROUGE are frequently utilized to assess the quality of answers",
+          "The evaluation of answer quality often involves the use of BLEU and ROUGE metrics"
+        ]
+      },
+      {
+        "related_to_reference": "52",
+        "main_query": "BLEU and ROUGE metrics are also commonly used to evaluate answer quality",
+        "rewritten_queries": [
+          "Common metrics for evaluating answer quality include BLEU and ROUGE",
+          "BLEU and ROUGE are frequently utilized to assess the quality of answers",
+          "The evaluation of answer quality often involves the use of BLEU and ROUGE metrics"
+        ]
+      },
+      {
+        "related_to_reference": "78",
+        "main_query": "BLEU and ROUGE metrics are also commonly used to evaluate answer quality",
+        "rewritten_queries": [
+          "Common evaluation metrics for answer quality include BLEU and ROUGE",
+          "BLEU and ROUGE are frequently utilized to assess the quality of answers",
+          "The evaluation of answer quality often involves the use of BLEU and ROUGE metrics"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Tools like RALLE, designed for the automatic evaluation of RAG applications, similarly base their assessments on these taskspecific metrics [160].",
+    "context_before": [
+      "BLEU and ROUGE metrics are also commonly used to evaluate answer quality , , , ."
+    ],
+    "context_after": [
+      "Despite this, there is a notable paucity of research dedicated to evaluating the distinct characteristics of RAG models.The main evaluation objectives include: Retrieval Quality."
+    ],
+    "references": [
+      "160"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "160",
+        "main_query": "Tools like RALLE, designed for the automatic evaluation of RAG applications, similarly base their assessments on these taskspecific metrics",
+        "rewritten_queries": [
+          "RALLE is a tool for automatic evaluation of RAG applications that uses taskspecific metrics for assessment",
+          "The automatic evaluation of RAG applications by tools like RALLE relies on taskspecific metrics",
+          "Assessment of RAG applications by tools such as RALLE is based on specific metrics related to the tasks"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "These quality scores evaluate the efficiency of the RAG model from different perspectives in the process of information retrieval and generation [164]–[166].",
+    "context_before": [
+      "Evaluation Aspects Contemporary evaluation practices of RAG models emphasize three primary quality scores and four essential abilities, which collectively inform the evaluation of the two principal targets of the RAG model: retrieval and generation. 1) Quality Scores: Quality scores include context relevance, answer faithfulness, and answer relevance."
+    ],
+    "context_after": [
+      "Context Relevance evaluates the precision and specificity of the retrieved context, ensuring relevance and minimizing processing costs associated with extraneous content."
+    ],
+    "references": [
+      "164"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "164",
+        "main_query": "These quality scores evaluate the efficiency of the RAG model from different perspectives in the process of information retrieval and generation",
+        "rewritten_queries": [
+          "Quality scores assess the RAG model's efficiency in information retrieval and generation",
+          "The efficiency of the RAG model is evaluated through various quality scores during information retrieval and generation",
+          "Different perspectives on the efficiency of the RAG model are evaluated using quality scores in information retrieval and generation"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Answer Relevance requires that the generated answers are directly pertinent to the posed questions, effectively addressing the core inquiry. 2) Required Abilities: RAG evaluation also encompasses four abilities indicative of its adaptability and efficiency: noise robustness, negative rejection, information integration, and counterfactual robustness [167], [168].",
+    "context_before": [
+      "Answer Faithfulness ensures that the generated answers remain true to the retrieved context, maintaining consistency and avoiding contradictions."
+    ],
+    "context_after": [
+      "These abilities are critical for the model’s performance under various challenges and complex scenarios, impacting the quality scores."
+    ],
+    "references": [
+      "168",
+      "167"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "168",
+        "main_query": "noise robustness, negative rejection, information integration, and counterfactual robustness",
+        "rewritten_queries": [
+          "four abilities indicative of RAG evaluation adaptability and efficiency",
+          "key capabilities of RAG evaluation including noise robustness and information integration",
+          "essential skills for RAG evaluation such as negative rejection and counterfactual robustness"
+        ]
+      },
+      {
+        "related_to_reference": "167",
+        "main_query": "noise robustness, negative rejection, information integration, and counterfactual robustness",
+        "rewritten_queries": [
+          "four abilities indicative of RAG's adaptability and efficiency",
+          "key capabilities of RAG evaluation including noise robustness and information integration",
+          "essential traits for RAG's performance such as negative rejection and counterfactual robustness"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Prominent benchmarks such as RGB, RECALL and CRUD [167]–[169] focus on appraising the essential abilities of RAG models.",
+    "context_before": [
+      "Evaluation Benchmarks and Tools A series of benchmark tests and tools have been proposed to facilitate the evaluation of RAG.These instruments furnish quantitative metrics that not only gauge RAG model performance but also enhance comprehension of the model’s capabilities across various evaluation aspects."
+    ],
+    "context_after": [
+      "Concurrently, state-of-the-art automated tools like RAGAS , ARES , and TruLens 8 employ LLMs to adjudicate the quality scores."
+    ],
+    "references": [
+      "169",
+      "167"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "169",
+        "main_query": "CRUD",
+        "rewritten_queries": [
+          "RECALL benchmark",
+          "RGB benchmark",
+          "benchmarks for evaluating RAG models"
+        ]
+      },
+      {
+        "related_to_reference": "167",
+        "main_query": "Prominent benchmarks such as RGB, RECALL and CRUD focus on appraising the essential abilities of RAG models.",
+        "rewritten_queries": [
+          "Key benchmarks like RGB, RECALL, and CRUD evaluate the fundamental capabilities of RAG models.",
+          "Benchmarks including RGB, RECALL, and CRUD are designed to assess the core skills of RAG models.",
+          "The essential abilities of RAG models are evaluated by prominent benchmarks such as RGB, RECALL, and CRUD."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Concurrently, state-of-the-art automated tools like RAGAS [164], ARES [165], and TruLens 8 employ LLMs to adjudicate the quality scores.",
+    "context_before": [
+      "Prominent benchmarks such as RGB, RECALL and CRUD – focus on appraising the essential abilities of RAG models."
+    ],
+    "context_after": [
+      "These tools and benchmarks collectively form a robust framework for the systematic evaluation of RAG models, as summarized in Table IV."
+    ],
+    "references": [
+      "165",
+      "164"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "165",
+        "main_query": "ARES",
+        "rewritten_queries": [
+          "state-of-the-art automated tool ARES",
+          "ARES tool for adjudicating quality scores",
+          "automated evaluation tool ARES using LLMs"
+        ]
+      },
+      {
+        "related_to_reference": "164",
+        "main_query": "RAGAS",
+        "rewritten_queries": [
+          "state-of-the-art automated tool RAGAS",
+          "RAGAS tool for adjudicating quality scores",
+          "RAGAS in the context of evaluating RAG models"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "RAG vs Long Context With the deepening of related research, the context of LLMs is continuously expanding [170]–[172].",
+    "context_before": [
+      "A."
+    ],
+    "context_after": [
+      "Presently, LLMs can effortlessly manage contexts exceeding 200,000 tokens."
+    ],
+    "references": [
+      "172",
+      "170"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "172",
+        "main_query": "the context of LLMs is continuously expanding",
+        "rewritten_queries": [
+          "LLMs are experiencing a continuous expansion of context",
+          "the context size for LLMs is growing over time",
+          "there is an ongoing increase in the context capacity of LLMs"
+        ]
+      },
+      {
+        "related_to_reference": "170",
+        "main_query": "the context of LLMs is continuously expanding",
+        "rewritten_queries": [
+          "LLMs are experiencing a continuous expansion of context",
+          "the context size for LLMs is growing steadily",
+          "there is an ongoing increase in the context capabilities of LLMs"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Conversely, the expansion of context provides new opportunities for the development of RAG, enabling it to address more complex problems and integrative or summary questions that require reading a large amount of material to answer [49].",
+    "context_before": [
+      "The entire retrieval and reasoning process is observable, while generation solely relying on long context remains a black box."
+    ],
+    "context_after": [
+      "Developing new RAG methods in the context of super-long contexts is one of the future research trends."
+    ],
+    "references": [
+      "49"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "49",
+        "main_query": "the expansion of context provides new opportunities for the development of RAG",
+        "rewritten_queries": [
+          "increasing context allows for advancements in RAG development",
+          "broadening context creates new possibilities for RAG",
+          "enhancing context facilitates the evolution of RAG methods"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Improving RAG’s resistance to such adversarial or counterfactual inputs is gaining research momentum and has become a key performance metric [48], [50], [82].",
+    "context_before": [
+      "This situation is figuratively referred to as “Misinformation can be worse than no information at all”."
+    ],
+    "context_after": [
+      "Cuconasu et al. analyze which type of documents should be retrieved, evaluate the relevance of the documents to the prompt, their position, and the number included in the context."
+    ],
+    "references": [
+      "82",
+      "50",
+      "48"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "82",
+        "main_query": "Improving RAG’s resistance to such adversarial or counterfactual inputs is gaining research momentum and has become a key performance metric",
+        "rewritten_queries": [
+          "Enhancing RAG's ability to handle adversarial or counterfactual inputs is increasingly important in research and is a critical performance measure",
+          "The focus on strengthening RAG against adversarial or counterfactual inputs is growing in research and is now a vital performance indicator",
+          "There is a rising trend in research to improve RAG's resilience to adversarial or counterfactual inputs, making it a significant performance metric"
+        ]
+      },
+      {
+        "related_to_reference": "50",
+        "main_query": "Improving RAG’s resistance to such adversarial or counterfactual inputs is gaining research momentum and has become a key performance metric",
+        "rewritten_queries": [
+          "Enhancing RAG's ability to handle adversarial or counterfactual inputs is increasingly important in research and is a critical performance measure",
+          "The focus on strengthening RAG against adversarial or counterfactual inputs is growing in research and is now a vital performance indicator",
+          "Research is increasingly prioritizing the improvement of RAG's resilience to adversarial or counterfactual inputs as a significant performance metric"
+        ]
+      },
+      {
+        "related_to_reference": "48",
+        "main_query": "Improving RAG’s resistance to such adversarial or counterfactual inputs is gaining research momentum and has become a key performance metric",
+        "rewritten_queries": [
+          "Enhancing RAG's ability to handle adversarial or counterfactual inputs is increasingly important in research and is now a critical performance measure",
+          "The focus on strengthening RAG against adversarial or counterfactual inputs is growing in research and is recognized as a vital performance indicator",
+          "There is a rising trend in research aimed at boosting RAG's resilience to adversarial or counterfactual inputs, making it a significant performance metric"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Cuconasu et al. [54] analyze which type of documents should be retrieved, evaluate the relevance of the documents to the prompt, their position, and the number included in the context.",
+    "context_before": [
+      "Improving RAG’s resistance to such adversarial or counterfactual inputs is gaining research momentum and has become a key performance metric , , ."
+    ],
+    "context_after": [
+      "The research findings reveal that including irrelevant documents can unexpectedly increase accuracy by over 30%, contradicting the initial assumption of reduced quality."
+    ],
+    "references": [
+      "54"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "54",
+        "main_query": "Cuconasu et al. analyze which type of documents should be retrieved, evaluate the relevance of the documents to the prompt, their position, and the number included in the context.",
+        "rewritten_queries": [
+          "Cuconasu et al. examine the types of documents to retrieve and assess their relevance to prompts, positions, and quantity in the context.",
+          "The study by Cuconasu et al. focuses on analyzing document types for retrieval and their relevance, position, and count in relation to the prompt.",
+          "Cuconasu et al. investigate the criteria for document retrieval, including relevance to prompts, their placement, and the number present in the context."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Readers are encouraged to consult pertinent literature for the specific quantification formulas associated with these metrics, as required. and non-parameterized advantages are areas ripe for exploration [27].",
+    "context_before": [
+      "denotes customized quantitative metrics, which deviate from traditional metrics."
+    ],
+    "context_after": [
+      "Another trend is to introduce SLMs with specific functionalities into RAG and fine-tuned by the results of RAG system."
+    ],
+    "references": [
+      "27"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "27",
+        "main_query": "non-parameterized advantages are areas ripe for exploration",
+        "rewritten_queries": [
+          "areas for exploration regarding non-parameterized advantages",
+          "exploration opportunities in non-parameterized advantages",
+          "potential research areas focused on non-parameterized advantages"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "For example, CRAG [67] trains a lightweight retrieval evaluator to assess the overall quality of the retrieved documents for a query and triggers different knowledge retrieval actions based on confidence levels.",
+    "context_before": [
+      "Another trend is to introduce SLMs with specific functionalities into RAG and fine-tuned by the results of RAG system."
+    ],
+    "context_after": [
+      "D."
+    ],
+    "references": [
+      "67"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "67",
+        "main_query": "CRAG trains a lightweight retrieval evaluator to assess the overall quality of the retrieved documents for a query and triggers different knowledge retrieval actions based on confidence levels.",
+        "rewritten_queries": [
+          "CRAG utilizes a lightweight retrieval evaluator to evaluate the quality of retrieved documents for a query and initiates various knowledge retrieval actions depending on confidence levels.",
+          "The CRAG system employs a lightweight evaluator to determine the quality of documents retrieved for a query and activates different retrieval actions based on confidence.",
+          "A lightweight retrieval evaluator in CRAG assesses the quality of documents retrieved for a query and triggers different actions for knowledge retrieval according to confidence levels."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Scaling laws of RAG End-to-end RAG models and pre-trained models based on RAG are still one of the focuses of current researchers [173].The parameters of these models are one of the key factors.While scaling laws [174] are established for LLMs, their applicability to RAG remains uncertain.",
+    "context_before": [
+      "D."
+    ],
+    "context_after": [
+      "Initial studies like RETRO++ have begun to address this, yet the parameter count in RAG models still lags behind that of LLMs."
+    ],
+    "references": [
+      "174",
+      "173"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "174",
+        "main_query": "scaling laws are established for LLMs, their applicability to RAG remains uncertain",
+        "rewritten_queries": [
+          "the established scaling laws for LLMs do not clearly apply to RAG models",
+          "there is uncertainty regarding the applicability of LLM scaling laws to RAG",
+          "scaling laws that work for LLMs may not be relevant for RAG models"
+        ]
+      },
+      {
+        "related_to_reference": "173",
+        "main_query": "Scaling laws of RAG End-to-end RAG models and pre-trained models based on RAG are still one of the focuses of current researchers",
+        "rewritten_queries": [
+          "Current research focuses on scaling laws of RAG models and pre-trained models based on RAG",
+          "Researchers are still concentrating on scaling laws related to RAG end-to-end models and pre-trained versions",
+          "The scaling laws of RAG models and their pre-trained counterparts remain a key area of interest for researchers"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Initial studies like RETRO++ [44] have begun to address this, yet the parameter count in RAG models still lags behind that of LLMs.",
+    "context_before": [
+      "Scaling laws of RAG End-to-end RAG models and pre-trained models based on RAG are still one of the focuses of current researchers .The parameters of these models are one of the key factors.While scaling laws are established for LLMs, their applicability to RAG remains uncertain."
+    ],
+    "context_after": [
+      "The possibility of an Inverse Scaling Law 10, where smaller models outperform larger ones, is particularly intriguing and merits further investigation."
+    ],
+    "references": [
+      "44"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "44",
+        "main_query": "Initial studies like RETRO++ have begun to address this, yet the parameter count in RAG models still lags behind that of LLMs.",
+        "rewritten_queries": [
+          "Studies such as RETRO++ indicate that RAG models have fewer parameters compared to LLMs.",
+          "Research like RETRO++ shows that RAG models still have a lower parameter count than LLMs.",
+          "The parameter count in RAG models is still behind that of LLMs, as noted in initial studies like RETRO++."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "RA-CM3 [176] stands as a pioneering multimodal model of both retrieving and generating text and images.",
+    "context_before": [
+      "This expansion has spawned innovative multimodal models that integrate RAG concepts across various domains: Image."
+    ],
+    "context_after": [
+      "BLIP-2 leverages frozen image encoders alongside LLMs for efficient visual language pre-training, enabling zeroshot image-to-text conversions."
+    ],
+    "references": [
+      "176"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "176",
+        "main_query": "RA-CM3 stands as a pioneering multimodal model of both retrieving and generating text and images.",
+        "rewritten_queries": [
+          "RA-CM3 is an innovative multimodal model that retrieves and generates both text and images.",
+          "The RA-CM3 model is a groundbreaking approach for multimodal retrieval and generation of text and images.",
+          "As a pioneering multimodal model, RA-CM3 integrates the retrieval and generation of text and images."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "BLIP-2 [177] leverages frozen image encoders alongside LLMs for efficient visual language pre-training, enabling zeroshot image-to-text conversions.",
+    "context_before": [
+      "RA-CM3 stands as a pioneering multimodal model of both retrieving and generating text and images."
+    ],
+    "context_after": [
+      "The “Visualize Before You Write” method employs image generation to steer the LM’s text generation, showing promise in open-ended text generation tasks."
+    ],
+    "references": [
+      "177"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "177",
+        "main_query": "BLIP-2 leverages frozen image encoders alongside LLMs for efficient visual language pre-training, enabling zeroshot image-to-text conversions.",
+        "rewritten_queries": [
+          "BLIP-2 utilizes frozen image encoders in combination with LLMs for effective visual language pre-training and zeroshot image-to-text conversion.",
+          "The BLIP-2 model employs frozen image encoders with LLMs to achieve efficient visual language pre-training and facilitate zeroshot image-to-text transformations.",
+          "By integrating frozen image encoders with LLMs, BLIP-2 enables efficient visual language pre-training and supports zeroshot conversions from images to text."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "The “Visualize Before You Write” method [178] employs image generation to steer the LM’s text generation, showing promise in open-ended text generation tasks.",
+    "context_before": [
+      "BLIP-2 leverages frozen image encoders alongside LLMs for efficient visual language pre-training, enabling zeroshot image-to-text conversions."
+    ],
+    "context_after": [
+      "Audio and Video ."
+    ],
+    "references": [
+      "178"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "178",
+        "main_query": "The “Visualize Before You Write” method employs image generation to steer the LM’s text generation",
+        "rewritten_queries": [
+          "The method of visualizing before writing uses image generation to guide the text generation of the language model",
+          "Image generation is utilized in the 'Visualize Before You Write' approach to influence the text output of the language model",
+          "The 'Visualize Before You Write' technique incorporates image generation to direct the text generation process of the LM"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "The GSS method retrieves and stitches together audio clips to convert machine-translated data into speech-translated data [179].",
+    "context_before": [
+      "Audio and Video ."
+    ],
+    "context_after": [
+      "UEOP marks a significant advancement in end-to-end automatic speech recognition by incorporating external, offline strategies for voice-to-text conversion ."
+    ],
+    "references": [
+      "179"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "179",
+        "main_query": "The GSS method retrieves and stitches together audio clips to convert machine-translated data into speech-translated data",
+        "rewritten_queries": [
+          "The GSS technique combines audio clips to transform machine-translated information into spoken language",
+          "Using the GSS method, audio segments are retrieved and combined to change machine-translated text into speech",
+          "The GSS approach assembles audio clips to facilitate the conversion of machine-translated content into audio format"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "UEOP marks a significant advancement in end-to-end automatic speech recognition by incorporating external, offline strategies for voice-to-text conversion [180].",
+    "context_before": [
+      "The GSS method retrieves and stitches together audio clips to convert machine-translated data into speech-translated data ."
+    ],
+    "context_after": [
+      "Additionally, KNN-based attention fusion leverages audio embeddings and semantically related text embeddings to refine ASR, thereby accelerating domain adaptation."
+    ],
+    "references": [
+      "180"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "180",
+        "main_query": "UEOP marks a significant advancement in end-to-end automatic speech recognition by incorporating external, offline strategies for voice-to-text conversion",
+        "rewritten_queries": [
+          "UEOP represents a major improvement in automatic speech recognition by using external offline methods for converting voice to text",
+          "The incorporation of external offline strategies for voice-to-text conversion signifies a notable progress in end-to-end ASR with UEOP",
+          "By integrating external offline techniques for voice-to-text conversion, UEOP advances the field of end-to-end automatic speech recognition"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "For structured knowledge, the CoK method [106] first extracts facts pertinent to the input query from a knowledge graph, then integrates these facts as hints within the input, enhancing performance in knowledge graph question-answering tasks.",
+    "context_before": [
+      "This approach has demonstrated efficacy in tasks such as test assertion generation and program repair."
+    ],
+    "context_after": [
+      "VIII."
+    ],
+    "references": [
+      "106"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "106",
+        "main_query": "the CoK method first extracts facts pertinent to the input query from a knowledge graph",
+        "rewritten_queries": [
+          "the CoK method retrieves relevant facts from a knowledge graph based on the input query",
+          "the CoK method identifies and extracts facts related to the input query from a knowledge graph",
+          "the CoK method gathers pertinent facts from a knowledge graph in response to the input query"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "A gamma correction factor γc is applied to increase the visibility of the plasma .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "These segment, defined as tug-of-war units , are described by the spatial coordinate ξ ∈ [0, ℓ].",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Annealing of the samples can improve the properties of NV centers, as demonstrated by Meng et al. .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "We focus on the linearized problem, while a comprehensive non linear analysis is carried out in .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Two improvements of the comb source were implemented compared to .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The in-plane (Longitudinal) Goos-H¨ anchen (GH) shift originates due to angular gradient of the Fresnel coefficients associated with the change of angle of incidence for the non-central wave vectors and the out of the plane (Transverse) Imbert-Fedorov (IF) shifts originates from the spin orbit interaction of light .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "This makes their ratios, or site preferences highly informative for determining global N 2O fluxes , where the site preference relates to 15N being in the central ( α isotopomer) or the terminal (β isotopomer) position and is calculated as SP = ([14N15NO]/[15N14NO] – 1) × 1000 ‰.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Also, external radiation like cosmic rays or bremsstrahlung photons from very fast runaway electrons can act as an electron source .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "CL is oriented in such a way that it gives the Fourier transform of only y-direction, without any effect on the x-direction . 4 IV.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "In our work, imitation dynamics is utilized to study the evolution of individual strategies.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Alternative and more detailed/realistic models for the axoneme will be considered in future work, starting from the one proposed in .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Their findings highlight the complicated synergies between He, H and radiation damage of structural materials .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "This resulted in a laser spot diameter of roughly 660 nm .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "This significantly increases negative effects and reduces the effectiveness of stimulation .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "This exceeds the optical bullet diameter of 280 ±20 µm , but corresponds to the width of the top hat profile.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Note that the IBM data is not identical to that presented in ; it has been recomputed here with the procedure described in such that the Galileo number matches the nominal value Ga = 178.46 exactly. 24 5 Particle-resolved DNS methods and the angular velocity, which are not shown), which can be attributed to the different lateral boundary conditions (periodic vs. zero-stress) and to the shape of the computational domain (cuboid vs. cylindrical).",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Notice that by differentiating (3) we obtain u′ = aφ′ = aκ. (4) 1micro-chemo-Elasto-Hydrodynamic. 4 Figure 1: From the axoneme to the two rows of molecular motors. (A) Cross section of the axoneme when viewed from the base to tip, with numbering taken from . (B) projection of the axoneme onto its bending plane. (C) Flagellum composed by two filaments fixed at the base. 2.2 Force and torque balance equations The center filament is subject to internal forces R(s) and torque M(s) that act at position s.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "While th ese deviations refer to the relative intensities within a given isotopocule, such low relative uncertainties of the intensities of the α and β isotopomers suggest that site -preference measurements for source characterization applications can be performed with a few per mil precision .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "So far, laser diagnostics, including E-FISH, are generally considered non-invasive when applied to plasma .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "doped mode-locked fiber laser (Menlo Systems AB, O range High Power) with a repetition rate frep = 125 MHz, and a Raman-shifted soliton (signal) generated from the same source in a highly non-linear fiber, centered at 1.680 μm .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Notably, the sum of the transition rates is uniform as in but they are not symmetric, in the sense of , so that the µ-chemoEH can effectively symmetrize the system composed of the two filaments and the motors.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Pressure values measured at several annealing points are also given. 0 2 4 6 8 Time [h] 0 200 400 600 800 1000 1200 1400 T emperature [°C] Pressure -implanted Pressure -implanted Pressure -doped 10 7 10 6 Pressure [mbar] FIG.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Gsell & Favier have shown that the discrepancy (i.e. the di fference between the updated and the desired velocities at the Lagrangian marker points) depends essentially on the reciprocity of the interpolation and spreading operators (5.4,5.6).",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "In addition, a few samples have been manufactured using typical technology for fabrication of superconducting qubits .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The method to estimate ⟨X⟩, ⟨Y ⟩, ⟨XY ⟩, ⟨XPy⟩ from an experimentally obtained image of the light beam is covered in the following .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "In fact, the error shown in figure 5.2( b) remains practically identically when the correction proposed in is applied, and the same is true for the interface flux (not shown).",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Fig. 11 The number of events that (a) mono-vacancies and vacancy clusters and (b) mono-interstitials and SIA clusters interact with vacancy clusters under different irradiation conditions at 1.0 dpa, respectively. S.J.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Characteristics of the used plasma source can be found in .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Yet another approach is due to Tschisgale et al. (cf. also ), who define an interface layer (with finite thickness) to which the rigid-body assumption is restricted.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Rabi measurements were performed prior to the Hahn-echo to obtain the exact π-pulse duration.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "This is due to the Doppler width of N2O being comparable to frep, which results in relatively small instrumental line shape distortions , limiting the precision with which the OPD can be calibrated .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "They stay close to the original ideas of Peskin (see also Section 5.2) of an “elastic restoration force” that counteracts deformations of the immersed solid object as a result of fluid flow.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Dynamic equilibrium analysis In this section, by considering different selection intensities, we analyze the dynamic equilibrium , based on imitation dynamics.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Bao et al. have proposed such an ansatz, which, however, requires the solution of additional global Poisson problems at each time step.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The mobility and the imitation dynamics between different cities could significantly impact vaccination decisions and epidemic dynamics , .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Uhlmann observed that applying the direct forcing immersed-boundary procedure throughout the volume occupied by the solid particle tends to reduce the slip error at the interface for low Reynolds number flows.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The occurarXiv:2412.07339v1 [physics.soc-ph] 10 Dec 2024 2 rence of contacts between three or more nodes is described as higher-order interactions , , which can happen in various real-life scenarios.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "It is well know n that the efficiency of HHG rapidly decreases with increasing ellipticity of the driver laser rad iation , and the ellipticity of high harmonics, as a rule, does not exceed the laser ellipticity [1 4].",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Ion irradiation is thus widely employed for comparative studies to investigate the effect of irradiation conditions, such as damage rate and temperature .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Pan & Banerjee tracked up to 160 moving particles in turbulent channel flow), it is nowadays feasible to describe O(106) particles with resources available at many HPC centers .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "However, a key difference between the two irradiation conditions is the density and size of the defects, leading to a difference in macroscopic void swelling and hardening .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Since the early work of Fadlun et al. many researchers have chosen to apply an immersed boundary force only at the fluid-solid interface, while allowing the flow field in the interior of the solid domain to evolve freely.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "These results align with the ones presented in .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The basic idea can be demonstrated by writing the Navier-Stokes momentum equation (1.3) in the following simple semi-discrete form un+1 f −un f ∆t = RHSn+1/2 + fn+1/2 , (5.1) where the superscript indicates a discrete time level,RHS regroups the advective, viscous and pressure terms (which are evaluated at some intermediate time with index n + 1/2), and ∆t is the discrete time step.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Developing personalized vaccination strategies based on different age groups, such as mass vaccination with transmission-blocking vaccines for adults or prioritizing vaccine distribution to the elderly, can improve vaccine effectiveness and suppress infection to some extent .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "As a consequence, feed-back forcing is typically avoided in PR-DNS applications. 5.2.1 Direct forcing immersed boundary method Mohd-Yusof (cf. also ) realized that the feed-back procedure can be circumvented by constructing the forcing term such that the “desired” velocity is directly obtained after each time step.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Ferritic/martensitic steels are considered promising candidates structure materials of the breeding blanket, reactor pressure vessel (RPV), as well as the fuel cladding in the future fusion and fission reactors .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "In practice, the standard weakly-coupled approach is limited to particles with an excess density (Uhlmann reports stable integration forρp/ρf >1.2, while Zhou & Balachandar have shown how this limit can be somewhat lowered by adapting the value of the volume associated with the Lagrangian points).",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "In this context, the work we present here results from the Anomalous Diffusion (AnDi) challenge , and in particular from our participation to its second edition .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "In the context of DLM /FD methods, the implementation in is gradient discontinuity capturing and can be viewed as an implicit ghost node method with additional volume forcing.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The start values of the parameters were taken from GEISA for 15N2O and from HITRAN2020 for the remaining isotopocules.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Lipid rafts and membrane heterogeneity: Interactions of particles with lipid rafts in cell membranes have been shown to lead to complex diffusive behaviors ;.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Hou et al. using object kinetic Monte Carlo simulations, demonstrated that cluster size distributions in cascade debris and the spatial extent of vacancy and SIA clusters in displacement cascades play major role in the evolution of cluster size distributions after long enough time (at 0.1 dpa).",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Several authors have proposed alternatives in the context of LBM methods .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "To characterize a complex contagion process on simplicial complexes, a simplicial contagion model was recently developed .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The deposition of materials was performed by electron beam evaporator using selfaligned shadow evaporation technique .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Detailed information about the fabrication technology of the investigated device can be found in .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Additional forces acting on the particles, beyond those which arise due to direct solid-solid contact or due to a failure to resolve lubrication (cf. chapter 11), can be integrated into the PR-DNS framework in a relatively straightforward manner, e.g. short-range cohesive forces and electrical charges .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Nevertheless, Peng et al. show that, when a sufficient grid resolution is used, the two methods are able to provide accurate results for most of turbulent statistics in both the carrier and dispersed phases in turbulent particle-laden flow simulations.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "This is consistent with the analysis of Zhou & Balachandar which we have already discussed above.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "In order to reduce the Lagrangian velocity error, Gsell & Favier propose to multiply the Lagrangian force relation (5.5) by a constant correction factor which only depends on the choice of the kernel function.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "In order to ensure the second-order spatial accuracy in a bounce-back process, a number of interpolated bounce-back (IBB) schemes have been introduced over the years, with the conditional IBB scheme proposed by Bouzidi et al. and the unified IBB scheme by Yu et al. being the most representative.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Network motifs are the most common higherorder structures, defined as specific patterns of edges between vertices that appear statistically significant in the network .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "These reactors operate under extremely harsh conditions, characterized by high temperatures and intense radiation fields, necessitating structural materials with greater radiation tolerance than those used in current fission reactors to resist radiation-induced degradation .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "I NTRODUCTION The global outbreak of COVID-19 has disrupted the order in all countries and communities, posing a significant threat to human life and property –.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Additionally, these shift measurements are very prone to errors in the beam parameters and the detection geometry .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "In the preceeding sections, we elaborated on IBM, DLM and Boltzmann-based approaches, but we did not discuss many other methods such as ghost node , cut-cell and overset grid methods for the sake of conciseness.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "In recent years, simplicial complexes have been extensively studied and applied in various research fields, such as collaborative networks, semantic networks, cellular networks, and brain networks , , .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "A typical small Machin number flagellum is the Chlamydomonas (L ≈ 10 µm), where experimental data in reveal a critical frequency of θc = 2π · 40 s−1 and therefore an estimated Machin number Ma ≈ 2, which the authors considered sufficiently small, in comparison with the bull sperm case (L ≈ 50 µm), where the ratio is instead Ma ≈.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Epilepsy significantly affects the quality and expectancy of patient’s life .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The Cg value for modeling specific diseases can be estimated through surveys on health attitudes, behaviors, and outcomes, as indicated in Ref. .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Methods We used the open source software, MMonCa for the object kinetic Monte Carlo simulation.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "This technique, however, provides discrete measurements for individual species and its measurement accuracy is limited by the isotope ‘scrambling’ fragmentation, i.e. the NO+ fragment ions containing the terminal N atom, rather than the central N attached to the O atom as in the original molecule .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Respecting the symmetric structure of the axoneme, this model aims to elucidate the tug-of-war scenario of antagonistic motors between filaments at the microscopic scale .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The first step is to determine a preliminary velocity field ˜uf , solution of the momentum equation (5.1) in the absence of any immersed-boundary forcing, viz. ˜uf −un f ∆t = RHSn+1/2 . (5.3) 3 Modelling approaches and computational methods for particle-laden turbulent flows (a) (b) (c) δ(1) h ∆x -2 -1 0 1 2 0 0.2 0.4 0.6 0.8 r/∆x Figure 5.1: (a) Discrete delta function kernel δ(1) h (r) used in the interpolation (5.4) and spreading (5.6) of variables between Eulerian and Lagrangian locations: 3-point function of ; 4point function of .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The δ-doped and (100)-implanted samples exhibit comparable fluorescence in the bulk, whereas the (111)-implanted one has fluorescence about four times smaller, which could be related to a less efficient NV yield by the implantation at this crystallographic orientation .By the δ-doped sample the saturation curves were measured before and after each annealing step.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Interestingly, the equation first derived there has recently been rederived in using a molecular mechanics approach.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "A seminal study in this field was conducted by Machin , who demonstrated the importance of internal activation within a flagellum as a mechanism to sustain oscillations.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "This assumption is based on the fact that, under the effect of homophily , individuals tend to imitate the behavior of their peers.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "IBM method of , CFL = 0.3; □ IBM method of , CFL = 0.15; △ LBM computation of , using central linear interpolation.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Contrastingly in CVD NV-diamonds, the NV centers have better coherence properties, in the expense of a lower control over their localization and concentration .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Extending it to solid particles moving through fluid is straightforward .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "We observe a typical known behavior in flagella : by 15 increasing the parameter Sp, the traveling wave velocity increases.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The HITRAN2020 database contains line parameters f or the first five most abundant isotopocules of nitrous oxide – namely 14N216O, 14N15N16O, 15N14N16O, 14N218O, and 14N217O.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "On the other hand, the δ-doped sample presents a strong Raman emission from the diamond host below 550 nm , which saturates the counts at higher wavelengths, 4 0 7 14 NV− SiV (a) δ-doped 600 650 700 750 800 Wavelength (nm) 0 7 14 NV0 (b) (111)-implanted Intensity (kCounts/s) FIG.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Interestingly, when considering the isolated axoneme f = 0, the cubic model can be interpreted as a form of van der Pol oscillator for the velocity variable .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "This technique has subsequently been refined for larger volume fractions .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The higher-order organizational structures manifested in networks based on specific social, age, or occupational relationships can be effectively captured using the motifs .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The method to implement the boundary condition for a fixed solid wall in DUGKS is very similar to that in LBM, except that it is done at the cell interface nodes .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "T he lower state constants were fixed to values from rotation spectroscopy in our simulations .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  }
+]

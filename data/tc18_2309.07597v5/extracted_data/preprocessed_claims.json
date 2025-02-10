@@ -1,0 +1,798 @@
+[
+  {
+    "original_claim": "Thus, the collected data must be properly cleaned before being utilized for the training of embeddings [53]. •Training.",
+    "context_before": [
+      "Finally, the augmentation of scale and diversity will probably introduce noise."
+    ],
+    "context_after": [
+      "The training of general-purpose text embeddings depends on two critical elements: a well-suited backbone encoder and an appropriate training recipe."
+    ],
+    "references": [
+      "53"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "53",
+        "main_query": "the collected data must be properly cleaned before being utilized for the training of embeddings",
+        "rewritten_queries": [
+          "data cleaning is essential before using it for training embeddings",
+          "properly cleaning the collected data is necessary for embedding training",
+          "before training embeddings, the collected data needs to be cleaned"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "BEIR [51] provides a collection of 18 to evaluate the embedding’s general performances on different retrieval tasks, e.g., question answering and fact-checking.",
+    "context_before": [
+      "Another pre-requisite condition is the establishment of proper benchmarks, where all needed capabilities of text embeddings can be comprehensively evaluated."
+    ],
+    "context_after": [
+      "Later, MTEB proposes a more holistic evaluation of embeddings and extends BEIR."
+    ],
+    "references": [
+      "51"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "51",
+        "main_query": "BEIR provides a collection of 18 to evaluate the embedding’s general performances on different retrieval tasks, e.g., question answering and fact-checking.",
+        "rewritten_queries": [
+          "BEIR offers a set of 18 for assessing the overall performance of embeddings in various retrieval tasks such as question answering and fact-checking.",
+          "The collection of 18 in BEIR is used to evaluate how well embeddings perform across different retrieval tasks, including question answering and fact-checking.",
+          "BEIR includes 18 items designed to evaluate the general performance of embeddings on retrieval tasks like question answering and fact-checking."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Later, MTEB [35] proposes a more holistic evaluation of embeddings and extends BEIR.",
+    "context_before": [
+      "BEIR provides a collection of 18 to evaluate the embedding’s general performances on different retrieval tasks, e.g., question answering and fact-checking."
+    ],
+    "context_after": [
+      "It integrates 56 datasets, where all important capabilities of text embeddings, like retrieval, ranking, clustering, etc., can be jointly evaluated."
+    ],
+    "references": [
+      "35"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "35",
+        "main_query": "MTEB proposes a more holistic evaluation of embeddings and extends BEIR",
+        "rewritten_queries": [
+          "MTEB introduces a comprehensive assessment of embeddings and builds upon BEIR",
+          "The MTEB framework offers an integrated evaluation of embeddings, enhancing BEIR",
+          "MTEB enhances BEIR by providing a broader evaluation approach for embeddings"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In recent years, continual progresses have been achieved in this field, such as Contriever [22], E5 [53], GTR [40], and OpenAI Text Embedding [37].",
+    "context_before": [
+      "Altogether, the development of general-purpose text embedding needs to be made on top of a mixture of driving forces, from data, and encoder models, to training methods and benchmarking."
+    ],
+    "context_after": [
+      "Nevertheless, most of these models are dedicated to the English-centric scenarios."
+    ],
+    "references": [
+      "53",
+      "37",
+      "40",
+      "22"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "53",
+        "main_query": "E5",
+        "rewritten_queries": [
+          "E5 model advancements",
+          "Recent developments in E5",
+          "Progresses related to E5 in text embedding"
+        ]
+      },
+      {
+        "related_to_reference": "37",
+        "main_query": "OpenAI Text Embedding",
+        "rewritten_queries": [
+          "Text embedding model developed by OpenAI",
+          "OpenAI's approach to text embeddings",
+          "Text embedding techniques from OpenAI"
+        ]
+      },
+      {
+        "related_to_reference": "40",
+        "main_query": "GTR",
+        "rewritten_queries": [
+          "GTR model in text embedding",
+          "Advancements in text embedding with GTR",
+          "GTR's role in recent text embedding developments"
+        ]
+      },
+      {
+        "related_to_reference": "22",
+        "main_query": "Contriever",
+        "rewritten_queries": [
+          "Recent advancements include Contriever",
+          "Contriever is one of the notable developments in this field",
+          "The model Contriever has been achieved in recent years"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In recent years, there has been a continual effort in this field, where a series of well-known works are proposed, like Contriever [22], GTR [40], sentence-T5 [39], Sentence-Transformer [46], E5 [52], OpenAI text embedding [37], etc.",
+    "context_before": [
+      "Compared with the conventional task-specific methods, the general text embedding needs to be extensively applicable in different scenarios."
+    ],
+    "context_after": [
+      "Although it remains an open problem, recent studies highlight the following important factors. •Firstly, the training data is desired to be large-scale and diversified, from which the embedding model can learn to recognize different kinds of semantic relationships ."
+    ],
+    "references": [
+      "46",
+      "22",
+      "52",
+      "40",
+      "37",
+      "39"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "46",
+        "main_query": "Sentence-Transformer",
+        "rewritten_queries": [
+          "Sentence Transformer model",
+          "The Sentence-Transformer approach",
+          "Sentence-Transformer architecture"
+        ]
+      },
+      {
+        "related_to_reference": "22",
+        "main_query": "Contriever",
+        "rewritten_queries": [
+          "Contriever model in recent text embedding research",
+          "Recent advancements including Contriever in text embeddings",
+          "Contriever as a notable work in the field of text embeddings"
+        ]
+      },
+      {
+        "related_to_reference": "52",
+        "main_query": "E5",
+        "rewritten_queries": [
+          "E5 text embedding model",
+          "E5 in recent text embedding works",
+          "E5 as a proposed method in text embedding"
+        ]
+      },
+      {
+        "related_to_reference": "40",
+        "main_query": "GTR",
+        "rewritten_queries": [
+          "GTR model in text embedding",
+          "GTR approach for general text embedding",
+          "GTR method in recent text embedding works"
+        ]
+      },
+      {
+        "related_to_reference": "37",
+        "main_query": "OpenAI text embedding",
+        "rewritten_queries": [
+          "text embedding by OpenAI",
+          "OpenAI's approach to text embedding",
+          "embedding techniques developed by OpenAI"
+        ]
+      },
+      {
+        "related_to_reference": "39",
+        "main_query": "sentence-T5",
+        "rewritten_queries": [
+          "sentence T5 model",
+          "T5 for sentence embeddings",
+          "sentence-T5 architecture"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Unlike previous task-specific evaluations, like MSMARCO [ 38], SentEval [14], it is needed to substantially augment the benchmarks so as to evaluate the embedding’s performance for a wide variety of tasks.",
+    "context_before": [
+      "In C-Pack, these operations are integrated, optimized, and pipelined, which significantly facilitates people’s reproduction and continual fine-tuning of BGE. •Aside from the above factors, it is also critical to establish proper benchmarks to evaluate the generality of text embeddings."
+    ],
+    "context_after": [
+      "One representative work is made by BEIR , where the embeddings can be evaluated across different retrieval tasks."
+    ],
+    "references": [
+      "14"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "14",
+        "main_query": "SentEval",
+        "rewritten_queries": [
+          "evaluation method SentEval",
+          "SentEval benchmark for task-specific evaluations",
+          "performance assessment using SentEval"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "It is later extended by MTEB [35], where all major aspects of text embeddings can be comprehensively evaluated.",
+    "context_before": [
+      "One representative work is made by BEIR , where the embeddings can be evaluated across different retrieval tasks."
+    ],
+    "context_after": [
+      "However, no such works were done for the Chinese community before."
+    ],
+    "references": [
+      "35"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "35",
+        "main_query": "MTEB, where all major aspects of text embeddings can be comprehensively evaluated",
+        "rewritten_queries": [
+          "MTEB provides a comprehensive evaluation of all major aspects of text embeddings",
+          "The MTEB framework allows for thorough assessment of text embeddings",
+          "MTEB extends the evaluation capabilities for various aspects of text embeddings"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In the past few years, the community has put forward many datasets for text representation and language understanding tasks in Chinese, such as CMNLI [62], DuReader [20], T2Ranking [60].",
+    "context_before": [
+      "Then, we discuss the training recipe, which enables us to train the state-of-the-art models for general Chinese embedding based on the offered resources. 3.1 Benchmark: C-MTEB C-MTEB is established for the comprehensive evaluation of the generality of Chinese embeddings (Figure 2)."
+    ],
+    "context_after": [
+      "However, these datasets are independently curated, lacking a fair and shared ground to comprehensively evaluate the general capability of text embeddings."
+    ],
+    "references": [
+      "62",
+      "20",
+      "60"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "62",
+        "main_query": "CMNLI",
+        "rewritten_queries": [
+          "Chinese Multi-Genre Natural Language Inference (CMNLI)",
+          "Dataset CMNLI for Chinese text representation",
+          "CMNLI dataset for language understanding tasks in Chinese"
+        ]
+      },
+      {
+        "related_to_reference": "20",
+        "main_query": "DuReader",
+        "rewritten_queries": [
+          "DuReader dataset for language understanding tasks in Chinese",
+          "Chinese text representation dataset DuReader",
+          "DuReader as a resource for text representation in Chinese"
+        ]
+      },
+      {
+        "related_to_reference": "60",
+        "main_query": "T2Ranking",
+        "rewritten_queries": [
+          "T2Ranking dataset for language understanding tasks in Chinese",
+          "Chinese text representation dataset T2Ranking",
+          "T2Ranking as a resource for evaluating Chinese embeddings"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In this work, we use the setting from BEIR [51], using NDCG@10 as the main metric. •Re-ranking.",
+    "context_before": [
+      "The retrieval quality can be measured by ranking and recall metrics at different cut-offs."
+    ],
+    "context_after": [
+      "The re-ranking task is presented with test queries and their candidate documents (1 positive plus N negative documents)."
+    ],
+    "references": [
+      "51"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "51",
+        "main_query": "BEIR",
+        "rewritten_queries": [
+          "the BEIR setting",
+          "the framework established by BEIR",
+          "the methodology from BEIR"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "The classification task re-uses the logistic regression classifier from MTEB [35], where the average precision is used as the main metric. •Pair-classification.",
+    "context_before": [
+      "Following the original setting in Sentence-BERT [ 46], 6https://github.com/FlagOpen/FlagEmbedding/tree/master/C_MTEB Figure 3: The evaluation pipeline of C-MTEB. the Spearman’s correlation is computed with the given label, whose result is used as the main metric. •Classification."
+    ],
+    "context_after": [
+      "This task deals with a pair of input sentences, whose relationship is presented by a binarized label."
+    ],
+    "references": [
+      "35"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "35",
+        "main_query": "the classification task re-uses the logistic regression classifier from MTEB",
+        "rewritten_queries": [
+          "the logistic regression classifier from MTEB is used for the classification task",
+          "MTEB's logistic regression classifier is employed in the classification task",
+          "the classification task utilizes the logistic regression classifier provided by MTEB"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Following the original setting in MTEB [35], it uses the mini-batch k-means method for the evaluation, with batch size equal to 32 and k equal to the number of labels within the mini-batch.",
+    "context_before": [
+      "The clustering task is to group sentences into meaningful clusters."
+    ],
+    "context_after": [
+      "The V-measure score is used as the main metric."
+    ],
+    "references": [
+      "35"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "35",
+        "main_query": "it uses the mini-batch k-means method for the evaluation, with batch size equal to 32 and k equal to the number of labels within the mini-batch",
+        "rewritten_queries": [
+          "the evaluation employs the mini-batch k-means method with a batch size of 32 and k set to the number of labels in the mini-batch",
+          "mini-batch k-means is utilized for evaluation, using a batch size of 32 and k corresponding to the number of labels in the mini-batch",
+          "the method for evaluation is mini-batch k-means, configured with a batch size of 32 and k equal to the count of labels in the mini-batch"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Our models are based on the BERT-like architecture [15], which go through three-stage of training (to be discussed in the next section).",
+    "context_before": [
+      "In our work, we provide a comprehensive class of welltrained embedding models for the community."
+    ],
+    "context_after": [
+      "There are three available scales: large (with 326M parameters), base (with 102M parameters), and small (with 24M parameters)."
+    ],
+    "references": [
+      "15"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "15",
+        "main_query": "BERT-like architecture",
+        "rewritten_queries": [
+          "models based on BERT-like architecture",
+          "architecture similar to BERT",
+          "BERT-inspired model architecture"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Instead of mining hard negative samples on purpose, we purely rely on in-batch negative samples [25] and resort to a big batch size (as large as 19,200) to improve the discriminativeness of the embedding. •Task-specific fine-tuning.",
+    "context_before": [
+      "One critical factor of contrastive learning is the negative samples."
+    ],
+    "context_after": [
+      "The embedding model is further fine-tuned with C-MTP (labeled)."
+    ],
+    "references": [
+      "25"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "25",
+        "main_query": "we purely rely on in-batch negative samples",
+        "rewritten_queries": [
+          "we depend solely on in-batch negative samples",
+          "our approach is to use only in-batch negative samples",
+          "we focus exclusively on in-batch negative samples"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "The hard negative sample is mined from the task’s original corpus, following the ANN-style sampling strategy in [61]. 4 EXPERIMENTS In this section, we conduct experimental studies for the exploration of following problems.",
+    "context_before": [
+      "On the other hand, the negative sampling is updated: in addition to the in-batch negative samples, one hard negative sample 𝑞′is mined for each text pair (𝑝, 𝑞)."
+    ],
+    "context_after": [
+      "P."
+    ],
+    "references": [
+      "61"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "61",
+        "main_query": "The hard negative sample is mined from the task’s original corpus, following the ANN-style sampling strategy in",
+        "rewritten_queries": [
+          "Hard negative samples are extracted from the original corpus using the ANN-style sampling method",
+          "The original corpus is used to mine hard negative samples through an ANN-style sampling approach",
+          "Using the ANN-style sampling strategy, hard negative samples are sourced from the task's original corpus"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "We consider the following popular Chinese text embedding models as the baselines for our experiments: Text2Vec-Chinese10 base and large; Luotuo11; M3E12 base and large; multilingual E5 [53] and OpenAI text embedding ada.",
+    "context_before": [
+      "The exploration of the impacts introduced by the training recipe."
+    ],
+    "context_after": [
+      "The main metric presented in Section 3.1 is reported for each evaluation task in C-MTEB. 4.1 General Evaluation We extensively evaluate BGE against popular Chinese text embeddings on C-MTEB as shown in Table 2.14, where we can make the following observations."
+    ],
+    "references": [
+      "53"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "53",
+        "main_query": "multilingual E5",
+        "rewritten_queries": [
+          "E5 model for multilingual text embedding",
+          "multilingual E5 text embedding model",
+          "E5 multilingual embedding approach"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "At the time of public release, our English BGE models achieved the state-of-the-art performance on the English MTEB benchmark [35] across its 56 datasets.",
+    "context_before": [
+      "It was the first time that such comprehensive training data was made publicly available."
+    ],
+    "context_after": [
+      "Although there were many strong competitors in the English community, such as E5 , SGPT , GTE , GTR , and OpenAI Ada-002 , we were able to notably advance the prior SOTA by an absolute 1.1 points in total average, which further verify the effectiveness of our data curation and training method. 4.2 Detailed Analysis We investigate the detailed impact of C-MTP and our training recipe."
+    ],
+    "references": [
+      "35"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "35",
+        "main_query": "our English BGE models achieved the state-of-the-art performance on the English MTEB benchmark across its 56 datasets",
+        "rewritten_queries": [
+          "the English BGE models set a new state-of-the-art on the English MTEB benchmark with 56 datasets",
+          "at public release, the English BGE models were the best performers on the English MTEB benchmark across 56 datasets",
+          "the performance of our English BGE models was the highest on the English MTEB benchmark, covering 56 datasets"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Although there were many strong competitors in the English community, such as E5 [53], SGPT [32], GTE [28], GTR [40], and OpenAI Ada-002 [37], we were able to notably advance the prior SOTA by an absolute 1.1 points in total average, which further verify the effectiveness of our data curation and training method. 4.2 Detailed Analysis We investigate the detailed impact of C-MTP and our training recipe.",
+    "context_before": [
+      "At the time of public release, our English BGE models achieved the state-of-the-art performance on the English MTEB benchmark across its 56 datasets."
+    ],
+    "context_after": [
+      "The corresponding experiment results are presented in Table 3 and Table 4, respectively."
+    ],
+    "references": [
+      "28",
+      "40",
+      "32",
+      "53",
+      "37"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "28",
+        "main_query": "GTE",
+        "rewritten_queries": [
+          "GTE model performance in the English community",
+          "GTE as a competitor in English MTEB benchmark",
+          "Impact of GTE on state-of-the-art advancements"
+        ]
+      },
+      {
+        "related_to_reference": "40",
+        "main_query": "GTR",
+        "rewritten_queries": [
+          "GTR model performance in the English community",
+          "GTR as a competitor in English language models",
+          "Analysis of GTR in relation to other English models"
+        ]
+      },
+      {
+        "related_to_reference": "32",
+        "main_query": "SGPT",
+        "rewritten_queries": [
+          "Strong competitors in the English community including SGPT",
+          "SGPT among the notable competitors in English models",
+          "Comparison of SGPT with other English community models"
+        ]
+      },
+      {
+        "related_to_reference": "53",
+        "main_query": "E5",
+        "rewritten_queries": [
+          "Strong competitors in the English community including E5",
+          "E5 as a notable competitor in the English community",
+          "The role of E5 among strong competitors in English models"
+        ]
+      },
+      {
+        "related_to_reference": "37",
+        "main_query": "OpenAI Ada-002",
+        "rewritten_queries": [
+          "Ada-002 by OpenAI",
+          "OpenAI's Ada-002 model",
+          "Ada-002 model from OpenAI"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In our implementation, we use a compound strategy of gradient checkpointing and cross-device embedding sharing [18], which results in a maximum batch size of 19,.",
+    "context_before": [
+      "Given our dependency on in-batch negative samples, the batch size needs to be expanded as much as possible."
+    ],
+    "context_after": [
+      "By making a parallel comparison between bz: 256, 2028, 19,200, we observe consistent improvement in embedding quality with the expansion of batch size (noted as bz)."
+    ],
+    "references": [
+      "18"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "18",
+        "main_query": "a compound strategy of gradient checkpointing and cross-device embedding sharing",
+        "rewritten_queries": [
+          "using gradient checkpointing along with cross-device embedding sharing",
+          "a combined approach of gradient checkpointing and sharing embeddings across devices",
+          "implementing both gradient checkpointing and cross-device embedding sharing strategies"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "One more characteristic is that we use a specifically pre-trained text encoder to train BGE, rather than using common choices, like BERT [15] and RoBERTa [29].",
+    "context_before": [
+      "This indicates that using instructions may substantially contribute to the quality of task-specific fine-tuning."
+    ],
+    "context_after": [
+      "To explore its impact, we replace the pre-trained text encoder with the widely used Chinese-RoBERTa15, noted as “BGE w.o. pre-train”."
+    ],
+    "references": [
+      "15",
+      "29"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "15",
+        "main_query": "BERT",
+        "rewritten_queries": [
+          "common pre-trained text encoders like BERT",
+          "using BERT as a pre-trained text encoder",
+          "the choice of BERT for pre-training text encoders"
+        ]
+      },
+      {
+        "related_to_reference": "29",
+        "main_query": "BERT",
+        "rewritten_queries": [
+          "common pre-trained text encoders like BERT",
+          "using BERT as a pre-trained text encoder",
+          "the choice of BERT for pre-training text encoders"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In this work, single and small vacancy clusters migrate in 3D mode and vacancy clusters containing more than 5 vacancies are considered immobile, which is a common assumption in OKMC and cluster dynamics simulations .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The δ-doped and (100)-implanted samples exhibit comparable fluorescence in the bulk, whereas the (111)-implanted one has fluorescence about four times smaller, which could be related to a less efficient NV yield by the implantation at this crystallographic orientation .By the δ-doped sample the saturation curves were measured before and after each annealing step.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Reference deals with a number of practicalities when applying the approach to multiple spherical particles suspended in fluid. 19 Modelling approaches and computational methods for particle-laden turbulent flows Figure 5.3: Left panel: Half-way bounce-back representation of a circular no-slip boundary on a square lattice.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "These reactors operate under extremely harsh conditions, characterized by high temperatures and intense radiation fields, necessitating structural materials with greater radiation tolerance than those used in current fission reactors to resist radiation-induced degradation .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Thanks to the electron cooling effect [20–30] and tiny volume of a nanoabsorber, CEBs are suitable for space applications, since they can be operated in 3He sorption fridges and have record cosmic rays immunity .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "In particular, while linear curvature feedback was initially considered ideal for fitting Chlamydomonas data , the non-linear sliding feedback model proposed by , which incorporates the attachment and detachment of antagonistic molecular motors, provides a better fit.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Focusing on the spreading dynamics on the simplicial susceptibleinfected-recovered (s-SIR) model, Palafox-Castillo et al. defined a stochastic model to study variations beyond contagion processes on simplicial networks.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Interestingly, the equation first derived there has recently been rederived in using a molecular mechanics approach.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Although no unique measure of “evenness” of a spatial distribution in three spatial dimensions exists, both iterative approaches as well as explicit constructions on the sphere are available for practical purposes, as discussed e.g. in and .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Fortunately, the 500 mm focal length lens results look more similar to the expected profiles and the 750 mm results are almost in agreement with literature .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "This photon in turn can ionize an oxygen molecule somewhere else, creating an additional electron : N∗ 2 → N2 + hν O2 + hν → O+ 2 + e, (3) where hν represents the photon energy.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "We observe a typical known behavior in flagella : by 15 increasing the parameter Sp, the traveling wave velocity increases.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "In 2004, Resch and Steinberg incorporated the idea of weak measurement in a more general scenario, a joint quantum measurement .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Lipid rafts and membrane heterogeneity: Interactions of particles with lipid rafts in cell membranes have been shown to lead to complex diffusive behaviors ;.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Characteristics of the used plasma source can be found in .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "For 15N2O, 22 of the lines belonging to the v1+v3 band reported here are not included in GEISA .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "The incompressibility constraint is therefore a much stronger constraint than the CFL stability condition |u|∆t/∆ < 1 that usually applies to explicit schemes.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Considering that awareness is an important factor influencing vaccination, Kabir et al. proposed a framework for vaccine uptake with the unaware-aware (UA) information propagation.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  },
+  {
+    "original_claim": "Notice that, in the frequency domain, equation (20) becomes the same as the non linear relation used in . 3.3 The chemoEH model We present the third and last model, the chemoEH model , based on the qualitative description made in .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": null
+  }
+]

@@ -1,0 +1,13 @@
+venv/
+
+
+# Ignore Python cache files
+__pycache__/
+*/__pycache__/
+*.py[cod]
+
+data/logs
+
+# Exclude referenced papers in all test case directories
+**/tc*_*/referenced_papers/
+data/tc*/referenced_papers/

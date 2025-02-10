@@ -1,0 +1,158 @@
+[
+  {
+    "number": "4",
+    "text": "Saranya Alagarsamy, Chakkrit Tantithamthavorn, and Aldeida Aleti. 2023. A3Test: Assertion-Augmented Automated Test Case Generation. arXiv:2302.10352 [cs.SE]",
+    "arxiv_id": "2302.10352",
+    "pdf_link": "https://arxiv.org/pdf/2302.10352.pdf"
+  },
+  {
+    "number": "5",
+    "text": "Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma, Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, Nicholas Joseph, Saurav Kadavath, Jackson Kernion, Tom Conerly, Sheer El-Showk, Nelson Elhage, Zac Hatfield-Dodds, Danny Hernandez, Tristan Hume, Scott Johnston, Shauna Kravec, Liane Lovitt, Neel Nanda, Catherine Olsson, Dario Amodei, Tom Brown, Jack Clark, Sam McCandlish, Chris Olah, Ben Mann, and Jared Kaplan. 2022. Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback. arXiv:2204.05862 [cs.CL]",
+    "arxiv_id": "2204.05862",
+    "pdf_link": "https://arxiv.org/pdf/2204.05862.pdf"
+  },
+  {
+    "number": "6",
+    "text": "Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon, Carol Chen, Catherine Olsson, Christopher Olah, Danny Hernandez, Dawn Drain, Deep Ganguli, Dustin Li, Eli Tran-Johnson, Ethan Perez, Jamie Kerr, Jared Mueller, Jeffrey Ladish, Joshua Landau, Kamal Ndousse, Kamile Lukosuite, Liane Lovitt, Michael Sellitto, Nelson Elhage, Nicholas Schiefer, Noemi Mercado, Nova DasSarma, Robert Lasenby, Robin Larson, Sam Ringer, Scott Johnston, Shauna Kravec, Sheer El Showk, Stanislav Fort, Tamera Lanham, Timothy Telleen-Lawton, Tom Conerly, Tom Henighan, Tristan Hume, Samuel R. Bowman, Zac Hatfield-Dodds, Ben Mann, Dario Amodei, Nicholas Joseph, Sam McCandlish, Tom Brown, and Jared Kaplan. 2022. Constitutional AI: Harmlessness from AI Feedback. arXiv:2212.08073 [cs.CL]",
+    "arxiv_id": "2212.08073",
+    "pdf_link": "https://arxiv.org/pdf/2212.08073.pdf"
+  },
+  {
+    "number": "7",
+    "text": "Patrick Bareiß, Beatriz Souza, Marcelo d’Amorim, and Michael Pradel. 2022. Code Generation Tools (Almost) for Free? A Study of Few-Shot, Pre-Trained Language Models on Code. arXiv:2206.01335 [cs.SE]",
+    "arxiv_id": "2206.01335",
+    "pdf_link": "https://arxiv.org/pdf/2206.01335.pdf"
+  },
+  {
+    "number": "11",
+    "text": "Stephen Casper, Xander Davies, Claudia Shi, Thomas Krendl Gilbert, Jérémy Scheurer, Javier Rando, Rachel Freedman, Tomasz Korbak, David Lindner, Pedro Freire, Tony Wang, Samuel Marks, Charbel-Raphaël Segerie, Micah Carroll, Andi Peng, Phillip Christoffersen, Mehul Damani, Stewart Slocum, Usman Anwar, Anand Siththaranjan, Max Nadeau, Eric J. Michaud, Jacob Pfau, Dmitrii Krasheninnikov, Xin Chen, Lauro Langosco, Peter Hase, Erdem Bıyık, Anca Dragan, David Krueger, Dorsa Sadigh, and Dylan Hadfield-Menell. 2023. Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback. arXiv:2307.15217 [cs.AI]",
+    "arxiv_id": "2307.15217",
+    "pdf_link": "https://arxiv.org/pdf/2307.15217.pdf"
+  },
+  {
+    "number": "12",
+    "text": "Aaron Chan, Anant Kharkar, Roshanak Zilouchian Moghaddam, Yevhen Mohylevskyy, Alec Helyar, Eslam Kamal, Mohamed Elkamhawy, and Neel Sundaresan. 2023. Transformer-based Vulnerability Detection in Code at EditTime: Zero-shot, Few-shot, or Fine-tuning? arXiv:2306.01754 [cs.CR] , Vol. 1, No. 1, Article . Publication date: October 2023. 20 Benjamin Steenhoek, Michele Tufano, Neel Sundaresan, and Alexey Svyatkovskiy",
+    "arxiv_id": "2306.01754",
+    "pdf_link": "https://arxiv.org/pdf/2306.01754.pdf"
+  },
+  {
+    "number": "13",
+    "text": "Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, Alex Ray, Raul Puri, Gretchen Krueger, Michael Petrov, Heidy Khlaaf, Girish Sastry, Pamela Mishkin, Brooke Chan, Scott Gray, Nick Ryder, Mikhail Pavlov, Alethea Power, Lukasz Kaiser, Mohammad Bavarian, Clemens Winter, Philippe Tillet, Felipe Petroski Such, Dave Cummings, Matthias Plappert, Fotios Chantzis, Elizabeth Barnes, Ariel Herbert-Voss, William Hebgen Guss, Alex Nichol, Alex Paino, Nikolas Tezak, Jie Tang, Igor Babuschkin, Suchir Balaji, Shantanu Jain, William Saunders, Christopher Hesse, Andrew N. Carr, Jan Leike, Josh Achiam, Vedant Misra, Evan Morikawa, Alec Radford, Matthew Knight, Miles Brundage, Mira Murati, Katie Mayer, Peter Welinder, Bob McGrew, Dario Amodei, Sam McCandlish, Ilya Sutskever, and Wojciech Zaremba. 2021. Evaluating Large Language Models Trained on Code. arXiv:2107.03374 [cs.LG]",
+    "arxiv_id": "2107.03374",
+    "pdf_link": "https://arxiv.org/pdf/2107.03374.pdf"
+  },
+  {
+    "number": "14",
+    "text": "Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde, Jared Kaplan, Harri Edwards, Yura Burda, Nicholas Joseph, Greg Brockman, et al . 2021. Evaluating large language models trained on code. arXiv preprint arXiv:2107.03374 (2021).",
+    "arxiv_id": "2107.03374",
+    "pdf_link": "https://arxiv.org/pdf/2107.03374.pdf"
+  },
+  {
+    "number": "15",
+    "text": "Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, Maarten Bosma, Gaurav Mishra, Adam Roberts, Paul Barham, Hyung Won Chung, Charles Sutton, Sebastian Gehrmann, Parker Schuh, Kensen Shi, Sasha Tsvyashchenko, Joshua Maynez, Abhishek Rao, Parker Barnes, Yi Tay, Noam Shazeer, Vinodkumar Prabhakaran, Emily Reif, Nan Du, Ben Hutchinson, Reiner Pope, James Bradbury, Jacob Austin, Michael Isard, Guy Gur-Ari, Pengcheng Yin, Toju Duke, Anselm Levskaya, Sanjay Ghemawat, Sunipa Dev, Henryk Michalewski, Xavier Garcia, Vedant Misra, Kevin Robinson, Liam Fedus, Denny Zhou, Daphne Ippolito, David Luan, Hyeontaek Lim, Barret Zoph, Alexander Spiridonov, Ryan Sepassi, David Dohan, Shivani Agrawal, Mark Omernick, Andrew M. Dai, Thanumalayan Sankaranarayana Pillai, Marie Pellat, Aitor Lewkowycz, Erica Moreira, Rewon Child, Oleksandr Polozov, Katherine Lee, Zongwei Zhou, Xuezhi Wang, Brennan Saeta, Mark Diaz, Orhan Firat, Michele Catasta, Jason Wei, Kathy Meier-Hellstern, Douglas Eck, Jeff Dean, Slav Petrov, and Noah Fiedel. 2022. PaLM: Scaling Language Modeling with Pathways. arXiv:2204.02311 [cs.CL]",
+    "arxiv_id": "2204.02311",
+    "pdf_link": "https://arxiv.org/pdf/2204.02311.pdf"
+  },
+  {
+    "number": "16",
+    "text": "Paul Christiano, Jan Leike, Tom B. Brown, Miljan Martic, Shane Legg, and Dario Amodei. 2023. Deep reinforcement learning from human preferences. arXiv:1706.03741 [stat.ML]",
+    "arxiv_id": "1706.03741",
+    "pdf_link": "https://arxiv.org/pdf/1706.03741.pdf"
+  },
+  {
+    "number": "17",
+    "text": "Arghavan Moradi Dakhel, Amin Nikanjam, Vahid Majdinasab, Foutse Khomh, and Michel C. Desmarais. 2023. Effective Test Generation Using Pre-trained Large Language Models and Mutation Testing. arXiv:2308.16557 [cs.SE]",
+    "arxiv_id": "2308.16557",
+    "pdf_link": "https://arxiv.org/pdf/2308.16557.pdf"
+  },
+  {
+    "number": "30",
+    "text": "Volodymyr Mnih, Adrià Puigdomènech Badia, Mehdi Mirza, Alex Graves, Timothy P. Lillicrap, Tim Harley, David Silver, and Koray Kavukcuoglu. 2016. Asynchronous Methods for Deep Reinforcement Learning. arXiv:1602.01783 [cs.LG] , Vol. 1, No. 1, Article . Publication date: October 2023. 21",
+    "arxiv_id": "1602.01783",
+    "pdf_link": "https://arxiv.org/pdf/1602.01783.pdf"
+  },
+  {
+    "number": "33",
+    "text": "OpenAI. 2023. GPT-4 Technical Report. arXiv:2303.08774 [cs.CL]",
+    "arxiv_id": "2303.08774",
+    "pdf_link": "https://arxiv.org/pdf/2303.08774.pdf"
+  },
+  {
+    "number": "35",
+    "text": "Rajkumar Ramamurthy, Prithviraj Ammanabrolu, Kianté Brantley, Jack Hessel, Rafet Sifa, Christian Bauckhage, Hannaneh Hajishirzi, and Yejin Choi. 2023. Is Reinforcement Learning (Not) for Natural Language Processing: Benchmarks, Baselines, and Building Blocks for Natural Language Policy Optimization. arXiv:2210.01241 [cs.CL]",
+    "arxiv_id": "2210.01241",
+    "pdf_link": "https://arxiv.org/pdf/2210.01241.pdf"
+  },
+  {
+    "number": "36",
+    "text": "Marc’Aurelio Ranzato, Sumit Chopra, Michael Auli, and Wojciech Zaremba. 2016. Sequence Level Training with Recurrent Neural Networks. In4th International Conference on Learning Representations, ICLR 2016, San Juan, Puerto Rico, May 2-4, 2016, Conference Track Proceedings , Yoshua Bengio and Yann LeCun (Eds.). http://arxiv.org/abs/1511.06732",
+    "arxiv_id": "1511.06732",
+    "pdf_link": "https://arxiv.org/pdf/1511.06732.pdf"
+  },
+  {
+    "number": "38",
+    "text": "Baptiste Rozière, Jonas Gehring, Fabian Gloeckle, Sten Sootla, Itai Gat, Xiaoqing Ellen Tan, Yossi Adi, Jingyu Liu, Tal Remez, Jérémy Rapin, Artyom Kozhevnikov, Ivan Evtimov, Joanna Bitton, Manish Bhatt, Cristian Canton Ferrer, Aaron Grattafiori, Wenhan Xiong, Alexandre Défossez, Jade Copet, Faisal Azhar, Hugo Touvron, Louis Martin, Nicolas Usunier, Thomas Scialom, and Gabriel Synnaeve. 2023. Code Llama: Open Foundation Models for Code. arXiv:2308.12950 [cs.CL]",
+    "arxiv_id": "2308.12950",
+    "pdf_link": "https://arxiv.org/pdf/2308.12950.pdf"
+  },
+  {
+    "number": "39",
+    "text": "John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov. 2017. Proximal Policy Optimization Algorithms. arXiv:1707.06347 [cs.LG]",
+    "arxiv_id": "1707.06347",
+    "pdf_link": "https://arxiv.org/pdf/1707.06347.pdf"
+  },
+  {
+    "number": "40",
+    "text": "Max Schäfer, Sarah Nadi, Aryaz Eghbali, and Frank Tip. 2023. An Empirical Evaluation of Using Large Language Models for Automated Unit Test Generation. arXiv:2302.06527 [cs.SE]",
+    "arxiv_id": "2302.06527",
+    "pdf_link": "https://arxiv.org/pdf/2302.06527.pdf"
+  },
+  {
+    "number": "41",
+    "text": "Mohammed Latif Siddiq, Joanna C. S. Santos, Ridwanul Hasan Tanvir, Noshin Ulfat, Fahmid Al Rifat, and Vini- cius Carvalho Lopes. 2023. Exploring the Effectiveness of Large Language Models in Generating Unit Tests. arXiv:2305.00418 [cs.SE]",
+    "arxiv_id": "2305.00418",
+    "pdf_link": "https://arxiv.org/pdf/2305.00418.pdf"
+  },
+  {
+    "number": "46",
+    "text": "Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, and Guillaume Lample. 2023. LLaMA: Open and Efficient Foundation Language Models. arXiv:2302.13971 [cs.CL]",
+    "arxiv_id": "2302.13971",
+    "pdf_link": "https://arxiv.org/pdf/2302.13971.pdf"
+  },
+  {
+    "number": "47",
+    "text": "Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, Dan Bikel, Lukas Blecher, Cristian Canton Ferrer, Moya Chen, Guillem Cucurull, David Esiobu, Jude Fernandes, Jeremy Fu, Wenyin Fu, Brian Fuller, Cynthia Gao, Vedanuj Goswami, Naman Goyal, Anthony Hartshorn, Saghar Hosseini, Rui Hou, Hakan Inan, Marcin Kardas, Viktor Kerkez, Madian Khabsa, Isabel Kloumann, Artem Korenev, Punit Singh Koura, Marie-Anne Lachaux, Thibaut Lavril, Jenya Lee, Diana Liskovich, Yinghai Lu, Yuning Mao, Xavier Martinet, Todor Mihaylov, Pushkar Mishra, Igor Molybog, Yixin Nie, Andrew Poulton, Jeremy Reizenstein, Rashi Rungta, Kalyan Saladi, Alan Schelten, Ruan Silva, Eric Michael Smith, Ranjan Subramanian, Xiaoqing Ellen Tan, Binh Tang, Ross Taylor, Adina Williams, Jian Xiang Kuan, Puxin Xu, Zheng Yan, Iliyan Zarov, Yuchen Zhang, Angela Fan, Melanie Kambadur, Sharan Narang, Aurelien Rodriguez, Robert Stojnic, Sergey Edunov, and Thomas Scialom. 2023. Llama 2: Open Foundation and Fine-Tuned Chat Models. arXiv:2307.09288 [cs.CL]",
+    "arxiv_id": "2307.09288",
+    "pdf_link": "https://arxiv.org/pdf/2307.09288.pdf"
+  },
+  {
+    "number": "48",
+    "text": "Michele Tufano, Dawn Drain, Alexey Svyatkovskiy, Shao Kun Deng, and Neel Sundaresan. 2021. Unit Test Case Generation with Transformers and Focal Context. arXiv preprint arXiv:2009.05617 (2021). arXiv:2009.05617 [cs.SE]",
+    "arxiv_id": "2009.05617",
+    "pdf_link": "https://arxiv.org/pdf/2009.05617.pdf"
+  },
+  {
+    "number": "50",
+    "text": "Vasudev Vikram, Caroline Lemieux, and Rohan Padhye. 2023. Can Large Language Models Write Good Property-Based Tests? arXiv:2307.04346 [cs.SE]",
+    "arxiv_id": "2307.04346",
+    "pdf_link": "https://arxiv.org/pdf/2307.04346.pdf"
+  },
+  {
+    "number": "52",
+    "text": "Zhuokui Xie, Yinghao Chen, Chen Zhi, Shuiguang Deng, and Jianwei Yin. 2023. ChatUniTest: a ChatGPT-based automated unit test generation tool. arXiv:2305.04764 [cs.SE]",
+    "arxiv_id": "2305.04764",
+    "pdf_link": "https://arxiv.org/pdf/2305.04764.pdf"
+  },
+  {
+    "number": "53",
+    "text": "Zhiqiang Yuan, Yiling Lou, Mingwei Liu, Shiji Ding, Kaixin Wang, Yixuan Chen, and Xin Peng. 2023. No More Manual Tests? Evaluating and Improving ChatGPT for Unit Test Generation. arXiv:2305.04207 [cs.SE]",
+    "arxiv_id": "2305.04207",
+    "pdf_link": "https://arxiv.org/pdf/2305.04207.pdf"
+  },
+  {
+    "number": "54",
+    "text": "Daniel M. Ziegler, Nisan Stiennon, Jeffrey Wu, Tom B. Brown, Alec Radford, Dario Amodei, Paul Christiano, and Geoffrey Irving. 2020. Fine-Tuning Language Models from Human Preferences. arXiv:1909.08593 [cs.CL] , Vol. 1, No. 1, Article . Publication date: October 2023.",
+    "arxiv_id": "1909.08593",
+    "pdf_link": "https://arxiv.org/pdf/1909.08593.pdf"
+  }
+]

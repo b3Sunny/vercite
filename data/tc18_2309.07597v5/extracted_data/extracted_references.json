@@ -1,0 +1,284 @@
+[
+  {
+    "number": "6",
+    "text": "Loubna Ben Allal, Raymond Li, Denis Kocetkov, Chenghao Mou, Christopher Akiki, Carlos Munoz Ferrandis, Niklas Muennighoff, Mayank Mishra, Alex Gu, 15huggingface.co/hfl/chinese-roberta-wwm-ext-large Manan Dey, et al. 2023. SantaCoder: don’t reach for the stars! arXiv preprint arXiv:2301.03988 (2023).",
+    "arxiv_id": "2301.03988",
+    "pdf_link": "https://arxiv.org/pdf/2301.03988.pdf"
+  },
+  {
+    "number": "7",
+    "text": "Akari Asai, Timo Schick, Patrick Lewis, Xilun Chen, Gautier Izacard, Sebastian Riedel, Hannaneh Hajishirzi, and Wen-tau Yih. 2022. Task-aware retrieval with instructions. arXiv preprint arXiv:2211.09260 (2022).",
+    "arxiv_id": "2211.09260",
+    "pdf_link": "https://arxiv.org/pdf/2211.09260.pdf"
+  },
+  {
+    "number": "8",
+    "text": "Luiz Bonifacio, Vitor Jeronymo, Hugo Queiroz Abonizio, Israel Campiotti, Marzieh Fadaee, Roberto Lotufo, and Rodrigo Nogueira. 2021. mmarco: A multilingual version of the ms marco passage ranking dataset. arXiv preprint arXiv:2108.13897 (2021).",
+    "arxiv_id": "2108.13897",
+    "pdf_link": "https://arxiv.org/pdf/2108.13897.pdf"
+  },
+  {
+    "number": "10",
+    "text": "Samuel R Bowman, Gabor Angeli, Christopher Potts, and Christopher D Manning. 2015. A large annotated corpus for learning natural language inference. arXiv preprint arXiv:1508.05326 (2015).",
+    "arxiv_id": "1508.05326",
+    "pdf_link": "https://arxiv.org/pdf/1508.05326.pdf"
+  },
+  {
+    "number": "12",
+    "text": "Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, Maarten Bosma, Gaurav Mishra, Adam Roberts, Paul Barham, Hyung Won Chung, Charles Sutton, Se- bastian Gehrmann, et al. 2022. Palm: Scaling language modeling with pathways. arXiv preprint arXiv:2204.02311 (2022).",
+    "arxiv_id": "2204.02311",
+    "pdf_link": "https://arxiv.org/pdf/2204.02311.pdf"
+  },
+  {
+    "number": "13",
+    "text": "Hyung Won Chung, Le Hou, Shayne Longpre, Barret Zoph, Yi Tay, William Fedus, Eric Li, Xuezhi Wang, Mostafa Dehghani, Siddhartha Brahma, et al. 2022. Scaling instruction-finetuned language models. arXiv preprint arXiv:2210.11416 (2022).",
+    "arxiv_id": "2210.11416",
+    "pdf_link": "https://arxiv.org/pdf/2210.11416.pdf"
+  },
+  {
+    "number": "14",
+    "text": "Alexis Conneau and Douwe Kiela. 2018. SentEval: An Evaluation Toolkit for Universal Sentence Representations. arXiv preprint arXiv:1803.05449 (2018).",
+    "arxiv_id": "1803.05449",
+    "pdf_link": "https://arxiv.org/pdf/1803.05449.pdf"
+  },
+  {
+    "number": "15",
+    "text": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. Bert: Pre-training of deep bidirectional transformers for language understanding.arXiv preprint arXiv:1810.04805 (2018).",
+    "arxiv_id": "1810.04805",
+    "pdf_link": "https://arxiv.org/pdf/1810.04805.pdf"
+  },
+  {
+    "number": "16",
+    "text": "Luyu Gao and Jamie Callan. 2021. Condenser: a pre-training architecture for dense retrieval. arXiv preprint arXiv:2104.08253 (2021).",
+    "arxiv_id": "2104.08253",
+    "pdf_link": "https://arxiv.org/pdf/2104.08253.pdf"
+  },
+  {
+    "number": "18",
+    "text": "Luyu Gao, Yunyi Zhang, Jiawei Han, and Jamie Callan. 2021. Scaling deep contrastive learning batch size under memory limited setup. arXiv preprint arXiv:2101.06983 (2021).",
+    "arxiv_id": "2101.06983",
+    "pdf_link": "https://arxiv.org/pdf/2101.06983.pdf"
+  },
+  {
+    "number": "20",
+    "text": "Wei He, Kai Liu, Jing Liu, Yajuan Lyu, Shiqi Zhao, Xinyan Xiao, Yuan Liu, Yizhong Wang, Hua Wu, Qiaoqiao She, et al. 2017. Dureader: a chinese machine reading comprehension dataset from real-world applications. arXiv preprint arXiv:1711.05073 (2017).",
+    "arxiv_id": "1711.05073",
+    "pdf_link": "https://arxiv.org/pdf/1711.05073.pdf"
+  },
+  {
+    "number": "21",
+    "text": "Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes C-Pack: Packed Resources For General Chinese Embeddings SIGIR ’24, July 14–18, 2024, Washington, DC, USA Welbl, Aidan Clark, et al. 2022. Training compute-optimal large language models. arXiv preprint arXiv:2203.15556 (2022).",
+    "arxiv_id": "2203.15556",
+    "pdf_link": "https://arxiv.org/pdf/2203.15556.pdf"
+  },
+  {
+    "number": "22",
+    "text": "Gautier Izacard, Mathilde Caron, Lucas Hosseini, Sebastian Riedel, Piotr Bo- janowski, Armand Joulin, and Edouard Grave. 2021. Unsupervised dense in- formation retrieval with contrastive learning. arXiv preprint arXiv:2112.09118 (2021).",
+    "arxiv_id": "2112.09118",
+    "pdf_link": "https://arxiv.org/pdf/2112.09118.pdf"
+  },
+  {
+    "number": "23",
+    "text": "Gautier Izacard, Patrick Lewis, Maria Lomeli, Lucas Hosseini, Fabio Petroni, Timo Schick, Jane Dwivedi-Yu, Armand Joulin, Sebastian Riedel, and Edouard Grave. 2022. Few-shot learning with retrieval augmented language models.arXiv preprint arXiv:2208.03299 (2022).",
+    "arxiv_id": "2208.03299",
+    "pdf_link": "https://arxiv.org/pdf/2208.03299.pdf"
+  },
+  {
+    "number": "24",
+    "text": "Ehsan Kamalloo, Nandan Thakur, Carlos Lassance, Xueguang Ma, Jheng-Hong Yang, and Jimmy Lin. 2023. Resources for Brewing BEIR: Reproducible Reference Models and an Official Leaderboard. arXiv preprint arXiv:2306.07471 (2023).",
+    "arxiv_id": "2306.07471",
+    "pdf_link": "https://arxiv.org/pdf/2306.07471.pdf"
+  },
+  {
+    "number": "25",
+    "text": "Vladimir Karpukhin, Barlas Oğuz, Sewon Min, Patrick Lewis, Ledell Wu, Sergey Edunov, Danqi Chen, and Wen-tau Yih. 2020. Dense passage retrieval for open- domain question answering. arXiv preprint arXiv:2004.04906 (2020).",
+    "arxiv_id": "2004.04906",
+    "pdf_link": "https://arxiv.org/pdf/2004.04906.pdf"
+  },
+  {
+    "number": "27",
+    "text": "Raymond Li, Loubna Ben Allal, Yangtian Zi, Niklas Muennighoff, Denis Kocetkov, Chenghao Mou, Marc Marone, Christopher Akiki, Jia Li, Jenny Chim, et al. 2023. StarCoder: may the source be with you! arXiv preprint arXiv:2305.06161 (2023).",
+    "arxiv_id": "2305.06161",
+    "pdf_link": "https://arxiv.org/pdf/2305.06161.pdf"
+  },
+  {
+    "number": "28",
+    "text": "Zehan Li, Xin Zhang, Yanzhao Zhang, Dingkun Long, Pengjun Xie, and Meishan Zhang. 2023. Towards General Text Embeddings with Multi-stage Contrastive Learning. arXiv preprint arXiv:2308.03281 (2023).",
+    "arxiv_id": "2308.03281",
+    "pdf_link": "https://arxiv.org/pdf/2308.03281.pdf"
+  },
+  {
+    "number": "29",
+    "text": "Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. 2019. Roberta: A robustly optimized bert pretraining approach. arXiv preprint arXiv:1907.11692 (2019).",
+    "arxiv_id": "1907.11692",
+    "pdf_link": "https://arxiv.org/pdf/1907.11692.pdf"
+  },
+  {
+    "number": "30",
+    "text": "Zheng Liu and Yingxia Shao. 2022. Retromae: Pre-training retrieval-oriented transformers via masked auto-encoder. arXiv preprint arXiv:2205.12035 (2022).",
+    "arxiv_id": "2205.12035",
+    "pdf_link": "https://arxiv.org/pdf/2205.12035.pdf"
+  },
+  {
+    "number": "32",
+    "text": "Niklas Muennighoff. 2022. Sgpt: Gpt sentence embeddings for semantic search. arXiv preprint arXiv:2202.08904 (2022).",
+    "arxiv_id": "2202.08904",
+    "pdf_link": "https://arxiv.org/pdf/2202.08904.pdf"
+  },
+  {
+    "number": "33",
+    "text": "Niklas Muennighoff, Qian Liu, Armel Zebaze, Qinkai Zheng, Binyuan Hui, Terry Yue Zhuo, Swayam Singh, Xiangru Tang, Leandro von Werra, and Shayne Longpre. 2023. OctoPack: Instruction Tuning Code Large Language Models. arXiv preprint arXiv:2308.07124 (2023).",
+    "arxiv_id": "2308.07124",
+    "pdf_link": "https://arxiv.org/pdf/2308.07124.pdf"
+  },
+  {
+    "number": "34",
+    "text": "Niklas Muennighoff, Alexander M Rush, Boaz Barak, Teven Le Scao, Aleksandra Piktus, Nouamane Tazi, Sampo Pyysalo, Thomas Wolf, and Colin Raffel. 2023. Scaling Data-Constrained Language Models. arXiv preprint arXiv:2305.16264 (2023).",
+    "arxiv_id": "2305.16264",
+    "pdf_link": "https://arxiv.org/pdf/2305.16264.pdf"
+  },
+  {
+    "number": "35",
+    "text": "Niklas Muennighoff, Nouamane Tazi, Loïc Magne, and Nils Reimers. 2022. MTEB: Massive text embedding benchmark. arXiv preprint arXiv:2210.07316 (2022).",
+    "arxiv_id": "2210.07316",
+    "pdf_link": "https://arxiv.org/pdf/2210.07316.pdf"
+  },
+  {
+    "number": "36",
+    "text": "Niklas Muennighoff, Thomas Wang, Lintang Sutawika, Adam Roberts, Stella Biderman, Teven Le Scao, M Saiful Bari, Sheng Shen, Zheng-Xin Yong, Hailey Schoelkopf, et al. 2022. Crosslingual generalization through multitask finetuning. arXiv preprint arXiv:2211.01786 (2022).",
+    "arxiv_id": "2211.01786",
+    "pdf_link": "https://arxiv.org/pdf/2211.01786.pdf"
+  },
+  {
+    "number": "37",
+    "text": "Arvind Neelakantan, Tao Xu, Raul Puri, Alec Radford, Jesse Michael Han, Jerry Tworek, Qiming Yuan, Nikolas Tezak, Jong Wook Kim, Chris Hallacy, et al . 2022. Text and code embeddings by contrastive pre-training. arXiv preprint arXiv:2201.10005 (2022).",
+    "arxiv_id": "2201.10005",
+    "pdf_link": "https://arxiv.org/pdf/2201.10005.pdf"
+  },
+  {
+    "number": "39",
+    "text": "Jianmo Ni, Gustavo Hernández Ábrego, Noah Constant, Ji Ma, Keith B Hall, Daniel Cer, and Yinfei Yang. 2021. Sentence-t5: Scalable sentence encoders from pre-trained text-to-text models. arXiv preprint arXiv:2108.08877 (2021).",
+    "arxiv_id": "2108.08877",
+    "pdf_link": "https://arxiv.org/pdf/2108.08877.pdf"
+  },
+  {
+    "number": "40",
+    "text": "Jianmo Ni, Chen Qu, Jing Lu, Zhuyun Dai, Gustavo Hernández Ábrego, Ji Ma, Vincent Y Zhao, Yi Luan, Keith B Hall, Ming-Wei Chang, et al. 2021. Large dual encoders are generalizable retrievers. arXiv preprint arXiv:2112.07899 (2021).",
+    "arxiv_id": "2112.07899",
+    "pdf_link": "https://arxiv.org/pdf/2112.07899.pdf"
+  },
+  {
+    "number": "41",
+    "text": "Yujia Qin, Shihao Liang, Yining Ye, Kunlun Zhu, Lan Yan, Yaxi Lu, Yankai Lin, Xin Cong, Xiangru Tang, Bill Qian, et al. 2023. ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs.arXiv preprint arXiv:2307.16789 (2023).",
+    "arxiv_id": "2307.16789",
+    "pdf_link": "https://arxiv.org/pdf/2307.16789.pdf"
+  },
+  {
+    "number": "42",
+    "text": "Yifu Qiu, Hongyu Li, Yingqi Qu, Ying Chen, Qiaoqiao She, Jing Liu, Hua Wu, and Haifeng Wang. 2022. DuReader_retrieval: A Large-scale Chinese Benchmark for Passage Retrieval from Web Search Engine. arXiv preprint arXiv:2203.10232 (2022).",
+    "arxiv_id": "2203.10232",
+    "pdf_link": "https://arxiv.org/pdf/2203.10232.pdf"
+  },
+  {
+    "number": "43",
+    "text": "Yingqi Qu, Yuchen Ding, Jing Liu, Kai Liu, Ruiyang Ren, Wayne Xin Zhao, Daxi- ang Dong, Hua Wu, and Haifeng Wang. 2020. RocketQA: An optimized training approach to dense passage retrieval for open-domain question answering. arXiv preprint arXiv:2010.08191 (2020).",
+    "arxiv_id": "2010.08191",
+    "pdf_link": "https://arxiv.org/pdf/2010.08191.pdf"
+  },
+  {
+    "number": "44",
+    "text": "Jack W Rae, Sebastian Borgeaud, Trevor Cai, Katie Millican, Jordan Hoffmann, Francis Song, John Aslanides, Sarah Henderson, Roman Ring, Susannah Young, et al. 2021. Scaling language models: Methods, analysis & insights from training gopher. arXiv preprint arXiv:2112.11446 (2021).",
+    "arxiv_id": "2112.11446",
+    "pdf_link": "https://arxiv.org/pdf/2112.11446.pdf"
+  },
+  {
+    "number": "46",
+    "text": "Nils Reimers and Iryna Gurevych. 2019. Sentence-bert: Sentence embeddings using siamese bert-networks. arXiv preprint arXiv:1908.10084 (2019).",
+    "arxiv_id": "1908.10084",
+    "pdf_link": "https://arxiv.org/pdf/1908.10084.pdf"
+  },
+  {
+    "number": "47",
+    "text": "Victor Sanh, Albert Webson, Colin Raffel, Stephen H Bach, Lintang Sutawika, Zaid Alyafeai, Antoine Chaffin, Arnaud Stiegler, Teven Le Scao, Arun Raja, et al. 2021. Multitask prompted training enables zero-shot task generalization. arXiv preprint arXiv:2110.08207 (2021).",
+    "arxiv_id": "2110.08207",
+    "pdf_link": "https://arxiv.org/pdf/2110.08207.pdf"
+  },
+  {
+    "number": "48",
+    "text": "Weijia Shi, Sewon Min, Michihiro Yasunaga, Minjoon Seo, Rich James, Mike Lewis, Luke Zettlemoyer, and Wen-tau Yih. 2023. Replug: Retrieval-augmented black-box language models. arXiv preprint arXiv:2301.12652 (2023).",
+    "arxiv_id": "2301.12652",
+    "pdf_link": "https://arxiv.org/pdf/2301.12652.pdf"
+  },
+  {
+    "number": "49",
+    "text": "Aarohi Srivastava, Abhinav Rastogi, Abhishek Rao, Abu Awal Md Shoeb, Abubakar Abid, Adam Fisch, Adam R Brown, Adam Santoro, Aditya Gupta, Adrià Garriga-Alonso, et al. 2022. Beyond the imitation game: Quantifying and extrapolating the capabilities of language models. arXiv preprint arXiv:2206.04615 (2022).",
+    "arxiv_id": "2206.04615",
+    "pdf_link": "https://arxiv.org/pdf/2206.04615.pdf"
+  },
+  {
+    "number": "50",
+    "text": "Hongjin Su, Jungo Kasai, Yizhong Wang, Yushi Hu, Mari Ostendorf, Wen-tau Yih, Noah A Smith, Luke Zettlemoyer, Tao Yu, et al. 2022. One embedder, any task: Instruction-finetuned text embeddings. arXiv preprint arXiv:2212.09741 (2022).",
+    "arxiv_id": "2212.09741",
+    "pdf_link": "https://arxiv.org/pdf/2212.09741.pdf"
+  },
+  {
+    "number": "51",
+    "text": "Nandan Thakur, Nils Reimers, Andreas Rücklé, Abhishek Srivastava, and Iryna Gurevych. 2021. Beir: A heterogenous benchmark for zero-shot evaluation of information retrieval models. arXiv preprint arXiv:2104.08663 (2021).",
+    "arxiv_id": "2104.08663",
+    "pdf_link": "https://arxiv.org/pdf/2104.08663.pdf"
+  },
+  {
+    "number": "52",
+    "text": "Liang Wang, Nan Yang, Xiaolong Huang, Binxing Jiao, Linjun Yang, Daxin Jiang, Rangan Majumder, and Furu Wei. 2022. Simlm: Pre-training with representation bottleneck for dense passage retrieval. arXiv preprint arXiv:2207.02578 (2022).",
+    "arxiv_id": "2207.02578",
+    "pdf_link": "https://arxiv.org/pdf/2207.02578.pdf"
+  },
+  {
+    "number": "53",
+    "text": "Liang Wang, Nan Yang, Xiaolong Huang, Binxing Jiao, Linjun Yang, Daxin Jiang, Rangan Majumder, and Furu Wei. 2022. Text embeddings by weakly-supervised contrastive pre-training. arXiv preprint arXiv:2212.03533 (2022).",
+    "arxiv_id": "2212.03533",
+    "pdf_link": "https://arxiv.org/pdf/2212.03533.pdf"
+  },
+  {
+    "number": "54",
+    "text": "Jason Wei, Maarten Bosma, Vincent Y Zhao, Kelvin Guu, Adams Wei Yu, Brian Lester, Nan Du, Andrew M Dai, and Quoc V Le. 2021. Finetuned language models are zero-shot learners. arXiv preprint arXiv:2109.01652 (2021).",
+    "arxiv_id": "2109.01652",
+    "pdf_link": "https://arxiv.org/pdf/2109.01652.pdf"
+  },
+  {
+    "number": "55",
+    "text": "Adina Williams, Nikita Nangia, and Samuel R Bowman. 2017. A broad-coverage challenge corpus for sentence understanding through inference. arXiv preprint arXiv:1704.05426 (2017).",
+    "arxiv_id": "1704.05426",
+    "pdf_link": "https://arxiv.org/pdf/1704.05426.pdf"
+  },
+  {
+    "number": "58",
+    "text": "Shitao Xiao, Zheng Liu, Yingxia Shao, and Zhao Cao. 2023. RetroMAE-2: Duplex Masked Auto-Encoder For Pre-Training Retrieval-Oriented Language Models. arXiv preprint arXiv:2305.02564 (2023).",
+    "arxiv_id": "2305.02564",
+    "pdf_link": "https://arxiv.org/pdf/2305.02564.pdf"
+  },
+  {
+    "number": "59",
+    "text": "Shitao Xiao, Zheng Liu, Yingxia Shao, Defu Lian, and Xing Xie. 2021. Matching- oriented product quantization for ad-hoc retrieval.arXiv preprint arXiv:2104.07858 (2021).",
+    "arxiv_id": "2104.07858",
+    "pdf_link": "https://arxiv.org/pdf/2104.07858.pdf"
+  },
+  {
+    "number": "60",
+    "text": "Xiaohui Xie, Qian Dong, Bingning Wang, Feiyang Lv, Ting Yao, Weinan Gan, Zhijing Wu, Xiangsheng Li, Haitao Li, Yiqun Liu, et al. 2023. T2Ranking: A large- scale Chinese Benchmark for Passage Ranking. arXiv preprint arXiv:2304.03679 (2023).",
+    "arxiv_id": "2304.03679",
+    "pdf_link": "https://arxiv.org/pdf/2304.03679.pdf"
+  },
+  {
+    "number": "61",
+    "text": "Lee Xiong, Chenyan Xiong, Ye Li, Kwok-Fung Tang, Jialin Liu, Paul Bennett, Junaid Ahmed, and Arnold Overwijk. 2020. Approximate nearest neighbor nega- tive contrastive learning for dense text retrieval. arXiv preprint arXiv:2007.00808 (2020).",
+    "arxiv_id": "2007.00808",
+    "pdf_link": "https://arxiv.org/pdf/2007.00808.pdf"
+  },
+  {
+    "number": "62",
+    "text": "Liang Xu, Hai Hu, Xuanwei Zhang, Lu Li, Chenjie Cao, Yudong Li, Yechen Xu, Kai Sun, Dian Yu, Cong Yu, et al. 2020. CLUE: A Chinese language understanding evaluation benchmark. arXiv preprint arXiv:2004.05986 (2020).",
+    "arxiv_id": "2004.05986",
+    "pdf_link": "https://arxiv.org/pdf/2004.05986.pdf"
+  }
+]

@@ -1,0 +1,826 @@
+[
+  {
+    "original_claim": "We train a Reward Model (RM) to score test cases based on these quality metrics, then employ it to provide feedback for the Proximal Policy Optimization (PPO) [39] algorithm to enhance LLMs to generate test cases maximizing the expected reward (i.e., higher quality tests).",
+    "context_before": [
+      "However, instead of relying on expensive, unpredictable, and often biased human feedback, we instill well-known quality properties into an LLM by scoring programs using static analysis, amenable to automated computation for the generated test cases."
+    ],
+    "context_after": [
+      "We begin by generating test cases using foundational LLMs and investigating their alignment with established best practices and their susceptibility to test smells."
+    ],
+    "references": [
+      "39"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "39",
+        "main_query": "Proximal Policy Optimization (PPO) algorithm to enhance LLMs to generate test cases maximizing the expected reward (i.e., higher quality tests)",
+        "rewritten_queries": [
+          "PPO algorithm for improving LLMs to create test cases that maximize expected rewards",
+          "Enhancing LLMs with the Proximal Policy Optimization method to generate higher quality test cases",
+          "Using Proximal Policy Optimization to optimize LLM-generated test cases for better quality scores"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "39",
+        "query_used_for_retrieval": "Proximal Policy Optimization (PPO) algorithm to enhance LLMs to generate test cases maximizing the expected reward (i.e., higher quality tests)",
+        "retrieved_docs_from_sources": [
+          39,
+          35,
+          35,
+          39,
+          35,
+          39,
+          39,
+          35,
+          35,
+          35
+        ],
+        "predicted_reference": "[35]_2210.01241",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.4,
+          "ndcg_at_k": 0.8276904491046954,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "This version of Codex is a GPT-style model, pretrained on 54 million public repositories using the causal language modeling objective, and has a maximum context length of 2,048 tokens [14].",
+    "context_before": [
+      "We generate tests using the OpenAI Codex Cushman model, version code-cushman-."
+    ],
+    "context_after": [
+      "We focused on a specific prompt design, the“simulated” prompt, to harness optimal test generation capabilities from the base Codex model."
+    ],
+    "references": [
+      "14"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "14",
+        "main_query": "This version of Codex is a GPT-style model, pretrained on 54 million public repositories using the causal language modeling objective, and has a maximum context length of 2,048 tokens",
+        "rewritten_queries": [
+          "Codex is a GPT-style model trained on 54 million public repositories with a maximum context length of 2,048 tokens",
+          "The Codex model is pretrained on 54 million repositories and utilizes a causal language modeling objective with a context length of 2,048 tokens",
+          "This Codex version is a GPT-style model that has been pretrained on 54 million public repositories and supports a context length of 2,048 tokens"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "14",
+        "query_used_for_retrieval": "This version of Codex is a GPT-style model, pretrained on 54 million public repositories using the causal language modeling objective, and has a maximum context length of 2,048 tokens",
+        "retrieved_docs_from_sources": [
+          14,
+          14,
+          14,
+          14,
+          48,
+          33,
+          14,
+          14,
+          14,
+          14
+        ],
+        "predicted_reference": "[14]_2107.03374",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.8,
+          "ndcg_at_k": 0.9613085758737654,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "We employ adaptive focal context truncation to ensure the inputs fit within the model’s context length, similar to the representation introduced in [48].",
+    "context_before": [
+      "As shown in Figure 1, we construct the prompt as follows (top to bottom): ● path/to/FocalClass.cs: The path to the file containing the focal method in the actual project structure. ● 〈ContextAndFocalMethod〉: The source code of the focal method and its context. ● path/to/TestFocalClass.cs:⤦ public void Test〈FocalMethod〉: A prompt hint which specifies a hypothetical filepath for the test class and the beginning of the test method signature."
+    ],
+    "context_after": [
+      "In detail, we adopt a sequential approach to extract focal contexts, where each next option is a more concise representation than its predecessor: (1) Entire text of the focal file, which can include imports, namespaces, and other classes. (2) Focal class code, converting methods other than the focal method into their respective signatures. (3) Focal class code, converting non-focal methods to signatures and eliminating fields/comments. (4) A stripped-down version comprising only the focal class definition and focal method, while discarding all supplementary code. (5) Prompts persistently exceeding the permitted length were removed."
+    ],
+    "references": [
+      "48"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "48",
+        "main_query": "adaptive focal context truncation to ensure the inputs fit within the model’s context length",
+        "rewritten_queries": [
+          "using adaptive focal context truncation to fit inputs within the model's context length",
+          "employing adaptive focal context truncation for input fitting within model context limits",
+          "utilizing adaptive focal context truncation to maintain inputs within the model's context size"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "48",
+        "query_used_for_retrieval": "adaptive focal context truncation to ensure the inputs fit within the model’s context length",
+        "retrieved_docs_from_sources": [
+          48,
+          48,
+          48,
+          14,
+          33,
+          48,
+          14,
+          33,
+          33,
+          35
+        ],
+        "predicted_reference": "[48]_2009.05617",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.4,
+          "ndcg_at_k": 0.9709286432396583,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "RLSQM utilizes the Proximal Policy Optimization (PPO) [39] algorithm to train the policy model (PM).",
+    "context_before": [
+      "Once the reward model is trained, it is used to predict the rewards during PPO fine-tuning. 2.5.2 PPO Fine-tuning."
+    ],
+    "context_after": [
+      "PPO operates as an actor-critic algorithm, combining two components using networks with separate weights: the actor, determining the policy 𝜋, and the critic, valuing a given state-action pair to improve the actor’s choices."
+    ],
+    "references": [
+      "39"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "39",
+        "main_query": "Proximal Policy Optimization (PPO) algorithm to train the policy model (PM)",
+        "rewritten_queries": [
+          "PPO algorithm for training the policy model",
+          "Using Proximal Policy Optimization to train the policy model",
+          "Training the policy model with the PPO algorithm"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "39",
+        "query_used_for_retrieval": "Proximal Policy Optimization (PPO) algorithm to train the policy model (PM)",
+        "retrieved_docs_from_sources": [
+          39,
+          35,
+          39,
+          39,
+          35,
+          39,
+          39,
+          39,
+          35,
+          39
+        ],
+        "predicted_reference": "[39]_1707.06347.pdf",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.7,
+          "ndcg_at_k": 0.8864065699084177,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "Additionally, PPO utilizes a clipped surrogate objective, which constrains updates to the actor network weights in order to avoid excessively large policy updates [39].",
+    "context_before": [
+      "We initialized the policy using the SFT model and initialized the value function using the weights of the reward model (this done following Ouyang et al. )."
+    ],
+    "context_after": [
+      "Following Ouyang et al. , we use a variant of PPO which utilizes the Kullback-Leibler (KL) divergence to penalize the model from generating tokens which are dramatically different from the base model, modulated by a coefficient 𝛽."
+    ],
+    "references": [
+      "39"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "39",
+        "main_query": "PPO utilizes a clipped surrogate objective, which constrains updates to the actor network weights in order to avoid excessively large policy updates",
+        "rewritten_queries": [
+          "PPO employs a clipped surrogate objective to limit the size of updates to the actor network weights",
+          "The clipped surrogate objective in PPO restricts the updates to the actor network to prevent large policy changes",
+          "To prevent excessively large policy updates, PPO uses a clipped surrogate objective that constrains actor network weight updates"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "39",
+        "query_used_for_retrieval": "PPO utilizes a clipped surrogate objective, which constrains updates to the actor network weights in order to avoid excessively large policy updates",
+        "retrieved_docs_from_sources": [
+          39,
+          39,
+          35,
+          39,
+          39,
+          39,
+          35,
+          35,
+          39,
+          39
+        ],
+        "predicted_reference": "[39]_1707.06347.pdf",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.7,
+          "ndcg_at_k": 0.9331394899761785,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "It is worth noting that our approach is not tied to the PPO algorithm and implementations may employ a variety of other reinforcement learning algorithms, such as A2C [30] or NLPO [35]. 3 EMPIRICAL STUDY DESIGN We have designed an empirical study with the primary objective of enhancing the quality of test cases generated by Language Model-based approaches through Reinforcement Learning from Static Quality Metrics (RLSQM).",
+    "context_before": [
+      "Figure 2 3 provides the details on the RLSQM’s PPO finetuning stage."
+    ],
+    "context_after": [
+      "The study aims to address the following research questions: ● RQ1: What is the quality of the test cases generated by LLMs? ● RQ2: Can RLSQM be used to improve individual quality metrics? ● RQ3: Can RLSQM improve the LLM to generate high-quality tests following best practices? 3.1 RQ 1: Assessing Test Case Quality To address RQ1, we generated test cases for a diverse set of public methods under tests (focal methods)."
+    ],
+    "references": [
+      "30",
+      "35"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "30",
+        "main_query": "A2C",
+        "rewritten_queries": [
+          "Advantage Actor-Critic algorithm",
+          "A2C reinforcement learning method",
+          "A2C as a reinforcement learning approach"
+        ]
+      },
+      {
+        "related_to_reference": "35",
+        "main_query": "A2C or NLPO",
+        "rewritten_queries": [
+          "other reinforcement learning algorithms like A2C and NLPO",
+          "various RL algorithms including A2C and NLPO",
+          "reinforcement learning methods such as A2C and NLPO"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "30",
+        "query_used_for_retrieval": "A2C",
+        "retrieved_docs_from_sources": [
+          33,
+          33,
+          33,
+          33,
+          33,
+          33,
+          33,
+          33,
+          33,
+          33
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.0,
+          "ndcg_at_k": 0.0,
+          "mrr": 0.0,
+          "hit_rate_at_k": 0.0
+        }
+      },
+      {
+        "original_reference": "35",
+        "query_used_for_retrieval": "A2C or NLPO",
+        "retrieved_docs_from_sources": [
+          35,
+          35,
+          35,
+          35,
+          35,
+          35,
+          35,
+          35,
+          35,
+          35
+        ],
+        "predicted_reference": "[35]_2210.01241",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 1.0,
+          "ndcg_at_k": 1.0,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "Policy models tended to diverge substantially from the base model in order to maximize reward from the reward model, resulting in errant behavior such as (1) mode collapse [11] where the model learned to generate a narrow band of tests (such as empty tests like TestFocalMethod(){}), and (2) catastrophic forgetting, where tests disregarding all properties save for the one being optimized.",
+    "context_before": [
+      "For policy model training, we selected the checkpoint with the best overall quality of the generated tests on the validation dataset, measured by summing all positive properties and subtracting all negative properties."
+    ],
+    "context_after": [
+      "Thus, validation was crucial in order to select a model which retained the abilities of the initial weights and avoided mode collapse."
+    ],
+    "references": [
+      "11"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "11",
+        "main_query": "mode collapse where the model learned to generate a narrow band of tests (such as empty tests like TestFocalMethod(){})",
+        "rewritten_queries": [
+          "mode collapse resulting in the generation of a limited range of tests, including empty tests like TestFocalMethod(){}",
+          "the phenomenon of mode collapse leading to the model producing a narrow set of outputs, such as empty test cases like TestFocalMethod(){}",
+          "the occurrence of mode collapse, where the model focuses on generating a restricted variety of tests, including empty ones like TestFocalMethod(){}"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "11",
+        "query_used_for_retrieval": "mode collapse where the model learned to generate a narrow band of tests (such as empty tests like TestFocalMethod(){})",
+        "retrieved_docs_from_sources": [
+          48,
+          48,
+          48,
+          48,
+          48,
+          41,
+          41,
+          48,
+          48,
+          41
+        ],
+        "predicted_reference": "[41]_2305.00418",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.0,
+          "ndcg_at_k": 0.0,
+          "mrr": 0.0,
+          "hit_rate_at_k": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "Since GPT-4 is trained to understand and generate human-like code [33], it’s not surprising that it produced documentation and avoid consecutive duplicated assertions.",
+    "context_before": [
+      "GPT-4 produced tests with more Descriptive Names (23%), more Comments (78%), and fewer Duplicate Assertions (0.55%) than the Codex-based models (Base)."
+    ],
+    "context_after": [
+      "The SFT model improved upon the Base model in all properties except Descriptive Names and Comments, but it could not be optimized beyond a certain point."
+    ],
+    "references": [
+      "33"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "33",
+        "main_query": "GPT-4 is trained to understand and generate human-like code",
+        "rewritten_queries": [
+          "GPT-4 has been designed to comprehend and produce code that resembles human writing",
+          "The training of GPT-4 enables it to generate code in a human-like manner",
+          "GPT-4's training focuses on understanding and creating code similar to that of humans"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "33",
+        "query_used_for_retrieval": "GPT-4 is trained to understand and generate human-like code",
+        "retrieved_docs_from_sources": [
+          33,
+          33,
+          33,
+          33,
+          33,
+          33,
+          14,
+          33,
+          33,
+          33
+        ],
+        "predicted_reference": "[14]_2107.03374",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.9,
+          "ndcg_at_k": 0.9895948844467957,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "The aim of these efforts is to enhance compilation rates, produce passing tests from the current code, generate failing tests to expose bugs, or boost code coverage. [41] demonstrated that ChatGPT and Codex are prone to produce test smells on Python and Java code, but do not suggest how to improve the models.",
+    "context_before": [
+      "RL from Sequential and Combined Rewards (optimizing ✓ Focal →✗ Conditional/Exception) improved upon the Base model further than Individual Rewards by increasing best practices: up to ↑23.1% Assertions and ↑20.5% Focal calls, and reducing test smells: up to ↓1.8% Duplicate Assertions and ↓2.4% Conditionals/Exceptions. 5 RELATED WORK Test Generation: Previous research on unit test generation has employed evolutionary algorithms, leading to tools such as EvoSuite and machine learning models ."
+    ],
+    "context_after": [
+      "In this study, we introduce RLSQM as a method to enhance language models based on static quality metrics."
+    ],
+    "references": [
+      "41"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "41",
+        "main_query": "ChatGPT and Codex are prone to produce test smells on Python and Java code, but do not suggest how to improve the models.",
+        "rewritten_queries": [
+          "Test smells are produced by ChatGPT and Codex when working with Python and Java code, without recommendations for model improvement.",
+          "The models ChatGPT and Codex generate test smells in Python and Java, yet they fail to provide suggestions for enhancement.",
+          "ChatGPT and Codex exhibit a tendency to create test smells in Python and Java code, lacking guidance on improving these models."
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "41",
+        "query_used_for_retrieval": "ChatGPT and Codex are prone to produce test smells on Python and Java code, but do not suggest how to improve the models.",
+        "retrieved_docs_from_sources": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          41
+        ],
+        "predicted_reference": "[14]_2107.03374",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.1,
+          "ndcg_at_k": 0.2890648263178879,
+          "mrr": 0.1,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "This alignment is primarily achieved through a methodology termed Reinforcement Learning from Human Feedback (RLHF) [16].",
+    "context_before": [
+      "18 Benjamin Steenhoek, Michele Tufano, Neel Sundaresan, and Alexey Svyatkovskiy RL for LLMs: Reinforcement Learning has emerged as a promising tool to better align LLMs with human intentions and preferences."
+    ],
+    "context_after": [
+      "Foundational works in this direction, such as InstructGPT , RLAIF , LLAMA2, and Code LLama , have proven the effectiveness of RLHF in refining LLM performance."
+    ],
+    "references": [
+      "16"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "16",
+        "main_query": "Reinforcement Learning from Human Feedback (RLHF)",
+        "rewritten_queries": [
+          "Methodology of Reinforcement Learning from Human Feedback",
+          "RLHF as a technique for aligning LLMs with human preferences",
+          "Using Reinforcement Learning from Human Feedback to improve alignment"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "16",
+        "query_used_for_retrieval": "Reinforcement Learning from Human Feedback (RLHF)",
+        "retrieved_docs_from_sources": [
+          11,
+          11,
+          11,
+          11,
+          16,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
+        "predicted_reference": "[11]_2307.15217",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": {
+          "precision_at_k": 0.1,
+          "ndcg_at_k": 0.38685280723454163,
+          "mrr": 0.2,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "original_claim": "V oid swelling is a critical phenomenon of material degradation and is often considered as one of the most important criteria for the evaluation of materials radiation resistance property .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "V oid swelling is a critical phenomenon of material degradation and is often considered as one of the most important criteria for the evaluation of materials radiation resistance property .",
+        "retrieved_docs_from_sources": [
+          33,
+          33,
+          33,
+          14,
+          14,
+          35,
+          33,
+          14,
+          35,
+          33
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "On the other hand, the δ-doped sample presents a strong Raman emission from the diamond host below 550 nm , which saturates the counts at higher wavelengths, 4 0 7 14 NV− SiV (a) δ-doped 600 650 700 750 800 Wavelength (nm) 0 7 14 NV0 (b) (111)-implanted Intensity (kCounts/s) FIG.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "On the other hand, the δ-doped sample presents a strong Raman emission from the diamond host below 550 nm , which saturates the counts at higher wavelengths, 4 0 7 14 NV− SiV (a) δ-doped 600 650 700 750 800 Wavelength (nm) 0 7 14 NV0 (b) (111)-implanted Intensity (kCounts/s) FIG.",
+        "retrieved_docs_from_sources": [
+          35,
+          35,
+          35,
+          35,
+          35,
+          35,
+          35,
+          35,
+          35,
+          48
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "Their findings highlight the complicated synergies between He, H and radiation damage of structural materials .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "Their findings highlight the complicated synergies between He, H and radiation damage of structural materials .",
+        "retrieved_docs_from_sources": [
+          33,
+          33,
+          48,
+          11,
+          14,
+          33,
+          11,
+          11,
+          33,
+          33
+        ],
+        "predicted_reference": "[33]_2303.08774",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "doped mode-locked fiber laser (Menlo Systems AB, O range High Power) with a repetition rate frep = 125 MHz, and a Raman-shifted soliton (signal) generated from the same source in a highly non-linear fiber, centered at 1.680 μm .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "doped mode-locked fiber laser (Menlo Systems AB, O range High Power) with a repetition rate frep = 125 MHz, and a Raman-shifted soliton (signal) generated from the same source in a highly non-linear fiber, centered at 1.680 μm .",
+        "retrieved_docs_from_sources": [
+          35,
+          33,
+          33,
+          33,
+          33,
+          35,
+          35,
+          35,
+          35,
+          33
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "Considering that awareness is an important factor influencing vaccination, Kabir et al. proposed a framework for vaccine uptake with the unaware-aware (UA) information propagation.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "Considering that awareness is an important factor influencing vaccination, Kabir et al. proposed a framework for vaccine uptake with the unaware-aware (UA) information propagation.",
+        "retrieved_docs_from_sources": [
+          11,
+          11,
+          33,
+          33,
+          33,
+          11,
+          11,
+          11,
+          11,
+          33
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "Indeed, the derivation of the chemoEH model follows from , where the main assumptions are that the unbind rate is load dependent and therefore velocity dependent, and that the motors have a detachment rate which is higher than the attachment one.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "Indeed, the derivation of the chemoEH model follows from , where the main assumptions are that the unbind rate is load dependent and therefore velocity dependent, and that the motors have a detachment rate which is higher than the attachment one.",
+        "retrieved_docs_from_sources": [
+          16,
+          11,
+          14,
+          16,
+          11,
+          11,
+          11,
+          11,
+          11,
+          33
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "Characteristics of the used plasma source can be found in .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "Characteristics of the used plasma source can be found in .",
+        "retrieved_docs_from_sources": [
+          33,
+          33,
+          33,
+          35,
+          33,
+          33,
+          33,
+          33,
+          33,
+          33
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "Experimentally retrieved real and imaginary parts of weak values for both the GH (top panel) and IF (bottom panel) shifts. (a),(b) show the comparison between experimentally determined values and the simulation of the imaginary and real parts of ⟨A⟩W respectively; (c),(d) demonstrate the contrast between values obtained by experimentation and the simulated imaginary and real components of ⟨B⟩W respectively.The purpose of this figure is to demonstrate how a small deviation in imaginary weak value leads to a huge error in the estimation of real weak value contradicting to the fact that the actual real weak value has a lower order of magnitude. Y.",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "Experimentally retrieved real and imaginary parts of weak values for both the GH (top panel) and IF (bottom panel) shifts. (a),(b) show the comparison between experimentally determined values and the simulation of the imaginary and real parts of ⟨A⟩W respectively; (c),(d) demonstrate the contrast between values obtained by experimentation and the simulated imaginary and real components of ⟨B⟩W respectively.The purpose of this figure is to demonstrate how a small deviation in imaginary weak value leads to a huge error in the estimation of real weak value contradicting to the fact that the actual real weak value has a lower order of magnitude. Y.",
+        "retrieved_docs_from_sources": [
+          33,
+          35,
+          35,
+          35,
+          33,
+          33,
+          35,
+          35,
+          48,
+          35
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "The implantation process, however, causes significant damage of the diamond lattice, deteriorating the relaxation times of the NV centers .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "The implantation process, however, causes significant damage of the diamond lattice, deteriorating the relaxation times of the NV centers .",
+        "retrieved_docs_from_sources": [
+          33,
+          33,
+          14,
+          48,
+          48,
+          14,
+          33,
+          33,
+          33,
+          33
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  },
+  {
+    "original_claim": "In particular, the implementation of non-pharmaceutical interventions , , such as travel restrictions and mandatory stay-at-home orders, has greatly facilitated higher-order interactions among family members, leading to a significant portion of infections occurring within households .",
+    "context_before": [],
+    "context_after": [],
+    "references": [],
+    "doc_retrieval_queries": [],
+    "is_positive": false,
+    "results": [
+      {
+        "original_reference": "",
+        "query_used_for_retrieval": "In particular, the implementation of non-pharmaceutical interventions , , such as travel restrictions and mandatory stay-at-home orders, has greatly facilitated higher-order interactions among family members, leading to a significant portion of infections occurring within households .",
+        "retrieved_docs_from_sources": [
+          33,
+          33,
+          33,
+          11,
+          33,
+          33,
+          11,
+          33,
+          33,
+          33
+        ],
+        "predicted_reference": "none",
+        "prediction_validated_by_human": 0,
+        "ranking_metrics": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "original_claim": "We train a Reward Model (RM) to score test cases based on these quality metrics, then employ it to provide feedback for the Proximal Policy Optimization (PPO) [39] algorithm to enhance LLMs to generate test cases maximizing the expected reward (i.e., higher quality tests).",
+    "context_before": [
+      "However, instead of relying on expensive, unpredictable, and often biased human feedback, we instill well-known quality properties into an LLM by scoring programs using static analysis, amenable to automated computation for the generated test cases."
+    ],
+    "context_after": [
+      "We begin by generating test cases using foundational LLMs and investigating their alignment with established best practices and their susceptibility to test smells."
+    ],
+    "references": [
+      "39"
+    ],
+    "doc_retrieval_queries": [
+      {
+        "related_to_reference": "39",
+        "main_query": "Proximal Policy Optimization (PPO)",
+        "rewritten_queries": [
+          "PPO algorithm for improving LLMs to create test cases that maximize expected rewards",
+          "Using Proximal Policy Optimization to optimize LLM-generated test cases for higher quality",
+          "Enhancing LLMs with PPO to produce test cases that achieve maximum expected rewards"
+        ]
+      }
+    ],
+    "is_positive": true,
+    "results": [
+      {
+        "original_reference": "39",
+        "query_used_for_retrieval": "Proximal Policy Optimization (PPO)",
+        "retrieved_docs_from_sources": [
+          39,
+          39,
+          39,
+          35,
+          39
+        ],
+        "predicted_reference": "[39]_1707.06347",
+        "prediction_validated_by_human": 1,
+        "ranking_metrics": {
+          "precision_at_k": 0.8,
+          "ndcg_at_k": 0.9828920819566879,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        }
+      }
+    ]
+  }
+]

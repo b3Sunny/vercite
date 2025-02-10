@@ -1,0 +1,273 @@
+[
+  {
+    "original_claim": "Some researchers have applied classical fairness metrics in classification settings to LLMs [18].",
+    "context_before": [
+      "Algorithmic fairness in relation to LLMs is thus somewhat different from algorithmic fairness in classical AI ."
+    ],
+    "context_after": [
+      "Additionally, it was shown that LLM-specific issues arise due to the use of massive data and processing at various steps of algorithmic development."
+    ],
+    "references": [
+      "18"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Thus, it was argued that LLMs cannot yield fair outcomes at all [5]. 2.2 EU non-discrimination Law: A gentle introduction, too.",
+    "context_before": [
+      "Additionally, it was shown that LLM-specific issues arise due to the use of massive data and processing at various steps of algorithmic development."
+    ],
+    "context_after": [
+      "Law is different from computer science."
+    ],
+    "references": [
+      "5"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "The AI Act is based on the legal approach of discrimination-related regulations [26].",
+    "context_before": [
+      "However, importantly, EU-based direct discrimination does not need — compared to US-based disparate treatment — any intentional wrongdoing ."
+    ],
+    "context_after": [
+      "Thus, when we analyze the EU AI Act regulations in this paper, we will minimize the usage of the vague CS related concept of fairness and instead focus on the legally related term of non-discrimination."
+    ],
+    "references": [
+      "26"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "This interdisciplinary challenge needs to acknowledge that computer science fairness and legal non-discrimination regulation are moving in the same direction; however, they present different concepts [27].",
+    "context_before": [
+      "While the compatibility of fairness metrics with normative legal statements has already been discussed , there is still an inherent difficulty in combining these two fields."
+    ],
+    "context_after": [
+      "Although inspired by law, the technical algorithmic fairness debate primarily focuses on detecting, preventing and mitigation unfairness in algorithms, while legal non-discrimination law focuses on normative statements."
+    ],
+    "references": [
+      "27"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Although inspired by law, the technical algorithmic fairness debate primarily focuses on detecting, preventing and mitigation unfairness in algorithms[27], while legal non-discrimination law focuses on normative statements.",
+    "context_before": [
+      "This interdisciplinary challenge needs to acknowledge that computer science fairness and legal non-discrimination regulation are moving in the same direction; however, they present different concepts ."
+    ],
+    "context_after": [
+      "As shown in the previous section, the algorithmic fairness domain uses terms like bias or fairness."
+    ],
+    "references": [
+      "27"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In fact, the original drafts did not have any individual rights components [44].",
+    "context_before": [
+      "The AI Act is (predominantly) a product safety law ."
+    ],
+    "context_after": [
+      "The Members of the European Parliament did not prioritize non-discrimination regulation in the beginning ."
+    ],
+    "references": [
+      "44"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Although alignment techniques have developed [53], discrimination still persists in LMMs [40].",
+    "context_before": [
+      "What constitutes a reasonably foreseeable risk in an era where large language models are still being developed and not fully understood?"
+    ],
+    "context_after": [
+      "When are these risks foreseeable?"
+    ],
+    "references": [
+      "40",
+      "53"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "From a technical perspective, benchmarks to judge the risk associated with LLMs have been proposed [38]; however, automated bias testing is far from trivial, and we currently lack adequate ML techniques.",
+    "context_before": [
+      "The AI Act leaves too much room for unclear speculation."
+    ],
+    "context_after": [
+      "Recital 65 AIA clarifies that the most appropriate risk-management measures should be used."
+    ],
+    "references": [
+      "38"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Most importantly, the term bias is neither defined in the AI Act nor is there a common understanding of what bias means (see also Section 2.1) [84].",
+    "context_before": [
+      "The first observation we make is that the input data of an AI system should be subjected to a bias analysis."
+    ],
+    "context_after": [
+      "It seems that the regulators had a more technical definition of bias in mind, focusing on the diversity of training data in different dimensions compared to social, ethical, or structural biases ."
+    ],
+    "references": [
+      "84"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "It seems that the regulators had a more technical definition of bias in mind, focusing on the diversity of training data in different dimensions compared to social, ethical, or structural biases [44].",
+    "context_before": [
+      "Most importantly, the term bias is neither defined in the AI Act nor is there a common understanding of what bias means (see also Section 2.1) ."
+    ],
+    "context_after": [
+      "This makes it very hard to determine the regulatory content."
+    ],
+    "references": [
+      "44"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "There is tension [26] between the need for debiasing AI algorithms and data protection law, which Article 10(5) tries to solve.",
+    "context_before": [
+      "Article 9 GDPR protects special categories of personal data, such as genetic, biometric, or health data (Article 9(1) GDPR)."
+    ],
+    "context_after": [
+      "In order to effectively mitigate biases in AI systems, the processing of personal data (for example, to compute fairness metrics) is important ."
+    ],
+    "references": [
+      "26"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In order to effectively mitigate biases in AI systems, the processing of personal data (for example, to compute fairness metrics) is important [84].",
+    "context_before": [
+      "There is tension between the need for debiasing AI algorithms and data protection law, which Article 10(5) tries to solve."
+    ],
+    "context_after": [
+      "Notable here is that this exception only applies in the high-risk regime."
+    ],
+    "references": [
+      "84"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Figure 2 shows a typical algorithmic fairness vs. accuracy trade-off for an AI system used to predict the income status, data are from[70].",
+    "context_before": [
+      "For some AI systems, there exists a trade-off between fairness and other measures such as accuracy of an AI system."
+    ],
+    "context_after": [
+      "Although this trade-off can be reduced with approaches like “Levelling Up” , the trade-off is still present."
+    ],
+    "references": [
+      "70"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Although this trade-off can be reduced with approaches like “Levelling Up” [70], the trade-off is still present.",
+    "context_before": [
+      "Figure 2 shows a typical algorithmic fairness vs. accuracy trade-off for an AI system used to predict the income status, data are from."
+    ],
+    "context_after": [
+      "Therefore, it becomes very challenging to identify how to “reduce as far as possible the risk of possibly biased outputs” in Article 15(4) AIA."
+    ],
+    "references": [
+      "70"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "Besides the high-risk systems, GPAI systems are also heavily regulated [73].",
+    "context_before": [
+      "While most of our paper focuses on high-risk regulation in the fairness domain, we briefly discuss these important GPAI models as well."
+    ],
+    "context_after": [
+      "Introduction to GPAI models."
+    ],
+    "references": [
+      "73"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "GPAI models are thus models with a wide variety of capabilities that are not immediately foreseeable after training and rely on model size [91].",
+    "context_before": [
+      "According to Article 3(6) AIA, a GPAI system is “an AI system which is based on a general-purpose AI model and which has the capability to serve a variety of purposes, both for direct use as well as for integration in other AI systems”."
+    ],
+    "context_after": [
+      "From a technical point of view, the definition includes Large Language Models as well as Large Multimodal Models such as OpenAI’s GPT-Model family, Anthropic’s Claude models, and Google Gemini ."
+    ],
+    "references": [
+      "91"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "In contrast to vague terms such as bias, Fundamental Rights, or fairness, non-discrimination is a well-established legal concept within other European legislative frameworks. (2.) The non-discrimination regulation should cover input as well as output parts of the algorithms in one single article, also along the full AI life cycle [27].",
+    "context_before": [
+      "While the AI Act is casuistic and incomplete at the same time , we believe that the AI Act would benefit from four refinements. (1.) If the legislators decide to target non-discrimination regulation, non-discrimination should be explicitly mentioned."
+    ],
+    "context_after": [
+      "Algorithmic output in terms of non-discrimination is only regulated if systems continuously learn after being placed on the market."
+    ],
+    "references": [
+      "27"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  },
+  {
+    "original_claim": "While a reverse burden-of-proof approach is possible here [ 86], similar processes as the Code of Practice for GPAI models might be possible such that technical and legal experts as well as all stakeholders work together on refined non-discrimination measures. (4.) If GPAI models are regulated in the current form, a closer link between GPAI models and downstream applications needs to be established [44].",
+    "context_before": [
+      "Technical and non-technical means for bias detection, prevention, and mitigation for input and output data should be developed. (3.) Clarification is needed on appropriate measures for non-discrimination."
+    ],
+    "context_after": [
+      "Responsibilities for non-discrimination law compliance must be specified."
+    ],
+    "references": [
+      "44"
+    ],
+    "doc_retrieval_queries": [],
+    "is_positive": true,
+    "results": null
+  }
+]

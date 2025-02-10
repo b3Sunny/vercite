@@ -1,0 +1,140 @@
+[
+  {
+    "number": "5",
+    "text": "Jacy Anthis, Kristian Lum, Michael Ekstrand, Avi Feller, Alexander D’Amour, and Chenhao Tan. 2024. The Impossibility of Fair LLMs.arXiv preprint arXiv:2406.03198 (2024).",
+    "arxiv_id": "2406.03198",
+    "pdf_link": "https://arxiv.org/pdf/2406.03198.pdf"
+  },
+  {
+    "number": "18",
+    "text": "Garima Chhikara, Anurag Sharma, Kripabandhu Ghosh, and Abhijnan Chakraborty. 2024. Few-Shot Fairness: Unveiling LLM’s Potential for Fairness-Aware Classification. arXiv preprint arXiv:2402.18502 (2024).",
+    "arxiv_id": "2402.18502",
+    "pdf_link": "https://arxiv.org/pdf/2402.18502.pdf"
+  },
+  {
+    "number": "26",
+    "text": "Luca Deck, Jan-Laurin Müller, Conradin Braun, Domenique Zipperling, and Niklas Kühl. 2024. Implications of the AI Act for Non-Discrimination Law and Algorithmic Fairness. arXiv preprint arXiv:2403.20089 (2024).",
+    "arxiv_id": "2403.20089",
+    "pdf_link": "https://arxiv.org/pdf/2403.20089.pdf"
+  },
+  {
+    "number": "27",
+    "text": "Luca Deck, Astrid Schoemäcker, Timo Speith, Jakob Schöffer, Lena Kästner, and Niklas Kühl. 2024. Mapping the Potential of Explainable Artificial Intelligence (XAI) for Fairness Along the AI Lifecycle. arXiv preprint arXiv:2404.18736 (2024).",
+    "arxiv_id": "2404.18736",
+    "pdf_link": "https://arxiv.org/pdf/2404.18736.pdf"
+  },
+  {
+    "number": "31",
+    "text": "Emilio Ferrara. 2023. Should chatgpt be biased? challenges and risks of bias in large language models. arXiv preprint arXiv:2304.03738 (2023).",
+    "arxiv_id": "2304.03738",
+    "pdf_link": "https://arxiv.org/pdf/2304.03738.pdf"
+  },
+  {
+    "number": "34",
+    "text": "Timnit Gebru. 2019. Oxford handbook on AI ethics book chapter on race and gender. arXiv preprint arXiv:1908.06165 (2019).",
+    "arxiv_id": "1908.06165",
+    "pdf_link": "https://arxiv.org/pdf/1908.06165.pdf"
+  },
+  {
+    "number": "38",
+    "text": "Philipp Guldimann, Alexander Spiridonov, Robin Staab, Nikola Jovanović, Mark Vero, Velko Vechev, Anna Gueorguieva, Mislav Balunović, Nikola Konstantinov, Pavol Bielik, et al. 2024. COMPL-AI Framework: A Technical Interpretation and LLM Benchmarking Suite for the EU Artificial Intelligence Act. arXiv preprint arXiv:2410.07959 (2024).",
+    "arxiv_id": "2410.07959",
+    "pdf_link": "https://arxiv.org/pdf/2410.07959.pdf"
+  },
+  {
+    "number": "39",
+    "text": "Ritwik Gupta, Leah Walker, Rodolfo Corona, Stephanie Fu, Suzanne Petryk, Janet Napolitano, Trevor Darrell, and Andrew W Reddie. 2024. Data-Centric AI Governance: Addressing the Limitations of Model-Focused Policies. arXiv preprint arXiv:2409.17216 (2024).",
+    "arxiv_id": "2409.17216",
+    "pdf_link": "https://arxiv.org/pdf/2409.17216.pdf"
+  },
+  {
+    "number": "40",
+    "text": "Shashank Gupta, Vaishnavi Shrivastava, Ameet Deshpande, Ashwin Kalyan, Peter Clark, Ashish Sabharwal, and Tushar Khot. 2023. Bias runs deep: Implicit reasoning biases in persona-assigned llms. arXiv preprint arXiv:2311.04892 (2023).",
+    "arxiv_id": "2311.04892",
+    "pdf_link": "https://arxiv.org/pdf/2311.04892.pdf"
+  },
+  {
+    "number": "44",
+    "text": "Philipp Hacker, Brent Mittelstadt, Frederik Zuiderveen Borgesius, and Sandra Wachter. 2024. Generative discrimination: What happens when generative ai exhibits bias, and what can be done about it. arXiv preprint arXiv:2407.10329 (2024).",
+    "arxiv_id": "2407.10329",
+    "pdf_link": "https://arxiv.org/pdf/2407.10329.pdf"
+  },
+  {
+    "number": "46",
+    "text": "Xudong Han, Timothy Baldwin, and Trevor Cohn. 2023. Fair enough: Standardizing evaluation and model selection for fairness research in NLP. arXiv preprint arXiv:2302.05711 (2023).",
+    "arxiv_id": "2302.05711",
+    "pdf_link": "https://arxiv.org/pdf/2302.05711.pdf"
+  },
+  {
+    "number": "49",
+    "text": "Lennart Heim and Leonie Koessler. 2024. Training Compute Thresholds: Features and Functions in AI Regulation. arXiv preprint arXiv:2405.10799 (2024).",
+    "arxiv_id": "2405.10799",
+    "pdf_link": "https://arxiv.org/pdf/2405.10799.pdf"
+  },
+  {
+    "number": "51",
+    "text": "Yue Huang, Lichao Sun, Haoran Wang, Siyuan Wu, Qihui Zhang, Yuan Li, Chujie Gao, Yixin Huang, Wenhan Lyu, Yixuan Zhang, et al . 2024. Trustllm: Trustworthiness in large language models. arXiv preprint arXiv:2401.05561 (2024).",
+    "arxiv_id": "2401.05561",
+    "pdf_link": "https://arxiv.org/pdf/2401.05561.pdf"
+  },
+  {
+    "number": "53",
+    "text": "Jiaming Ji, Tianyi Qiu, Boyuan Chen, Borong Zhang, Hantao Lou, Kaile Wang, Yawen Duan, Zhonghao He, Jiayi Zhou, Zhaowei Zhang, et al. 2023. Ai alignment: A comprehensive survey. arXiv preprint arXiv:2310.19852 (2023).",
+    "arxiv_id": "2310.19852",
+    "pdf_link": "https://arxiv.org/pdf/2310.19852.pdf"
+  },
+  {
+    "number": "55",
+    "text": "Jon Kleinberg, Sendhil Mullainathan, and Manish Raghavan. 2016. Inherent trade-offs in the fair determination of risk scores. arXiv preprint arXiv:1609.05807 (2016).",
+    "arxiv_id": "1609.05807",
+    "pdf_link": "https://arxiv.org/pdf/1609.05807.pdf"
+  },
+  {
+    "number": "58",
+    "text": "Lisa Koutsoviti Koumeri, Magali Legast, Yasaman Yousefi, Koen Vanhoof, Axel Legay, and Christoph Schommer. 2023. Compatibility of Fairness Metrics with EU Non-Discrimination Laws: Demographic Parity & Conditional Demographic Disparity. arXiv preprint arXiv:2306.08394 (2023).",
+    "arxiv_id": "2306.08394",
+    "pdf_link": "https://arxiv.org/pdf/2306.08394.pdf"
+  },
+  {
+    "number": "59",
+    "text": "Emmanouil Krasanakis and Symeon Papadopoulos. 2024. Towards Standardizing AI Bias Exploration. arXiv preprint arXiv:2405.19022 (2024). It’s complicated. The relationship of algorithmic fairness and non-discrimination regulations in the EU AI Act 17",
+    "arxiv_id": "2405.19022",
+    "pdf_link": "https://arxiv.org/pdf/2405.19022.pdf"
+  },
+  {
+    "number": "64",
+    "text": "Shuming Ma, Hongyu Wang, Lingxiao Ma, Lei Wang, Wenhui Wang, Shaohan Huang, Li Dong, Ruiping Wang, Jilong Xue, and Furu Wei. 2024. The era of 1-bit llms: All large language models are in 1.58 bits. arXiv preprint arXiv:2402.17764 (2024).",
+    "arxiv_id": "2402.17764",
+    "pdf_link": "https://arxiv.org/pdf/2402.17764.pdf"
+  },
+  {
+    "number": "70",
+    "text": "Brent Mittelstadt, Sandra Wachter, and Chris Russell. 2023. The Unfairness of Fair Machine Learning: Levelling down and strict egalitarianism by default. arXiv preprint arXiv:2302.02404 (2023).",
+    "arxiv_id": "2302.02404",
+    "pdf_link": "https://arxiv.org/pdf/2302.02404.pdf"
+  },
+  {
+    "number": "73",
+    "text": "Claudio Novelli, Federico Casolari, Philipp Hacker, Giorgio Spedicato, and Luciano Floridi. 2024. Generative AI in EU law: liability, privacy, intellectual property, and cybersecurity. arXiv preprint arXiv:2401.07348 (2024).",
+    "arxiv_id": "2401.07348",
+    "pdf_link": "https://arxiv.org/pdf/2401.07348.pdf"
+  },
+  {
+    "number": "75",
+    "text": "Patricia Paskov, Lukas Berglund, Everett Smith, and Lisa Soder. 2024. GPAI Evaluations Standards Taskforce: Towards Effective AI Governance. arXiv preprint arXiv:2411.13808 (2024).",
+    "arxiv_id": "2411.13808",
+    "pdf_link": "https://arxiv.org/pdf/2411.13808.pdf"
+  },
+  {
+    "number": "84",
+    "text": "Marvin van Bekkum. 2024. Using sensitive data to debias AI systems: Article 10 (5) of the EU AI Act. arXiv preprint arXiv:2410.14501 (2024).",
+    "arxiv_id": "2410.14501",
+    "pdf_link": "https://arxiv.org/pdf/2410.14501.pdf"
+  },
+  {
+    "number": "91",
+    "text": "Jason Wei, Yi Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, et al. 2022. Emergent abilities of large language models. arXiv preprint arXiv:2206.07682 (2022).",
+    "arxiv_id": "2206.07682",
+    "pdf_link": "https://arxiv.org/pdf/2206.07682.pdf"
+  }
+]
